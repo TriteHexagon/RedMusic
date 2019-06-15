@@ -182,7 +182,7 @@ MusicPlayer::
 ; Here we just use a static image.
 	ld de, WaveformsGFX
 	lb bc, BANK(WaveformsGFX), NUM_WAVEFORMS * 2
-	ld hl, VTiles2 tile $40
+	ld hl, VTiles2 tile $30
 	call Request2bpp
 
 	call DelayFrame
@@ -532,6 +532,11 @@ SongEditor:
 ; next waveform
 	ld a, [Channel3Intensity]
 	and $f
+	ld b, a
+	ld a, [wCurTrackWaveTable]
+	and $f
+	swap a
+	or b
 	inc a
 	cp NUM_WAVEFORMS
 	jr nz, .change_wave
@@ -542,12 +547,23 @@ SongEditor:
 ; previous waveform
 	ld a, [Channel3Intensity]
 	and $f
+	ld b, a
+	ld a, [wCurTrackWaveTable]
+	and $f
+	swap a
+	or b
 	dec a
 	cp -1
 	jr nz, .change_wave
 	ld a, NUM_WAVEFORMS - 1
 .change_wave:
+	ld c, a
+	and $f
 	ld b, a
+	ld a, c
+	swap a
+	and $f
+	ld [wCurTrackWaveTable], a
 	ld a, [Channel3Intensity]
 	and $f0
 	or b
@@ -999,8 +1015,13 @@ _DrawCh1_2_3:
 	; pick the waveform
 	ld a, [Channel3Intensity]
 	and $f
-	sla a
-	add $40
+	ld b, a
+	ld a, [wCurTrackWaveTable]
+	and $f
+	swap a
+	or b
+	sla a ; potential overflow for waveforms 128+
+	add $30
 	ld [hli], a
 	inc a
 	ld [hl], a
@@ -1079,7 +1100,7 @@ _DrawCh1_2_3:
 ;	jr .loop
 ;
 ;.done
-;	ld hl, VTiles2 tile $40
+;	ld hl, VTiles2 tile $30
 ;	ld a, [wRenderedWaveform]
 ;	swap a
 ;	sla a
