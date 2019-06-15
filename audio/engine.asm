@@ -1383,13 +1383,13 @@ MusicCommands: ; e8720
 	dw Music_ToggleSFX ; sound on/off
 	dw Music_SlidePitchTo ; pitch wheel
 	dw Music_Vibrato ; vibrato
-	dw MusicE2 ; unused
+	dw Music_WaveTable ; wavetable
 	dw Music_ToggleNoise ; music noise sampling
 	dw Music_Panning ; force panning
 	dw Music_Volume ; volume
 	dw Music_Tone ; tone
-	dw MusicE7 ; unused
-	dw MusicE8 ; unused
+	dw Music_WaveType ; wavetype
+	dw Music_WaveForm ; waveform
 	dw Music_TempoRelative ; global tempo
 	dw Music_RestartChannel ; restart current channel from header
 	dw Music_NewSong ; new song
@@ -1415,9 +1415,6 @@ MusicCommands: ; e8720
 	dw Music_EndChannel ; return
 ; e8780
 
-MusicE2: ; e8873
-MusicE7: ; e88f7
-MusicE8: ; e891e
 MusicEE: ; e883e
 MusicF1: ; e8780
 MusicF2: ; e8780
@@ -1739,6 +1736,34 @@ Music_Tone: ; e88e4
 
 ; e88f7
 
+Music_WaveType:
+; wavetype
+; params: 3
+	; wave table
+	call Music_WaveTable
+	; note length
+	call GetMusicByte
+	ld hl, Channel1NoteLength - Channel1
+	add hl, bc
+	ld [hl], a
+	; intensity
+	jr Music_WaveForm.intensity
+
+Music_WaveForm:
+; waveform
+; params: 2
+	; wave table
+	call Music_WaveTable
+.intensity:
+	; intensity
+	;	hi: pressure
+	;	lo: velocity
+	call GetMusicByte
+	ld hl, Channel1Intensity - Channel1
+	add hl, bc
+	ld [hl], a
+	ret
+
 Music_SoundDuty: ; e8906
 ; sequence of 4 duty cycles to be looped
 ; params: 1 (4 2-bit duty cycle arguments)
@@ -1776,6 +1801,14 @@ Music_ToggleSFX: ; e892d
 	ret
 
 ; e893b
+
+Music_WaveTable:
+; set the wave table index
+; params: 1
+	call GetMusicByte
+	and $f
+	ld [wCurTrackWaveTable], a
+	ret
 
 Music_ToggleNoise: ; e893b
 ; toggle music noise sampling
@@ -2339,6 +2372,8 @@ SetLRTracks: ; e8b1b
 _PlayMusic:: ; e8b30
 ; load music
 	call MusicOff
+	xor a
+	ld [wCurTrackWaveTable], a
 	ld hl, MusicID
 	ld [hl], e ; song number
 	inc hl
@@ -2788,16 +2823,15 @@ LoadMusicByte:: ; e8d76
 
 ReloadWaveform::
     ; called from the music player
+    ; hl = (([wCurTrackWaveTable] << 4) | [wCurTrackIntensity]) << 4
+    ; (each wavepattern is $f bytes long, so seeking is done in $10s)
 	ld a, [wCurTrackIntensity]
-	and $f ; only NUM_WAVEFORMS are valid
+	and $f
+	swap a
 	ld l, a
-	ld h, 0
-	; hl << 4
-	; each wavepattern is $f bytes long
-	; so seeking is done in $10s
-rept 4
-	add hl, hl
-endr
+	ld a, [wCurTrackWaveTable]
+	and $f
+	ld h, a
 	ld de, WaveSamples
 	add hl, de
 	; load wavepattern into rWave_0-rWave_f

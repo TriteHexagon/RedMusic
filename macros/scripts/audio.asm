@@ -88,10 +88,10 @@ vibrato: MACRO
 	db \2 ; extent
 ENDM
 
-	enum unknownmusic0xe2_cmd
-unknownmusic0xe2: MACRO
-	db unknownmusic0xe2_cmd
-	db \1 ; unknown
+	enum wavetable_cmd
+wavetable: MACRO
+	db wavetable_cmd
+	db \1 ; wavetable
 ENDM
 
 	enum togglenoise_cmd
@@ -118,16 +118,19 @@ tone: MACRO
 	bigdw \1 ; tone
 ENDM
 
-	enum unknownmusic0xe7_cmd
-unknownmusic0xe7: MACRO
-	db unknownmusic0xe7_cmd
-	db \1 ; unknown
+	enum wavetype_cmd
+wavetype: MACRO
+	db wavetype_cmd
+	db \1 ; wavetable
+	db \2 ; note_length
+	db \3 ; intensity
 ENDM
 
-	enum unknownmusic0xe8_cmd
-unknownmusic0xe8: MACRO
-	db unknownmusic0xe8_cmd
-	db \1 ; unknown
+	enum waveform_cmd
+waveform: MACRO
+	db waveform_cmd
+	db \1 ; wavetable
+	db \2 ; intensity
 ENDM
 
 	enum tempo_relative_cmd

@@ -25,7 +25,7 @@ Channel6:: channel_struct Channel6
 Channel7:: channel_struct Channel7
 Channel8:: channel_struct Channel8
 
-	ds 1 ; unused
+wCurTrackWaveTable:: ds 1
 
 wCurTrackDuty:: ds 1
 wCurTrackIntensity:: ds 1
