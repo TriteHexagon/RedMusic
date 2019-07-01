@@ -275,6 +275,7 @@ INCLUDE "audio/music/[hacks]/objection2001.asm"
 SECTION "Hacks 2", ROMX
 
 INCLUDE "audio/music/[hacks]/skygarden.asm"
+INCLUDE "audio/music/[hacks]/psychelock.asm"
 INCLUDE "audio/music/[hacks]/skyarrowbridge.asm"
 
 
