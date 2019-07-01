@@ -586,7 +586,7 @@ Music_Objection2001_Ch1_Bar15_16:
 ; ============================================================================================================
 Music_Objection2001_Ch3:
 	stereopanning $ff
-	notetype 12, $3C
+	wavetype 1, 12, $35
 	tone $0002
 	vibrato $00, $14
 
@@ -596,103 +596,103 @@ Music_Objection2001_Ch3:
 ;Ch3_Bar7:
 	octave 4
 	note A#, 2
-	intensity $2C
+	intensity $25
 	note A#, 14
 ;Ch3_Bar8:
 	note A#, 16
-;Ch3_Bar9:
+;Ch3_Bar9:5
 	note A#, 16
 ;Ch3_Bar10:
 	octave 5
-	intensity $3C
+	intensity $35
 	note C_, 2
-	intensity $2C
+	intensity $25
 	note C_, 6
 	octave 4
-	intensity $3C
+	intensity $35
 	note F_, 2
-	intensity $2C
+	intensity $25
 	note F_, 6
 ;Ch3_Bar11:
-	intensity $3C
+	intensity $35
 	note A#, 2
-	intensity $2C
+	intensity $25
 	note A#, 14
 ;Ch3_Bar12:
-	intensity $3C
+	intensity $35
 	note A#, 2
-	intensity $2C
+	intensity $25
 	note A#, 6
 
-	intensity $3C
+	intensity $35
 	note A_, 2
-	intensity $2C
+	intensity $25
 	note A_, 6
 Music_Objection2001_Ch3_master:
 ;Ch3_Bar13:
-	intensity $3C
+	intensity $35
 	note A#, 2
-	intensity $2C
+	intensity $25
 	note A#, 14
 ;Ch3_Bar14:
-	intensity $3C
+	intensity $35
 	note A_, 2
-	intensity $2C
+	intensity $25
 	note A_, 14
 ;Ch3_Bar15:
-	intensity $3C
+	intensity $35
 	note G_, 2
-	intensity $2C
+	intensity $25
 	note G_, 14
 ;Ch3_Bar16:
-	intensity $3C
+	intensity $35
 	note F_, 2
-	intensity $2C
+	intensity $25
 	note F_, 14
 ;Ch3_Bar17:
-	intensity $3C
+	intensity $35
 	note G_, 2
-	intensity $2C
+	intensity $25
 	note G_, 14
 ;Ch3_Bar18:
 	note G_, 8
-	intensity $3C
+	intensity $35
 	note A_, 2
-	intensity $2C
+	intensity $25
 	note A_, 6
 ;Ch3_Bar19:
-	intensity $3C
+	intensity $35
 	note A#, 2
-	intensity $2C
+	intensity $25
 	note A#, 14
 ;Ch3_Bar20:
-	intensity $3C
+	intensity $35
 	note A_, 2
-	intensity $2C
+	intensity $25
 	note A_, 14
 ;Ch3_Bar21:
-	intensity $3C
+	intensity $35
 	note G_, 2
-	intensity $2C
+	intensity $25
 	note G_, 14
 ;Ch3_Bar22:
-	intensity $3C
+	intensity $35
 	note F_, 2
-	intensity $2C
+	intensity $25
 	note F_, 14
 ;Ch3_Bar23:
-	intensity $3C
+	intensity $35
 	note G_, 2
-	intensity $2C
+	intensity $25
 	note G_, 14
 ;Ch3_Bar24:
-	intensity $3C
+	intensity $35
 	note G_, 2
-	intensity $2C
+	intensity $25
 	note G_, 6
-	intensity $3C
+	intensity $35
 	note A_, 2
-	intensity $2C
+	intensity $25
 	note A_, 6
 	loopchannel 0, Music_Objection2001_Ch3_master
 	endchannel

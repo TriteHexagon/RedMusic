@@ -592,7 +592,7 @@ Music_TurnaboutSisters2001_Ch2_Bar25:
 ; ============================================================================================================
 Music_TurnaboutSisters2001_Ch3:
 	stereopanning $ff
-	notetype 12, $2D
+	wavetype 1, 12, $24
 	vibrato $16, $14
 
 Music_TurnaboutSisters2001_Ch3_master:

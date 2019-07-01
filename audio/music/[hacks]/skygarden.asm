@@ -2,14 +2,14 @@
 ; Demixed by TriteHexagon
 Music_SkyGarden:
 	musicheader 4, 1, Music_SkyGarden_Ch1
-	musicheader 1, 2, Music_SkyGarden_ChEXTRA
+	musicheader 1, 2, Music_SkyGarden_Ch2
 	musicheader 1, 3, Music_SkyGarden_Ch3
 	musicheader 1, 4, Music_SkyGarden_Ch4
 
 ; ============================================================================================================
 Music_SkyGarden_Ch1:
     stereopanning $ff
-    ;vibrato $12, $14
+    ;vibrato $12, $13
     notetype 12, $87
     dutycycle $2
     tone $0002
@@ -320,7 +320,7 @@ Music_SkyGarden_Ch2:
     dutycycle $2
     stereopanning $ff
     notetype $c, $97
-    vibrato $12, $14
+    vibrato $12, $13
     volume $77
     tempo 130
     
@@ -526,7 +526,7 @@ Music_SkyGarden_Ch2_master:
 ; ============================================================================================================
 Music_SkyGarden_Ch3:
 	stereopanning $ff
-	vibrato $16, $14
+	vibrato $16, $13
 	tone $0001
 
     notetype 12, $2D
@@ -545,7 +545,7 @@ Music_SkyGarden_Ch3:
 	note C#, 2
 	note F_, 2
 Music_SkyGarden_Ch3_master:
-    intensity $1E
+    waveform $1, $13
 ;Ch2_Bar2:
 	note __, 16
 ;Ch2_Bar3:
@@ -566,7 +566,7 @@ Music_SkyGarden_Ch3_master:
 	note G#, 2
 ;Ch2_Bar8:
 	octave 3
-	intensity $2D
+    waveform $0, $2D
 	note A#, 6
 	octave 4
 	note C_, 1
@@ -623,33 +623,33 @@ Music_SkyGarden_Ch3_master:
 	octave 4
 	intensity $3C
 	note F#, 4
-    notetype 6, $1E
+    wavetype $1, 6, $13
 	callchannel Music_SkyGarden_Ch3_Bar18
 	note __, 2
 	octave 4
 	note B_, 3
-    intensity $2E
+    intensity $23
     note B_, 1
-    intensity $1E
+    intensity $13
 	note __, 2
 	octave 5
 	note C#, 3
-    intensity $2E
+    intensity $23
     note C#, 1
-    intensity $1E
+    intensity $13
 ;Ch2_Bar20:
     note __, 8
 	octave 4
 	note G#, 2
-    intensity $2E
+    intensity $23
     note G#, 1
     note __, 1
-    intensity $1E
+    intensity $13
 	note G#, 2
-    intensity $2E
+    intensity $23
     note G#, 1
     note __, 1
-	notetype 12, $2D
+    wavetype $0, 12, $2D
 	note C#, 2
 	note __, 1
 	note E_, 2
@@ -673,10 +673,10 @@ Music_SkyGarden_Ch3_master:
 	note __, 4
 ;Ch2_Bar22:
 	octave 4
-	notetype 6, $1E
+    wavetype $1, 6, $13
 	callchannel Music_SkyGarden_Ch3_Bar18
 	octave 4
-	notetype 12, $2D
+    wavetype $0, 12, $2D
 	note D#, 2
 	note F#, 2
 	note B_, 2
@@ -708,48 +708,48 @@ Music_SkyGarden_Ch3_master:
 
 Music_SkyGarden_Ch3_Bar18:
 	note G#, 2
-    intensity $2E
+    intensity $23
     note G#, 1
     note __, 1
-    intensity $1E
+    intensity $13
 	note G#, 2
-    intensity $2E
+    intensity $23
     note G#, 1
     note __, 1
-    intensity $1E
+    intensity $13
 	note G#, 3
-    intensity $2E
+    intensity $23
     note G#, 1
-    intensity $1E
+    intensity $13
 	note __, 2
 	note B_, 3
-    intensity $2E
+    intensity $23
     note B_, 1
-    intensity $1E
+    intensity $13
 	note __, 2
 	octave 5
 	note E_, 3
-    intensity $2E
+    intensity $23
     note E_, 1
-    intensity $1E
+    intensity $13
 	note __, 8
 ;Ch2_Bar19:
 	octave 4
 	note B_, 2
-    intensity $2E
+    intensity $23
     note B_, 1
     note __, 1
-    intensity $1E
+    intensity $13
 	note B_, 2
-    intensity $2E
+    intensity $23
     note B_, 1
     note __, 1
-    intensity $1E
+    intensity $13
 	octave 5
 	note D#, 3
-    intensity $2E
+    intensity $23
     note D#, 1
-    intensity $1E
+    intensity $13
 	endchannel
 
 ; ============================================================================================================

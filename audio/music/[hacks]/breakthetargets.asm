@@ -11,7 +11,7 @@ Music_BreakTheTargets_Ch1:
 	tempo 132
 	volume $77
 	stereopanning $ff
-	;vibrato $12, $14
+	;vibrato $12, $13
 	notetype $c, $c7
 
 ;Bar1:
@@ -188,7 +188,7 @@ Music_BreakTheTargets_Ch1_2_:
 ; ============================================================================================================
 Music_BreakTheTargets_Ch2:
 	stereopanning $ff
-	;vibrato $12, $14
+	;vibrato $12, $13
 	dutycycle $2
 	octave 3
 	notetype 3, $c7
@@ -519,10 +519,10 @@ Music_BreakTheTargets_Ch3:
 Music_BreakTheTargets_Ch3_master:
 ;Bar4:
 	octave 5
-	intensity $1C
+	waveform $0, $1C
 	note A_, 8
 	callchannel Music_BreakTheTargets_Ch3_OP
-	notetype 8, $1E
+	notetype 8, $13
 	note A_, 1
 	note E_, 1
 	note C_, 1
@@ -532,8 +532,8 @@ Music_BreakTheTargets_Ch3_master:
 	note C_, 1
 ;Bar5:
 	octave 3
-	notetype 12, $1D
-	vibrato $00, $24
+	wavetype $0, 12, $1D
+	vibrato $00, $23
 	note E_, 16
 ;Bar6:
 	note A_, 16
@@ -574,10 +574,10 @@ Music_BreakTheTargets_Ch3_master:
 	callchannel Music_BreakTheTargets_Ch3_bass
 	;Bar22:
 	octave 4
-	intensity $2E
+	intensity $23
 	note E_, 16
 ;Bar23:
-	intensity $3E
+	waveform $1, $3E
 	note E_, 8
 	note __, 8
 	note __, 12
@@ -665,9 +665,9 @@ Music_BreakTheTargets_Ch3_bass:
 	endchannel
 
 Music_BreakTheTargets_Ch3_OP:
-	notetype 2, $1E
+	wavetype $1, 2, $13
 	note A_, 3
-	intensity $2E
+	intensity $23
 	note A_, 1
 	loopchannel 12, Music_BreakTheTargets_Ch3_OP
 	endchannel

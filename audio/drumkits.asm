@@ -56,11 +56,11 @@ Drumkit3: ; e8eac
 	dw Snare14
 	dw Kick1
 	dw Triangle5
-	dw Drum20
+	dw Snare5 ;was Drum20
 	dw Drum27
 	dw Drum28
 	dw Drum29
-	dw Drum21
+	dw Snare9 ;was Drum21
 	dw Kick2
 	dw Crash2
 Drumkit4: ; e8ec6
