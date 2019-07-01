@@ -4,7 +4,7 @@ Music_Route42Night:
 	musicheader 4, 1, Music_Route42Night_Ch1
 	musicheader 1, 2, Music_Route42Night_Ch2
 	musicheader 1, 3, Music_Route42Night_Ch3
-	musicheader 1, 4, Music_LakeOfRage_Ch4
+	musicheader 1, 4, Music_Route42Night_Ch4
 
 ; ============================================================================================================
 Music_Route42Night_Ch1:
@@ -54,3 +54,9 @@ Music_Route42Night_Ch3:
 	note __, 2
 	note E_, 4
 	loopchannel 0, Music_LakeOfRage_branch_ee7d0
+
+Music_Route42Night_Ch4:
+	stereopanning $f0
+	togglenoise $3
+	notetype $c
+	loopchannel 0, Music_LakeOfRage_branch_ee83b

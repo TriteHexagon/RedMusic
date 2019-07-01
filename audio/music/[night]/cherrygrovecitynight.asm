@@ -2,7 +2,7 @@ Music_CherrygroveCityNight:
 	musicheader 4, 1, Music_CherrygroveCityNight_Ch1
 	musicheader 1, 2, Music_CherrygroveCityNight_Ch2
 	musicheader 1, 3, Music_CherrygroveCityNight_Ch3
-	musicheader 1, 4, Music_CherrygroveCity_Ch4
+	musicheader 1, 4, Music_CherrygroveCityNight_Ch4
 
 ; ============================================================================================================
 Music_CherrygroveCityNight_Ch1:
@@ -50,3 +50,9 @@ Music_CherrygroveCityNight_Ch3:
 	note F_, 2
 	note E_, 2
 	loopchannel 0, Music_CherrygroveCity_branch_f5be4
+
+Music_CherrygroveCityNight_Ch4:
+	togglenoise $3
+	notetype $c
+	note __, 16
+	loopchannel 0, Music_CherrygroveCity_branch_f5c4d
