@@ -111,7 +111,7 @@ INCLUDE "audio/music/gsc/johtowildbattlenight.asm" ; shares with johtowildbattle
 SECTION "GSC Music 3", ROMX
 
 INCLUDE "audio/music/gsc/cherrygrovecity.asm"
-INCLUDE "audio/music/[night]/cherrygrovecitynight.asm"
+INCLUDE "audio/music/[night]/cherrygrovecitynight.asm" ;new
 INCLUDE "audio/music/gsc/route30.asm"
 INCLUDE "audio/music/gsc/violetcity.asm"
 INCLUDE "audio/music/gsc/sprouttower.asm"
@@ -143,9 +143,10 @@ INCLUDE "audio/music/gsc/dancinghall.asm"
 INCLUDE "audio/music/gsc/lookkimonogirl.asm"
 INCLUDE "audio/music/gsc/burnedtower.asm"
 INCLUDE "audio/music/gsc/route37.asm"
+INCLUDE "audio/music/[night]/route38night.asm" ;new
 INCLUDE "audio/music/gsc/lighthouse.asm"
 INCLUDE "audio/music/gsc/lakeofrage.asm"
-INCLUDE "audio/music/[night]/route42night.asm"
+INCLUDE "audio/music/[night]/route42night.asm" ;new
 
 
 SECTION "GSC Music 6", ROMX
