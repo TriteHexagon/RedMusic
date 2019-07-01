@@ -144,6 +144,7 @@ INCLUDE "audio/music/gsc/burnedtower.asm"
 INCLUDE "audio/music/gsc/route37.asm"
 INCLUDE "audio/music/gsc/lighthouse.asm"
 INCLUDE "audio/music/gsc/lakeofrage.asm"
+INCLUDE "audio/music/[night]/route42night.asm"
 
 
 SECTION "GSC Music 6", ROMX
