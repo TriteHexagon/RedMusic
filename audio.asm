@@ -111,6 +111,7 @@ INCLUDE "audio/music/gsc/johtowildbattlenight.asm" ; shares with johtowildbattle
 SECTION "GSC Music 3", ROMX
 
 INCLUDE "audio/music/gsc/cherrygrovecity.asm"
+INCLUDE "audio/music/[night]/cherrygrovecitynight.asm"
 INCLUDE "audio/music/gsc/route30.asm"
 INCLUDE "audio/music/gsc/violetcity.asm"
 INCLUDE "audio/music/gsc/sprouttower.asm"

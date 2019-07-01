@@ -142,4 +142,5 @@ Music:
 	dba Music_SkyGarden
 	dba Music_SkyarrowBridge
 	dba Music_PsycheLock
+	dba Music_CherrygroveCityNight
 	dba Music_Route42Night
