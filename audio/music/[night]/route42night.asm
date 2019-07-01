@@ -57,6 +57,6 @@ Music_Route42Night_Ch3:
 
 Music_Route42Night_Ch4:
 	stereopanning $f0
-	togglenoise $3
+	togglenoise $6
 	notetype $c
 	loopchannel 0, Music_LakeOfRage_branch_ee83b

@@ -5,6 +5,7 @@ Drumkits: ; e8e52
 	dw Drumkit3
 	dw Drumkit4
 	dw Drumkit5
+	dw Drumkit6
 ; e8e5e
 
 Drumkit0: ; e8e5e
@@ -91,21 +92,21 @@ Drumkit5: ; e8ee0
 	dw Snare14
 	dw Snare13
 	dw Kick2
-; Drumkit6: ; e8eac
-; 	dw Drum21
-; 	dw Snare12_Soft
-; 	dw Snare13_Soft
-; 	dw Snare14_Soft
-; 	dw Kick1_Soft
-; 	dw Triangle5_Soft
-; 	dw Snare5_Soft
-; 	dw Drum27_Soft
-; 	dw Drum28_Soft
-; 	dw Drum29_Soft
-; 	dw Snare9_Soft
-; 	dw Kick2_Soft
-; 	dw Crash2_Soft
-; ; e8efa
+Drumkit6: ; e8eac
+	dw Drum21
+	dw Snare12_Soft
+	dw Snare13_Soft
+	dw Snare14_Soft
+	dw Kick1_Soft
+	dw Triangle5_Soft
+	dw Snare5_Soft
+	dw Drum27_Soft
+	dw Drum28_Soft
+	dw Drum29_Soft
+	dw Snare9_Soft
+	dw Kick2_Soft
+	dw Crash2_Soft
+; e8efa
 
 Drum00: ; e8efa
 ; unused
@@ -321,57 +322,57 @@ HiHat2Mod: ; e8f3c
 
 ;Softer Drumkits
 
-; Snare12_Soft:
-; 	noise C#,  1, $81, $33
-; 	endchannel
+Snare12_Soft:
+	noise C#,  1, $81, $33
+	endchannel
 
-; Snare13_Soft:
-; 	noise C#,  1, $41, $32
-; 	endchannel
+Snare13_Soft:
+	noise C#,  1, $41, $32
+	endchannel
 
 
-; Snare14_Soft:
-; 	noise C#,  1, $71, $31
-; 	endchannel
+Snare14_Soft:
+	noise C#,  1, $71, $31
+	endchannel
 
-; Kick1_Soft:
-; 	noise C#,  1, $78, $6b
-; 	noise C#,  1, $61, $00
-; 	endchannel
+Kick1_Soft:
+	noise C#,  1, $78, $6b
+	noise C#,  1, $61, $00
+	endchannel
 
-; Triangle5_Soft:
-; 	noise D_,  1, $81, $18
-; 	endchannel
+Triangle5_Soft:
+	noise D_,  1, $81, $18
+	endchannel
 
-; Snare5_Soft:
-; 	noise C#,  1, $72, $23
-; 	endchannel
+Snare5_Soft:
+	noise C#,  1, $72, $23
+	endchannel
 
-; Drum27_Soft:
-; 	noise C#,  8, $82, $10
-; 	endchannel
+Drum27_Soft:
+	noise C#,  8, $82, $10
+	endchannel
 
-; Drum28_Soft:
-; 	noise D_,  4, $81, $00
-; 	noise D_,  4, $11, $00
-; 	endchannel
+Drum28_Soft:
+	noise D_,  4, $81, $00
+	noise D_,  4, $11, $00
+	endchannel
 
-; Drum29_Soft:
-; 	noise D_,  4, $81, $11
-; 	noise D_,  4, $11, $00
-; 	endchannel
+Drum29_Soft:
+	noise D_,  4, $81, $11
+	noise D_,  4, $11, $00
+	endchannel
 
-; Snare9_Soft:
-; 	noise C#,  1, $81, $22
-; 	endchannel
+Snare9_Soft:
+	noise C#,  1, $81, $22
+	endchannel
 
-; Kick2_Soft:
-; 	noise C#,  1, $98, $6b
-; 	noise C#,  1, $61, $00
-; 	endchannel
+Kick2_Soft:
+	noise C#,  1, $98, $6b
+	noise C#,  1, $61, $00
+	endchannel
 
-; Crash2_Soft:
-; 	noise C#,  1, $74, $12
-; 	endchannel
+Crash2_Soft:
+	noise C#,  1, $74, $12
+	endchannel
 
 
