@@ -52,7 +52,7 @@ Music_CherrygroveCityNight_Ch3:
 	loopchannel 0, Music_CherrygroveCity_branch_f5be4
 
 Music_CherrygroveCityNight_Ch4:
-	togglenoise $6
+	togglenoise $8
 	notetype $c
 	note __, 16
 	loopchannel 0, Music_CherrygroveCity_branch_f5c4d

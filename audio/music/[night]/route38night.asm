@@ -2,7 +2,7 @@ Music_Route38Night:
 	musicheader 4, 1, Music_Route38Night_Ch1
 	musicheader 1, 2, Music_Route38Night_Ch2
 	musicheader 1, 3, Music_Route38Night_Ch3
-	musicheader 1, 4, Music_Route37_Ch4
+	musicheader 1, 4, Music_Route38Night_Ch4
 
 ; ============================================================================================================
 Music_Route38Night_Ch1:
@@ -58,3 +58,8 @@ Music_Route38Night_Ch3:
 	notetype $c, $12
 
 	loopchannel 0, Music_Route37_branch_eeacc
+
+Music_Route38Night_Ch4: ; eeb4d
+	stereopanning $f
+	togglenoise $6
+	loopchannel 0, Music_Route37_branch_eeb51
