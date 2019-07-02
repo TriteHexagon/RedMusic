@@ -125,23 +125,28 @@ Music:
 	dba Music_KantoLegendBattleXY
 	dba Music_SuicuneBattle
 	dba Music_GymLeaderBattleRSE
-	dba Music_Temple
-	dba Music_Route113
-	dba Music_LowerNorfair
-	dba Music_Cornered
-	dba Music_Testimony2001
-	dba Music_TurnaboutSisters2001
-	dba Music_GourmetRace
-	dba Music_CinnabarIslandFRLG
-	dba Music_CalamariInkantation
-	dba Music_Route10
-	dba Music_BreakTheTargets
-	dba Music_RedCanyon
-	dba Music_DarkCaveHGSS
-	dba Music_Objection2001
-	dba Music_SkyGarden
-	dba Music_SkyarrowBridge
-	dba Music_PsycheLock
+	;Night Versions
 	dba Music_CherrygroveCityNight
 	dba Music_Route42Night
 	dba Music_Route38Night
+	;Pokémon
+	dba Music_Route113
+	dba Music_CinnabarIslandFRLG
+	dba Music_Route10
+	dba Music_DarkCaveHGSS
+	dba Music_SkyarrowBridge
+	;Ace Attorney
+	dba Music_Cornered
+	dba Music_Testimony2001
+	dba Music_TurnaboutSisters2001
+	dba Music_Objection2001
+	dba Music_PsycheLock
+	;Others
+	dba Music_Temple
+	dba Music_LowerNorfair
+	dba Music_GourmetRace
+	dba Music_CalamariInkantation
+	dba Music_BreakTheTargets
+	dba Music_RedCanyon
+	dba Music_SkyGarden
+	
