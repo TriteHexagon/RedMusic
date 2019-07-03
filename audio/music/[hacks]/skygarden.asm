@@ -16,8 +16,6 @@ Music_SkyGarden_Ch1:
     volume $77
     tempo 130
 
-    note C#, 1
-    note __, 7
 Music_SkyGarden_Ch1_master:
 ;Ch1_Bar1:
     octave 1
@@ -323,9 +321,7 @@ Music_SkyGarden_Ch2:
     vibrato $12, $13
     volume $77
     tempo 130
-    
-    note C_, 1
-    note __, 7
+
 Music_SkyGarden_Ch2_master:
     dutycycle $3
 ;Ch3_Bar1:
@@ -528,9 +524,8 @@ Music_SkyGarden_Ch3:
 	stereopanning $ff
 	vibrato $16, $13
 	tone $0001
-
     notetype 12, $2D
-    note __, 8
+
 ;Ch2_Bar1:
     octave 4
 	note C_, 2
@@ -758,7 +753,6 @@ Music_SkyGarden_Ch4:
 	stereopanning $ff
 	togglenoise $3
 
-    note __, 8
 ;Ch4_Bar1:
 	note G_, 1
 	note __, 3
@@ -999,9 +993,8 @@ Music_SkyGarden_ChEXTRA:
     tone $0001
     volume $77
     tempo 130
-
-    note C#, 2
-    note __, 14
+    
+    note __, 16
 Music_SkyGarden_ChEXTRA_master:
     note __, 16
     note __, 16
