@@ -104,6 +104,7 @@ INCLUDE "audio/music/gsc/battletowerlobby.asm"
 INCLUDE "audio/music/gsc/newbarktown.asm"
 INCLUDE "audio/music/gsc/elmslab.asm"
 INCLUDE "audio/music/gsc/route29.asm"
+INCLUDE "audio/music/[night]/route29night.asm"
 INCLUDE "audio/music/gsc/johtowildbattle.asm" ; shares with johtowildbattlenight.asm
 INCLUDE "audio/music/gsc/johtowildbattlenight.asm" ; shares with johtowildbattle.asm
 
@@ -113,6 +114,7 @@ SECTION "GSC Music 3", ROMX
 INCLUDE "audio/music/gsc/cherrygrovecity.asm"
 INCLUDE "audio/music/[night]/cherrygrovecitynight.asm" ;new
 INCLUDE "audio/music/gsc/route30.asm"
+INCLUDE "audio/music/[night]/route30night.asm"
 INCLUDE "audio/music/gsc/violetcity.asm"
 INCLUDE "audio/music/gsc/sprouttower.asm"
 INCLUDE "audio/music/gsc/looksage.asm"
@@ -126,6 +128,7 @@ SECTION "GSC Music 4", ROMX
 
 INCLUDE "audio/music/gsc/azaleatown.asm"
 INCLUDE "audio/music/gsc/route36.asm"
+INCLUDE "audio/music/[night]/route34night.asm"
 INCLUDE "audio/music/gsc/goldenrodcity.asm"
 INCLUDE "audio/music/gsc/pokecomcenter.asm"
 INCLUDE "audio/music/gsc/lookbeauty.asm"

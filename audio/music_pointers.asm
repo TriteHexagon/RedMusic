@@ -126,9 +126,12 @@ Music:
 	dba Music_SuicuneBattle
 	dba Music_GymLeaderBattleRSE
 	;Night Versions
+	dba Music_Route29Night
 	dba Music_CherrygroveCityNight
-	dba Music_Route42Night
+	dba Music_Route30Night
+	dba Music_Route34Night
 	dba Music_Route38Night
+	dba Music_Route42Night
 	;Pokémon
 	dba Music_Route113
 	dba Music_CinnabarIslandFRLG
@@ -149,4 +152,3 @@ Music:
 	dba Music_BreakTheTargets
 	dba Music_RedCanyon
 	dba Music_SkyGarden
-	

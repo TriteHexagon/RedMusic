@@ -337,7 +337,7 @@ Music_Route29_branch_f04de: ; f04de
 
 Music_Route29_Ch3: ; f04fb
 	stereopanning $f0
-	notetype $c, $25
+	notetype $c, $24
 	vibrato $9, $27
 	note __, 2
 Music_Route29_branch_f0504: ; f0504

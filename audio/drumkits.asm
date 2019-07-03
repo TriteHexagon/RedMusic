@@ -45,7 +45,7 @@ Drumkit2: ; e8e92
 	dw Snare9
 	dw Snare10
 	dw Snare11
-	dw HiHat2Mod ; was Drum05
+	dw HiHat2_Soft ; was Drum05
 	dw Triangle1
 	dw Triangle2
 	dw HiHat1
@@ -111,18 +111,18 @@ Drumkit0S: ;6
 	dw HiHat1
 Drumkit1S: ;7
 	dw Drum00
-	dw HiHat1
-	dw Snare5
-	dw Snare6
-	dw Snare7
-	dw HiHat2
-	dw HiHat3
-	dw Snare8
-	dw Triangle3
-	dw Triangle4
-	dw Snare9
-	dw Snare10
-	dw Snare11
+	dw HiHat1_Soft
+	dw Snare5_Soft
+	dw Snare6_Soft
+	dw Snare7_Soft
+	dw HiHat2_Soft
+	dw HiHat3_Soft
+	dw Snare8_Soft
+	dw Triangle3_Soft
+	dw Triangle4_Soft
+	dw Snare9_Soft
+	dw Snare10_Soft
+	dw Snare11_Soft
 Drumkit3S: ; 8
 	dw Drum00
 	dw Snare12_Soft
@@ -355,11 +355,6 @@ Kick2: ; e8fbb
 	endchannel
 ; e8fc2
 
-HiHat2Mod: ; e8f3c
-	noise C#,  1, $91, $10
-	endchannel
-; e8f40
-
 ;Softer Drumkits
 
 Snare12_Soft:
@@ -398,19 +393,6 @@ Drum29_Soft:
 	noise D_,  4, $11, $00
 	endchannel
 
-Snare9_Soft:
-	noise C#,  1, $81, $22
-	endchannel
-
-Kick2_Soft:
-	noise C#,  1, $98, $6b
-	noise C#,  1, $61, $00
-	endchannel
-
-Crash2_Soft:
-	noise C#,  1, $74, $12
-	endchannel
-
 Snare4_Soft:
 	noise C#,  1, $71, $33
 	endchannel
@@ -427,6 +409,31 @@ Snare7_Soft:
 	noise C#,  1, $72, $26
 	endchannel
 
+Snare8_Soft:
+	noise C#,  1, $92, $50
+	endchannel
+
+Snare9_Soft:
+	noise C#,  1, $81, $22
+	endchannel
+
+Snare10_Soft:
+	noise C#,  1, $61, $22
+	endchannel
+
+Snare11_Soft:
+	noise C#,  1, $51, $22
+	endchannel
+
+Kick2_Soft:
+	noise C#,  1, $98, $6b
+	noise C#,  1, $61, $00
+	endchannel
+
+Crash2_Soft:
+	noise C#,  1, $74, $12
+	endchannel
+
 Triangle1_Soft:
 	noise C#,  1, $61, $2a
 	endchannel
@@ -436,6 +443,24 @@ Triangle2_Soft:
 	noise C#,  1, $51, $2a
 	endchannel
 
-HiHat1_Soft: ; e8f2c
+Triangle3_Soft:
+	noise C#,  1, $91, $18
+	noise C#,  1, $21, $33
+	endchannel
+
+Triangle4_Soft:
+	noise C#,  3, $81, $28
+	noise C#,  1, $61, $18
+	endchannel
+
+HiHat1_Soft:
 	noise C#,  1, $71, $10
+	endchannel
+
+HiHat2_Soft:
+	noise C#,  1, $91, $10
+	endchannel
+
+HiHat3_Soft:
+	noise C#,  1, $92, $11
 	endchannel
