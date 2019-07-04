@@ -31,7 +31,7 @@ Music_Route29Night_Ch2:
 ; ============================================================================================================
 Music_Route29Night_Ch3:
 	stereopanning $f0
-	notetype $c, $23
+	notetype $c, $24
 	vibrato $9, $17
 	note __, 2
 

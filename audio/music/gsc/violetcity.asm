@@ -12,6 +12,7 @@ Music_VioletCity_Ch1: ; f000c
 	dutycycle $2
 	notetype $c, $95
 	note __, 16
+Music_VioletCityNight_Ch1_Intro:
 	stereopanning $f0
 	octave 2
 	note E_, 1

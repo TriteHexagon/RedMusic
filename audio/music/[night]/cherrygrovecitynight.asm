@@ -6,7 +6,7 @@ Music_CherrygroveCityNight:
 
 ; ============================================================================================================
 Music_CherrygroveCityNight_Ch1:
-	tempo 159
+	tempo 158
 	volume $77
 	dutycycle $2
 	tone $0001
