@@ -4,16 +4,16 @@ Music_Celadon:
 	musicheader 1, 3, Music_Celadon_Ch3
 
 Music_Celadon_Ch1:
-	tempo 144
+	tempo 147 ;144
 	volume 119
-	dutycycle 3
+	dutycycle $2
 	notetype $c, $2f
+	stereopanning $f
 	note __, 8
 	octave 3
 	note D_, 8
 Music_Celadon_branch_b6d4:
-	dutycycle 2
-	intensity $b2
+	intensity $c2
 	note G_, 4
 	note B_, 4
 	note G_, 2
@@ -74,7 +74,7 @@ Music_Celadon_branch_b6d4:
 	note F#, 1
 	note G_, 1
 	note A_, 8
-	intensity $94
+	intensity $a4
 	note B_, 8
 	note G_, 4
 	note D_, 4
@@ -110,8 +110,9 @@ Music_Celadon_branch_b6d4:
 	loopchannel 0, Music_Celadon_branch_b6d4
 
 Music_Celadon_Ch2:
-	dutycycle 3
+	dutycycle 2
 	notetype $c, $c2
+	stereopanning $ff
 	octave 4
 	note D_, 1
 	note C#, 1
@@ -121,11 +122,12 @@ Music_Celadon_Ch2:
 	note E_, 1
 	note F#, 1
 	note G_, 1
+	stereopanning $f0
 	intensity $a0
 	note A_, 8
 Music_Celadon_branch_b74a:
 	dutycycle 2
-	intensity $c2
+	intensity $d2
 	octave 4
 	note B_, 4
 	note G_, 4
@@ -151,6 +153,7 @@ Music_Celadon_branch_b74a:
 	note A_, 2
 	note B_, 2
 	note G_, 4
+	dutycycle $1
 	note B_, 4
 	note B_, 4
 	note G_, 4
@@ -179,7 +182,8 @@ Music_Celadon_branch_b74a:
 	note D_, 8
 	octave 5
 	note D_, 8
-	intensity $b4
+	intensity $c4
+	dutycycle $2
 	octave 4
 	note D_, 8
 	note C_, 2
@@ -203,6 +207,7 @@ Music_Celadon_branch_b74a:
 	note D_, 2
 	note E_, 2
 	note D_, 8
+	dutycycle $1
 	note D_, 8
 	note C_, 2
 	octave 3
@@ -228,6 +233,7 @@ Music_Celadon_branch_b74a:
 
 Music_Celadon_Ch3:
 	notetype $c, $13
+	stereopanning $ff
 	note __, 8
 	octave 5
 	note D_, 1

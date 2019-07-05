@@ -129,6 +129,7 @@ Music:
 	dba Music_Route29Night
 	dba Music_CherrygroveCityNight
 	dba Music_Route30Night
+	dba Music_VioletCityNight
 	dba Music_Route34Night
 	dba Music_Route38Night
 	dba Music_Route42Night

@@ -90,7 +90,7 @@ Music_RBYPalletTown_branch_a7ce:
 	note A_, 2
 	note F#, 2
 	note A_, 2
-	notetype 12, 179
+	notetype 12, $c3
 	note B_, 2
 	note G_, 2
 	note D_, 2
@@ -160,22 +160,22 @@ Music_RBYPalletTown_Ch2: ; a85f (2:685f)
 	stereopanning $ff
 
 Music_RBYPalletTown_branch_a861:
-	notetype 12, 211
+	notetype 12, $e3
 	octave 5
 	note D_, 2
-	notetype 12, 163
+	notetype 12, $b3
 	note C_, 2
-	notetype 12, 211
+	notetype 12, $e3
 	octave 4
 	note B_, 2
-	notetype 12, 179
+	notetype 12, $c3
 	note A_, 2
-	notetype 12, 211
+	notetype 12, $e3
 	octave 5
 	note G_, 2
-	notetype 12, 179
+	notetype 12, $c3
 	note E_, 2
-	notetype 12, 211
+	notetype 12, $e3
 	note F#, 2
 	note E_, 2
 	note D_, 6
@@ -199,21 +199,21 @@ Music_RBYPalletTown_branch_a861:
 	note A_, 8
 	octave 5
 	note D_, 2
-	notetype 12, 163
+	notetype 12, $b3
 	note C_, 2
-	notetype 12, 211
+	notetype 12, $e3
 	octave 4
 	note B_, 2
-	notetype 12, 179
+	notetype 12, $c3
 	octave 5
 	note D_, 2
-	notetype 12, 211
+	notetype 12, $e3
 	note G_, 2
-	notetype 12, 163
+	notetype 12, $b3
 	note F#, 2
-	notetype 12, 179
+	notetype 12, $c3
 	note F#, 2
-	notetype 12, 211
+	notetype 12, $e3
 	note G_, 2
 	note E_, 6
 	note D_, 2

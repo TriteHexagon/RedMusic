@@ -9,7 +9,7 @@ Music_Dungeon2_Ch1: ; 7e887 (1f:6887)
 	tempo 144
 	volume 119
 	tone $0002
-	dutycycle 3
+	dutycycle 1
 	vibrato 10, 20
 	stereopanning $f0
 Music_Dungeon2_branch_7e892:
@@ -82,7 +82,7 @@ Music_Dungeon2_Ch2: ; 7e8d8 (1f:68d8)
 	stereopanning $f
 Music_Dungeon2_branch_7e8db:
 	dutycycle 3
-	notetype 12, 194
+	notetype 12, $c2
 	octave 3
 	note E_, 4
 	note E_, 4
@@ -159,13 +159,14 @@ Music_Dungeon2_branch_7e8db:
 	note __, 16
 	note __, 16
 	note __, 16
-	notetype 12, 199
-	dutycycle 1
+	intensity $a7
+	stereopanning $ff
 	octave 4
 	note E_, 16
 	note D_, 16
 	note C_, 16
 	note D_, 16
+	stereopanning $f
 	loopchannel 0, Music_Dungeon2_branch_7e8db
 
 Music_Dungeon2_Ch3: ; 7e93b (1f:693b)
@@ -353,6 +354,7 @@ Music_Dungeon2_branch_7e958:
 	callchannel Music_Dungeon2_branch_7e9d1
 	callchannel Music_Dungeon2_branch_7e9d1
 	loopchannel 0, Music_Dungeon2_branch_7e940
+
 	octave 2
 	note G_, 2
 	note A#, 4

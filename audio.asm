@@ -116,6 +116,7 @@ INCLUDE "audio/music/[night]/cherrygrovecitynight.asm" ;new
 INCLUDE "audio/music/gsc/route30.asm"
 INCLUDE "audio/music/[night]/route30night.asm"
 INCLUDE "audio/music/gsc/violetcity.asm"
+INCLUDE "audio/music/[night]/violetcitynight.asm"
 INCLUDE "audio/music/gsc/sprouttower.asm"
 INCLUDE "audio/music/gsc/looksage.asm"
 INCLUDE "audio/music/gsc/johtotrainerbattle.asm"
