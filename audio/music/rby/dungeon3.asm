@@ -6,10 +6,11 @@ Music_Dungeon3:
 Music_Dungeon3_Ch1: ; 7e9f1 (1f:69f1)
 	tempo 160
 	volume 119
-	dutycycle 3
+	dutycycle $1
 	vibrato 8, 20
+	stereopanning $f
 Music_Dungeon3_branch_7e9fc:
-	notetype 12, 195
+	notetype 12, $b3
 Music_Dungeon3_branch_7e9fe:
 	callchannel Music_Dungeon3_branch_7eab2
 	loopchannel 3, Music_Dungeon3_branch_7e9fe
@@ -336,9 +337,10 @@ Music_Dungeon3_branch_7eafc:
 
 Music_Dungeon3_Ch2: ; 7eb68 (1f:6b68)
 	vibrato 11, 21
-	dutycycle 3
+	dutycycle $2
+	stereopanning $f0
 Music_Dungeon3_branch_7eb6d:
-	notetype 12, 211
+	notetype 12, $e3
 	octave 4
 	note D#, 6
 	note C#, 6
@@ -388,6 +390,8 @@ Music_Dungeon3_branch_7eb6d:
 	note E_, 6
 	note F#, 6
 	note E_, 4
+;Bar 9
+	dutycycle $1
 	note D#, 6
 	note C#, 6
 	octave 3
@@ -472,6 +476,7 @@ Music_Dungeon3_branch_7eb6d:
 	note D#, 6
 	note G_, 6
 	octave 3
+	dutycycle $2
 	note G_, 8
 	note __, 2
 	note F_, 6
@@ -494,6 +499,7 @@ Music_Dungeon3_branch_7eb6d:
 	note A_, 6
 	octave 4
 	note C#, 6
+	dutycycle $1
 	note G_, 8
 	note __, 2
 	note F_, 6
@@ -515,6 +521,7 @@ Music_Dungeon3_branch_7eb6d:
 	octave 5
 	note C#, 6
 	octave 4
+	dutycycle $2
 	note F#, 8
 	note __, 2
 	note E_, 6
@@ -538,14 +545,18 @@ Music_Dungeon3_branch_7eb6d:
 	octave 5
 	note C_, 6
 	octave 3
+	stereopanning $ff
+	dutycycle $1
 	note D#, 2
 	note G_, 2
 	note D#, 2
 	note C#, 6
+	dutycycle $2
 	note D#, 2
 	note G_, 2
 	note D#, 2
 	note C#, 6
+	stereopanning $f0
 	octave 2
 	note E_, 2
 	note G#, 2
@@ -558,22 +569,29 @@ Music_Dungeon3_branch_7eb6d:
 	note E_, 2
 	note G#, 2
 	note C_, 2
+	dutycycle $1
 	note E_, 2
 	note G#, 2
 	note C_, 2
+	dutycycle $2
 	note E_, 2
 	note G#, 2
 	note C_, 2
+	dutycycle $1
 	note E_, 2
 	note G#, 2
 	note C_, 2
+	dutycycle $2
 	note E_, 2
 	note G#, 2
 	note C_, 2
+	dutycycle $1
 	note E_, 2
 	note G#, 2
 	note C_, 2
 	note D#, 2
+	dutycycle $2
+	stereopanning $ff
 	octave 2
 	note B_, 2
 	octave 3
@@ -605,21 +623,15 @@ Music_Dungeon3_branch_7eb6d:
 	loopchannel 0, Music_Dungeon3_branch_7eb6d
 
 Music_Dungeon3_Ch3: ; 7ec7a (1f:6c7a)
-	notetype 12, 18
+	stereopanning $ff
+	notetype 12, $10
 	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
+
+	loopchannel 11, Music_Dungeon3_Ch3
 	note __, 12
-	notetype 6, 16
+	notetype 6, $14
 	octave 3
+	stereopanning $f0
 	note B_, 1
 	octave 4
 	note C_, 1
@@ -627,6 +639,7 @@ Music_Dungeon3_Ch3: ; 7ec7a (1f:6c7a)
 	note D_, 1
 	note D#, 1
 	note E_, 1
+	stereopanning $f
 	note __, 2
 	note C_, 1
 	note C#, 1
@@ -634,9 +647,11 @@ Music_Dungeon3_Ch3: ; 7ec7a (1f:6c7a)
 	note D#, 1
 	note E_, 1
 	note F_, 1
+	stereopanning $f0
 	note __, 16
 	note __, 16
 	note __, 10
+	intensity $10
 	octave 5
 	note E_, 8
 	octave 4
@@ -666,12 +681,15 @@ Music_Dungeon3_Ch3: ; 7ec7a (1f:6c7a)
 	note __, 16
 	note __, 16
 	note __, 8
+	intensity $14
+	stereopanning $f0
 	note F_, 1
 	note E_, 1
 	note D#, 1
 	note D_, 1
 	note C#, 1
 	note C_, 1
+	stereopanning $f
 	note __, 2
 	note E_, 1
 	note D#, 1
@@ -680,28 +698,10 @@ Music_Dungeon3_Ch3: ; 7ec7a (1f:6c7a)
 	note C_, 1
 	octave 3
 	note B_, 1
-	note __, 10
-	note __, 16
+	stereopanning $ff
 	notetype 12, 16
+Music_Dungeon3_Ch3_Silence:
 	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 10
+	loopchannel 21, Music_Dungeon3_Ch3_Silence
+	note __, 7
 	loopchannel 0, Music_Dungeon3_Ch3

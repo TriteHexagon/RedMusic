@@ -3,7 +3,7 @@ Music_Dungeon1:
 	musicheader 1, 2, Music_Dungeon1_Ch2
 	musicheader 1, 3, Music_Dungeon1_Ch3
 	musicheader 1, 4, Music_Dungeon1_Ch4
-
+	;Rocket Hideout
 Music_Dungeon1_Ch1: ; 7ded1 (1f:5ed1)
 	tempo 144
 	volume 119

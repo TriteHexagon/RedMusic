@@ -7,7 +7,7 @@ Music_Dungeon2:
 ;viridian forest
 Music_Dungeon2_Ch1: ; 7e887 (1f:6887)
 	tempo 144
-	volume 119
+	volume $77
 	tone $0002
 	dutycycle 1
 	vibrato 10, 20
