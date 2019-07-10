@@ -9,6 +9,7 @@ Drumkits: ; e8e52
 	dw Drumkit1S
 	dw Drumkit3S
 	dw Drumkit4S
+	dw Drumkit10
 ; e8e5e
 
 Drumkit0: ; e8e5e
@@ -151,6 +152,20 @@ Drumkit4S: ; 9
 	dw Drum36
 	dw Kick2
 	dw Crash1
+Drumkit10: ; 10
+	dw Drum00
+	dw HiHat1
+	dw Kick1
+	dw Snare6
+	dw Snare7
+	dw HiHat2
+	dw HiHat3
+	dw Snare8
+	dw Triangle3
+	dw Triangle4
+	dw Snare9
+	dw Snare10
+	dw Snare11
 ; e8efa
 
 Drum00: ; e8efa

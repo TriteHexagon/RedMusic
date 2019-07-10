@@ -283,6 +283,7 @@ SECTION "Hacks 2", ROMX
 INCLUDE "audio/music/[hacks]/skygarden.asm"
 INCLUDE "audio/music/[hacks]/psychelock.asm"
 INCLUDE "audio/music/[hacks]/skyarrowbridge.asm"
+INCLUDE "audio/music/[hacks]/pkmncenternight.asm"
 
 
 

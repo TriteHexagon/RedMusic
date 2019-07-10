@@ -597,25 +597,30 @@ Music_Dungeon3_branch_7eb6d:
 	octave 3
 	note D#, 2
 	note G_, 2
+
 	octave 2
 	note B_, 2
 	octave 3
 	note D#, 2
 	note G_, 2
+
 	octave 2
 	note B_, 2
 	octave 3
 	note D#, 2
+
 	octave 2
 	note B_, 2
 	octave 3
 	note D#, 2
 	note G_, 2
+
 	octave 2
 	note B_, 2
 	octave 3
 	note D#, 2
 	note G_, 2
+
 	octave 2
 	note B_, 2
 	octave 3

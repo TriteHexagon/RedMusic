@@ -153,3 +153,5 @@ Music:
 	dba Music_BreakTheTargets
 	dba Music_RedCanyon
 	dba Music_SkyGarden
+	;Current
+	dba Music_PKMN_Center_Night

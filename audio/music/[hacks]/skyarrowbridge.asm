@@ -1,5 +1,19 @@
-; 
-; Demixed by TriteHexagon
+
+; Drumkit3:
+; 	dw Drum00
+; 	dw Snare12
+; 	dw Snare13
+; 	dw Snare14
+; 	dw Kick1
+; 	dw Triangle5
+; 	dw Snare5 ;was Drum20
+; 	dw Drum27
+; 	dw Drum28
+; 	dw Drum29
+; 	dw Snare9 ;was Drum00
+; 	dw Kick2
+; 	dw Crash2
+
 Music_SkyarrowBridge:
 	musicheader 4, 1, Music_SkyarrowBridge_Ch1
 	musicheader 1, 2, Music_SkyarrowBridge_Ch2
@@ -14,7 +28,7 @@ Music_SkyarrowBridge_Ch1:
 	stereopanning $ff
 	notetype $c, $77
 	tone $0002
-	;vibrato $12, $14
+	vibrato $12, $14
 
 ;Ch3_Bar3:
 	octave 4
@@ -26,7 +40,7 @@ Music_SkyarrowBridge_Ch1:
 	note D#, 8
 	stereopanning $f
 Music_SkyarrowBridge_Ch1_master:
-	intensity $85
+	intensity $75
 ;Ch1_Bar3:
 	octave 1
 	note A#, 3
@@ -230,7 +244,7 @@ Music_SkyarrowBridge_Ch1_bar_16_18:
 ; ============================================================================================================
 Music_SkyarrowBridge_Ch2:
 	stereopanning $f0
-	;vibrato $12, $14
+	vibrato $12, $14
 	notetype 12, $77
 	dutycycle $1
 	tone $0001
@@ -494,7 +508,7 @@ Music_SkyarrowBridge_Ch2_master:
 Music_SkyarrowBridge_Ch3:
 	stereopanning $ff
 	notetype 12, $25
-	vibrato $00, $00
+	;vibrato $00, $00
 
 	octave 5
 	note F_, 4

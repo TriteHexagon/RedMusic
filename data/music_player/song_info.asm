@@ -138,7 +138,7 @@ SongInfo:
 	db "Cinnabar Island @", ORIGIN_FRLG, COMPOSER_NONE, COMPOSER_NONE
 	db "Route 10@", ORIGIN_BW, COMPOSER_NONE, COMPOSER_NONE
 	db "Ice Path@", ORIGIN_HGSS, COMPOSER_NONE, COMPOSER_NONE
-	db "Skyarrow Bridge@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Skyarrow Bridge@", ORIGIN_BW, COMPOSER_NONE, COMPOSER_NONE
 	;Ace Attorney
 	db "Pursuit:"," Cornered@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Cross-Examination:","  Allegro 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
@@ -153,4 +153,6 @@ SongInfo:
 	db "Break the Targets!@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Red Canyon@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Sky Garden@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	;Current
+	db "Pokémon Center      (Night)@", ORIGIN_DPPT, COMPOSER_NONE, COMPOSER_NONE
 	db -1
