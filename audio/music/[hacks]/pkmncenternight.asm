@@ -9,7 +9,7 @@ Music_PKMN_Center_Night:
 ; ============================================================================================================
 Music_PKMN_Center_Night_Ch1:
 	tempo 196
-	volume $77
+	volume $66
 	dutycycle $3
 	stereopanning $ff
 	vibrato $12, $14
@@ -34,12 +34,16 @@ Music_PKMN_Center_Night_Ch1_master:
 ;Ch1_Bar3:
 	note __, 4
 Music_PKMN_Center_Night_Ch1_Bar3_4:
-	note F_, 16
+	intensity $88
+	note F_, 3
+	intensity $87
+	note F_, 13
+
 	octave 2
 	note A_, 2
 	octave 3
 	note D_, 2
-	intensity $67
+	intensity $57
 	note D_, 4
 	intensity $87
 	loopchannel 2, Music_PKMN_Center_Night_Ch1_Bar3_4
@@ -60,7 +64,7 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 	note G#, 6
 ;Ch1_Bar7:
 	note A_, 8
-	intensity $67
+	intensity $57
 	note A_, 2
 	intensity $87
 	note A_, 2
@@ -96,7 +100,7 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 	note F_, 2
 	note E_, 6
 	note D_, 6
-	intensity $67
+	intensity $57
 	note D_, 4
 	intensity $87
 	note G#, 4
@@ -141,8 +145,8 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 	note C_, 2
 ;Ch1_Bar17-18:
 	octave 4
-	dutycycle $1
-	intensity $67
+	dutycycle $3
+	intensity $57
 	note C_, 12
 	octave 3
 	note D_, 1
@@ -172,8 +176,8 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 	octave 3
 	note E_, 14
 ;Ch1_Bar19:
-	intensity $77
 	octave 4
+	dutycycle $1
 	note D_, 12
 	octave 3
 	note A_, 1
@@ -194,7 +198,7 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 	octave 4
 	note D_, 7
 	octave 3
-	dutycycle $2
+	dutycycle $3
 	note F_, 2
 	note A_, 2
 	octave 4
@@ -205,8 +209,8 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 	note A_, 2
 ;Ch1_Bar21:
 	octave 4
-	intensity $67
-	dutycycle $1
+	intensity $57
+	dutycycle $3
 	note D_, 12
 	octave 3
 	note C_, 1
@@ -242,7 +246,6 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 ;Ch1_Bar23:
 	octave 4
 	dutycycle $1
-	intensity $77
 	note C_, 12
 	octave 3
 	note A_, 1
@@ -263,7 +266,7 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 	octave 4
 	note C_, 7
 	octave 3
-	dutycycle $2
+	dutycycle $3
 	note E_, 2
 	note G_, 2
 	octave 4
@@ -281,49 +284,50 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 	intensity $87
 	note C_, 6
 	note E_, 6
-	intensity $67
+	intensity $57
 	note E_, 2
 	intensity $87
 ;Ch1_Bar26:
 	octave 2
 	note A#, 8
-	intensity $67
+	intensity $57
 	note A#, 2
 	intensity $87
 	octave 3
 	note C_, 6
 	note E_, 6
-	intensity $67
+	intensity $57
 	note E_, 2
 ;Ch1_Bar27:
 	intensity $87
 	note C_, 4
 	note C_, 2
-	intensity $67
+	intensity $57
 	note C_, 4
 	intensity $87
 	octave 2
 	note A_, 2
 	note A_, 4
-	intensity $67
+	intensity $57
 	note A_, 2
 	intensity $87
 	octave 3
 	note C_, 4
 	note C_, 2
 ;Ch1_Bar28:
-	intensity $67
+	intensity $57
 	note C_, 4
 	intensity $87
 	note C_, 2
 	note C_, 4
-	intensity $67
+	intensity $57
 	note C_, 2
 	intensity $87
 	note F_, 4
 	note F_, 8
 ;Ch1_Bar29:
 	dutycycle $1
+	intensity $77
 	octave 5
 	note __, 6
 	note C_, 6
@@ -450,7 +454,8 @@ Music_PKMN_Center_Night_Ch2_master:
 ;Bar16
 	note __, 16
 ;Bar17
-	dutycycle $3
+	vibrato $08, $28
+	dutycycle $1
 	intensity $a8
 	note E_, 10
 	intensity $a7
@@ -494,11 +499,11 @@ Music_PKMN_Center_Night_Ch2_master:
 	intensity $a7
 	note G_, 6
 ;Bar25
-	notetype 8, $b7
+	vibrato $12, $14
+	notetype 8, $67
 	dutycycle $2
 	note E_, 4
-	intensity $97
-	dutycycle $1
+	dutycycle $3
 	note G_, 2
 	octave 5
 	note F_, 2
@@ -514,10 +519,8 @@ Music_PKMN_Center_Night_Ch2_master:
 	octave 4
 	note G_, 2
 ;Bar26
-	intensity $b7
 	dutycycle $2
 	note E_, 4
-	intensity $97
 	dutycycle $3
 	note G_, 2
 	octave 5
@@ -555,8 +558,6 @@ Music_PKMN_Center_Night_Ch2_master:
 	octave 4
 	dutycycle $2
 	note G#, 4
-	;dutycycle $1
-	intensity $87
 	octave 3
 	note F_, 2
 	note G#, 2
@@ -574,15 +575,15 @@ Music_PKMN_Center_Night_Ch2_master:
 	note C_, 2
 ;Bar29
 	dutycycle $2
-	notetype 12, $b7
+	notetype 12, $97
 	octave 4
 	note G_, 8
 	note F_, 4
 	note E_, 4
 ;Ch2_Bar32:
-	intensity $b8
+	intensity $98
 	note F_, 6
-	intensity $b7
+	intensity $97
 	note F_, 10
 ;Ch2_Bar33:
 	note E_, 4
@@ -592,7 +593,7 @@ Music_PKMN_Center_Night_Ch2_master:
 ;Ch2_Bar34:
 	note C_, 16
 ;Ch2_Bar35:
-	notetype 8, $b7
+	notetype 8, $97
 	note __, 4
 	note D_, 6
 	note D_, 16
@@ -608,59 +609,51 @@ Music_PKMN_Center_Night_Ch2_master:
 
 Music_PKMN_Center_Night_Ch2_setupb:
 	octave 4
-	intensity $b7
+	intensity $67
 	dutycycle $2
 	endchannel
 
 Music_PKMN_Center_Night_Ch2_setup9:
 	octave 5
-	intensity $97
-	dutycycle $1
+	intensity $57
+	dutycycle $3
 	endchannel
 
 ; ============================================================================================================
 Music_PKMN_Center_Night_Ch3:
 	stereopanning $ff
 	notetype 12, $21
-	vibrato $0, $45
+	vibrato $12, $24
 	tone $0002
 
 Music_PKMN_Center_Night_Ch3_master:
 ;Ch3_Bar1:
 	octave 3
-	note C_, 9
-	intensity $31
-	note C_, 3
-	intensity $21
+	note C_, 12
 	octave 2
 	note G_, 4
 ;Ch3_Bar2:
 	octave 3
-	note C#, 9
-	note __, 3
+	note C#, 12
 	octave 2
 	note A_, 4
 ;Ch3_Bar3:
 	octave 3
-	note D_, 9
-	note __, 3
+	note D_, 12
 	octave 2
 	note A_, 4
 ;Ch3_Bar4:
 	octave 3
-	note C#, 9
-	note __, 3
+	note C#, 12
 	octave 2
 	note A_, 4
 ;Ch3_Bar5:
-	note G_, 9
-	note __, 3
+	note G_, 12
 	octave 3
 	note D_, 4
 ;Ch3_Bar6:
 	octave 2
-	note G#, 9
-	note __, 3
+	note G#, 12
 	octave 3
 	note D_, 4
 ;Ch3_Bar7:
@@ -671,7 +664,8 @@ Music_PKMN_Center_Night_Ch3_master:
 	note G#, 4
 	note G_, 4
 ;Ch3_Bar8:
-	note F_, 8
+	note F_, 7
+	note __, 1
 	note F_, 4
 	note G_, 12
 ;Ch3_Bar9:
@@ -685,7 +679,8 @@ Music_PKMN_Center_Night_Ch3_master:
 Music_PKMN_Center_Night_Ch3_F:
 	note F_, 8
 	note __, 2
-	note F_, 14
+	note F_, 12
+	note __, 2
 	loopchannel 2, Music_PKMN_Center_Night_Ch3_F
 ;Bar13:
 	note D_, 16
@@ -695,13 +690,17 @@ Music_PKMN_Center_Night_Ch3_F:
 	note __, 2
 	note G_, 14
 ;Bar15:
-	note C_, 10
+	note C_, 8
+	note __, 2
 	note C_, 2
-	note D_, 10
+	note D_, 8
+	note __, 2
 	note D_, 2
-	note G_, 10
+	note G_, 8
+	note __, 2
 	note G_, 2
-	note F_, 10
+	note F_, 8
+	note __, 2
 	note F_, 2
 ;Ch3_Bar17:
 	notetype 12, $21
@@ -738,16 +737,24 @@ Music_PKMN_Center_Night_Ch3_F:
 	octave 2
 	note B_, 4
 	note G_, 4
-	note C_, 4
+	note C_, 3
+	note __, 1
 ;Ch3_Bar23:
-	note C_, 4
-	note D_, 4
-	note D_, 4
-	note E_, 4
+	note C_, 3
+	note __, 1
+	note D_, 3
+	note __, 1
+	note D_, 3
+	note __, 1
+	note E_, 3
+	note __, 1
 ;Ch3_Bar24:
-	note E_, 4
-	note G_, 4
-	note G_, 4
+	note E_, 3
+	note __, 1
+	note G_, 3
+	note __, 1
+	note G_, 3
+	note __, 1
 ;Ch3_Bar25:
 	notetype 8, $21
 Music_PKMN_Center_Night_Ch3_C:

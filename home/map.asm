@@ -2340,8 +2340,8 @@ GetBackupLandmark::
 	jp GetWorldMapLocation
 
 GetMapHeaderMusic:: ; 2cbd
-	push hl
 	push bc
+	push hl
 	ld de, 6 ; music
 	call GetMapHeaderMember
 	ld a, c
@@ -2352,7 +2352,6 @@ GetMapHeaderMusic:: ; 2cbd
 	pop bc
 	pop hl
 	ret
-; 2cff
 
 Function8b342: ; 8b342
 	call GetSecondaryMapHeaderPointer

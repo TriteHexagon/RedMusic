@@ -139,6 +139,7 @@ Music:
 	dba Music_Route10
 	dba Music_DarkCaveHGSS
 	dba Music_SkyarrowBridge
+	dba Music_PKMN_Center_Night
 	;Ace Attorney
 	dba Music_Cornered
 	dba Music_Testimony2001
@@ -154,4 +155,4 @@ Music:
 	dba Music_RedCanyon
 	dba Music_SkyGarden
 	;Current
-	dba Music_PKMN_Center_Night
+	

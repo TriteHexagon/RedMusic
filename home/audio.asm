@@ -446,28 +446,12 @@ RestartMapMusic:: ; 3d47
 ; 3d62
 
 SpecialMapMusic:: ; 3d62
-	;Call night music
-	ld a, [TimeOfDay]
-	cp NITE
-	jr z, .load_night_music
-.original
 	ld a, [MapGroup]
 	cp GROUP_ROUTE_23
 	jr nz, .not_route_23
 	ld a, [MapNumber]
 	cp MAP_ROUTE_23
 	jr z, .no
-
-.load_night_music
-	ld a, [MapGroup]
-	cp GROUP_PALLET_TOWN
-	jr nz, .original
-	ld a, [MapNumber]
-	cp MAP_REDS_HOUSE_1F
-	jr nz, .original
-	ld de, MUSIC_TH_ROUTE_29_NIGHT
-	scf
-	ret
 
 .not_route_23
 	ld a, [MapGroup]

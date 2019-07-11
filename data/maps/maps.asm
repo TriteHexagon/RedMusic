@@ -1,5 +1,5 @@
 map: MACRO
-	; label, tileset, permission, location, music, phone service flag, time of day, fishing group
+	; label, tileset, permission, location, music, phone service flag, time of day, fishing group, night music
 \1_MapHeader:
 	db BANK(\1_SecondMapHeader), \2, \3
 	dw \1_SecondMapHeader
@@ -7,7 +7,6 @@ map: MACRO
 	dn \6, \7
 	db \8
 ENDM
-
 
 MapGroupPointers::
 ; pointers to the first map header of each map group
@@ -67,7 +66,7 @@ MapGroupPointers::
 	dw MapGroup_IslandGates
 	dw MapGroup_IslandDungeons
 
-
+; \2label, \3tileset, \4permission, \5location, \6music, \7phone service flag, time of day, \8fishing group, \9night music
 MapGroup_Special:	
 	map PokeCenter2F, TILESET_POKECENTER, INDOOR, SPECIAL_MAP, MUSIC_POKECENTER, 1, PALETTE_DAY, FISHGROUP_SHORE
 	map TradeCenter, TILESET_PC_GATE, INDOOR, SPECIAL_MAP, MUSIC_CHERRYGROVE_CITY, 1, PALETTE_DAY, FISHGROUP_SHORE
