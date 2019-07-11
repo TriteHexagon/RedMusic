@@ -345,7 +345,7 @@ FadeToMapMusic:: ; 3cbc
 	ld a, d
 	ld [MusicFadeIDHi], a
 	ld a, e
-	ld [wMapMusic], a
+	ld [wMapMusic], a ;Where the actual music is loaded into position
 
 .done
 	pop af
@@ -524,8 +524,24 @@ SpecialMapMusic:: ; 3d62
 GetMapMusic:: ; 3d97
 	call SpecialMapMusic
 	ret c
-	jp GetMapHeaderMusic
+	call GetMapHeaderMusic
+	call ChangeToNightMusic
 ; 3d9f
+
+ChangeToNightMusic::
+;Check time of day
+	ld a, [TimeOfDay]
+	cp NITE
+	jr z, .load_night_music
+.done
+	ret
+.load_night_music
+	ld a, e
+	cp a, MUSIC_PALLET_TOWN
+	jr nz, .done
+	ld a, MUSIC_TH_PKMN_CENTER_NIGHT
+	ld e, a
+	ret
 
 CheckSFX:: ; 3dde
 ; Return carry if any SFX channels are active.
