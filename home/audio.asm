@@ -532,14 +532,22 @@ ChangeToNightMusic::
 ;Check time of day
 	ld a, [TimeOfDay]
 	cp NITE
-	jr z, .load_night_music
-.done
-	ret
-.load_night_music
+	jr nz, .no_night
+	;Loads currently selected music from to a
 	ld a, e
-	cp a, MUSIC_PALLET_TOWN
-	jr nz, .done
+.next ;Pokémon Center
+	cp a, MUSIC_POKECENTER
+	jr nz, .next1
 	ld a, MUSIC_TH_PKMN_CENTER_NIGHT
+	jp .change
+.next1
+	cp a, MUSIC_OAKS_LAB
+	jr nz, .no_night
+	ld a, MUSIC_TH_SKYARROW_BRIDGE
+	jp .change
+.no_night
+	ret
+.change
 	ld e, a
 	ret
 

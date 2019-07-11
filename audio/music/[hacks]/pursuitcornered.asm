@@ -454,7 +454,7 @@ Music_Cornered_Ch2_master:
 ; ============================================================================================================
 Music_Cornered_Ch3:
 	stereopanning $ff
-	notetype 6, $2D
+	wavetype 1, 6, $24
 	vibrato $00, $14
 
 ;Bar1:

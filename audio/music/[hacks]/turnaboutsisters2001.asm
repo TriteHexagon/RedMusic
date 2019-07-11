@@ -15,7 +15,7 @@ Music_TurnaboutSisters2001_Ch1:
 	;vibrato $12, $14
 
 Music_TurnaboutSisters2001_Ch1_master:
-	notetype $c, $b7
+	notetype $c, $c7
 ;Bar1
 	callchannel Music_TurnaboutSisters2001_Ch1_Bar1
 ;Bar2:
@@ -56,10 +56,10 @@ Music_TurnaboutSisters2001_Ch1_master:
 	note D#, 1
 	note __, 2
 	note G#, 3
-	notetype 6, $b7
+	notetype 6, $c7
 	note C_, 1
 	note C#, 3
-	notetype 12, $b7
+	notetype 12, $c7
 	note C_, 3
 ;Bar8:
 	octave 3
@@ -127,10 +127,10 @@ Music_TurnaboutSisters2001_Ch1_master:
 	note D#, 1
 	note __, 2
 	note D#, 4
-	notetype 6, $b7
+	notetype 6, $c7
 	note C_, 1
 	note C#, 3
-	notetype 12, $b7
+	notetype 12, $c7
 	note C_, 2
 ;Bar18:
 	octave 3
@@ -149,18 +149,18 @@ Music_TurnaboutSisters2001_Ch1_master:
 	note D#, 3
 	note D#, 1
 	note __, 2
-	notetype 6, $b7
+	notetype 6, $c7
 	note G_, 1
 	note G#, 7
-	notetype 12, $b7
+	notetype 12, $c7
 	octave 3
 	note G#, 4
 ;Bar20:
 	octave 4
-	notetype 6, $b7
+	notetype 6, $c7
 	note C_, 1
 	note C#, 7
-	notetype 12, $b7
+	notetype 12, $c7
 	note C_, 4
 	octave 3
 	note G#, 4
@@ -169,17 +169,17 @@ Music_TurnaboutSisters2001_Ch1_master:
 	octave 4
 	note C_, 1
 	note C#, 1
-	notetype 6, $b7
+	notetype 6, $c7
 	note C#, 1
 	note D#, 5
-	notetype 12, $b7
+	notetype 12, $c7
 	note D#, 1
 	note __, 2
 	note D#, 4
-	notetype 6, $b7
+	notetype 6, $c7
 	note C_, 1
 	note C#, 3
-	notetype 12, $b7
+	notetype 12, $c7
 	note C_, 2
 ;Bar22:
 	octave 3
@@ -194,24 +194,24 @@ Music_TurnaboutSisters2001_Ch1_master:
 ;Bar23:
 	octave 4
 	note C_, 4
-	notetype 6, $b7
+	notetype 6, $c7
 	note C#, 1
 	note D#, 5
-	notetype 12, $b7
+	notetype 12, $c7
 	note D#, 1
 	note __, 2
-	notetype 6, $b7
+	notetype 6, $c7
 	note G_, 1
 	note G#, 7
-	notetype 12, $b7
+	notetype 12, $c7
 	octave 3
 	note G#, 4
 ;Bar24:
 	octave 4
-	notetype 6, $b7
+	notetype 6, $c7
 	note C_, 1
 	note C#, 7
-	notetype 12, $b7
+	notetype 12, $c7
 	note C_, 4
 	octave 3
 	note G#, 4
@@ -253,11 +253,11 @@ Music_TurnaboutSisters2001_Ch1_Bar1:
 	octave 3
 	note G#, 3
 	note __, 1
-	notetype 6, $b7
+	notetype 6, $c7
 	note B_, 1
 	octave 4
 	note C_, 3
-	notetype 12, $b7
+	notetype 12, $c7
 	octave 3
 	note A#, 2
 
@@ -591,7 +591,7 @@ Music_TurnaboutSisters2001_Ch2_Bar25:
 
 ; ============================================================================================================
 Music_TurnaboutSisters2001_Ch3:
-	stereopanning $ff
+	stereopanning $f0
 	wavetype 1, 12, $24
 	vibrato $16, $14
 

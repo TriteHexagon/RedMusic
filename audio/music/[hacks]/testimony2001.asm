@@ -744,11 +744,10 @@ Music_Testimony2001_Ch2_E
 ; ============================================================================================================
 Music_Testimony2001_Ch3:
 	stereopanning $ff
-	notetype 12, $1C
 	;vibrato $16, $14
 
 Music_Testimony2001_Ch3_master:
-	notetype 12, $1C
+	wavetype 1, 12, $15
 ;Bar1:
 	note __, 16
 ;Bar2:
@@ -767,127 +766,127 @@ Music_Testimony2001_Ch3_master:
 	note __, 16
 ;Bar9:
 	octave 4
-	intensity $3C
+	intensity $35
 	note E_, 1
-	intensity $2C
+	intensity $25
 	note E_, 1
-	intensity $1C
+	intensity $15
 	note E_, 14
 ;Bar10:
-	intensity $3C
+	intensity $35
 	note B_, 1
-	intensity $2C
+	intensity $25
 	note B_, 1
-	intensity $1C
+	intensity $15
 	note B_, 14
 ;Bar11:
 	octave 5
-	intensity $3C
+	intensity $35
 	note C_, 1
-	intensity $2C
+	intensity $25
 	note C_, 1
-	intensity $1C
+	intensity $15
 	note C_, 14
 ;Bar12:
 	octave 4
-	intensity $3C
+	intensity $35
 	note B_, 1
-	intensity $2C
+	intensity $25
 	note B_, 1
-	intensity $1C
+	intensity $15
 	note B_, 14
 ;Bar13:
-	intensity $3C
+	intensity $35
 	note E_, 1
-	intensity $2C
+	intensity $25
 	note E_, 1
-	intensity $1C
+	intensity $15
 	note E_, 14
 ;Bar14:
-	intensity $3C
+	intensity $35
 	note A_, 1
-	intensity $2C
+	intensity $25
 	note A_, 1
-	intensity $1C
+	intensity $15
 	note A_, 14
 ;Bar15:
 	octave 5
-	intensity $3C
+	intensity $35
 	note C_, 1
-	intensity $2C
+	intensity $25
 	note C_, 1
-	intensity $1C
+	intensity $15
 	note C_, 14
 ;Bar16:
 	octave 4
-	intensity $3C
+	intensity $35
 	note B_, 1
-	intensity $2C
+	intensity $25
 	note B_, 1
-	intensity $1C
+	intensity $15
 	note B_, 14
 ;Bar17:
-	intensity $3C
+	intensity $35
 	note A_, 1
-	intensity $2C
+	intensity $25
 	note A_, 1
-	intensity $1C
+	intensity $15
 	note A_, 14
 ;Bar18:
 	octave 5
-	intensity $3C
+	intensity $35
 	note C_, 1
-	intensity $2C
+	intensity $25
 	note C_, 1
-	intensity $1C
+	intensity $15
 	note C_, 14
 ;Bar19:
 	octave 4
-	intensity $3C
+	intensity $35
 	note B_, 1
-	intensity $2C
+	intensity $25
 	note B_, 1
-	intensity $1C
+	intensity $15
 	note B_, 14
 ;Bar20:
-	intensity $3C
+	intensity $35
 	note G_, 1
-	intensity $2C
+	intensity $25
 	note G_, 1
-	intensity $1C
+	intensity $15
 	note G_, 14
 ;Bar21:
-	intensity $3C
+	intensity $35
 	note A_, 1
-	intensity $2C
+	intensity $25
 	note A_, 1
-	intensity $1C
+	intensity $15
 	note A_, 14
 ;Bar22:
 	octave 5
-	intensity $3C
+	intensity $35
 	note C_, 1
-	intensity $2C
+	intensity $25
 	note C_, 1
-	intensity $1C
+	intensity $15
 	note C_, 14
 ;Bar23:
 	octave 4
-	intensity $3C
+	intensity $35
 	note B_, 1
-	intensity $2C
+	intensity $25
 	note B_, 1
-	intensity $1C
+	intensity $15
 	note B_, 14
 ;Bar24:
-	intensity $3C
+	intensity $35
 	note G_, 1
-	intensity $2C
+	intensity $25
 	note G_, 1
-	intensity $1C
+	intensity $15
 	note G_, 14
 ;Bar25:
-	intensity $2D
+	intensity $24
 	octave 2
 	note A_, 2
 	note A_, 2
@@ -895,34 +894,34 @@ Music_Testimony2001_Ch3_master:
 ;Bar26:
 	octave 4
 	note __, 8
-	intensity $3C
+	intensity $35
 	note B_, 1
-	intensity $2C
+	intensity $25
 	note B_, 1
-	intensity $1C
+	intensity $15
 	note B_, 6
 ;Bar27:
-	intensity $2D
+	intensity $24
 	octave 2
 	note F_, 2
 	note F_, 2
 	note __, 12
 	octave 4
 ;Bar28:
-	intensity $3C
+	intensity $35
 	note B_, 1
-	intensity $2C
+	intensity $25
 	note B_, 1
-	intensity $1C
+	intensity $15
 	note B_, 6
-	intensity $3C
+	intensity $35
 	note G_, 1
-	intensity $2C
+	intensity $25
 	note G_, 1
-	intensity $1C
+	intensity $15
 	note G_, 6
 ;Bar29:
-	intensity $2D
+	intensity $24
 	octave 2
 	note E_, 2
 	note E_, 2
@@ -930,14 +929,14 @@ Music_Testimony2001_Ch3_master:
 	octave 4
 ;Bar30:
 	note __, 8
-	intensity $3C
+	intensity $35
 	note G_, 1
-	intensity $2C
+	intensity $25
 	note G_, 1
-	intensity $1C
+	intensity $15
 	note G_, 6
 ;Bar31
-	intensity $2D
+	intensity $24
 	octave 2
 	note F_, 2
 	note F_, 2
