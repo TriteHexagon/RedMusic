@@ -5,27 +5,28 @@ Music_Routes1:
 	musicheader 1, 4, Music_Routes1_Ch4
 
 Music_Routes1_Ch1: ; 9bde (2:5bde)
-	tempo 152
+	tempo 152 ;152
 	volume 119
 	vibrato 4, 35
-	dutycycle 1
+	dutycycle $3
 	tone $0001
+	stereopanning $f
 
 Music_Routes1_branch_9be9:
-	notetype 12, 161
+	notetype 12, $c1
 	note __, 4
 	octave 4
-	stereopanning $f
+	;stereopanning $f
 	note D_, 2
 	note D_, 2
-	stereopanning $f0
+	;stereopanning $f0
 	note D_, 4
-	stereopanning $f
+	;stereopanning $f
 	note D_, 2
 	note D_, 2
-	stereopanning $f0
+	;stereopanning $f0
 	note D_, 4
-	stereopanning $f
+	;stereopanning $f
 	note D_, 2
 	note D_, 1
 	note C#, 1
@@ -37,9 +38,9 @@ Music_Routes1_branch_9be9:
 	note A_, 2
 	note A_, 2
 	note A_, 2
-	stereopanning $f0
+	;stereopanning $f0
 	note A_, 4
-	stereopanning $f
+	;stereopanning $f
 	octave 4
 	note C#, 2
 	note C#, 6
@@ -56,20 +57,20 @@ Music_Routes1_branch_9be9:
 	octave 3
 	note A_, 2
 	note A_, 2
-	stereopanning $f0
+	;stereopanning $f0
 	note A_, 4
-	stereopanning $f
+	;stereopanning $f
 	octave 4
 	note D_, 2
 	note D_, 2
-	stereopanning $f0
+	;stereopanning $f0
 	note D_, 4
-	stereopanning $f
+	;stereopanning $f
 	note D_, 2
 	note D_, 2
-	stereopanning $f0
+	;stereopanning $f0
 	note D_, 4
-	stereopanning $f
+	;stereopanning $f
 	note D_, 2
 	note D_, 1
 	note E_, 1
@@ -79,9 +80,9 @@ Music_Routes1_branch_9be9:
 	note B_, 2
 	note A_, 2
 	note A_, 2
-	stereopanning $f0
+	;stereopanning $f0
 	note A_, 4
-	stereopanning $f
+	;stereopanning $f
 	octave 4
 	note C#, 2
 	note C#, 6
@@ -91,12 +92,12 @@ Music_Routes1_branch_9be9:
 	note E_, 2
 	octave 3
 	note A_, 2
-	notetype 12, 162
+	notetype 12, $c2
 	octave 4
 	note G_, 4
 	note E_, 4
 	note F#, 2
-	notetype 12, 161
+	notetype 12, $c1
 	octave 3
 	note A_, 2
 	note A_, 6
@@ -139,7 +140,7 @@ Music_Routes1_Ch2: ; 9c51 (2:5c51)
 	stereopanning $f0
 
 Music_Routes1_branch_9c53:
-	notetype 12, $D1
+	notetype 12, $f1
 	callchannel Music_Routes1_branch_9c65
 	callchannel Music_Routes1_branch_9c78
 	callchannel Music_Routes1_branch_9c65
@@ -203,21 +204,21 @@ Music_Routes1_branch_9c8d:
 	note B_, 2
 	octave 4
 	note C#, 2
-	notetype 12, $D2
+	notetype 12, $f2
 	note B_, 4
-	notetype 6, $D1
+	notetype 6, $f1
 	octave 3
 	note B_, 1
 	octave 4
 	note C#, 1
-	notetype 12, $D1
+	notetype 12, $f1
 	octave 3
 	note B_, 1
 	note A_, 1
 	octave 4
 	note C#, 1
 	note D_, 6
-	notetype 12, $D2
+	notetype 12, $f2
 	note F#, 1
 	note G_, 1
 	note A_, 2
@@ -255,7 +256,7 @@ Music_Routes1_branch_9c8d:
 	note C#, 2
 	note E_, 2
 	note D_, 2
-	notetype 12, $D1
+	notetype 12, $f1
 	octave 4
 	note D_, 2
 	note D_, 2
@@ -342,70 +343,36 @@ Music_Routes1_branch_9cdd:
 
 Music_Routes1_Ch4: ; 9d24 (2:5d24)
 	notetype 12
-	togglenoise 0
+	togglenoise $0 ;was 1?
 Music_Routes1_Loop4:
 	note __, 4
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
+	
+	callchannel Music_Routes1_Main
 	note G_, 2
 	note G_, 2
 	note __, 4
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
+
+	callchannel Music_Routes1_Main2
+
 	note G_, 2
 	note G_, 2
 	note G_, 2
 	note G_, 2
 	note __, 4
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
+
+	callchannel Music_Routes1_Main
+
 	note G_, 2
 	note G_, 2
 	note __, 4
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note __, 2
+
+	callchannel Music_Routes1_Main
+
 	note G_, 2
 	note G_, 2
 	note G_, 2
 	note __, 2
+Music_Routes1_Part2:
 	note G_, 2
 	note G_, 2
 	note __, 4
@@ -413,20 +380,8 @@ Music_Routes1_Loop4:
 	note G_, 2
 	note G_, 2
 	note __, 2
-	note G_, 2
-	note G_, 2
-	note __, 4
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note __, 2
-	note G_, 2
-	note G_, 2
-	note __, 4
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note __, 2
+	loopchannel 3, Music_Routes1_Part2
+
 	note G_, 2
 	note G_, 2
 	note G_, 2
@@ -434,4 +389,16 @@ Music_Routes1_Loop4:
 	note G_, 2
 	note G_, 2
 	loopchannel 0, Music_Routes1_Loop4
+	endchannel
+
+Music_Routes1_Main:
+	note G_, 2
+	note __, 2
+	loopchannel 6, Music_Routes1_Main
+	endchannel
+
+Music_Routes1_Main2:
+	note G_, 2
+	note __, 2
+	loopchannel 5, Music_Routes1_Main
 	endchannel

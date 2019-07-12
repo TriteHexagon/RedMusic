@@ -273,7 +273,7 @@ Music_PsycheLock_Ch2_G:
 ; ============================================================================================================
 Music_PsycheLock_Ch3:
 	stereopanning $ff
-	wavetype $1, 12, $15
+	wavetype $1, 12, $16
 	vibrato $08, $25
 	tone $0001
 

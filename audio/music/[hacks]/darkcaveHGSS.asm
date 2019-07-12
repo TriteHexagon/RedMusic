@@ -101,7 +101,7 @@ Music_DarkCaveHGSS_Ch1_master:
 	intensity $37
 	note C#, 2
 	note C_, 2
-	intensity $25
+	intensity $27
 	octave 3
 	note B_, 2
 	note A#, 2
@@ -129,7 +129,7 @@ Music_DarkCaveHGSS_Ch1_master:
 	note A_, 4
 	intensity $46
 	note G#, 4
-	intensity $35
+	intensity $36
 	note G_, 4
 	notetype 12, $87
 	octave 2
@@ -151,7 +151,7 @@ Music_DarkCaveHGSS_Ch1_master:
 	note E_, 4
 	intensity $46
 	note D#, 4
-	intensity $35
+	intensity $36
 	note D_, 4
 	notetype 12, $a7
 	octave 3
@@ -547,15 +547,6 @@ Music_DarkCaveHGSS_Ch2_master:
 	note D_, 4
 	stereopanning $ff
 	notetype 12, $c7
-
-	;note D#, 16
-;Ch2_Bar52:
-	;note D_, 16
-;Ch2_Bar53:
-	;note F_, 16
-;Ch2_Bar54:
-	;note D#, 16
-;Ch2_Bar55:
 	tone $0002
 	callchannel Music_DarkCaveHGSS_Ch1_loop
 	vibrato 0, 0
@@ -887,7 +878,7 @@ Music_DarkCaveHGSS_Ch4_master:
 	note D_, 2
 	note D_, 2
 	stereopanning $f0
-	note G_, 4
+	note G#, 4
 ;Bar19:
 	stereopanning $ff
 	note D#, 8
@@ -973,7 +964,7 @@ Music_DarkCaveHGSS_Ch4_loop:
 	note D_, 2
 	note D_, 2
 	stereopanning $f0
-	note G_, 4
+	note G#, 4
 ;Bar3:
 	stereopanning $ff
 	note D#, 8

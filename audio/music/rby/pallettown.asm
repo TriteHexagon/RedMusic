@@ -4,7 +4,7 @@ Music_RBYPalletTown:
 	musicheader 1, 3, Music_RBYPalletTown_Ch3
 
 Music_RBYPalletTown_Ch1: ; a7c5 (2:67c5)
-	tempo 160
+	tempo 163
 	volume 119
 	dutycycle 2
 	notetype 12, 195
