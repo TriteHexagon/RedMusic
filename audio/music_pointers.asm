@@ -146,6 +146,7 @@ Music:
 	dba Music_TurnaboutSisters2001
 	dba Music_Objection2001
 	dba Music_PsycheLock
+	dba Music_SteelSamurai
 	;Others
 	dba Music_Temple
 	dba Music_LowerNorfair
@@ -154,6 +155,6 @@ Music:
 	dba Music_BreakTheTargets
 	dba Music_RedCanyon
 	dba Music_SkyGarden
-	dba Music_SteelSamurai
+	dba Music_DetectiveGumshoe
 	;Current
 	

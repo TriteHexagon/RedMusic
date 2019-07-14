@@ -155,18 +155,18 @@ Drumkit4S: ; 9
 	dw Crash1
 Drumkit10: ; 10
 	dw Drum00
-	dw HiHat1 ;Used
-	dw Kick1 ;Used
-	dw Crash1 ;Used
-	dw Snare7 ;Used
-	dw HiHat2 ;Used
-	dw TaikoDrum ;Used
-	dw Triangle1
-	dw Drum00
-	dw Snare10
-	dw Drum00
-	dw Snare13 ;Used 
-	dw Snare11 ;Used
+	dw TaikoDrum ;C_ Used
+	dw Kick1 ;C# PKMN Center / Samurai
+	dw Crash1 ;D_ Samurai
+	dw Drum00 ;D# 
+	dw HiHat2 ;E_ PKMN Center
+	dw HiHat2 ;F_ PKMN Center
+	dw Drum00 ;F#
+	dw Drum00 ;G_
+	dw Snare10 ;G# Samurai
+	dw Drum00 ; A_
+	dw Snare13 ; A# Samurai
+	dw Snare11 ;B_ PKMN Center / Samurai
 DrumkitTEST: ; 10
 	dw Drum00
 	dw TaikoDrum
@@ -345,6 +345,11 @@ Crash1: ; e8f90
 	endchannel
 ; e8f97
 
+Crash2: ; e8fa9
+	noise C#,  1, $84, $12
+	endchannel
+; e8fad
+
 Drum31: ; e8f97
 	noise D_,  4, $51, $21
 	noise D_,  4, $11, $11
@@ -361,11 +366,6 @@ Drum33: ; e8fa5
 	noise C#,  1, $a1, $31
 	endchannel
 ; e8fa9
-
-Crash2: ; e8fa9
-	noise C#,  1, $84, $12
-	endchannel
-; e8fad
 
 Drum35: ; e8fad
 	noise D_,  4, $81, $00

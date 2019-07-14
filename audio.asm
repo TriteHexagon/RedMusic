@@ -285,5 +285,6 @@ INCLUDE "audio/music/[hacks]/psychelock.asm"
 INCLUDE "audio/music/[hacks]/skyarrowbridge.asm"
 INCLUDE "audio/music/[hacks]/pkmncenternight.asm"
 INCLUDE "audio/music/[hacks]/steelsamurai.asm"
+INCLUDE "audio/music/[hacks]/gumshoe.asm"
 
 
