@@ -1,13 +1,13 @@
 ; 
 ; Demixed by TriteHexagon
-Music_DarkCaveHGSS:
-	musicheader 4, 1, Music_DarkCaveHGSS_Ch1
-	musicheader 1, 2, Music_DarkCaveHGSS_Ch2
-	musicheader 1, 3, Music_DarkCaveHGSS_Ch3
-	musicheader 1, 4, Music_DarkCaveHGSS_Ch4
+Music_IcePathHGSS:
+	musicheader 4, 1, Music_IcePathHGSS_Ch1
+	musicheader 1, 2, Music_IcePathHGSS_Ch2
+	musicheader 1, 3, Music_IcePathHGSS_Ch3
+	musicheader 1, 4, Music_IcePathHGSS_Ch4
 
 ; ============================================================================================================
-Music_DarkCaveHGSS_Ch1:
+Music_IcePathHGSS_Ch1:
 	tempo 128
 	volume $77
 	dutycycle $1
@@ -35,12 +35,12 @@ Music_DarkCaveHGSS_Ch1:
 ;Ch1_Bar8:
 	note C_, 16
 ;Ch1_Bar9:
-Music_DarkCaveHGSS_Ch1_master:
-	callchannel Music_DarkCaveHGSS_Ch1_loop
+Music_IcePathHGSS_Ch1_master:
+	callchannel Music_IcePathHGSS_Ch1_loop
 ;Ch1_Bar13:
-	callchannel Music_DarkCaveHGSS_Ch1_loop
+	callchannel Music_IcePathHGSS_Ch1_loop
 ;Ch1_Bar17:
-	callchannel Music_DarkCaveHGSS_Ch1_loop
+	callchannel Music_IcePathHGSS_Ch1_loop
 ;Ch1_Bar21:
 	intensity $a7
 	octave 3
@@ -84,13 +84,13 @@ Music_DarkCaveHGSS_Ch1_master:
 	notetype 12, $74
 ;Ch1_Bar29:
 	dutycycle $0
-	callchannel Music_DarkCaveHGSS_Ch1_loop2
+	callchannel Music_IcePathHGSS_Ch1_loop2
 ;Ch1_Bar31:
-	callchannel Music_DarkCaveHGSS_Ch1_loop2
+	callchannel Music_IcePathHGSS_Ch1_loop2
 ;Ch1_Bar33:
-	callchannel Music_DarkCaveHGSS_Ch1_loop2
+	callchannel Music_IcePathHGSS_Ch1_loop2
 ;Ch1_Bar35:
-	callchannel Music_DarkCaveHGSS_Ch1_loop2
+	callchannel Music_IcePathHGSS_Ch1_loop2
 ;Ch1_Bar37:
 	intensity $57
 	note F_, 2
@@ -178,7 +178,7 @@ Music_DarkCaveHGSS_Ch1_master:
 	note __, 12
 	dutycycle $1
 ;Ch1_Bar45:
-	callchannel Music_DarkCaveHGSS_Ch1_loop
+	callchannel Music_IcePathHGSS_Ch1_loop
 ;Ch1_Bar49:
 	octave 4
 	vibrato $14, $36
@@ -206,10 +206,10 @@ Music_DarkCaveHGSS_Ch1_master:
 	dutycycle $1
 	stereopanning $ff
 ;Ch1_Bar53:
-	loopchannel 0, Music_DarkCaveHGSS_Ch1_master
+	loopchannel 0, Music_IcePathHGSS_Ch1_master
 	endchannel
 
-Music_DarkCaveHGSS_Ch1_loop:
+Music_IcePathHGSS_Ch1_loop:
 	dutycycle $1
 	intensity $73
 	octave 5
@@ -271,7 +271,7 @@ Music_DarkCaveHGSS_Ch1_loop:
 	note A#, 2
 	endchannel
 
-Music_DarkCaveHGSS_Ch1_loop2:
+Music_IcePathHGSS_Ch1_loop2:
 	dutycycle $0
 	octave 5
 	note C_, 2
@@ -297,7 +297,7 @@ Music_DarkCaveHGSS_Ch1_loop2:
 	endchannel
 
 ; ============================================================================================================
-Music_DarkCaveHGSS_Ch2:
+Music_IcePathHGSS_Ch2:
 	stereopanning $ff
 	;vibrato $08, $36
 	notetype 12, $c7
@@ -358,7 +358,7 @@ Music_DarkCaveHGSS_Ch2:
 	note G_, 4
 	notetype 12, $c7
 	stereopanning $ff
-Music_DarkCaveHGSS_Ch2_master:
+Music_IcePathHGSS_Ch2_master:
 ;Ch2_Bar13:
 	note __, 16
 ;Ch2_Bar14:
@@ -468,7 +468,7 @@ Music_DarkCaveHGSS_Ch2_master:
 	note C_, 16
 ;Ch2_Bar31:
 ;Ch2_Bar32:
-	callchannel Music_DarkCaveHGSS_Ch2_Bar_32
+	callchannel Music_IcePathHGSS_Ch2_Bar_32
 ;Ch2_Bar36:
 	intensity $18
 	note C_, 2
@@ -548,7 +548,7 @@ Music_DarkCaveHGSS_Ch2_master:
 	stereopanning $ff
 	notetype 12, $c7
 	tone $0002
-	callchannel Music_DarkCaveHGSS_Ch1_loop
+	callchannel Music_IcePathHGSS_Ch1_loop
 	vibrato 0, 0
 	dutycycle $2
 	octave 4
@@ -573,10 +573,10 @@ Music_DarkCaveHGSS_Ch2_master:
 	notetype 12, $c7
 	stereopanning $ff
 	tone $0001
-	loopchannel 0, Music_DarkCaveHGSS_Ch2_master
+	loopchannel 0, Music_IcePathHGSS_Ch2_master
 	endchannel
 
-Music_DarkCaveHGSS_Ch2_Bar_32:
+Music_IcePathHGSS_Ch2_Bar_32:
 	note __, 8
 	octave 5
 	dutycycle $2
@@ -635,24 +635,24 @@ Music_DarkCaveHGSS_Ch2_Bar_32:
 	note C_, 2
 	intensity $74
 	note C_, 2
-	loopchannel 2, Music_DarkCaveHGSS_Ch2_Bar_32
+	loopchannel 2, Music_IcePathHGSS_Ch2_Bar_32
 	endchannel
 
 ; ============================================================================================================
-Music_DarkCaveHGSS_Ch3:
+Music_IcePathHGSS_Ch3:
 	stereopanning $ff
 	notetype 12, $13
 	vibrato $16, $14
 ;Bar1
-	callchannel Music_DarkCaveHGSS_Ch3_loop
-	callchannel Music_DarkCaveHGSS_Ch3_loop
-	callchannel Music_DarkCaveHGSS_Ch3_loop
-Music_DarkCaveHGSS_Ch3_master:
+	callchannel Music_IcePathHGSS_Ch3_loop
+	callchannel Music_IcePathHGSS_Ch3_loop
+	callchannel Music_IcePathHGSS_Ch3_loop
+Music_IcePathHGSS_Ch3_master:
 ;Ch3_Bar12:
-	callchannel Music_DarkCaveHGSS_Ch3_loop
-	callchannel Music_DarkCaveHGSS_Ch3_loop
+	callchannel Music_IcePathHGSS_Ch3_loop
+	callchannel Music_IcePathHGSS_Ch3_loop
 ;Ch3_Bar21:
-	callchannel Music_DarkCaveHGSS_Ch3_Bar21
+	callchannel Music_IcePathHGSS_Ch3_Bar21
 ;Ch3_Bar23:
 	note C_, 1
 	note __, 1
@@ -694,7 +694,7 @@ Music_DarkCaveHGSS_Ch3_master:
 	note F_, 1
 	note __, 1
 ;Ch3_Bar25:
-	callchannel Music_DarkCaveHGSS_Ch3_Bar21
+	callchannel Music_IcePathHGSS_Ch3_Bar21
 ;Ch3_Bar27:
 	note __, 16
 ;Ch3_Bar28:
@@ -711,10 +711,10 @@ Music_DarkCaveHGSS_Ch3_master:
 	note A#, 4
 	notetype 12, $13
 ;Ch3_Bar29:
-	callchannel Music_DarkCaveHGSS_Ch3_loop
-	callchannel Music_DarkCaveHGSS_Ch3_loop
+	callchannel Music_IcePathHGSS_Ch3_loop
+	callchannel Music_IcePathHGSS_Ch3_loop
 ;Ch3_Bar37:
-	callchannel Music_DarkCaveHGSS_Ch3_loop2
+	callchannel Music_IcePathHGSS_Ch3_loop2
 ;Ch3_Bar40:
 	note F_, 1
 	note __, 3
@@ -722,7 +722,7 @@ Music_DarkCaveHGSS_Ch3_master:
 	note A#, 1
 	note __, 11
 ;Ch3_Bar41:
-	callchannel Music_DarkCaveHGSS_Ch3_loop2
+	callchannel Music_IcePathHGSS_Ch3_loop2
 ;Ch3_Bar44:
 	note F_, 1
 	note __, 3
@@ -736,14 +736,14 @@ Music_DarkCaveHGSS_Ch3_master:
 	note __, 1
 	note C#, 4
 ;Ch3_Bar45:
-	callchannel Music_DarkCaveHGSS_Ch3_loop
-	callchannel Music_DarkCaveHGSS_Ch3_loop
+	callchannel Music_IcePathHGSS_Ch3_loop
+	callchannel Music_IcePathHGSS_Ch3_loop
 ;Ch3_Bar53:
-	callchannel Music_DarkCaveHGSS_Ch3_loop
-	loopchannel 0, Music_DarkCaveHGSS_Ch3_master
+	callchannel Music_IcePathHGSS_Ch3_loop
+	loopchannel 0, Music_IcePathHGSS_Ch3_master
 	endchannel
 
-Music_DarkCaveHGSS_Ch3_loop:
+Music_IcePathHGSS_Ch3_loop:
 ;Bar1
 	octave 3
 	note C_, 4
@@ -777,7 +777,7 @@ Music_DarkCaveHGSS_Ch3_loop:
 	note C#, 4
 	endchannel
 
-Music_DarkCaveHGSS_Ch3_Bar21:
+Music_IcePathHGSS_Ch3_Bar21:
 	octave 2
 	note F_, 1
 	note __, 1
@@ -819,7 +819,7 @@ Music_DarkCaveHGSS_Ch3_Bar21:
 	note __, 1
 	endchannel
 
-Music_DarkCaveHGSS_Ch3_loop2:
+Music_IcePathHGSS_Ch3_loop2:
 ;Ch3_Bar37:
 	octave 3
 	note C_, 1
@@ -853,20 +853,20 @@ Music_DarkCaveHGSS_Ch3_loop2:
 	endchannel
 
 ; ============================================================================================================
-Music_DarkCaveHGSS_Ch4:
+Music_IcePathHGSS_Ch4:
 	notetype 12
 	stereopanning $ff
 	togglenoise $3
 
 ;Bar1:
-	callchannel Music_DarkCaveHGSS_Ch4_loop
+	callchannel Music_IcePathHGSS_Ch4_loop
 ;Ch4_Bar5:
-	callchannel Music_DarkCaveHGSS_Ch4_loop
-Music_DarkCaveHGSS_Ch4_master:
+	callchannel Music_IcePathHGSS_Ch4_loop
+Music_IcePathHGSS_Ch4_master:
 ;Ch4_Bar9:
-	callchannel Music_DarkCaveHGSS_Ch4_loop
+	callchannel Music_IcePathHGSS_Ch4_loop
 ;Ch4_Bar13:
-	callchannel Music_DarkCaveHGSS_Ch4_loop
+	callchannel Music_IcePathHGSS_Ch4_loop
 ;Ch4_Bar17:
 	stereopanning $ff
 	note D#, 8
@@ -894,65 +894,65 @@ Music_DarkCaveHGSS_Ch4_master:
 	note C_, 1
 	note A#, 2
 ;Ch4_Bar21:
-	callchannel Music_DarkCaveHGSS_Ch4_loop2
-	callchannel Music_DarkCaveHGSS_Ch4_loop2
+	callchannel Music_IcePathHGSS_Ch4_loop2
+	callchannel Music_IcePathHGSS_Ch4_loop2
 ;Ch4_Bar22:
-	callchannel Music_DarkCaveHGSS_Ch4_DDFD
-	callchannel Music_DarkCaveHGSS_Ch4_loop2
+	callchannel Music_IcePathHGSS_Ch4_DDFD
+	callchannel Music_IcePathHGSS_Ch4_loop2
 ;Ch4_Bar23:
-	callchannel Music_DarkCaveHGSS_Ch4_loop2
-	callchannel Music_DarkCaveHGSS_Ch4_loop2
+	callchannel Music_IcePathHGSS_Ch4_loop2
+	callchannel Music_IcePathHGSS_Ch4_loop2
 ;Ch4_Bar24:
-	callchannel Music_DarkCaveHGSS_Ch4_DDFD
+	callchannel Music_IcePathHGSS_Ch4_DDFD
 	note G#, 2
 	note G#, 2
 	note D_, 1
 	note D_, 1
 	note A#, 2
 ;Ch4_Bar25:
-	callchannel Music_DarkCaveHGSS_Ch4_loop2
-	callchannel Music_DarkCaveHGSS_Ch4_loop2
+	callchannel Music_IcePathHGSS_Ch4_loop2
+	callchannel Music_IcePathHGSS_Ch4_loop2
 ;Ch4_Bar26:
-	callchannel Music_DarkCaveHGSS_Ch4_DDFD
-	callchannel Music_DarkCaveHGSS_Ch4_loop2
+	callchannel Music_IcePathHGSS_Ch4_DDFD
+	callchannel Music_IcePathHGSS_Ch4_loop2
 ;Ch4_Bar27:
 	note B_, 16
 ;Ch4_Bar28:
 	note __, 16
 ;Ch4_Bar29:
-	callchannel Music_DarkCaveHGSS_Ch4_loop
+	callchannel Music_IcePathHGSS_Ch4_loop
 ;Ch4_Bar33:
-	callchannel Music_DarkCaveHGSS_Ch4_loop
+	callchannel Music_IcePathHGSS_Ch4_loop
 ;Ch4_Bar37:
-	callchannel Music_DarkCaveHGSS_Ch4_Bar37
+	callchannel Music_IcePathHGSS_Ch4_Bar37
 	note C_, 2
 	note C_, 4
 	note D#, 2
 ;Ch4_Bar39:
-	callchannel Music_DarkCaveHGSS_Ch4_Bar37
+	callchannel Music_IcePathHGSS_Ch4_Bar37
 	note C_, 2
 	note D#, 4
 	note D#, 2
 ;Ch4_Bar41:
-	callchannel Music_DarkCaveHGSS_Ch4_Bar37
+	callchannel Music_IcePathHGSS_Ch4_Bar37
 	note C_, 2
 	note C_, 4
 	note D#, 2
 ;Ch4_Bar43:
-	callchannel Music_DarkCaveHGSS_Ch4_Bar37
+	callchannel Music_IcePathHGSS_Ch4_Bar37
 	notetype 8
 	note C_, 4
 	note C_, 4
 	note C_, 4
 	notetype 12
 ;Ch4_Bar45:
-	callchannel Music_DarkCaveHGSS_Ch4_loop
+	callchannel Music_IcePathHGSS_Ch4_loop
 ;Ch4_Bar49:
-	callchannel Music_DarkCaveHGSS_Ch4_loop
-	loopchannel 0, Music_DarkCaveHGSS_Ch4_master
+	callchannel Music_IcePathHGSS_Ch4_loop
+	loopchannel 0, Music_IcePathHGSS_Ch4_master
 	endchannel
 
-Music_DarkCaveHGSS_Ch4_loop:
+Music_IcePathHGSS_Ch4_loop:
 ;Bar1:
 	stereopanning $ff
 	note D#, 8
@@ -980,7 +980,7 @@ Music_DarkCaveHGSS_Ch4_loop:
 	note C_, 2
 	endchannel
 
-Music_DarkCaveHGSS_Ch4_loop2:
+Music_IcePathHGSS_Ch4_loop2:
 	stereopanning $ff
 	note D#, 2
 	note D#, 2
@@ -988,7 +988,7 @@ Music_DarkCaveHGSS_Ch4_loop2:
 	note D_, 2
 	endchannel
 
-Music_DarkCaveHGSS_Ch4_DDFD:
+Music_IcePathHGSS_Ch4_DDFD:
 	stereopanning $ff
 	note D#, 2
 	note D#, 2
@@ -996,7 +996,7 @@ Music_DarkCaveHGSS_Ch4_DDFD:
 	note D#, 2
 	endchannel
 
-Music_DarkCaveHGSS_Ch4_Bar37:
+Music_IcePathHGSS_Ch4_Bar37:
 ;Bar37
 	stereopanning $ff
 	note B_, 4

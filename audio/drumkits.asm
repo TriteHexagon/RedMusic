@@ -10,6 +10,7 @@ Drumkits: ; e8e52
 	dw Drumkit3S
 	dw Drumkit4S
 	dw Drumkit10
+	dw DrumkitTEST
 ; e8e5e
 
 Drumkit0: ; e8e5e
@@ -154,18 +155,32 @@ Drumkit4S: ; 9
 	dw Crash1
 Drumkit10: ; 10
 	dw Drum00
-	dw HiHat1
-	dw Kick1
-	dw Snare6
-	dw Snare7
-	dw HiHat2
-	dw HiHat3
-	dw Snare8
-	dw Triangle3
-	dw Triangle4
-	dw Snare9
+	dw HiHat1 ;Used
+	dw Kick1 ;Used
+	dw Crash1 ;Used
+	dw Snare7 ;Used
+	dw HiHat2 ;Used
+	dw TaikoDrum ;Used
+	dw Triangle1
+	dw Drum00
 	dw Snare10
-	dw Snare11
+	dw Drum00
+	dw Snare13 ;Used 
+	dw Snare11 ;Used
+DrumkitTEST: ; 10
+	dw Drum00
+	dw TaikoDrum
+	dw TaikoDrum2
+	dw TaikoDrum3
+	dw TaikoDrum4
+	dw TaikoDrum5
+	dw TaikoDrum6
+	dw TaikoDrum7
+	dw TaikoDrum8
+	dw TaikoDrum9
+	dw TaikoDrum10
+	dw TaikoDrum11
+	dw TaikoDrum12
 ; e8efa
 
 Drum00: ; e8efa
@@ -212,6 +227,36 @@ Snare8: ; e8f44
 	noise C#,  1, $a2, $50
 	endchannel
 ; e8f48
+
+Snare9: ; e8f56
+	noise C#,  1, $91, $22
+	endchannel
+; e8f5a
+
+Snare10: ; e8f5a
+	noise C#,  1, $71, $22
+	endchannel
+; e8f5e
+
+Snare11: ; e8f5e
+	noise C#,  1, $61, $22
+	endchannel
+; e8f62
+
+Snare12: ; e8f67
+	noise C#,  1, $91, $33
+	endchannel
+; e8f6b
+
+Snare13: ; e8f6b
+	noise C#,  1, $51, $32
+	endchannel
+; e8f6f
+
+Snare14: ; e8f6f
+	noise C#,  1, $81, $31
+	endchannel
+; e8f73
 
 Drum05: ; e8f0e
 	noise C#,  8, $84, $37
@@ -261,40 +306,10 @@ Triangle4: ; e8f4f
 	endchannel
 ; e8f56
 
-Snare9: ; e8f56
-	noise C#,  1, $91, $22
-	endchannel
-; e8f5a
-
-Snare10: ; e8f5a
-	noise C#,  1, $71, $22
-	endchannel
-; e8f5e
-
-Snare11: ; e8f5e
-	noise C#,  1, $61, $22
-	endchannel
-; e8f62
-
 Drum20: ; e8f62
 	noise C#,  1, $11, $11
 	endchannel
 ; e8f66
-
-Snare12: ; e8f67
-	noise C#,  1, $91, $33
-	endchannel
-; e8f6b
-
-Snare13: ; e8f6b
-	noise C#,  1, $51, $32
-	endchannel
-; e8f6f
-
-Snare14: ; e8f6f
-	noise C#,  1, $81, $31
-	endchannel
-; e8f73
 
 Kick1: ; e8f73
 	noise C#,  1, $88, $6b
@@ -369,6 +384,68 @@ Kick2: ; e8fbb
 	noise C#,  1, $71, $00
 	endchannel
 ; e8fc2
+
+TaikoDrum:
+	; noise C_,  2, $77, $0f
+	; noise C_,  2, $71, $00
+	noise D_,  4, $91, $21
+	noise D_,  4, $21, $11
+	endchannel
+
+TaikoDrum2:
+	noise D_,  1, $19, $38
+	noise D_,  1, $51, $38
+	noise D_,  1, $71, $38
+	noise D_,  1, $71, $38
+	noise D_,  1, $51, $38
+	noise D_,  1, $71, $38
+	noise D_,  1, $71, $38
+	noise D_,  2, $21, $11
+	endchannel
+TaikoDrum3:
+	noise D_,  1, $19, $39
+	noise D_,  6, $71, $39
+	noise D_,  2, $21, $11
+	endchannel
+TaikoDrum4:
+	noise D_,  1, $19, $3a
+	noise D_,  6, $71, $3a
+	noise D_,  2, $21, $11
+	endchannel
+TaikoDrum5:
+	noise D_,  1, $19, $3b
+	noise D_,  6, $71, $3b
+	noise D_,  2, $21, $11
+	endchannel
+TaikoDrum6:
+	noise G#,  4, $71, $29
+	noise D_,  2, $41, $11
+	endchannel
+TaikoDrum7:
+	noise D_,  4, $71, $29
+	noise D_,  2, $41, $11
+	endchannel
+TaikoDrum8:
+	noise D_,  4, $71, $29
+	noise D_,  2, $41, $11
+	endchannel
+TaikoDrum9:
+	noise D_,  4, $71, $29
+	noise D_,  4, $11, $66
+	endchannel
+TaikoDrum10:
+	noise D_,  4, $71, $29
+	noise D_,  4, $11, $77
+	endchannel
+TaikoDrum11:
+	noise D_,  4, $71, $29
+	noise D_,  4, $11, $11
+	endchannel
+TaikoDrum12:
+	noise D_,  4, $71, $29
+	noise D_,  4, $11, $11
+	endchannel
+
 
 ;Softer Drumkits
 

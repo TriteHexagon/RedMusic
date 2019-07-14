@@ -275,7 +275,7 @@ INCLUDE "audio/music/[hacks]/calamariinkantation.asm"
 INCLUDE "audio/music/[hacks]/route10.asm"
 INCLUDE "audio/music/[hacks]/breakthetargets.asm"
 INCLUDE "audio/music/[hacks]/redcanyon.asm"
-INCLUDE "audio/music/[hacks]/darkcaveHGSS.asm"
+INCLUDE "audio/music/[hacks]/icepathHGSS.asm"
 INCLUDE "audio/music/[hacks]/objection2001.asm"
 
 SECTION "Hacks 2", ROMX
@@ -284,6 +284,6 @@ INCLUDE "audio/music/[hacks]/skygarden.asm"
 INCLUDE "audio/music/[hacks]/psychelock.asm"
 INCLUDE "audio/music/[hacks]/skyarrowbridge.asm"
 INCLUDE "audio/music/[hacks]/pkmncenternight.asm"
-
+INCLUDE "audio/music/[hacks]/steelsamurai.asm"
 
 

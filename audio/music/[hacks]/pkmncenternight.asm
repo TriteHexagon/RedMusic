@@ -500,10 +500,11 @@ Music_PKMN_Center_Night_Ch2_master:
 	note G_, 6
 ;Bar25
 	vibrato $12, $14
-	notetype 8, $67
+	notetype 8, $77
 	dutycycle $2
 	note E_, 4
 	dutycycle $3
+	intensity $74
 	note G_, 2
 	octave 5
 	note F_, 2
@@ -520,8 +521,10 @@ Music_PKMN_Center_Night_Ch2_master:
 	note G_, 2
 ;Bar26
 	dutycycle $2
+	intensity $77
 	note E_, 4
 	dutycycle $3
+	intensity $74
 	note G_, 2
 	octave 5
 	note F_, 2
@@ -557,6 +560,7 @@ Music_PKMN_Center_Night_Ch2_master:
 ;Bar28
 	octave 4
 	dutycycle $2
+	intensity $74
 	note G#, 4
 	octave 3
 	note F_, 2
@@ -609,13 +613,13 @@ Music_PKMN_Center_Night_Ch2_master:
 
 Music_PKMN_Center_Night_Ch2_setupb:
 	octave 4
-	intensity $67
+	intensity $77
 	dutycycle $2
 	endchannel
 
 Music_PKMN_Center_Night_Ch2_setup9:
 	octave 5
-	intensity $57
+	intensity $74
 	dutycycle $3
 	endchannel
 

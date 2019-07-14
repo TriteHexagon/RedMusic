@@ -137,7 +137,7 @@ Music:
 	dba Music_Route113
 	dba Music_CinnabarIslandFRLG
 	dba Music_Route10
-	dba Music_DarkCaveHGSS
+	dba Music_IcePathHGSS
 	dba Music_SkyarrowBridge
 	dba Music_PKMN_Center_Night
 	;Ace Attorney
@@ -154,5 +154,6 @@ Music:
 	dba Music_BreakTheTargets
 	dba Music_RedCanyon
 	dba Music_SkyGarden
+	dba Music_SteelSamurai
 	;Current
 	
