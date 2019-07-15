@@ -160,6 +160,7 @@ INCLUDE "audio/music/gsc/darkcave.asm"
 INCLUDE "audio/music/gsc/dragonsden.asm"
 INCLUDE "audio/music/gsc/tintower.asm"
 INCLUDE "audio/music/gsc/route26.asm"
+INCLUDE "audio/music/[night]/route26night.asm"
 
 
 SECTION "RSE Music 1", ROMX

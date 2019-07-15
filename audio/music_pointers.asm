@@ -133,6 +133,7 @@ Music:
 	dba Music_Route34Night
 	dba Music_Route38Night
 	dba Music_Route42Night
+	dba Music_Route26Night
 	;Pokémon
 	dba Music_Route113
 	dba Music_CinnabarIslandFRLG
