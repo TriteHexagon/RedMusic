@@ -42,7 +42,7 @@ Music_Route42Night_Ch2:
 ; ============================================================================================================
 Music_Route42Night_Ch3:
 	stereopanning $f
-	notetype $c, $13
+	notetype $c, $10
 	octave 3
 	note G_, 4
 	note __, 2

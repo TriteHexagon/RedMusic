@@ -266,9 +266,6 @@ SECTION "Hacks", ROMX
 INCLUDE "audio/music/[hacks]/temple.asm"
 INCLUDE "audio/music/[hacks]/route113.asm"
 INCLUDE "audio/music/[hacks]/lowernorfair.asm"
-INCLUDE "audio/music/[hacks]/pursuitcornered.asm"
-INCLUDE "audio/music/[hacks]/testimony2001.asm"
-INCLUDE "audio/music/[hacks]/turnaboutsisters2001.asm"
 INCLUDE "audio/music/[hacks]/gourmetrace.asm"
 INCLUDE "audio/music/[hacks]/cinnabarislandFRLG.asm"
 INCLUDE "audio/music/[hacks]/calamariinkantation.asm"
@@ -276,15 +273,22 @@ INCLUDE "audio/music/[hacks]/route10.asm"
 INCLUDE "audio/music/[hacks]/breakthetargets.asm"
 INCLUDE "audio/music/[hacks]/redcanyon.asm"
 INCLUDE "audio/music/[hacks]/icepathHGSS.asm"
-INCLUDE "audio/music/[hacks]/objection2001.asm"
+
+SECTION "Ace Attorney", ROMX
+
+INCLUDE "audio/music/[aceattorney]/pursuitcornered.asm"
+INCLUDE "audio/music/[aceattorney]/testimony2001.asm"
+INCLUDE "audio/music/[aceattorney]/turnaboutsisters2001.asm"
+INCLUDE "audio/music/[aceattorney]/objection2001.asm"
+INCLUDE "audio/music/[aceattorney]/psychelock.asm"
+INCLUDE "audio/music/[aceattorney]/steelsamurai.asm"
+INCLUDE "audio/music/[aceattorney]/gumshoe.asm"
 
 SECTION "Hacks 2", ROMX
 
 INCLUDE "audio/music/[hacks]/skygarden.asm"
-INCLUDE "audio/music/[hacks]/psychelock.asm"
 INCLUDE "audio/music/[hacks]/skyarrowbridge.asm"
 INCLUDE "audio/music/[hacks]/pkmncenternight.asm"
-INCLUDE "audio/music/[hacks]/steelsamurai.asm"
-INCLUDE "audio/music/[hacks]/gumshoe.asm"
+
 
 

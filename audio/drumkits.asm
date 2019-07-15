@@ -160,7 +160,7 @@ Drumkit10: ; 10
 	dw Crash1 ;D_ Samurai
 	dw Drum00 ;D# 
 	dw HiHat2 ;E_ PKMN Center
-	dw HiHat2 ;F_ PKMN Center
+	dw HiHat3 ;F_ PKMN Center
 	dw Drum00 ;F#
 	dw Drum00 ;G_
 	dw Snare10 ;G# Samurai
