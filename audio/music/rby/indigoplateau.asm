@@ -9,6 +9,7 @@ Music_RBYIndigoPlateau_Ch1: ; a5f0 (2:65f0)
 	volume 119
 	dutycycle 3
 	vibrato 6, 52
+	stereopanning $f0
 
 	notetype 12, 178
 	octave 2
@@ -42,6 +43,7 @@ Music_RBYIndigoPlateau_branch_a605:
 	note D_, 4
 	notetype 12, 212
 	octave 3
+	;stereopanning $f0
 	note A_, 4
 	note A_, 4
 	note A_, 4
@@ -77,18 +79,14 @@ Music_RBYIndigoPlateau_branch_a605:
 	notetype 12, 78
 	octave 2
 	note A#, 8
+	;stereopanning $f
 	loopchannel 0, Music_RBYIndigoPlateau_branch_a605
 
 Music_RBYIndigoPlateau_branch_a659:
 	notetype 12, 178
 	octave 2
 	note A_, 4
-	note A_, 4
-	note A_, 4
-	note A_, 4
-	note A_, 4
-	note A_, 4
-	note A_, 4
+	loopchannel 7, Music_RBYIndigoPlateau_branch_a659
 	endchannel
 
 
@@ -96,6 +94,7 @@ Music_RBYIndigoPlateau_Ch2: ; a664 (2:6664)
 	dutycycle 3
 	vibrato 8, 37
 	notetype 12, 194
+	stereopanning $ff
 	octave 3
 	note D_, 8
 	note D_, 8
@@ -123,6 +122,7 @@ Music_RBYIndigoPlateau_branch_a673:
 	callchannel Music_RBYIndigoPlateau_branch_a6af
 	notetype 12, 197
 	note A#, 4
+	;stereopanning $f
 	callchannel Music_RBYIndigoPlateau_branch_a6af
 	notetype 12, 197
 	octave 4
@@ -138,23 +138,21 @@ Music_RBYIndigoPlateau_branch_a673:
 	notetype 12, 77
 	octave 4
 	note D#, 8
+	;stereopanning $f0
 	loopchannel 0, Music_RBYIndigoPlateau_branch_a673
 
 Music_RBYIndigoPlateau_branch_a6af:
 	notetype 12, 194
 	octave 3
 	note D_, 4
-	note D_, 4
-	note D_, 4
-	note D_, 4
-	note D_, 4
-	note D_, 4
-	note D_, 4
+	loopchannel 7, Music_RBYIndigoPlateau_branch_a6af
 	endchannel
 
 
 Music_RBYIndigoPlateau_Ch3: ; a6ba (2:66ba)
-	notetype 12, 16
+	notetype 12, $13
+	stereopanning $f
+	tone $0000
 	octave 4
 	note D_, 2
 	note __, 6
@@ -168,39 +166,18 @@ Music_RBYIndigoPlateau_Ch3: ; a6ba (2:66ba)
 
 Music_RBYIndigoPlateau_branch_a6c6:
 	callchannel Music_RBYIndigoPlateau_branch_a6fe
+	note A_, 4
 	callchannel Music_RBYIndigoPlateau_branch_a6fe
+	note A_, 4
 	callchannel Music_RBYIndigoPlateau_branch_a6fe
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
+	note A_, 4
+	callchannel Music_RBYIndigoPlateau_branch_a6fe
 	note F#, 4
 	callchannel Music_RBYIndigoPlateau_branch_a6fe
+	note A_, 4
 	callchannel Music_RBYIndigoPlateau_branch_a6fe
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
+	note A_, 4
+	callchannel Music_RBYIndigoPlateau_branch_a6fe
 	note A#, 1
 	note __, 1
 	note A#, 1
@@ -215,19 +192,7 @@ Music_RBYIndigoPlateau_branch_a6fe:
 	octave 4
 	note D_, 2
 	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note D_, 2
-	note __, 2
-	note A_, 4
+	loopchannel 7, Music_RBYIndigoPlateau_branch_a6fe
 	endchannel
 
 

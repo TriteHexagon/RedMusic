@@ -206,7 +206,6 @@ Music_SkyarrowBridge_Ch1_master:
 ;Ch1_Bar18:
 	callchannel Music_SkyarrowBridge_Ch1_bar_16_18
 	loopchannel 0, Music_SkyarrowBridge_Ch1_master
-	endchannel
 
 Music_SkyarrowBridge_Ch1_bar_13_15_17:
 	octave 2
