@@ -7,9 +7,9 @@ Music_RBYIndigoPlateau:
 Music_RBYIndigoPlateau_Ch1: ; a5f0 (2:65f0)
 	tempo 132
 	volume 119
-	dutycycle 3
+	dutycycle $1
 	vibrato 6, 52
-	stereopanning $f0
+	stereopanning $ff
 
 	notetype 12, 178
 	octave 2
@@ -17,33 +17,32 @@ Music_RBYIndigoPlateau_Ch1: ; a5f0 (2:65f0)
 	note A_, 8
 	note A_, 8
 	note A_, 4
-	notetype 12, 164
+	intensity 164
 	note A#, 4
 
 Music_RBYIndigoPlateau_branch_a605:
 	callchannel Music_RBYIndigoPlateau_branch_a659
-	notetype 12, 180
+	intensity $b4
 	octave 3
 	note D_, 4
 	callchannel Music_RBYIndigoPlateau_branch_a659
-	notetype 12, 180
+	intensity $b4
 	octave 3
 	note D#, 4
 	callchannel Music_RBYIndigoPlateau_branch_a659
-	notetype 12, 180
+	intensity $b4
 	octave 3
 	note D_, 4
 	callchannel Music_RBYIndigoPlateau_branch_a659
-	notetype 12, 160
+	intensity $a0
 	octave 2
 	note A#, 4
 	callchannel Music_RBYIndigoPlateau_branch_a659
-	notetype 12, 180
+	intensity $a4
 	octave 3
 	note D_, 4
-	notetype 12, 212
+	intensity $b4
 	octave 3
-	;stereopanning $f0
 	note A_, 4
 	note A_, 4
 	note A_, 4
@@ -51,10 +50,10 @@ Music_RBYIndigoPlateau_branch_a605:
 	note A_, 4
 	note A_, 4
 	note A_, 4
-	notetype 12, 180
+	intensity $a4
 	octave 3
 	note D#, 4
-	notetype 12, 212
+	intensity $b4
 	octave 3
 	note A#, 4
 	note A#, 4
@@ -63,27 +62,26 @@ Music_RBYIndigoPlateau_branch_a605:
 	note A#, 4
 	note A#, 4
 	note A#, 4
-	notetype 12, 180
+	intensity $a4
 	octave 3
 	note F_, 2
-	notetype 12, 180
+	intensity $a4
 	octave 3
 	note G_, 2
-	notetype 12, 176
+	intensity $a0
 	note A_, 8
 	octave 2
 	note A_, 8
-	notetype 12, 183
+	intensity $a7
 	octave 3
 	note F_, 8
-	notetype 12, 78
+	intensity $4e
 	octave 2
 	note A#, 8
-	;stereopanning $f
 	loopchannel 0, Music_RBYIndigoPlateau_branch_a605
 
 Music_RBYIndigoPlateau_branch_a659:
-	notetype 12, 178
+	intensity 178
 	octave 2
 	note A_, 4
 	loopchannel 7, Music_RBYIndigoPlateau_branch_a659
@@ -94,40 +92,40 @@ Music_RBYIndigoPlateau_Ch2: ; a664 (2:6664)
 	dutycycle 3
 	vibrato 8, 37
 	notetype 12, 194
-	stereopanning $ff
+	stereopanning $f0
 	octave 3
 	note D_, 8
 	note D_, 8
 	note D_, 8
 	note D_, 4
-	notetype 12, 90
+	intensity 90
 	note D#, 4
 
 Music_RBYIndigoPlateau_branch_a673:
 	callchannel Music_RBYIndigoPlateau_branch_a6af
-	notetype 12, 197
+	intensity 197
 	note A_, 4
 	callchannel Music_RBYIndigoPlateau_branch_a6af
-	notetype 12, 197
+	intensity 197
 	note A#, 4
 	callchannel Music_RBYIndigoPlateau_branch_a6af
-	notetype 12, 197
+	intensity 197
 	note A_, 4
 	callchannel Music_RBYIndigoPlateau_branch_a6af
-	notetype 12, 199
+	intensity 199
 	note C#, 4
 	callchannel Music_RBYIndigoPlateau_branch_a6af
-	notetype 12, 197
+	intensity 197
 	note A_, 4
 	callchannel Music_RBYIndigoPlateau_branch_a6af
-	notetype 12, 197
+	intensity 197
 	note A#, 4
 	;stereopanning $f
 	callchannel Music_RBYIndigoPlateau_branch_a6af
-	notetype 12, 197
+	intensity 197
 	octave 4
 	note C_, 2
-	notetype 12, 199
+	intensity 199
 	octave 4
 	note C#, 2
 	note D_, 8
@@ -135,14 +133,14 @@ Music_RBYIndigoPlateau_branch_a673:
 	note D_, 8
 	octave 4
 	note C_, 8
-	notetype 12, 77
+	intensity 77
 	octave 4
 	note D#, 8
 	;stereopanning $f0
 	loopchannel 0, Music_RBYIndigoPlateau_branch_a673
 
 Music_RBYIndigoPlateau_branch_a6af:
-	notetype 12, 194
+	intensity 194
 	octave 3
 	note D_, 4
 	loopchannel 7, Music_RBYIndigoPlateau_branch_a6af
