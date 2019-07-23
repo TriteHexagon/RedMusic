@@ -18,10 +18,9 @@ Music_Route113_Ch1_master:
 	dutycycle $1
 	notetype 12, $77
 	note __, 2
-;Bar1-3:
+;Bar1-4:
 	callchannel Music_Route113_Ch1_Bar1
 	callchannel Music_Route113_Ch1_Bar1
-;Bar4:
 	callchannel Music_Route113_Ch1_Bar4
 ;Bar5-6
 	intensity $98
@@ -509,7 +508,7 @@ Music_Route113_Ch1_Bar1:
 	intensity $77
 	note F#, 1
 	stereopanning $f
-	notetype 8, $97
+	notetype 8, $96
 	note A_, 1
 	note B_, 1
 	note G_, 1
@@ -517,13 +516,14 @@ Music_Route113_Ch1_Bar1:
 	note F#, 1
 	note G_, 1
 	note D_, 1
+	stereopanning $ff
+	intensity $76
 	note C#, 1
 	note D_, 1
 	octave 2
-	stereopanning $f0
-	intensity $77
 	note B_, 1
 	note A_, 1
+	stereopanning $f0
 	note B_, 1
 	note G_, 1
 	note F#, 1

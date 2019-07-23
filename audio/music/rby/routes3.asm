@@ -4,7 +4,7 @@ Music_Routes3:
 	musicheader 1, 3, Music_Routes3_Ch3
 	musicheader 1, 4, Music_Routes3_Ch4
 
-;route 3
+;Route 3
 Music_Routes3_Ch1: ; 9fad (2:5fad)
 	tempo 148
 	volume 119

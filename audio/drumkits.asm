@@ -155,7 +155,7 @@ Drumkit4S: ; 9
 	dw Crash1
 Drumkit10: ; 10
 	dw Drum00
-	dw TaikoDrum ;C_ Used
+	dw TaikoDrum ;C_ Samurai
 	dw Kick1 ;C# PKMN Center / Samurai
 	dw Crash1 ;D_ Samurai
 	dw Drum00 ;D# 

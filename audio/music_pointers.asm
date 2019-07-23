@@ -130,7 +130,9 @@ Music:
 	dba Music_CherrygroveCityNight
 	dba Music_Route30Night
 	dba Music_VioletCityNight
+	dba Music_AzaleaTownNight
 	dba Music_Route34Night
+	dba Music_GoldenrodCityNight
 	dba Music_Route38Night
 	dba Music_Route42Night
 	dba Music_Route26Night
@@ -157,5 +159,6 @@ Music:
 	dba Music_BreakTheTargets
 	dba Music_RedCanyon
 	dba Music_SkyGarden
+	
 	;Current
 	

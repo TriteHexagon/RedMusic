@@ -147,7 +147,7 @@ Music_CalamariInkantation_Ch1_chorus:
 	note C#, 2
 ;Bar4:c
 	note D#, 6
-	intensity $c6
+	;intensity $c6
 	sound_duty 0, 0, 0, 1
 	;stereopanning $f0
 	note C#, 2
@@ -158,7 +158,7 @@ Music_CalamariInkantation_Ch1_chorus:
 	octave 4
 	note C#, 2
 ;Bar5:c
-	intensity $c6
+	;intensity $c6
 	sound_duty 0, 0, 1, 1
 	;stereopanning $ff
 	note D#, 6
@@ -166,7 +166,7 @@ Music_CalamariInkantation_Ch1_chorus:
 	note D#, 6
 	note C#, 2
 ;Bar6:c
-	intensity $c6
+	;intensity $c6
 	sound_duty 0, 1, 1, 1
 	;stereopanning $f
 	note D#, 2
@@ -292,10 +292,6 @@ Music_CalamariInkantation_Ch2:
 	dutycycle $2
 	octave 3
 
-;Bar1:
-	;note __, 16
-;Bar2:
-	;note __, 16
 ;Bar3:
 	octave 2
 	note G#, 8
@@ -333,6 +329,12 @@ Music_CalamariInkantation_Ch2_master:
 	notetype 12, $52
 ;Bar11-17:
 	callchannel Music_CalamariInkantation_Ch2_Bar11
+	callchannel Music_CalamariInkantation_Ch2_Bar12
+	callchannel Music_CalamariInkantation_Ch2_Bar11
+	callchannel Music_CalamariInkantation_Ch2_Bar14
+	callchannel Music_CalamariInkantation_Ch2_Bar11
+	callchannel Music_CalamariInkantation_Ch2_Bar12
+	callchannel Music_CalamariInkantation_Ch2_Bar17
 ;Bar18:
 	octave 6
 	note F_, 1
@@ -357,6 +359,12 @@ Music_CalamariInkantation_Ch2_master:
 	note C#, 1
 ;Bar19-25:
 	callchannel Music_CalamariInkantation_Ch2_Bar11
+	callchannel Music_CalamariInkantation_Ch2_Bar12
+	callchannel Music_CalamariInkantation_Ch2_Bar11
+	callchannel Music_CalamariInkantation_Ch2_Bar14
+	callchannel Music_CalamariInkantation_Ch2_Bar11
+	callchannel Music_CalamariInkantation_Ch2_Bar12
+	callchannel Music_CalamariInkantation_Ch2_Bar17
 ;Bar26:c
 	note __, 8
 	callchannel Music_CalamariInkantation_Ch2_Bar26
@@ -438,6 +446,9 @@ Music_CalamariInkantation_Ch2_Bar11:
 	note F#, 1
 	note D#, 1
 	note C#, 1
+	endchannel
+
+Music_CalamariInkantation_Ch2_Bar12:
 ;Bar12:
 	octave 6
 	note F_, 1
@@ -458,25 +469,9 @@ Music_CalamariInkantation_Ch2_Bar11:
 	note F_, 1
 	note D#, 1
 	note C#, 1
-;Bar13:
-	note F_, 1
-	note D#, 1
-	note C#, 1
-	octave 5
-	note A#, 1
-	note G#, 1
-	note F#, 1
-	note D#, 1
-	note C#, 1
-	note F_, 1
-	note D#, 1
-	note C#, 1
-	octave 4
-	note A#, 1
-	note G#, 1
-	note F#, 1
-	note D#, 1
-	note C#, 1
+	endchannel
+
+Music_CalamariInkantation_Ch2_Bar14:
 ;Bar14:
 	octave 6
 	note __, 1
@@ -497,45 +492,9 @@ Music_CalamariInkantation_Ch2_Bar11:
 	octave 6
 	note F_, 1
 	note D#, 1
-;Bar15:
-	note F_, 1
-	note D#, 1
-	note C#, 1
-	octave 5
-	note A#, 1
-	note G#, 1
-	note F#, 1
-	note D#, 1
-	note C#, 1
-	note F_, 1
-	note D#, 1
-	note C#, 1
-	octave 4
-	note A#, 1
-	note G#, 1
-	note F#, 1
-	note D#, 1
-	note C#, 1
-;Bar16:
-	octave 6
-	note F_, 1
-	note D#, 1
-	note C#, 1
-	octave 5
-	note A#, 1
-	note G#, 1
-	note F#, 1
-	note D#, 1
-	note C#, 1
-	note D#, 1
-	note F_, 1
-	note D#, 1
-	note C#, 1
-	note D#, 1
-	octave 6
-	note F_, 1
-	note D#, 1
-	note C#, 1
+	endchannel
+
+Music_CalamariInkantation_Ch2_Bar17:
 ;Bar17:
 	note F_, 1
 	note D#, 1
@@ -635,19 +594,9 @@ Music_CalamariInkantation_Ch3_master:
 ;Bar16:
 	callchannel Music_CalamariInkantation_Ch3_Bar14
 ;Bar17:
-	callchannel Music_CalamariInkantation_Ch3_Bar11
+	callchannel Music_CalamariInkantation_Ch3_Bar11 ;PROBLEM!
 ;Bar18:c
-	octave 2
-	note G#, 3
-	octave 3
-	note G#, 3
-	octave 2
-	note G#, 2
-	note A#, 3
-	octave 3
-	note A#, 3
-	octave 2
-	note A#, 2
+	callchannel Music_CalamariInkantation_Ch3_Bar18
 ;Bar19:
 	callchannel Music_CalamariInkantation_Ch3_Bar11
 ;Bar20:
@@ -661,17 +610,7 @@ Music_CalamariInkantation_Ch3_master:
 ;Bar24:
 	callchannel Music_CalamariInkantation_Ch3_Bar14
 ;Bar25:c
-	octave 2
-	note G#, 3
-	octave 3
-	note G#, 3
-	octave 2
-	note G#, 2
-	note A#, 3
-	octave 3
-	note A#, 3
-	octave 2
-	note A#, 2
+	callchannel Music_CalamariInkantation_Ch3_Bar18
 ;Bar26:c
 	octave 3
 	note D#, 2
@@ -681,38 +620,19 @@ Music_CalamariInkantation_Ch3_master:
 	note D#, 2
 	note __, 6
 ;Bar27:c
-	;intensity $2D
 	octave 2
 	note G#, 2
 	note __, 2
 	note G#, 2
 	octave 4
 	note G#, 2
-	octave 2
-	note G#, 2
-	octave 4
-	note G#, 2
-	octave 2
-	note G#, 2
-	octave 4
-	note G#, 2
+	pitchoffset 2, G#
+	callchannel Music_CalamariInkantation_Ch3_loop_2O
 ;Bar28:c
-	octave 2
-	note B_, 2
-	octave 4
-	note B_, 2
-	octave 2
-	note B_, 2
-	octave 4
-	note B_, 2
-	octave 2
-	note B_, 2
-	octave 4
-	note B_, 2
-	octave 2
-	note B_, 2
-	octave 4
-	note B_, 2
+	pitchoffset 2, B_
+	callchannel Music_CalamariInkantation_Ch3_loop_2O
+	callchannel Music_CalamariInkantation_Ch3_loop_2O
+	pitchoffset 0, C_
 ;Bar29:c
 	octave 2
 	note D#, 2
@@ -731,212 +651,58 @@ Music_CalamariInkantation_Ch3_master:
 	octave 4
 	note D#, 2
 ;Bar30:c
-	octave 2
-	note F#, 2
-	octave 4
-	note F#, 2
-	octave 2
-	note F#, 2
-	octave 4
-	note F#, 2
-	octave 2
-	note F#, 2
-	octave 4
-	note F#, 2
-	octave 2
-	note F#, 2
-	octave 3
-	note F#, 2
+	pitchoffset 2, F#
+	callchannel Music_CalamariInkantation_Ch3_loop_2O
+	callchannel Music_CalamariInkantation_Ch3_loop_2O
 ;Bar31:c
-	octave 2
-	note G#, 2
-	octave 4
-	note G#, 2
-	octave 2
-	note G#, 2
-	octave 4
-	note G#, 2
-	octave 2
-	note G#, 2
-	octave 4
-	note G#, 2
-	octave 2
-	note G#, 2
-	octave 4
-	note G#, 2
+	pitchoffset 2, G#
+	callchannel Music_CalamariInkantation_Ch3_loop_2O
+	callchannel Music_CalamariInkantation_Ch3_loop_2O
 ;Bar32:c
-	octave 2
-	note B_, 2
-	octave 4
-	note B_, 2
-	octave 2
-	note B_, 2
-	octave 4
-	note B_, 2
-	octave 2
-	note B_, 2
-	octave 4
-	note B_, 2
-	octave 2
-	note B_, 2
-	octave 4
-	note B_, 2
+	pitchoffset 2, B_
+	callchannel Music_CalamariInkantation_Ch3_loop_2O
+	callchannel Music_CalamariInkantation_Ch3_loop_2O
 ;Bar33:
-	octave 3
-	note C#, 2
-	octave 5
-	note C#, 2
-	octave 3
-	note C#, 2
-	octave 5
-	note C#, 2
-	octave 3
-	note C#, 2
-	octave 5
-	note C#, 2
-	octave 3
-	note C#, 2
-	octave 5
-	note C#, 2
+	pitchoffset 1, C#
+	callchannel Music_CalamariInkantation_Ch3_loop_2O
+	callchannel Music_CalamariInkantation_Ch3_loop_2O
 ;Bar34:c
-	octave 2
-	note D#, 2
-	octave 3
-	note D#, 2
-	octave 2
-	note D#, 2
-	octave 3
-	note D#, 2
-	octave 2
-	note D#, 2
-	octave 3
-	note D#, 2
-	octave 2
-	note D#, 2
-	octave 3
-	note D#, 2
+	pitchoffset 2, D#
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
 ;Bar35:c
-	octave 3
-	note F_, 2
-	octave 4
-	note F_, 2
-	octave 3
-	note F_, 2
-	octave 4
-	note F_, 2
-	octave 3
-	note F_, 2
-	octave 4
-	note F_, 2
-	octave 3
-	note F_, 2
-	octave 4
-	note F_, 2
-	octave 3
+	pitchoffset 2, F_
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
 ;Bar36:c
-	note E_, 2
-	octave 4
-	note E_, 2
-	octave 3
-	note E_, 2
-	octave 4
-	note E_, 2
-	octave 3
-	note E_, 2
-	octave 4
-	note E_, 2
-	octave 3
-	note E_, 2
-	octave 4
-	note E_, 2
-	octave 3
+	pitchoffset 2, E_
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
 ;Bar37:c
-	note D#, 2
-	octave 4
-	note D#, 2
-	octave 3
-	note D#, 2
-	octave 4
-	note D#, 2
-	octave 3
-	note D#, 2
-	octave 4
-	note D#, 2
-	octave 3
-	note D#, 2
-	octave 4
-	note D#, 2
+	pitchoffset 2, D#
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
 ;Bar38:c
-	octave 4
-	note C_, 2
-	octave 5
-	note C_, 2
-	octave 4
-	note C_, 2
-	octave 5
-	note C_, 2
-	octave 4
-	note C_, 2
-	octave 5
-	note C_, 2
-	octave 4
-	note C_, 2
-	octave 5
-	note C_, 2
-	octave 4
+	pitchoffset 1, C_
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
 ;Bar39:c
-	octave 3
-	note B_, 2
-	octave 4
-	note B_, 2
-	octave 3
-	note B_, 2
-	octave 4
-	note B_, 2
-	note C#, 2
-	octave 5
-	note C#, 2
-	octave 4
-	note C#, 2
-	octave 5
-	note C#, 2
-	octave 4
+	pitchoffset 2, B_
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
+	pitchoffset 1, C#
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
 ;Bar40:c
-	octave 3
-	note A#, 2
-	octave 4
-	note A#, 2
-	octave 3
-	note A#, 2
-	octave 4
-	note A#, 2
-	octave 3
-	note D#, 2
-	octave 4
-	note D#, 2
-	octave 3
-	note D#, 2
-	octave 4
-	note D#, 2
-	octave 3
+	pitchoffset 2, A#
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
+	pitchoffset 2, D#
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
 ;Bar41:c
-	note G#, 2
-	octave 4
-	note G#, 2
-	octave 3
-	note G#, 2
-	octave 4
-	note G#, 2
-	octave 3
-	note G#, 2
-	octave 4
-	note G#, 2
-	octave 3
-	note G#, 2
-	octave 4
-	note G#, 2
-	octave 3
+	pitchoffset 2, G#
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
+	callchannel Music_CalamariInkantation_Ch3_loop_1O
+	pitchoffset 0, C_
 ;Bar42:c
+	octave 3
 	note A#, 2
 	note __, 2
 	note A#, 2
@@ -980,6 +746,36 @@ Music_CalamariInkantation_Ch3_Bar14:
 	note A#, 2
 	endchannel
 
+Music_CalamariInkantation_Ch3_Bar18:
+	octave 2
+	note G#, 3
+	octave 3
+	note G#, 3
+	octave 2
+	note G#, 2
+	note A#, 3
+	octave 3
+	note A#, 3
+	octave 2
+	note A#, 2
+	endchannel
+
+Music_CalamariInkantation_Ch3_loop_1O:
+	octave 5
+	note C_, 2
+	octave 6
+	note C_, 2
+	loopchannel 2, Music_CalamariInkantation_Ch3_loop_1O
+	endchannel
+
+Music_CalamariInkantation_Ch3_loop_2O:
+	octave 4
+	note C_, 2
+	octave 6
+	note C_, 2
+	loopchannel 2, Music_CalamariInkantation_Ch3_loop_2O
+	endchannel
+
 ; ============================================================================================================
 Music_CalamariInkantation_Ch4:
 	notetype 12
@@ -1014,23 +810,11 @@ Music_CalamariInkantation_Ch4:
 	note __, 15
 	note B_, 1
 ;Bar7:
-	note B_, 4
-	note G_, 2
-	note G_, 2
-	note B_, 4
-	note G_, 4
+	callchannel Music_CalamariInkantation_Ch4_Bar7
 ;Bar8:
-	note B_, 4
-	note G_, 2
-	note G_, 2
-	note B_, 4
-	note G_, 4
+	callchannel Music_CalamariInkantation_Ch4_Bar7
 ;Bar9:
-	note B_, 4
-	note G_, 2
-	note G_, 2
-	note B_, 4
-	note G_, 4
+	callchannel Music_CalamariInkantation_Ch4_Bar7
 ;Bar10:
 	note B_, 2
 	note G_, 2
@@ -1043,122 +827,34 @@ Music_CalamariInkantation_Ch4:
 Music_CalamariInkantation_Ch4_master:
 ;Bar11:
 	note G#, 4
-	note F_, 2
-	note F_, 2
-	note B_, 4
-	note F_, 4
-;Bar12:
-	note B_, 4
-	note F_, 4
-	note B_, 4
-	note F_, 2
-	note F_, 2
-;Bar13:
-	note B_, 4
-	note F_, 2
-	note F_, 2
-	note B_, 4
-	note F_, 4
-;Bar14:
-	note B_, 2
-	note B_, 2
-	note F_, 2
-	note F_, 2
-	note B_, 4
-	note F_, 4
-;Bar15:
-	note B_, 4
-	note F_, 2
-	note F_, 2
-	note B_, 4
-	note F_, 4
-;Bar16:
-	note B_, 4
-	note F_, 4
-	note B_, 4
-	note F_, 2
-	note F_, 2
-;Bar17:
-	note B_, 4
-	note F_, 2
-	note F_, 2
-	note B_, 4
-	note F_, 4
-;Bar18:
-	note B_, 2
-	note B_, 2
-	note F_, 2
-	note F_, 2
-	note B_, 4
-	note F_, 4
-;Bar19:
-	note B_, 4
-	note F_, 2
-	note F_, 2
-	note B_, 4
-	note F_, 4
-;Bar20:
-	note B_, 4
-	note F_, 4
-	note B_, 4
-	note F_, 2
-	note F_, 2
-;Bar21:
-	note B_, 4
-	note F_, 2
-	note F_, 2
-	note B_, 4
-	note F_, 4
-;Bar22:
-	note B_, 2
-	note B_, 2
-	note F_, 2
-	note F_, 2
-	note B_, 4
-	note F_, 4
-;Bar23:
-	note B_, 4
-	note F_, 2
-	note F_, 2
-	note B_, 4
-	note F_, 4
-;Bar24:
-	note B_, 4
-	note F_, 4
-	note B_, 4
-	note F_, 2
-	note F_, 2
-;Bar25:
-	note B_, 4
-	note F_, 2
-	note F_, 2
-	note B_, 4
-	note F_, 4
+	callchannel Music_CalamariInkantation_Ch4_PartA
+	callchannel Music_CalamariInkantation_Ch4_PartB
+	callchannel Music_CalamariInkantation_Ch4_PartC
+	callchannel Music_CalamariInkantation_Ch4_PartA
+	callchannel Music_CalamariInkantation_Ch4_PartB
+	callchannel Music_CalamariInkantation_Ch4_PartC
+	callchannel Music_CalamariInkantation_Ch4_PartA
+	callchannel Music_CalamariInkantation_Ch4_PartB
+	callchannel Music_CalamariInkantation_Ch4_PartC
+	callchannel Music_CalamariInkantation_Ch4_PartA
+	callchannel Music_CalamariInkantation_Ch4_PartB
 ;Bar26:
-	note F_, 2
 	note G_, 1
 	note G_, 1
-	note F_, 2
-	note G_, 1
-	note G_, 1
-	note F_, 2
-	note G_, 1
-	note G_, 1
+
+	callchannel Music_CalamariInkantation_Ch4_FGG
+	callchannel Music_CalamariInkantation_Ch4_FGG
+
 	note B_, 2
 	note G_, 1
 	note G_, 1
-;Bar27: HERE
+;Bar27:
 	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar28:
-	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar29:
-	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar30:
-	note B_, 2
-	note D#, 2
-	note B_, 2
-	note D#, 2
-	note B_, 2
+	callchannel Music_CalamariInkantation_Ch4_BDBDB
+
 	note D#, 2
 	note B_, 1
 	note B_, 1
@@ -1167,31 +863,22 @@ Music_CalamariInkantation_Ch4_master:
 ;Bar31:
 	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar32:
-	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar33:
-	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar34:
-	note B_, 2
-	note D#, 2
-	note B_, 2
-	note D#, 2
-	note B_, 2
+	callchannel Music_CalamariInkantation_Ch4_BDBDB
+
 	note D#, 1
 	note B_, 1
+
 	note B_, 2
 	note D#, 2
 ;Bar35:
 	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar36:
-	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar37:
-	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar38:
-	note B_, 2
-	note D#, 2
-	note B_, 2
-	note D#, 2
-	note B_, 2
+	callchannel Music_CalamariInkantation_Ch4_BDBDB
+
 	note D#, 1
 	note B_, 1
 	note B_, 2
@@ -1200,32 +887,72 @@ Music_CalamariInkantation_Ch4_master:
 ;Bar39:
 	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar40:
-	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar41:
-	callchannel Music_CalamariInkantation_Ch4_Bar27
 ;Bar42:
-	note F_, 2
-	note G_, 1
-	note G_, 1
-	note F_, 2
-	note G_, 1
-	note G_, 1
-	note F_, 2
-	note G_, 1
-	note G_, 1
+	callchannel Music_CalamariInkantation_Ch4_FGG
+	callchannel Music_CalamariInkantation_Ch4_FGG
+	callchannel Music_CalamariInkantation_Ch4_FGG
+
 	note B_, 2
 	note G_, 1
 	note G_, 1
 	loopchannel 0, Music_CalamariInkantation_Ch4_master
 	endchannel
 
+Music_CalamariInkantation_Ch4_PartA:
+	note F_, 2
+	note F_, 2
+	note B_, 4
+	note F_, 4
+	note B_, 4
+	note F_, 4
+	note B_, 4
+	note F_, 2
+	note F_, 2
+	note B_, 4
+	endchannel
+
+Music_CalamariInkantation_Ch4_PartB:
+	note F_, 2
+	note F_, 2
+	note B_, 4
+	note F_, 4
+	note B_, 2
+	endchannel
+
+Music_CalamariInkantation_Ch4_PartC:
+	note B_, 2
+	note F_, 2
+	note F_, 2
+	note B_, 4
+	note F_, 4
+	note B_, 4
+	endchannel
+
+Music_CalamariInkantation_Ch4_Bar7:
+	note B_, 4
+	note G_, 2
+	note G_, 2
+	note B_, 4
+	note G_, 4
+	endchannel
+
 Music_CalamariInkantation_Ch4_Bar27:
 	note B_, 2
 	note D#, 2
+	loopchannel 12, Music_CalamariInkantation_Ch4_Bar27
+	endchannel
+
+Music_CalamariInkantation_Ch4_FGG:
+	note F_, 2
+	note G_, 1
+	note G_, 1
+	endchannel
+
+Music_CalamariInkantation_Ch4_BDBDB:
 	note B_, 2
 	note D#, 2
 	note B_, 2
 	note D#, 2
 	note B_, 2
-	note D#, 2
 	endchannel

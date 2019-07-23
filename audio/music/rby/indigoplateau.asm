@@ -43,25 +43,15 @@ Music_RBYIndigoPlateau_branch_a605:
 	note D_, 4
 	intensity $b4
 	octave 3
-	note A_, 4
-	note A_, 4
-	note A_, 4
-	note A_, 4
-	note A_, 4
-	note A_, 4
-	note A_, 4
+	callchannel Music_RBYIndigoPlateau_Ch1_A_
 	intensity $a4
 	octave 3
 	note D#, 4
 	intensity $b4
 	octave 3
-	note A#, 4
-	note A#, 4
-	note A#, 4
-	note A#, 4
-	note A#, 4
-	note A#, 4
-	note A#, 4
+	pitchoffset 0, C#
+	callchannel Music_RBYIndigoPlateau_Ch1_A_
+	pitchoffset 0, C_
 	intensity $a4
 	octave 3
 	note F_, 2
@@ -87,6 +77,12 @@ Music_RBYIndigoPlateau_branch_a659:
 	loopchannel 7, Music_RBYIndigoPlateau_branch_a659
 	endchannel
 
+Music_RBYIndigoPlateau_Ch1_A_:
+	note A_, 4
+	loopchannel 7, Music_RBYIndigoPlateau_Ch1_A_
+	endchannel
+
+;========================
 
 Music_RBYIndigoPlateau_Ch2: ; a664 (2:6664)
 	dutycycle 3
@@ -120,7 +116,6 @@ Music_RBYIndigoPlateau_branch_a673:
 	callchannel Music_RBYIndigoPlateau_branch_a6af
 	intensity 197
 	note A#, 4
-	;stereopanning $f
 	callchannel Music_RBYIndigoPlateau_branch_a6af
 	intensity 197
 	octave 4
@@ -136,7 +131,6 @@ Music_RBYIndigoPlateau_branch_a673:
 	intensity 77
 	octave 4
 	note D#, 8
-	;stereopanning $f0
 	loopchannel 0, Music_RBYIndigoPlateau_branch_a673
 
 Music_RBYIndigoPlateau_branch_a6af:
@@ -146,6 +140,7 @@ Music_RBYIndigoPlateau_branch_a6af:
 	loopchannel 7, Music_RBYIndigoPlateau_branch_a6af
 	endchannel
 
+;========================
 
 Music_RBYIndigoPlateau_Ch3: ; a6ba (2:66ba)
 	notetype 12, $13
@@ -193,6 +188,7 @@ Music_RBYIndigoPlateau_branch_a6fe:
 	loopchannel 7, Music_RBYIndigoPlateau_branch_a6fe
 	endchannel
 
+;========================
 
 Music_RBYIndigoPlateau_Ch4: ; a70f (2:670f)
 	notetype 6
@@ -213,16 +209,12 @@ Music_RBYIndigoPlateau_Ch4: ; a70f (2:670f)
 Music_RBYIndigoPlateau_branch_a728:
 	callchannel Music_RBYIndigoPlateau_branch_a791
 	callchannel Music_RBYIndigoPlateau_branch_a77e
+
 	callchannel Music_RBYIndigoPlateau_branch_a791
 	callchannel Music_RBYIndigoPlateau_branch_a7a8
-	callchannel Music_RBYIndigoPlateau_branch_a791
-	callchannel Music_RBYIndigoPlateau_branch_a77e
-	callchannel Music_RBYIndigoPlateau_branch_a791
-	callchannel Music_RBYIndigoPlateau_branch_a7a8
-	callchannel Music_RBYIndigoPlateau_branch_a791
-	callchannel Music_RBYIndigoPlateau_branch_a77e
-	callchannel Music_RBYIndigoPlateau_branch_a791
-	callchannel Music_RBYIndigoPlateau_branch_a7a8
+
+	loopchannel 3, Music_RBYIndigoPlateau_branch_a728
+
 	callchannel Music_RBYIndigoPlateau_branch_a77e
 	callchannel Music_RBYIndigoPlateau_branch_a7a8
 	note A_, 16

@@ -8,6 +8,7 @@ Music_RBYGym_Ch1: ; bcbb (2:7cbb)
 	volume 119
 	dutycycle 3
 	vibrato 8, 34
+	stereopanning $f
 
 	notetype 12, 181
 	octave 3
@@ -174,6 +175,7 @@ Music_RBYGym_Ch2: ; bd6b (2:7d6b)
 	dutycycle 3
 	vibrato 10, 37
 	notetype 12, 199
+	stereopanning $f0
 	octave 4
 	note C_, 6
 	octave 3
@@ -295,6 +297,7 @@ Music_RBYGym_branch_bd82:
 
 Music_RBYGym_Ch3: ; bdfa (2:7dfa)
 	notetype 12, 17
+	stereopanning $ff
 	note __, 16
 	note __, 10
 	octave 4

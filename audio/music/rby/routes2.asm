@@ -4,11 +4,13 @@ Music_Routes2:
 	musicheader 1, 3, Music_Routes2_Ch3
 	musicheader 1, 4, Music_Routes2_Ch4
 
+; Route 24
 Music_Routes2_Ch1: ; 9db9 (2:5db9)
 	tempo 152
 	volume 119
 	vibrato 9, 37
 	dutycycle 1
+	stereopanning $f0
 
 Music_Routes2_branch_9dc3:
 	notetype 12, 178
@@ -151,6 +153,7 @@ Music_Routes2_branch_9dc3:
 Music_Routes2_Ch2: ; 9e4f (2:5e4f)
 	vibrato 8, 38
 	dutycycle 3
+	stereopanning $ff
 
 Music_Routes2_branch_9e54:
 	notetype 12, 212
@@ -224,6 +227,7 @@ Music_Routes2_branch_9e54:
 
 Music_Routes2_Ch3: ; 9e9b (2:5e9b)
 	vibrato 9, 40
+	stereopanning $f
 
 Music_Routes2_branch_9e9e:
 	notetype 12, 17
@@ -332,6 +336,7 @@ Music_Routes2_branch_9e9e:
 
 Music_Routes2_Ch4: ; 9f08 (2:5f08)
 	togglenoise 0
+	stereopanning $ff
 Music_Routes2_Loop4:
 	notetype 12
 	note D_, 2

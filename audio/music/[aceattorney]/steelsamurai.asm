@@ -12,8 +12,8 @@ Music_SteelSamurai_Ch1:
 	volume $77
 	dutycycle $1
 	stereopanning $ff
-	notetype $c, $87
 	vibrato $12, $14
+	notetype $c, $c7
 
 ;Ch1_Bar1:
 	note __, 16
@@ -328,20 +328,10 @@ Music_SteelSamurai_Ch2_master:
 	intensity $85
 	note C_, 4
 	note __, 12
+Music_SteelSamurai_Ch2_rests:
 ;Ch2_Bar6:
 	note __, 16
-;Ch2_Bar7:
-	note __, 16
-;Ch2_Bar8:
-	note __, 16
-;Ch2_Bar9:
-	note __, 16
-;Ch2_Bar10:
-	note __, 16
-;Ch2_Bar11:
-	note __, 16
-;Ch2_Bar12:
-	note __, 16
+	loopchannel 7, Music_SteelSamurai_Ch2_rests
 ;Ch2_Bar13:
 	callchannel Music_SteelSamurai_Ch2_C_
 ;Ch2_Bar14:

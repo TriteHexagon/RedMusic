@@ -4,7 +4,7 @@ Music_Dungeon2:
 	musicheader 1, 3, Music_Dungeon2_Ch3
 	musicheader 1, 4, Music_Dungeon2_Ch4
 
-;Viridian Forest Super Compressed Version
+;Viridian Forest Remastered "Super Compressed" Version
 Music_Dungeon2_Ch1: ; 7e887 (1f:6887)
 	tempo 144
 	volume $77
@@ -13,7 +13,7 @@ Music_Dungeon2_Ch1: ; 7e887 (1f:6887)
 	vibrato 10, 20
 	stereopanning $f0
 Music_Dungeon2_branch_7e892:
-	notetype 12, 178
+	notetype 12, $b2
 	octave 4
 	pitchoffset 0, E_
 	callchannel Music_Dungeon2_C
@@ -48,7 +48,7 @@ Music_Dungeon2_branch_7e892:
 	note A_, 4
 	note F#, 2
 	loopchannel 2, Music_Dungeon2_branch_7e892
-	intensity 31
+	intensity $1f
 	octave 3
 	note E_, 16
 	note C_, 16
@@ -293,7 +293,7 @@ Music_Dungeon2_Silence:
 
 Music_Dungeon2_Ch4: ; 7e9dc (1f:69dc)
 	notetype 12
-	togglenoise 1
+	togglenoise $1
 	stereopanning $ff
 Music_Dungeon2_branch_7e9dd:
 	note E_, 4

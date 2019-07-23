@@ -131,6 +131,7 @@ INCLUDE "audio/music/gsc/azaleatown.asm"
 INCLUDE "audio/music/gsc/route36.asm"
 INCLUDE "audio/music/[night]/route34night.asm"
 INCLUDE "audio/music/gsc/goldenrodcity.asm"
+INCLUDE "audio/music/[night]/goldenrodnight.asm"
 INCLUDE "audio/music/gsc/pokecomcenter.asm"
 INCLUDE "audio/music/gsc/lookbeauty.asm"
 INCLUDE "audio/music/gsc/johtogymbattle.asm"
@@ -290,6 +291,7 @@ SECTION "Hacks 2", ROMX
 INCLUDE "audio/music/[hacks]/skygarden.asm"
 INCLUDE "audio/music/[hacks]/skyarrowbridge.asm"
 INCLUDE "audio/music/[hacks]/pkmncenternight.asm"
+INCLUDE "audio/music/[night]/azaleanight.asm"
 
 
 

@@ -892,7 +892,7 @@ Music_Route10_Ch4:
     stereopanning $f0
 	note C_, 2
 
-MusiD_Route10_Ch4_master:
+Music_Route10_Ch4_master:
 ;Ch4_Bar5:
     stereopanning $ff
 	callchannel Music_Route10_Ch4_cymbal
@@ -1009,7 +1009,7 @@ MusiD_Route10_Ch4_master:
 	note D_, 2
     stereopanning $f0
     note C_, 2
-	loopchannel 0, MusiD_Route10_Ch4_master
+	loopchannel 0, Music_Route10_Ch4_master
 	endchannel
 
 Music_Route10_Ch4_default:
