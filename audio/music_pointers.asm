@@ -159,6 +159,8 @@ Music:
 	dba Music_BreakTheTargets
 	dba Music_RedCanyon
 	dba Music_SkyGarden
+	dba Music_MillenialFair
 	
 	;Current
+	dba Music_Template
 	

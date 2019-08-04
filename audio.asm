@@ -292,6 +292,8 @@ INCLUDE "audio/music/[hacks]/skygarden.asm"
 INCLUDE "audio/music/[hacks]/skyarrowbridge.asm"
 INCLUDE "audio/music/[hacks]/pkmncenternight.asm"
 INCLUDE "audio/music/[night]/azaleanight.asm"
+INCLUDE "audio/music/[hacks]/millenialfair.asm"
+INCLUDE "audio/music/[hacks]/template.asm"
 
 
 

@@ -159,6 +159,8 @@ SongInfo:
 	db "Break the Targets!@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Red Canyon@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Sky Garden@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Guardia's", "            Millenial Fair@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	
 	;Current
+	db "Template@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db -1
