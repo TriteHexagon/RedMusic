@@ -1,14 +1,14 @@
 ; 
 ; Demixed by TriteHexagon
 Music_SkyGarden:
-	musicheader 4, 1, Music_SkyGarden_Ch1
+	musicheader 4, 1, Music_SkyGarden_ChEXTRA
 	musicheader 1, 2, Music_SkyGarden_Ch2
 	musicheader 1, 3, Music_SkyGarden_Ch3
 	musicheader 1, 4, Music_SkyGarden_Ch4
 
 ; ============================================================================================================
 Music_SkyGarden_Ch1:
-    stereopanning $ff
+    ;stereopanning $ff
     ;vibrato $12, $13
     notetype 12, $87
     dutycycle $2
@@ -316,7 +316,7 @@ Music_SkyGarden_Ch1_C#_SP:
 ; ============================================================================================================
 Music_SkyGarden_Ch2:
     dutycycle $2
-    stereopanning $ff
+    ;stereopanning $ff
     notetype $c, $97
     vibrato $12, $13
     volume $77
@@ -521,7 +521,7 @@ Music_SkyGarden_Ch2_master:
 
 ; ============================================================================================================
 Music_SkyGarden_Ch3:
-	stereopanning $ff
+	;stereopanning $ff
 	vibrato $16, $13
 	tone $0001
     notetype 12, $2D
@@ -750,7 +750,7 @@ Music_SkyGarden_Ch3_Bar18:
 ; ============================================================================================================
 Music_SkyGarden_Ch4:
 	notetype 12
-	stereopanning $ff
+	;stereopanning $ff
 	togglenoise $3
 
 ;Ch4_Bar1:
@@ -907,11 +907,11 @@ Music_SkyGarden_Ch4_Base_Alt:
 	endchannel
 
 Music_SkyGarden_Ch4_Bar3:
-	stereopanning $f0
+	;stereopanning $f0
 	note G_, 1
-	stereopanning $f
+	;stereopanning $f
 	note G_, 1
-	stereopanning $ff
+	;stereopanning $ff
 	note G_, 1
 	note __, 1
 	note C_, 2
@@ -925,15 +925,15 @@ Music_SkyGarden_Ch4_Bar3:
 	endchannel
 
 Music_SkyGarden_Ch4_Bar5_H:
-	stereopanning $f0
+	;stereopanning $f0
 	note G_, 1
-	stereopanning $f
+	;stereopanning $f
 	note G_, 1
-	stereopanning $f0
+	;stereopanning $f0
 	note G_, 1
-	stereopanning $f
+	;stereopanning $f
 	note G_, 1
-	stereopanning $ff
+	;stereopanning $ff
 	note C_, 2
 	note G_, 1
 	note __, 1
@@ -954,11 +954,11 @@ Music_SkyGarden_Ch4_Bar18_2H:
 	note C_, 2
 	note G_, 1
 	note G_, 1
-	stereopanning $f0
+	;stereopanning $f0
 	note G_, 1
-	stereopanning $f
+	;stereopanning $f
 	note G_, 1
-	stereopanning $ff
+	;stereopanning $ff
 	note G_, 1
 	note __, 1
 	note C_, 2
@@ -971,15 +971,15 @@ Music_SkyGarden_Ch4_Bar19_H:
 	note G_, 1
 	note __, 1
 	note C_, 2
-	stereopanning $f0
+	;stereopanning $f0
 	note G_, 1
-	stereopanning $f
+	;stereopanning $f
 	note G_, 1
-	stereopanning $f0
+	;stereopanning $f0
 	note G_, 1
-	stereopanning $f
+	;stereopanning $f
 	note G_, 1
-	stereopanning $ff
+	;stereopanning $ff
 	note G_, 1
 	note __, 1
 	endchannel
@@ -994,11 +994,12 @@ Music_SkyGarden_ChEXTRA:
     volume $77
     tempo 130
     
-    note __, 16
+    
+    ;note __, 16
 Music_SkyGarden_ChEXTRA_master:
     note __, 16
     note __, 16
-    stereopanning $ff
+    ;stereopanning $ff
 Music_SkyGarden_ChEXTRA_Part1:
 ;Ch1 Bar2:
 	octave 3
@@ -1229,14 +1230,14 @@ Music_SkyGarden_ChEXTRA_Part1:
 	callchannel Music_SkyGarden_ChEXTRA_B_
 ;Ch1_Bar18:
 	octave 3
-    ;stereopanning $f0
+    ;;stereopanning $f0
 	callchannel Music_SkyGarden_ChEXTRA_E_l
 	octave 2
 	callchannel Music_SkyGarden_ChEXTRA_B_l
 	octave 3
 	callchannel Music_SkyGarden_ChEXTRA_G#l
 	callchannel Music_SkyGarden_ChEXTRA_E_l
-    ;stereopanning $f
+    ;;stereopanning $f
 	callchannel Music_SkyGarden_ChEXTRA_B_r
 	callchannel Music_SkyGarden_ChEXTRA_G#r
 	octave 4
@@ -1244,7 +1245,7 @@ Music_SkyGarden_ChEXTRA_Part1:
 	octave 3
 	callchannel Music_SkyGarden_ChEXTRA_B_r
 ;Ch1_Bar19:
-    ;stereopanning $f0
+    ;;stereopanning $f0
 	octave 4
 	callchannel Music_SkyGarden_ChEXTRA_F#l
 	octave 3
@@ -1252,7 +1253,7 @@ Music_SkyGarden_ChEXTRA_Part1:
 	octave 4
 	callchannel Music_SkyGarden_ChEXTRA_B_l
 	callchannel Music_SkyGarden_ChEXTRA_D#l
-    ;stereopanning $f
+    ;;stereopanning $f
 	callchannel Music_SkyGarden_ChEXTRA_G#r
 	octave 3
 	callchannel Music_SkyGarden_ChEXTRA_B_r
@@ -1260,13 +1261,13 @@ Music_SkyGarden_ChEXTRA_Part1:
 	callchannel Music_SkyGarden_ChEXTRA_F#r
 	callchannel Music_SkyGarden_ChEXTRA_D#r
 ;Ch1_Bar20:
-    ;stereopanning $f0
+    ;;stereopanning $f0
 	octave 3
 	callchannel Music_SkyGarden_ChEXTRA_G#l
 	callchannel Music_SkyGarden_ChEXTRA_E_l
 	callchannel Music_SkyGarden_ChEXTRA_B_l
 	callchannel Music_SkyGarden_ChEXTRA_G#l
-    ;stereopanning $f
+    ;;stereopanning $f
 	octave 4
 	callchannel Music_SkyGarden_ChEXTRA_C#r
 	octave 3
@@ -1275,14 +1276,14 @@ Music_SkyGarden_ChEXTRA_Part1:
 	callchannel Music_SkyGarden_ChEXTRA_E_r
 	callchannel Music_SkyGarden_ChEXTRA_C#r
 ;Ch1_Bar21:
-    ;stereopanning $f0
+    ;;stereopanning $f0
 	callchannel Music_SkyGarden_ChEXTRA_A_l
 	callchannel Music_SkyGarden_ChEXTRA_C#l
 	octave 5
 	callchannel Music_SkyGarden_ChEXTRA_C#l
 	octave 4
 	callchannel Music_SkyGarden_ChEXTRA_E_l
-    ;stereopanning $f
+    ;;stereopanning $f
 	callchannel Music_SkyGarden_ChEXTRA_B_r
 	callchannel Music_SkyGarden_ChEXTRA_F#r
 	octave 5
@@ -1290,7 +1291,7 @@ Music_SkyGarden_ChEXTRA_Part1:
 	octave 4
 	callchannel Music_SkyGarden_ChEXTRA_D#r
 ;Ch1_Bar22:
-    ;stereopanning $f0
+    ;;stereopanning $f0
 	octave 3
 	callchannel Music_SkyGarden_ChEXTRA_E_l
 	octave 2
@@ -1298,7 +1299,7 @@ Music_SkyGarden_ChEXTRA_Part1:
 	octave 3
 	callchannel Music_SkyGarden_ChEXTRA_G#l
 	callchannel Music_SkyGarden_ChEXTRA_E_l
-    ;stereopanning $f
+    ;;stereopanning $f
 	callchannel Music_SkyGarden_ChEXTRA_B_r
 	callchannel Music_SkyGarden_ChEXTRA_G#r
 	octave 4
@@ -1306,7 +1307,7 @@ Music_SkyGarden_ChEXTRA_Part1:
 	octave 3
 	callchannel Music_SkyGarden_ChEXTRA_B_r
 ;Ch1_Bar23:
-    ;stereopanning $f0
+    ;;stereopanning $f0
 	octave 4
 	callchannel Music_SkyGarden_ChEXTRA_F#l
 	octave 3
@@ -1314,7 +1315,7 @@ Music_SkyGarden_ChEXTRA_Part1:
 	octave 4
 	callchannel Music_SkyGarden_ChEXTRA_B_l
 	callchannel Music_SkyGarden_ChEXTRA_D#l
-    ;stereopanning $f
+    ;;stereopanning $f
 	callchannel Music_SkyGarden_ChEXTRA_G#r
 	octave 3
 	callchannel Music_SkyGarden_ChEXTRA_B_r
@@ -1322,13 +1323,13 @@ Music_SkyGarden_ChEXTRA_Part1:
 	callchannel Music_SkyGarden_ChEXTRA_F#r
 	callchannel Music_SkyGarden_ChEXTRA_D#r
 ;Ch1_Bar24:
-    ;stereopanning $f0
+    ;;stereopanning $f0
 	octave 3
 	callchannel Music_SkyGarden_ChEXTRA_G#l
 	callchannel Music_SkyGarden_ChEXTRA_E_l
 	callchannel Music_SkyGarden_ChEXTRA_B_l
 	callchannel Music_SkyGarden_ChEXTRA_G#l
-    ;stereopanning $f
+    ;;stereopanning $f
 	octave 4
 	callchannel Music_SkyGarden_ChEXTRA_C#rv
 	octave 3
@@ -1347,30 +1348,30 @@ Music_SkyGarden_ChEXTRA_C#
     endchannel
 
 Music_SkyGarden_ChEXTRA_C#l
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note C#, 1
-    stereopanning $f0
+    ;stereopanning $f0
     intensity $18
 	note C#, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_C#l
     endchannel
 
 Music_SkyGarden_ChEXTRA_C#r
-    stereopanning $f
+    ;stereopanning $f
     intensity $48
     note C#, 1
-    stereopanning $f0
+    ;stereopanning $f0
     intensity $18
 	note C#, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_C#r
     endchannel
 
 Music_SkyGarden_ChEXTRA_C#rv
-    stereopanning $f
+    ;stereopanning $f
     intensity $38
     note C#, 1
-    stereopanning $f0
+    ;stereopanning $f0
     intensity $18
 	note C#, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_C#r
@@ -1385,20 +1386,20 @@ Music_SkyGarden_ChEXTRA_D#
     endchannel
 
 Music_SkyGarden_ChEXTRA_D#l
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note D#, 1
-    stereopanning $f0
+    ;stereopanning $f0
     intensity $18
 	note D#, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_D#l
     endchannel
 
 Music_SkyGarden_ChEXTRA_D#r
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note D#, 1
-    stereopanning $f
+    ;stereopanning $f
     intensity $18
 	note D#, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_D#r
@@ -1413,30 +1414,30 @@ Music_SkyGarden_ChEXTRA_E_
     endchannel
 
 Music_SkyGarden_ChEXTRA_E_l
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note E_, 1
-    stereopanning $f0
+    ;stereopanning $f0
     intensity $18
 	note E_, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_E_l
     endchannel
 
 Music_SkyGarden_ChEXTRA_E_r
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note E_, 1
-    stereopanning $f
+    ;stereopanning $f
     intensity $18
 	note E_, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_E_r
     endchannel
 
 Music_SkyGarden_ChEXTRA_E_rv
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $18
     note E_, 1
-    stereopanning $f
+    ;stereopanning $f
     intensity $18
 	note E_, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_E_r
@@ -1459,20 +1460,20 @@ Music_SkyGarden_ChEXTRA_F#
     endchannel
 
 Music_SkyGarden_ChEXTRA_F#l
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note F#, 1
-    stereopanning $f0
+    ;stereopanning $f0
     intensity $18
 	note F#, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_F#l
     endchannel
 
 Music_SkyGarden_ChEXTRA_F#r
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note F#, 1
-    stereopanning $f
+    ;stereopanning $f
     intensity $18
 	note F#, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_F#r
@@ -1487,30 +1488,30 @@ Music_SkyGarden_ChEXTRA_G#
     endchannel
 
 Music_SkyGarden_ChEXTRA_G#l
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note G#, 1
-    stereopanning $f0
+    ;stereopanning $f0
     intensity $18
 	note G#, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_G#l
     endchannel
 
 Music_SkyGarden_ChEXTRA_G#r
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note G#, 1
-    stereopanning $f
+    ;stereopanning $f
     intensity $18
 	note G#, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_G#r
     endchannel
 
 Music_SkyGarden_ChEXTRA_G#rv
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $38
     note G#, 1
-    stereopanning $f
+    ;stereopanning $f
     intensity $18
 	note G#, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_G#r
@@ -1525,10 +1526,10 @@ Music_SkyGarden_ChEXTRA_A_
     endchannel
 
 Music_SkyGarden_ChEXTRA_A_l
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note A_, 1
-    stereopanning $f0
+    ;stereopanning $f0
     intensity $18
 	note A_, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_A_l
@@ -1551,30 +1552,30 @@ Music_SkyGarden_ChEXTRA_B_
     endchannel
 
 Music_SkyGarden_ChEXTRA_B_l
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note B_, 1
-    stereopanning $f0
+    ;stereopanning $f0
     intensity $18
 	note B_, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_B_l
     endchannel 
 
 Music_SkyGarden_ChEXTRA_B_r
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $48
     note B_, 1
-    stereopanning $f
+    ;stereopanning $f
     intensity $18
 	note B_, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_B_r
     endchannel
 
 Music_SkyGarden_ChEXTRA_B_rv
-    stereopanning $ff
+    ;stereopanning $ff
     intensity $28
     note B_, 1
-    stereopanning $f
+    ;stereopanning $f
     intensity $18
 	note B_, 1
     loopchannel 2, Music_SkyGarden_ChEXTRA_B_r
