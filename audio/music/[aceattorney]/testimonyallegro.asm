@@ -19,483 +19,239 @@ Music_Testimony2001_Ch1_master:
 	notetype $c, $e2
 	octave 3
 	note A_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 4
 	note C_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-;Bar2:
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 4
 	note D_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 ;Bar3:
 	octave 4
 	note C_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note G_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-;Bar4:
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note E_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note G_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 ;Bar5:
 	octave 3
 	note A_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 4
 	note C_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-;Bar6:
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 4
 	note D_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 ;Bar7:
 	octave 4
 	note C_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note G_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-;Bar8:
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note D_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note E_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 ;Bar9:
 	octave 3
 	note A_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 4
 	note C_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 ;Bar10:
-	note A_, 1
-	note __, 1
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 4
 	note D_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 ;Bar11:
 	octave 4
 	note C_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note G_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 ;Bar12:
-	note A_, 1
-	note __, 1
 	octave 3
 	note E_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note G_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 	octave 3
 	note B_, 2
-	octave 2
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_G
 ;Bar13:
 	octave 3
 	note A_, 2
-	octave 2
-	note F_, 1
-	note __, 1
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleF
 	octave 3
 	note B_, 2
-	octave 2
-	note F_, 1
-	note __, 1
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleF
 	octave 4
 	note C_, 2
-	octave 2
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleF
 ;Bar14:
-	note F_, 1
-	note __, 1
 	octave 3
 	note B_, 2
-	octave 2
-	note F_, 1
-	note __, 1
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleF
 	octave 4
 	note D_, 2
-	octave 2
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_F
 	octave 3
 	note B_, 2
-	octave 2
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_F
 ;Bar15:
 	octave 4
 	note C_, 2
-	octave 2
-	note G_, 1
-	note __, 1
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleG
 	octave 3
 	note B_, 2
-	octave 2
-	note G_, 1
-	note __, 1
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleG
 	octave 3
 	note G_, 2
-	octave 2
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleG
 ;Bar16:
-	note G_, 1
-	note __, 1
 	octave 3
 	note D_, 2
-	octave 2
-	note G_, 1
-	note __, 1
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleG
 	octave 3
 	note E_, 2
-	octave 2
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_G
 	octave 3
 	note B_, 2
-	octave 2
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_G
 ;Bar17:
 	octave 3
 	note A_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 4
 	note C_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 ;Bar18:
-	note A_, 1
-	note __, 1
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 4
 	note D_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 ;Bar19:
 	octave 4
 	note C_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note B_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note G_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 ;Bar20:
-	note A_, 1
-	note __, 1
 	octave 3
 	note E_, 2
-	octave 2
-	note A_, 1
-	note __, 1
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleA
 	octave 3
 	note G_, 2
-	octave 2
-	note A_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_A
 	octave 3
 	note B_, 2
-	octave 2
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_G
 ;Bar21:
 	octave 3
 	note A_, 2
-	octave 2
-	note F_, 1
-	note __, 1
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleF
 	octave 3
 	note B_, 2
-	octave 2
-	note F_, 1
-	note __, 1
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleF
 	octave 4
 	note C_, 2
-	octave 2
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleF
 ;Bar22:
-	note F_, 1
-	note __, 1
 	octave 3
 	note B_, 2
-	octave 2
-	note F_, 1
-	note __, 1
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleF
 	octave 4
 	note D_, 2
-	octave 2
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_F
 	octave 3
 	note B_, 2
-	octave 2
-	note F_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_F
 ;Bar23:
 	octave 4
 	note C_, 2
-	octave 2
-	note G_, 1
-	note __, 1
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleG
 	octave 3
 	note B_, 2
-	octave 2
-	note G_, 1
-	note __, 1
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleG
 	octave 3
 	note G_, 2
-	octave 2
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleG
 ;Bar24:
-	note G_, 1
-	note __, 1
 	octave 3
 	note D_, 2
-	octave 2
-	note G_, 1
-	note __, 1
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_DoubleG
 	octave 3
 	note E_, 2
-	octave 2
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_G
 	octave 3
 	note B_, 2
-	octave 2
-	note G_, 1
-	note __, 1
+	callchannel Music_Testimony2001_Ch1_G
 ;Bar25:
 	octave 3
 	intensity $f2
@@ -600,6 +356,44 @@ Music_Testimony2001_Ch1_master:
 	note G_, 1
 	note __, 1
 	loopchannel 0, Music_Testimony2001_Ch1_master
+
+Music_Testimony2001_Ch1_DoubleA:
+	octave 2
+	note A_, 1
+	note __, 1
+	loopchannel 2, Music_Testimony2001_Ch1_DoubleA
+	endchannel
+
+Music_Testimony2001_Ch1_DoubleG:
+	octave 2
+	note G_, 1
+	note __, 1
+	loopchannel 2, Music_Testimony2001_Ch1_DoubleG
+	endchannel
+
+Music_Testimony2001_Ch1_DoubleF:
+	octave 2
+	note F_, 1
+	note __, 1
+	loopchannel 2, Music_Testimony2001_Ch1_DoubleF
+	endchannel
+
+Music_Testimony2001_Ch1_A:
+	octave 2
+	note A_, 1
+	note __, 1
+	endchannel
+
+Music_Testimony2001_Ch1_G:
+	octave 2
+	note G_, 1
+	note __, 1
+	endchannel
+
+Music_Testimony2001_Ch1_F:
+	octave 2
+	note F_, 1
+	note __, 1
 	endchannel
 
 ; ============================================================================================================
@@ -744,10 +538,10 @@ Music_Testimony2001_Ch2_E
 ; ============================================================================================================
 Music_Testimony2001_Ch3:
 	stereopanning $ff
+	wavetype 1, 12, $15
 	;vibrato $16, $14
 
 Music_Testimony2001_Ch3_master:
-	wavetype 1, 12, $15
 ;Bar1:
 	note __, 16
 ;Bar2:
@@ -766,125 +560,45 @@ Music_Testimony2001_Ch3_master:
 	note __, 16
 ;Bar9:
 	octave 4
-	intensity $35
-	note E_, 1
-	intensity $25
-	note E_, 1
-	intensity $15
-	note E_, 14
+	callchannel Music_Testimony2001_Ch3_E
 ;Bar10:
-	intensity $35
-	note B_, 1
-	intensity $25
-	note B_, 1
-	intensity $15
-	note B_, 14
+	callchannel Music_Testimony2001_Ch3_B
 ;Bar11:
 	octave 5
-	intensity $35
-	note C_, 1
-	intensity $25
-	note C_, 1
-	intensity $15
-	note C_, 14
+	callchannel Music_Testimony2001_Ch3_C
 ;Bar12:
 	octave 4
-	intensity $35
-	note B_, 1
-	intensity $25
-	note B_, 1
-	intensity $15
-	note B_, 14
+	callchannel Music_Testimony2001_Ch3_B
 ;Bar13:
-	intensity $35
-	note E_, 1
-	intensity $25
-	note E_, 1
-	intensity $15
-	note E_, 14
+	callchannel Music_Testimony2001_Ch3_E
 ;Bar14:
-	intensity $35
-	note A_, 1
-	intensity $25
-	note A_, 1
-	intensity $15
-	note A_, 14
+	callchannel Music_Testimony2001_Ch3_A
 ;Bar15:
 	octave 5
-	intensity $35
-	note C_, 1
-	intensity $25
-	note C_, 1
-	intensity $15
-	note C_, 14
+	callchannel Music_Testimony2001_Ch3_C
 ;Bar16:
 	octave 4
-	intensity $35
-	note B_, 1
-	intensity $25
-	note B_, 1
-	intensity $15
-	note B_, 14
+	callchannel Music_Testimony2001_Ch3_B
 ;Bar17:
-	intensity $35
-	note A_, 1
-	intensity $25
-	note A_, 1
-	intensity $15
-	note A_, 14
+	callchannel Music_Testimony2001_Ch3_A
 ;Bar18:
 	octave 5
-	intensity $35
-	note C_, 1
-	intensity $25
-	note C_, 1
-	intensity $15
-	note C_, 14
+	callchannel Music_Testimony2001_Ch3_C
 ;Bar19:
 	octave 4
-	intensity $35
-	note B_, 1
-	intensity $25
-	note B_, 1
-	intensity $15
-	note B_, 14
+	callchannel Music_Testimony2001_Ch3_B
 ;Bar20:
-	intensity $35
-	note G_, 1
-	intensity $25
-	note G_, 1
-	intensity $15
-	note G_, 14
+	callchannel Music_Testimony2001_Ch3_G
 ;Bar21:
-	intensity $35
-	note A_, 1
-	intensity $25
-	note A_, 1
-	intensity $15
-	note A_, 14
+	callchannel Music_Testimony2001_Ch3_A
 ;Bar22:
 	octave 5
-	intensity $35
-	note C_, 1
-	intensity $25
-	note C_, 1
-	intensity $15
-	note C_, 14
+	callchannel Music_Testimony2001_Ch3_C
 ;Bar23:
 	octave 4
-	intensity $35
-	note B_, 1
-	intensity $25
-	note B_, 1
-	intensity $15
-	note B_, 14
+	callchannel Music_Testimony2001_Ch3_B
 ;Bar24:
-	intensity $35
-	note G_, 1
-	intensity $25
-	note G_, 1
-	intensity $15
-	note G_, 14
+	callchannel Music_Testimony2001_Ch3_G
 ;Bar25:
 	intensity $24
 	octave 2
@@ -945,6 +659,50 @@ Music_Testimony2001_Ch3_master:
 ;Bar32
 	note __, 16
 	loopchannel 0, Music_Testimony2001_Ch3_master
+
+Music_Testimony2001_Ch3_G:
+	intensity $35
+	note G_, 1
+	intensity $25
+	note G_, 1
+	intensity $15
+	note G_, 14
+	endchannel
+
+Music_Testimony2001_Ch3_E:
+	intensity $35
+	note E_, 1
+	intensity $25
+	note E_, 1
+	intensity $15
+	note E_, 14
+	endchannel
+
+Music_Testimony2001_Ch3_B:
+	intensity $35
+	note B_, 1
+	intensity $25
+	note B_, 1
+	intensity $15
+	note B_, 14
+	endchannel
+
+Music_Testimony2001_Ch3_A:
+	intensity $35
+	note A_, 1
+	intensity $25
+	note A_, 1
+	intensity $15
+	note A_, 14
+	endchannel
+
+Music_Testimony2001_Ch3_C:
+	intensity $35
+	note C_, 1
+	intensity $25
+	note C_, 1
+	intensity $15
+	note C_, 14
 	endchannel
 
 ; ============================================================================================================

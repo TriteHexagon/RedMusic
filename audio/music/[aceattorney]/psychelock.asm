@@ -294,29 +294,9 @@ Music_PsycheLock_Ch3_master:
 	note G_, 12
 	note A_, 4
 ;Ch3_Bar6:
-	note D_, 12
-	octave 6
-	notetype 6, $28
-	vibrato $00, $45
-	note D_, 1
-	note C_, 1
-	octave 5
-	note A#, 1
-	note G_, 1
-	note F_, 1
-	note D_, 1
-	note C_, 1
-	octave 4
-	note A#, 1
+	note D_, 16
+	note D_, 3
 ;Ch3_Bar7:
-	note A_, 1
-	note G_, 1
-	note E_, 1
-	note D_, 1
-	octave 3
-	note A_, 2
-	notetype 12, $15
-	vibrato $08, $25
 	note __, 13
 ;Ch3_Bar8:
 	octave 5
@@ -347,16 +327,73 @@ Music_PsycheLock_Ch4:
 	notetype 12
 	togglenoise 11
 
-	note C_, 4 ;1
-	note C#, 4 ;2
-	note D_, 4 ;3
-	note D#, 4 ;4
-	note E_, 4 ;5
-	note F_, 4 ;6
-	note F#, 4 ;7
-	note G_, 4 ;8
-	note G#, 4 ;9
-	note A_, 4 ;10
-	note A#, 4 ;11
-	note B_, 4 ;12
-	loopchannel 0, Music_PsycheLock_Ch4
+;Ch3_Bar1:
+	note __, 16
+;Ch3_Bar2:
+	note __, 16
+;Ch3_Bar3:
+	note __, 16
+Music_PsycheLock_Ch4_master:
+;Ch3_Bar4:
+	note __, 16
+;Ch3_Bar5:
+	note __, 16
+;Ch3_Bar6:
+	note __, 12
+	notetype 6
+	stereopanning $f
+	note C_, 1
+	note C#, 1
+	note D_, 1
+	note D#, 1
+	stereopanning $ff
+	note E_, 1
+	note F_, 1
+	note F#, 1
+	note G_, 1
+;Ch3_Bar7:
+	note G#, 1
+	stereopanning $f0
+	note A_, 1
+	note A#, 1
+	note B_, 2
+	note __, 1
+	notetype 12
+	stereopanning $ff
+	note __, 13
+;Ch3_Bar8:
+	octave 5
+	note __, 16
+;Ch3_Bar9:
+	note __, 16
+;Ch3_Bar10:
+	note __, 16
+;Ch3_Bar11:
+	note __, 8
+	notetype 6
+	stereopanning $f
+	note C_, 1
+	note C#, 1
+	note D_, 1
+	note D#, 1
+	stereopanning $ff
+	note E_, 1
+	note F_, 1
+	note D#, 1
+	note E_, 1
+;Ch3_Bar7:
+	note F_, 1
+	stereopanning $f0
+	note G_, 1
+	note G#, 1
+	note A_, 1
+
+	note A#, 1
+	note B_, 2
+	note __, 1
+	notetype 12
+;Ch3_Bar12:
+	note __, 16
+;Ch3_Bar13:
+	note __, 16
+	loopchannel 0, Music_PsycheLock_Ch4_master

@@ -439,7 +439,7 @@ Music_CinnabarIslandFRLG_Ch1_Bar4:
 
 ; ============================================================================================================
 Music_CinnabarIslandFRLG_Ch2:
-	stereopanning $ff
+	stereopanning $f0
 	;vibrato $12, $14
 	
 Music_CinnabarIslandFRLG_Ch2_master:

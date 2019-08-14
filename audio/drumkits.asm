@@ -5,12 +5,13 @@ Drumkits: ; e8e52
 	dw Drumkit3
 	dw Drumkit4
 	dw Drumkit5
-	dw Drumkit0S
-	dw Drumkit1S
-	dw Drumkit3S
-	dw Drumkit4S
-	dw Drumkit10
-	dw DrumkitTEST
+	dw Drumkit0S ;6
+	dw Drumkit1S ;7
+	dw Drumkit3S ;8
+	dw Drumkit4S ;9
+	dw Drumkit10 ;10
+	dw DrumkitTEST ;11
+	dw DrumkitCorneredVar ;12
 ; e8e5e
 
 Drumkit0: ; e8e5e
@@ -169,18 +170,34 @@ Drumkit10: ; 10
 	dw Snare11 ;B_ PKMN Center / Samurai
 DrumkitTEST: ; 10
 	dw Drum00
-	dw TaikoDrum
-	dw TaikoDrum2
-	dw TaikoDrum3
-	dw TaikoDrum4
-	dw TaikoDrum5
-	dw TaikoDrum6
-	dw TaikoDrum7
-	dw TaikoDrum8
-	dw TaikoDrum9
-	dw TaikoDrum10
-	dw TaikoDrum11
-	dw TaikoDrum12
+	dw TrianglePL
+	dw TrianglePL2
+	dw TrianglePL3
+	dw TrianglePL4
+
+	dw TrianglePL5
+	dw TrianglePL6
+	dw TrianglePL7
+	dw TrianglePL8
+	
+	dw TrianglePL9
+	dw TrianglePL10
+	dw TrianglePL11
+	dw TrianglePL12
+DrumkitCorneredVar: ; e8ee0
+	dw Drum00
+	dw Snare9
+	dw Snare10
+	dw Snare11
+	dw Drum27
+	dw Drum28
+	dw Drum29
+	dw Drum05
+	dw Triangle1
+	dw Crash1
+	dw Snare14
+	dw Snare13
+	dw Kick2
 ; e8efa
 
 Drum00: ; e8efa
@@ -392,61 +409,6 @@ TaikoDrum:
 	noise D_,  4, $21, $11
 	endchannel
 
-TaikoDrum2:
-	noise D_,  1, $19, $38
-	noise D_,  1, $51, $38
-	noise D_,  1, $71, $38
-	noise D_,  1, $71, $38
-	noise D_,  1, $51, $38
-	noise D_,  1, $71, $38
-	noise D_,  1, $71, $38
-	noise D_,  2, $21, $11
-	endchannel
-TaikoDrum3:
-	noise D_,  1, $19, $39
-	noise D_,  6, $71, $39
-	noise D_,  2, $21, $11
-	endchannel
-TaikoDrum4:
-	noise D_,  1, $19, $3a
-	noise D_,  6, $71, $3a
-	noise D_,  2, $21, $11
-	endchannel
-TaikoDrum5:
-	noise D_,  1, $19, $3b
-	noise D_,  6, $71, $3b
-	noise D_,  2, $21, $11
-	endchannel
-TaikoDrum6:
-	noise G#,  4, $71, $29
-	noise D_,  2, $41, $11
-	endchannel
-TaikoDrum7:
-	noise D_,  4, $71, $29
-	noise D_,  2, $41, $11
-	endchannel
-TaikoDrum8:
-	noise D_,  4, $71, $29
-	noise D_,  2, $41, $11
-	endchannel
-TaikoDrum9:
-	noise D_,  4, $71, $29
-	noise D_,  4, $11, $66
-	endchannel
-TaikoDrum10:
-	noise D_,  4, $71, $29
-	noise D_,  4, $11, $77
-	endchannel
-TaikoDrum11:
-	noise D_,  4, $71, $29
-	noise D_,  4, $11, $11
-	endchannel
-TaikoDrum12:
-	noise D_,  4, $71, $29
-	noise D_,  4, $11, $11
-	endchannel
-
-
 ;Softer Drumkits
 
 Snare12_Soft:
@@ -555,4 +517,54 @@ HiHat2_Soft:
 
 HiHat3_Soft:
 	noise C#,  1, $92, $11
+	endchannel
+
+; Psycholock Noise
+
+TrianglePL:
+	noise C#,  3, $91, $28
+	endchannel
+
+TrianglePL2:
+	noise C#,  3, $91, $0b
+	endchannel
+
+TrianglePL3:
+	noise C#,  3, $91, $38
+	endchannel
+
+TrianglePL4:
+	noise C#,  3, $91, $0d
+	endchannel
+
+TrianglePL5: 
+	noise C#,  3, $91, $1b
+	endchannel
+
+TrianglePL6:
+	noise C#,  3, $91, $0f
+	endchannel
+
+TrianglePL7: 
+	noise C#,  3, $91, $2a
+	endchannel
+
+TrianglePL8:
+	noise C#,  3, $91, $2b
+	endchannel
+
+TrianglePL9:
+	noise C#,  3, $91, $1f
+	endchannel
+
+TrianglePL10: 
+	noise C#,  3, $91, $2b
+	endchannel
+
+TrianglePL11:
+	noise C#,  3, $91, $2c
+	endchannel
+
+TrianglePL12:
+	noise C#,  3, $91, $3a
 	endchannel

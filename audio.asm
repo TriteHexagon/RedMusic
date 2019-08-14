@@ -279,12 +279,17 @@ INCLUDE "audio/music/[hacks]/icepathHGSS.asm"
 SECTION "Ace Attorney", ROMX
 
 INCLUDE "audio/music/[aceattorney]/pursuitcornered.asm"
-INCLUDE "audio/music/[aceattorney]/testimony2001.asm"
+INCLUDE "audio/music/[aceattorney]/testimonyallegro.asm"
+INCLUDE "audio/music/[aceattorney]/testimonymoderato.asm"
 INCLUDE "audio/music/[aceattorney]/turnaboutsisters2001.asm"
 INCLUDE "audio/music/[aceattorney]/objection2001.asm"
 INCLUDE "audio/music/[aceattorney]/psychelock.asm"
 INCLUDE "audio/music/[aceattorney]/steelsamurai.asm"
 INCLUDE "audio/music/[aceattorney]/gumshoe.asm"
+INCLUDE "audio/music/[aceattorney]/logicandtrick.asm"
+INCLUDE "audio/music/[aceattorney]/suspense.asm"
+INCLUDE "audio/music/[aceattorney]/courtroomlounge.asm"
+;INCLUDE "audio/music/[aceattorney]/pursuitcorneredvar.asm"
 
 SECTION "Hacks 2", ROMX
 

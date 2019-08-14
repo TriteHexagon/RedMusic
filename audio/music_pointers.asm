@@ -144,13 +144,17 @@ Music:
 	dba Music_SkyarrowBridge
 	dba Music_PKMN_Center_Night
 	;Ace Attorney
-	dba Music_Cornered
-	dba Music_Testimony2001
-	dba Music_TurnaboutSisters2001
+	dba Music_CourtroomLounge
+	dba Music_TestimonyMod2001
+	dba Music_LogicAndTrick
 	dba Music_Objection2001
-	dba Music_PsycheLock
-	dba Music_SteelSamurai
+	dba Music_Testimony2001
+	dba Music_Cornered
+	dba Music_Suspense
+	dba Music_TurnaboutSisters2001
 	dba Music_DetectiveGumshoe
+	dba Music_SteelSamurai
+	dba Music_PsycheLock
 	;Others
 	dba Music_Temple
 	dba Music_LowerNorfair
