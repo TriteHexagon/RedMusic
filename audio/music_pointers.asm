@@ -151,10 +151,13 @@ Music:
 	dba Music_Testimony2001
 	dba Music_Cornered
 	dba Music_Suspense
+	dba Music_CorneredVariation
 	dba Music_TurnaboutSisters2001
 	dba Music_DetectiveGumshoe
 	dba Music_SteelSamurai
+	dba Music_EmaSkye
 	dba Music_PsycheLock
+	dba Music_InvestigationMiddle2002
 	;Others
 	dba Music_Temple
 	dba Music_LowerNorfair

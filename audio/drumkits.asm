@@ -63,7 +63,7 @@ Drumkit3: ; e8eac
 	dw Snare14
 	dw Kick1
 	dw Triangle5
-	dw Snare5 ;was Drum20
+	dw HiHat3 ;was Drum20
 	dw Drum27
 	dw Drum28
 	dw Drum29
@@ -72,7 +72,7 @@ Drumkit3: ; e8eac
 	dw Crash2
 Drumkit4: ; e8ec6
 	dw Drum00
-	dw Drum20
+	dw Snare2 ;was Drum20
 	dw Snare13
 	dw Snare14
 	dw Kick1
@@ -159,11 +159,11 @@ Drumkit10: ; 10
 	dw TaikoDrum ;C_ Samurai
 	dw Kick1 ;C# PKMN Center / Samurai
 	dw Crash1 ;D_ Samurai
-	dw Drum00 ;D# 
+	dw Snare6Special ;D# Investigation Middle
 	dw HiHat2 ;E_ PKMN Center
 	dw HiHat3 ;F_ PKMN Center
-	dw Drum00 ;F#
-	dw Drum00 ;G_
+	dw Snare14 ;F# Investigation Middle
+	dw Drum27 ;G_ Investigation Middle
 	dw Snare10 ;G# Samurai
 	dw Drum00 ; A_
 	dw Snare13 ; A# Samurai
@@ -186,18 +186,18 @@ DrumkitTEST: ; 10
 	dw TrianglePL12
 DrumkitCorneredVar: ; e8ee0
 	dw Drum00
-	dw Snare9
-	dw Snare10
-	dw Snare11
-	dw Drum27
-	dw Drum28
-	dw Drum29
-	dw Drum05
-	dw Triangle1
-	dw Crash1
-	dw Snare14
-	dw Snare13
-	dw Kick2
+	dw Drum00
+	dw Drum00
+	dw Snare11 ;RESERVED
+	dw Drum27 ;RESERVED
+	dw SnareVar1 ;RESERVED
+	dw SnareVar2 ;RESERVED
+	dw SnareVar3 ;RESERVED
+	dw SnareVar4 ;RESERVED
+	dw Drum00
+	dw Drum00
+	dw Drum00
+	dw Kick2 ;RESERVED
 ; e8efa
 
 Drum00: ; e8efa
@@ -403,8 +403,8 @@ Kick2: ; e8fbb
 ; e8fc2
 
 TaikoDrum:
-	; noise C_,  2, $77, $0f
-	; noise C_,  2, $71, $00
+	; noise D_,  4, $a3, $11
+	; noise D_,  4, $31, $01
 	noise D_,  4, $91, $21
 	noise D_,  4, $21, $11
 	endchannel
@@ -522,49 +522,85 @@ HiHat3_Soft:
 ; Psycholock Noise
 
 TrianglePL:
-	noise C#,  3, $91, $28
+	noise C#,  1, $91, $28
+	noise C#,  2, $31, $33
 	endchannel
 
 TrianglePL2:
-	noise C#,  3, $91, $0b
+	noise C#,  1, $91, $0b
+	noise C#,  2, $31, $33
 	endchannel
 
 TrianglePL3:
-	noise C#,  3, $91, $38
+	noise C#,  1, $91, $38
+	noise C#,  2, $31, $33
 	endchannel
 
 TrianglePL4:
-	noise C#,  3, $91, $0d
+	noise C#,  1, $91, $0d
+	noise C#,  2, $31, $33
 	endchannel
 
 TrianglePL5: 
-	noise C#,  3, $91, $1b
+	noise C#,  1, $91, $1b
+	noise C#,  2, $31, $33
 	endchannel
 
 TrianglePL6:
-	noise C#,  3, $91, $0f
+	noise C#,  1, $91, $0f
+	noise C#,  2, $31, $33
 	endchannel
 
 TrianglePL7: 
-	noise C#,  3, $91, $2a
+	noise C#,  1, $91, $2a
+	noise C#,  2, $31, $33
 	endchannel
 
 TrianglePL8:
-	noise C#,  3, $91, $2b
+	noise C#,  1, $91, $2b
+	noise C#,  2, $31, $33
 	endchannel
 
 TrianglePL9:
-	noise C#,  3, $91, $1f
+	noise C#,  1, $91, $1f
+	noise C#,  2, $31, $33
 	endchannel
 
 TrianglePL10: 
-	noise C#,  3, $91, $2b
+	noise C#,  1, $91, $2b
+	noise C#,  2, $31, $33
 	endchannel
 
 TrianglePL11:
-	noise C#,  3, $91, $2c
+	noise C#,  1, $91, $2c
+	noise C#,  2, $31, $33
 	endchannel
 
 TrianglePL12:
-	noise C#,  3, $91, $3a
+	noise C#,  1, $91, $3a
+	noise C#,  2, $31, $33
+	endchannel
+
+SnareVar1:
+	noise C#,  6, $a8, $24
+	noise C#,  6, $97, $25
+	endchannel
+
+SnareVar2:
+	noise C#,  6, $a8, $23
+	noise C#,  6, $97, $24
+	endchannel
+
+SnareVar3:
+	noise C#,  6, $a8, $22
+	noise C#,  6, $97, $23
+	endchannel
+
+SnareVar4:
+	noise C#,  6, $a8, $21
+	noise C#,  6, $97, $22
+	endchannel
+
+Snare6Special:
+	noise C#,  3, $b2, $25
 	endchannel

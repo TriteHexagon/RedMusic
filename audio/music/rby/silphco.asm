@@ -1,7 +1,8 @@
 Music_SilphCo:
-	musicheader 3, 1, Music_SilphCo_Ch1
+	musicheader 4, 1, Music_SilphCo_Ch1
 	musicheader 1, 2, Music_SilphCo_Ch2
 	musicheader 1, 3, Music_SilphCo_Ch3
+	musicheader 1, 4, Music_SilphCo_Ch4
 
 Music_SilphCo_Ch1: ; 7f243 (1f:7243)
 	tempo 160
@@ -974,31 +975,338 @@ Music_SilphCo_branch_7f5c9:
 	note D#, 4
 	note D_, 4
 	note D#, 4
-	notetype 6, 17
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
-	notetype 12, 17
-	note __, 4
-	note __, 4
-	note __, 4
-	note __, 4
+	note __, 16
+	note __, 16
+	note __, 16
 	octave 5
 	note E_, 4
 	note D#, 4
 	note E_, 4
 	note F_, 4
 	loopchannel 0, Music_SilphCo_branch_7f5c9
+
+Music_SilphCo_Ch4:
+	togglenoise 3
+	notetype 12
+	stereopanning $ff
+;Bar 1
+	notetype 6
+	note C#, 1
+	note C#, 1
+	note A#, 1
+	note D#, 2
+	note F#, 2
+	note __, 1
+	notetype 12
+	note __, 8	
+	note D#, 2
+	note A#, 4
+;Bar 2
+	note A#, 4
+	note A#, 2
+	note D_, 2
+	note A#, 2 
+	note A#, 2
+	note D#, 4
+;Bar 3
+	note A#, 4
+	note A#, 2
+	note D_, 2
+	note A#, 1
+	notetype 6
+	note D_, 1
+	note D_, 1
+	notetype 12
+	note F#, 2
+	note D#, 1
+	notetype 6
+	note D_, 1
+	note D_, 1
+;Bar 4
+	notetype 12
+	note D_, 2
+	note A#, 2
+	note A#, 2
+	note A#, 4
+	note A#, 2
+	note A#, 1
+	notetype 6
+	note D_, 1
+	note D_, 1
+	notetype 12
+	note D_, 2
+;Bar 5
+	note A#, 2
+	note D_, 2
+	note A#, 2
+	note D_, 2
+	note D#, 2
+	note A#, 2
+	note A#, 2
+	note D#, 2
+;Bar 6
+	note A#, 2
+	note A#, 2
+	note C_, 2
+	note C_, 2
+	note C_, 2
+	note A#, 4
+	note A#, 2
+;Bar 7
+	note C_, 2
+	note A#, 2
+	note A#, 2
+	note C_, 2
+	note C_, 1
+	note C_, 1
+	note D#, 4
+	note A#, 2
+;Bar 8
+	note C_, 2
+	note A#, 1
+	note A#, 1
+	note A#, 2
+	note C_, 2
+	note A#, 2
+	note A#, 2
+	note C_, 2
+	note A#, 2
+;Bar 9
+	note A#, 2
+	note A#, 2
+	note C_, 1
+	note A#, 2
+	note A#, 1
+	note C_, 2
+	note A#, 2
+	note A#, 2
+	note D#, 2
+;Bar 10
+	note A_, 4
+	note C_, 2
+	note D#, 2
+	note D_, 4
+	note F#, 6
+;Bar 11
+	note A#, 6
+	note A#, 2
+	note C#, 2
+	note A#, 2
+	note A#, 2
+;Bar 12
+	note C#, 2
+	note A#, 2
+	note A#, 1
+	note D#, 1
+	note A#, 2
+	note C#, 2
+	note A#, 2
+	note A#, 2
+	note C#, 2
+;Bar 13
+	note A#, 1
+	note A#, 1
+	note C#, 2
+	note A#, 2
+	note C#, 1
+	note A#, 2
+	note A#, 1
+	note C#, 2
+	note A#, 2
+	note C#, 2
+;Bar 14
+	note A#, 1
+	note A#, 1
+	note C#, 2
+	note A#, 2
+	note C#, 1
+	note A#, 2
+	note A#, 1
+	note C#, 2
+	note A#, 2
+	note C#, 2
+;Bar 15
+	note A#, 1
+	note A#, 1
+	note C#, 2
+	note A#, 2
+	note C#, 1
+	note A#, 2
+	note A#, 1
+	note C#, 2
+	note A#, 2
+	note C#, 2
+;Bar 16
+	note A#, 1
+	note A#, 1
+	note C#, 2
+	note A#, 2
+	note C#, 1
+	note A#, 2
+	note A#, 1
+	note C#, 2
+	note A#, 2
+	note C#, 2
+;Bar 17
+	note A#, 2
+	note C#, 2
+	note A#, 1
+	note A#, 1
+	note C#, 2
+	note A#, 1
+	note C#, 1
+	note A#, 2
+	note C#, 2
+	note A#, 2
+;Bar 18
+	note C#, 2
+	note A#, 2
+	note C#, 1
+	note C#, 1
+	note A#, 2
+	note A#, 2
+	note C#, 2
+	note A#, 1
+	note A#, 1
+	note C#, 2
+;Bar 19
+	note A#, 2
+	note C#, 1
+	note A#, 2
+	note A#, 1
+	note C#, 2
+	note A#, 2
+	note C#, 2
+	note A#, 2
+	note C#, 2
+;Bar 20
+	note A#, 2
+	note A#, 2
+	note C#, 2
+	note A#, 2
+	note A#, 2
+	note A#, 2
+	note A#, 2
+	note C#, 2
+;Bar 21
+	note A#, 2
+	note C#, 4
+	note A#, 2
+	note F#, 2
+	note A#, 2
+	note A#, 2
+	note C#, 2
+;Bar 22
+	note A#, 2
+	note A#, 2
+	note C#, 2
+	note A#, 2
+	note D#, 2
+	note C#, 2
+	note A#, 4
+;Bar 23
+	note C#, 4
+	note A#, 1
+	note A#, 1
+	note A#, 1
+	note A#, 1
+	note C#, 1
+	note C#, 1
+	note C_, 1
+	note C_, 1
+	note A#, 2
+	note F#, 2
+;Bar 24
+	note C#, 2
+	note F#, 2
+	note A#, 2
+	note A#, 2
+	note C#, 1
+	note C#, 1
+	note D#, 2
+	note E_, 2
+	note E_, 2
+;Bar 25
+	note C_, 1
+	note A_, 1
+	note F#, 1
+	note E_, 1
+	note E_, 2
+	note E_, 2
+	note C_, 1
+	note A_, 1
+	note F#, 1
+	note E_, 1
+	note A#, 2
+	note C#, 2
+;Bar 26
+	note C#, 1
+	note C#, 1
+	note E_, 2
+	note A#, 2
+	note C#, 2
+	note B_, 2
+	note E_, 2
+	note E_, 2
+	note E_, 2
+;Bar 27
+	notetype 6
+	note C_, 1
+	note C_, 1
+	notetype 12
+	note A#, 1
+	note B_, 1
+	note B_, 1
+	notetype 6
+	note B_, 1
+	note B_, 1
+	notetype 12
+	note F#, 1
+	note A#, 1
+	note E_, 1
+	note C_, 1
+	note C_, 1
+	note C_, 1
+	note C_, 1
+	note A#, 4
+;Bar 28
+	note E_, 4
+	note A#, 2
+	note A#, 2
+	note E_, 4
+	note A#, 4
+;Bar 29
+	note E_, 2
+	note A#, 4
+	note A#, 2
+	note E_, 2
+	note A#, 2
+	note A#, 4
+;Bar 30
+	note E_, 4
+	note A#, 2
+	note A#, 2
+	note E_, 4
+	note A#, 4
+;Bar 31
+	note E_, 2
+	note A#, 4
+	note A#, 2
+	note E_, 2
+	note A#, 2
+	note C#, 16
+;Bar 32
+	note __, 16
+	note __, 12
+;Bar 34
+	note A#, 2
+	note A#, 2
+	note E_, 2
+	note A#, 4
+;Bar 35
+	note A#, 4
+	note A#, 2
+	note D_, 2
+	notetype 8
+	note A#, 4
+	endchannel

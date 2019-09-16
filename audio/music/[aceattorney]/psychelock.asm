@@ -384,13 +384,13 @@ Music_PsycheLock_Ch4_master:
 ;Ch3_Bar7:
 	note F_, 1
 	stereopanning $f0
+	note F_, 1
 	note G_, 1
 	note G#, 1
-	note A_, 1
 
+	note A_, 1
 	note A#, 1
 	note B_, 2
-	note __, 1
 	notetype 12
 ;Ch3_Bar12:
 	note __, 16

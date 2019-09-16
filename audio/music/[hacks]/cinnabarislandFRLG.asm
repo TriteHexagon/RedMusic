@@ -33,11 +33,11 @@ Music_CinnabarIslandFRLG_Ch1_master:
 	note __, 1
 	note D_, 2
 ;Bar2:C
-	intensity $68
+	intensity $98 
 	callchannel Music_CinnabarIslandFRLG_Ch1_Bar2
 ;Bar3:C
 	note G_, 1
-	notetype 3, $68 
+	notetype 3, $98  
 	octave 4
 	note D_, 1
 	note __, 7
@@ -48,7 +48,7 @@ Music_CinnabarIslandFRLG_Ch1_master:
 	note G_, 4
 	note G_, 2
 	note __, 2
-	notetype 12, $68 
+	notetype 12, $98  
 	note A_, 1
 	note __, 1
 	note A_, 1
@@ -57,16 +57,16 @@ Music_CinnabarIslandFRLG_Ch1_master:
 	note C_, 2
 	octave 3
 	note F#, 1
-	notetype 3, $68 
+	notetype 3, $98  
 	octave 4
 	note D_, 1
 	note __, 3
-	notetype 12, $68 
+	notetype 12, $98  
 ;Bar4:C
 	callchannel Music_CinnabarIslandFRLG_Ch1_Bar4
 ;Bar5:C
 	note G_, 1
-	notetype 3, $68 
+	notetype 3, $98  
 	octave 4
 	note __, 8
 	note G_, 1
@@ -91,12 +91,12 @@ Music_CinnabarIslandFRLG_Ch1_master:
 	octave 4
 	note G#, 2
 	note __, 2
-	notetype 12, $68 
+	notetype 12, $98  
 ;Bar6:C
 	callchannel Music_CinnabarIslandFRLG_Ch1_Bar2
 ;Bar7:C
 	note G_, 1
-	notetype 3, $68 
+	notetype 3, $98  
 	octave 4
 	note D_, 1
 	note __, 7
@@ -107,51 +107,51 @@ Music_CinnabarIslandFRLG_Ch1_master:
 	note G_, 4
 	note G_, 2
 	note __, 2
-	notetype 12, $68 
+	notetype 12, $98  
 	note A_, 1
 	note __, 1
 	note A_, 1
 
-	notetype 3, $68 
+	notetype 3, $98  
 	note G_, 1
 	note __, 1
 	note A_, 1
 	note __, 1
-	notetype 12, $68 
+	notetype 12, $98  
 
 	octave 4
 	note C_, 2
 	octave 3
 	note F#, 1
-	notetype 3, $68 
+	notetype 3, $98  
 	octave 4
 	note D_, 1
 	note __, 3
-	notetype 12, $68 
+	notetype 12, $98  
 ;Bar8:
 	callchannel Music_CinnabarIslandFRLG_Ch1_Bar4
 ;Bar9:
 	note G_, 1
-	notetype 3, $68 
+	notetype 3, $98  
 	octave 4
 	note D_, 1
 	note __, 7
 	octave 3
 	note G_, 1
 	note __, 3
-	notetype 12, $68
+	notetype 12, $98 
 
 	note B_, 4
 	
-	notetype 3, $68
+	notetype 3, $98 
 	note A_, 2
 	note __, 6
-	notetype 12, $68 
+	notetype 12, $98  
 
 	note A_, 2
 	octave 4
 
-	notetype 3, $68 
+	notetype 3, $98  
 	note E_, 2
 	note __, 2
 	note E_, 1
@@ -359,33 +359,33 @@ Music_CinnabarIslandFRLG_Ch1_Bar2:
 	note G_, 1
 	note __, 1
 
-	notetype 3, $68
+	notetype 3, $98 
 	note __, 3
 	note G_, 1
 	note __, 2
 	note A_, 1
 	note __, 1
-	notetype 12, $68
+	notetype 12, $98 
 
 	note B_, 2
 	note G_, 1
 
-	notetype 3, $68 
+	notetype 3, $98  
 	octave 4
 	note G_, 1
 	note __, 3
 	octave 3
-	notetype 12, $68
+	notetype 12, $98 
 
 	note A_, 2
 
-	notetype 3, $68 
+	notetype 3, $98  
 	note G#, 2
 	note __, 2
 	note A_, 2
 	note A_, 1
 	note __, 1
-	notetype 12, $68 
+	notetype 12, $98  
 
 	octave 4
 	note C_, 2
@@ -399,47 +399,47 @@ Music_CinnabarIslandFRLG_Ch1_Bar4:
 	note G_, 1
 	note __, 1
 
-	notetype 3, $68 
+	notetype 3, $98  
 	note __, 3
 	note G_, 1
 	note __, 2
 	note A_, 1
 	note __, 1
-	notetype 12, $68
+	notetype 12, $98 
 
 	note B_, 2
 	note G_, 1
 
-	notetype 3, $68 
+	notetype 3, $98  
 	octave 4
 	note G_, 1
 	note __, 3
 	octave 3
-	notetype 12, $68
+	notetype 12, $98 
 
 	note A_, 2
 
-	notetype 3, $68 
+	notetype 3, $98  
 	note G#, 2
 	note __, 2
 	note A_, 2
 	note A_, 1
 	note __, 1
-	notetype 12, $68 
+	notetype 12, $98  
 
 	octave 4
 	note C_, 2
 	octave 3
 	note F#, 1
-	notetype 3, $68 
+	notetype 3, $98  
 	note D_, 1
 	note __, 3
-	notetype 12, $68 
+	notetype 12, $98  
 	endchannel
 
 ; ============================================================================================================
 Music_CinnabarIslandFRLG_Ch2:
-	stereopanning $f0
+	stereopanning $ff
 	;vibrato $12, $14
 	
 Music_CinnabarIslandFRLG_Ch2_master:
@@ -831,7 +831,7 @@ Music_CinnabarIslandFRLG_Ch3_master:
 ; ============================================================================================================
 Music_CinnabarIslandFRLG_Ch4:
 	notetype 6
-	stereopanning $ff
+	stereopanning $f0
 	togglenoise $1
 
 Music_CinnabarIslandFRLG_Ch4_master:

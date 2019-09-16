@@ -600,7 +600,7 @@ Music_Testimony2001_Ch3_master:
 ;Bar24:
 	callchannel Music_Testimony2001_Ch3_G
 ;Bar25:
-	intensity $24
+	intensity $12
 	octave 2
 	note A_, 2
 	note A_, 2
@@ -615,7 +615,7 @@ Music_Testimony2001_Ch3_master:
 	intensity $15
 	note B_, 6
 ;Bar27:
-	intensity $24
+	intensity $12
 	octave 2
 	note F_, 2
 	note F_, 2
@@ -635,7 +635,7 @@ Music_Testimony2001_Ch3_master:
 	intensity $15
 	note G_, 6
 ;Bar29:
-	intensity $24
+	intensity $12
 	octave 2
 	note E_, 2
 	note E_, 2
@@ -650,7 +650,7 @@ Music_Testimony2001_Ch3_master:
 	intensity $15
 	note G_, 6
 ;Bar31
-	intensity $24
+	intensity $12
 	octave 2
 	note F_, 2
 	note F_, 2

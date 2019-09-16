@@ -7,7 +7,7 @@ Music_RBYPalletTown_Ch1: ; a7c5 (2:67c5)
 	tempo 163
 	volume 119
 	dutycycle 2
-	notetype 12, 195
+	notetype 12, $c3
 	stereopanning $f0
 	tone $0002
 

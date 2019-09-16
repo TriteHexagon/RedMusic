@@ -10,7 +10,6 @@ Music_Routes1_Ch1: ; 9bde (2:5bde)
 	vibrato 4, 35
 	dutycycle $3
 	tone $0001
-	stereopanning $f
 
 Music_Routes1_branch_9be9:
 	notetype 12, $c1
@@ -140,7 +139,7 @@ Music_Routes1_Ch2: ; 9c51 (2:5c51)
 	stereopanning $f0
 
 Music_Routes1_branch_9c53:
-	notetype 12, $f1
+	notetype 12, $e1
 	callchannel Music_Routes1_branch_9c65
 	callchannel Music_Routes1_branch_9c78
 	callchannel Music_Routes1_branch_9c65
@@ -204,21 +203,21 @@ Music_Routes1_branch_9c8d:
 	note B_, 2
 	octave 4
 	note C#, 2
-	notetype 12, $f2
+	notetype 12, $e2
 	note B_, 4
-	notetype 6, $f1
+	notetype 6, $e1
 	octave 3
 	note B_, 1
 	octave 4
 	note C#, 1
-	notetype 12, $f1
+	notetype 12, $e1
 	octave 3
 	note B_, 1
 	note A_, 1
 	octave 4
 	note C#, 1
 	note D_, 6
-	notetype 12, $f2
+	notetype 12, $e2
 	note F#, 1
 	note G_, 1
 	note A_, 2
@@ -256,7 +255,7 @@ Music_Routes1_branch_9c8d:
 	note C#, 2
 	note E_, 2
 	note D_, 2
-	notetype 12, $f1
+	notetype 12, $e1
 	octave 4
 	note D_, 2
 	note D_, 2
@@ -341,9 +340,9 @@ Music_Routes1_branch_9cdd:
 	endchannel
 
 
-Music_Routes1_Ch4: ; 9d24 (2:5d24)
+Music_Routes1_Ch4:
 	notetype 12
-	togglenoise $1 ;was 1 G_
+	togglenoise $1
 Music_Routes1_Loop4:
 	note __, 4
 	

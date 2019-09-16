@@ -300,7 +300,7 @@ Music_IcePathHGSS_Ch1_loop2:
 Music_IcePathHGSS_Ch2:
 	stereopanning $ff
 	;vibrato $08, $36
-	notetype 12, $c7
+	notetype 12, $1f
 	dutycycle $2
 	octave 3
 	tone $0001
@@ -317,7 +317,6 @@ Music_IcePathHGSS_Ch2:
 	note __, 16
 ;Ch2_Bar7:
 	octave 4
-	intensity $1f
 	note G_, 14
 	intensity $c8
 	note G_, 2

@@ -289,7 +289,9 @@ INCLUDE "audio/music/[aceattorney]/gumshoe.asm"
 INCLUDE "audio/music/[aceattorney]/logicandtrick.asm"
 INCLUDE "audio/music/[aceattorney]/suspense.asm"
 INCLUDE "audio/music/[aceattorney]/courtroomlounge.asm"
-;INCLUDE "audio/music/[aceattorney]/pursuitcorneredvar.asm"
+INCLUDE "audio/music/[aceattorney]/pursuitcorneredvar.asm"
+INCLUDE "audio/music/[aceattorney]/emaskye.asm"
+INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
 
 SECTION "Hacks 2", ROMX
 

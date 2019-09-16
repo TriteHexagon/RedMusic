@@ -146,7 +146,7 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 ;Ch1_Bar17-18:
 	octave 4
 	dutycycle $3
-	intensity $57
+	intensity $67
 	note C_, 12
 	octave 3
 	note D_, 1
@@ -178,6 +178,7 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 ;Ch1_Bar19:
 	octave 4
 	dutycycle $1
+	intensity $67
 	note D_, 12
 	octave 3
 	note A_, 1
@@ -209,8 +210,8 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 	note A_, 2
 ;Ch1_Bar21:
 	octave 4
-	intensity $57
 	dutycycle $3
+	intensity $67
 	note D_, 12
 	octave 3
 	note C_, 1
@@ -246,6 +247,7 @@ Music_PKMN_Center_Night_Ch1_Bar3_4:
 ;Ch1_Bar23:
 	octave 4
 	dutycycle $1
+	intensity $67
 	note C_, 12
 	octave 3
 	note A_, 1
@@ -504,7 +506,7 @@ Music_PKMN_Center_Night_Ch2_master:
 	dutycycle $2
 	note E_, 4
 	dutycycle $3
-	intensity $74
+	intensity $73
 	note G_, 2
 	octave 5
 	note F_, 2
@@ -524,7 +526,7 @@ Music_PKMN_Center_Night_Ch2_master:
 	intensity $77
 	note E_, 4
 	dutycycle $3
-	intensity $74
+	intensity $73
 	note G_, 2
 	octave 5
 	note F_, 2
@@ -560,7 +562,7 @@ Music_PKMN_Center_Night_Ch2_master:
 ;Bar28
 	octave 4
 	dutycycle $2
-	intensity $74
+	intensity $64
 	note G#, 4
 	octave 3
 	note F_, 2
@@ -578,7 +580,6 @@ Music_PKMN_Center_Night_Ch2_master:
 	octave 5
 	note C_, 2
 ;Bar29
-	dutycycle $2
 	notetype 12, $97
 	octave 4
 	note G_, 8

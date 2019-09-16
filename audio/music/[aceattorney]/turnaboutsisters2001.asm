@@ -228,16 +228,11 @@ Music_TurnaboutSisters2001_Ch1_master:
 	intensity $52
 	note G#, 2
 	note __, 14
+
+Music_TurnaboutSisters2001_Ch1_Silence
 ;Bar28:
 	note __, 16
-;Bar29:
-	note __, 16
-;Bar30:
-	note __, 16
-;Bar31:
-	note __, 16
-;Bar32:
-	note __, 16
+	loopchannel 5, Music_TurnaboutSisters2001_Ch1_Silence
 ;Bar33:
 	octave 4
 	loopchannel 0, Music_TurnaboutSisters2001_Ch1_master

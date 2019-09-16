@@ -266,7 +266,7 @@ Music_Dungeon2_Ch3_Left:
 
 Music_Dungeon2_Ch3_Right:
 	note C_, 2
-	stereopanning $f0
+	stereopanning $f
 	intensity $33
 	note C_, 2
 	intensity $13

@@ -247,7 +247,7 @@ Music_CourtroomLounge_Ch2:
 ; ============================================================================================================
 
 Music_CourtroomLounge_Ch3:
-	wavetype 1, 12, $1B
+	wavetype 1, 12, $19
 	vibrato $08, $38
 	stereopanning $ff
 	tone $0002

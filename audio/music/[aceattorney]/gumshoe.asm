@@ -12,7 +12,7 @@ Music_DetectiveGumshoe_Ch1:
 	volume $77
 	dutycycle $3
 	stereopanning $f
-	notetype $c, $74
+	notetype $c, $84
 	vibrato $12, $14
 	tone $0002
 
@@ -48,15 +48,15 @@ Music_DetectiveGumshoe_Ch1_Part_B:
 	callchannel Music_DetectiveGumshoe_Ch1_A#
 	callchannel Music_DetectiveGumshoe_Ch1_D_
 	callchannel Music_DetectiveGumshoe_Ch1_F_
-	notetype 8, $74
+	notetype 8, $84
 	note A#, 2
-	intensity $64
+	intensity $74
 	note A#, 2
 ;Ch1_Bar15:
-	intensity $64
+	intensity $74
 	note A#, 2
 	note __, 3
-	notetype 12, $74
+	notetype 12, $84
 	note __, 12
 ;Ch1_Bar16:
 	note G_, 2
@@ -80,10 +80,10 @@ Music_DetectiveGumshoe_Ch1_Part_B:
 ;Ch1_Bar21:
 	note F_, 5
 	note __, 1
-	notetype 4, $74
+	notetype 4, $84
 	note F#, 1
 	note G_, 5
-	notetype 12, $74
+	notetype 12, $84
 	note F_, 3
 	note D#, 5
 ;Bar22:
@@ -106,7 +106,7 @@ Music_DetectiveGumshoe_Ch1_Part_B:
 	octave 4
 	note C_, 1
 	note C_, 1
-	intensity $74
+	intensity $84
 	note G_, 1
 	note G_, 1
 	octave 5
@@ -120,79 +120,79 @@ Music_DetectiveGumshoe_Ch1_Part_B:
 	note G_, 1
 	note G_, 1
 	octave 5
-	intensity $74
+	intensity $84
 	note C_, 1
-	intensity $64
+	intensity $74
 	note C_, 1
 	octave 4
 	callchannel Music_DetectiveGumshoe_Ch1_Main_Loop
 	callchannel Music_DetectiveGumshoe_Ch1_C_
 	callchannel Music_DetectiveGumshoe_Ch1_G_
-	intensity $74
+	intensity $84
 	note C_, 1
-	intensity $64
+	intensity $74
 	note D_, 1
 ;Ch1_Bar26:
-	intensity $74
+	intensity $84
 	note G_, 1
-	intensity $64
+	intensity $74
 	octave 5
 	note C_, 1
 	loopchannel 0, Music_DetectiveGumshoe_Ch1_master
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_Main_Loop:
+	intensity $84
+	note C_, 1
 	intensity $74
 	note C_, 1
-	intensity $64
-	note C_, 1
 	note G_, 1
-	intensity $64
+	intensity $74
 	note G_, 1
 	octave 5
 	note C_, 1
-	intensity $64
+	intensity $74
 	note C_, 1
 	octave 4
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_G_:
-	intensity $74
+	intensity $84
 	note G_, 1
-	intensity $64
+	intensity $74
 	note G_, 1
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_A#:
-	intensity $74
+	intensity $84
 	note A#, 1
-	intensity $64
+	intensity $74
 	note A#, 1
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_D_:
-	intensity $74
+	intensity $84
 	note D_, 1
-	intensity $64
+	intensity $74
 	note D_, 1
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_F_:
-	intensity $74
+	intensity $84
 	note F_, 1
-	intensity $64
+	intensity $74
 	note F_, 1
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_C_:
-	intensity $74
+	intensity $84
 	note C_, 1
-	intensity $64
+	intensity $74
 	note C_, 1
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_Bar16:
-	notetype 4, $74
+	notetype 4, $84
 	octave 5
 	note C_, 1
 	note C_, 5
@@ -202,7 +202,7 @@ Music_DetectiveGumshoe_Ch1_Bar16:
 	note F_, 8
 	note F_, 1
 	note G_, 12
-	notetype 12, $74
+	notetype 12, $84
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_Bar18:
@@ -217,6 +217,7 @@ Music_DetectiveGumshoe_Ch1_Bar18:
 ;Ch1_Bar19:
 	note F_, 2
 	endchannel
+	
 ; ============================================================================================================
 Music_DetectiveGumshoe_Ch2:
 	stereopanning $ff

@@ -11,27 +11,18 @@ Music_LowerNorfair_Ch1:
 	tempo 146
 	volume $77
 	stereopanning $ff
-	
 	vibrato $12, $24
 
 Music_LowerNorfair_Ch1_master:
-	notetype $c, $b8
+	notetype 12, $c8
 ;INTRO
 	dutycycle $2
+Music_LowerNorfair_Ch1_Intro:
 ;Bar3:
 	note __, 16
-;Bar4:
-	note __, 16
-;Bar5:
-	note __, 16
-;Bar6:
-	note __, 16
-;Bar7:
-	note __, 16
-;Bar8:
-	note __, 16
+	loopchannel 6, Music_LowerNorfair_Ch1_Intro
 ;Bar9:
-	intensity $c7
+	intensity $d7
 	octave 4
 	note C_, 4
 	octave 3
@@ -47,14 +38,14 @@ Music_LowerNorfair_Ch1_master:
 	note C_, 4
 	note C#, 4
 	note D#, 4
-	notetype 8, $c7
+	notetype 8, $d7
 	note C#, 2
 	octave 3
 	note A#, 2
 	octave 4
 	note C#, 2
 ;Bar11:
-	notetype 12, $c7
+	notetype 12, $d7
 	note C_, 12
 	note __, 4
 ;Bar12:
@@ -75,12 +66,12 @@ Music_LowerNorfair_Ch1_master:
 	note C_, 4
 	note C#, 4
 	note D#, 4
-	notetype 8, $c7
+	notetype 8, $d7
 	note D#, 2
 	note D#, 2
 	note F_, 2
 ;Bar15:
-	notetype 12, $c7
+	notetype 12, $d7
 	note C_, 12
 	note __, 4
 ;Bar16:
@@ -96,12 +87,12 @@ Music_LowerNorfair_Ch1_master:
 ;Bar18:
 	note E_, 4
 	note F#, 4
-	notetype 8, $c7
+	notetype 8, $d7
 	note E_, 2
 	note C#, 2
 	note E_, 2
 ;Bar19:
-	notetype 12, $c7
+	notetype 12, $d7
 	note D#, 12
 	note __, 4
 ;Bar20:
@@ -117,12 +108,12 @@ Music_LowerNorfair_Ch1_master:
 ;Bar22:
 	note E_, 4
 	note F#, 4
-	notetype 8, $c7
+	notetype 8, $d7
 	note F#, 2
 	note F#, 2
 	note G#, 2
 ;Bar23:
-	notetype 12, $c7
+	notetype 12, $d7
 	note D#, 12
 	note __, 4
 ;Bar24:
@@ -140,12 +131,12 @@ Music_LowerNorfair_Ch1_master:
 	note F#, 4
 	note G_, 4
 	note A_, 4
-	notetype 8, $c7
+	notetype 8, $d7
 	note G_, 2
 	note E_, 2
 	note G_, 2
 ;Bar27:
-	notetype 12, $c7
+	notetype 12, $d7
 	note F#, 12
 	note __, 4
 ;Bar28:
@@ -161,12 +152,12 @@ Music_LowerNorfair_Ch1_master:
 	note F#, 4
 	note G_, 4
 	note A_, 4
-	notetype 8, $c7
+	notetype 8, $d7
 	note A_, 2
 	note A_, 2
 	note B_, 2
 ;Bar31
-	notetype 12, $c7
+	notetype 12, $d7
 	note F#, 12
 	note __, 4
 ;Bar32:
@@ -184,12 +175,12 @@ Music_LowerNorfair_Ch1_master:
 	octave 4
 	note C_, 4
 	octave 3
-	notetype 8, $c7
+	notetype 8, $d7
 	note A#, 2
 	note G_, 2
 	note A#, 2
 ;Bar35
-	notetype 12, $c7
+	notetype 12, $d7
 	note A_, 12
 	note __, 4
 ;Bar36:
@@ -206,13 +197,13 @@ Music_LowerNorfair_Ch1_master:
 	note A#, 4
 	octave 4
 	note C_, 4
-	notetype 8, $c7
+	notetype 8, $d7
 	note C_, 2
 	note C_, 2
 	note D_, 2
 ;Bar36
 	octave 3
-	notetype 12, $c7
+	notetype 12, $d7
 	note A_, 12
 	note __, 4
 ;Bar40:
@@ -226,7 +217,7 @@ Music_LowerNorfair_Ch1_PartE:
 	octave 3
 	stereopanning $ff
 	dutycycle $2
-	notetype 12, $c7
+	notetype 12, $d7
 	note A_, 4
 	note G_, 4
 	note F_, 4
@@ -248,17 +239,23 @@ Music_LowerNorfair_Ch1_PartE:
 	note E_, 4
 ;Bar45:
 	dutycycle $3
-	notetype 12, $d7
+	notetype 12, $e7
 	stereopanning $ff
 	octave 2
+	tone $0002
 	note A_, 4
+	tone $0000
 	note __, 2
 	note A#, 2
+	tone $0002
 	note A_, 4
+	tone $0000
 	note __, 2
 	note A#, 2
 ;Bar46:
+	tone $0002
 	note A_, 4
+	tone $0000
 	note A#, 4
 	octave 3
 	note C_, 4
@@ -285,14 +282,20 @@ Music_LowerNorfair_Ch1_PartE:
 	stereopanning $ff
 	dutycycle $3
 	octave 3
+	tone $0002
 	note C_, 4
+	tone $0000
 	note __, 2
 	note C#, 2
+	tone $0002
 	note C_, 4
+	tone $0000
 	note __, 2
 	note C#, 2
 ;Bar50:
+	tone $0002
 	note C_, 4
+	tone $0000
 	note C#, 4
 	note E_, 4
 	note C#, 4
@@ -316,18 +319,23 @@ Music_LowerNorfair_Ch1_PartE:
 	stereopanning $ff
 	dutycycle $3
 	octave 3
+	tone $0002
 	note D#, 4
+	tone $0000
 	note __, 2
 	note E_, 2
+	tone $0002
 	note D#, 4
+	tone $0000
 	note __, 2
 	note E_, 2
 ;Bar54:
+	tone $0002
 	note D#, 4
+	tone $0000
 	note E_, 4
 	note F#, 4
 	note E_, 4
-
 ;Bar55:
 	stereopanning $ff
 	dutycycle $1
@@ -348,7 +356,7 @@ Music_LowerNorfair_Ch1_PartE:
 
 ; ============================================================================================================
 Music_LowerNorfair_Ch2:
-	vibrato $12, $36
+	vibrato $06, $36
 	tone $0002
 
 Music_LowerNorfair_Ch2_master:
@@ -357,31 +365,31 @@ Music_LowerNorfair_Ch2_master:
 	dutycycle $2
 ;Bar3:
 	octave 3
-	intensity $78
+	intensity $88
 	note C_, 16
 ;Bar4:
-	intensity $77
+	intensity $87
 	note C#, 16
 ;Bar5
-	intensity $78
+	intensity $88
 	note C_, 16
 ;Bar6:
 	octave 2
-	intensity $77
+	intensity $87
 	note B_, 16
 ;Bar7
 	octave 3
-	intensity $78
+	intensity $88
 	note C_, 16
 ;Bar8:
-	intensity $77
+	intensity $87
 	note C#, 16
 ;Bar9-16:
 	dutycycle $2
 	callchannel Music_LowerNorfair_Ch2_PartA
 ;Bar17-24:
 	dutycycle $0
-	intensity $87
+	intensity $97
 	octave 3
 	callchannel Music_LowerNorfair_Ch2_PartB
 ;Bar25-32:
@@ -395,13 +403,13 @@ Music_LowerNorfair_Ch2_master:
 	endchannel
 
 Music_LowerNorfair_Ch2_PartA:
-	intensity $68
+	intensity $78
 	note E_, 7
-	intensity $67
+	intensity $77
 	note E_, 9
-	intensity $68
+	intensity $78
 	note F_, 7
-	intensity $67
+	intensity $77
 	note F_, 9
 	loopchannel 4, Music_LowerNorfair_Ch2_PartA
 	endchannel
@@ -444,56 +452,54 @@ Music_LowerNorfair_Ch2_PartD:
 
 Music_LowerNorfair_Ch2_PartE:
 ;Bar41
-	notetype 12, $77
+	notetype 12, $87
 	dutycycle $1
 	octave 2
 	note A_, 8
 	note A_, 4
-	notetype 8, $77
+	notetype 8, $87
 	note A_, 2
 	octave 3
 	note C#, 2
 	note D_, 2
-	notetype 12, $77
+	notetype 12, $87
 ;Bar42:
-	notetype 12, $77
+	notetype 12, $87
 	octave 2
 	note A#, 8
 	note A#, 4
-	notetype 8, $77
-	note A#, 2
-	octave 3
-	note D_, 2
-	note D#, 2
-	notetype 12, $77
-;Bar43:
-	notetype 12, $77
-	octave 2
-	note A_, 8
-	note A_, 4
-	notetype 8, $77
-	note A_, 2
-	octave 3
-	note C#, 2
-	note D_, 2
-	notetype 12, $77
-;Bar44:
-	notetype 12, $77
-	octave 2
-	note A#, 8
-	note A#, 4
-	notetype 8, $77
+	notetype 8, $87
 	note A#, 2
 	octave 3
 	note D_, 2
 	note D#, 2
 	notetype 12, $87
+;Bar43:
+	notetype 12, $87
+	octave 2
+	note A_, 8
+	note A_, 4
+	notetype 8, $87
+	note A_, 2
+	octave 3
+	note C#, 2
+	note D_, 2
+	notetype 12, $87
+;Bar44:
+	notetype 12, $87
+	octave 2
+	note A#, 8
+	note A#, 4
+	notetype 8, $87
+	note A#, 2
+	octave 3
+	note D_, 2
+	note D#, 2
+	notetype 12, $97
 ;Bar45
 	dutycycle $2
 	octave 2
-	tone $0000
 	note A_, 8
-	tone $0002
 	octave 3
 	note E_, 8
 ;Bar46
@@ -502,26 +508,20 @@ Music_LowerNorfair_Ch2_PartE:
 	note A#, 8
 ;Bar47
 	octave 2
-	tone $0000
 	note A_, 8
-	tone $0002
 	octave 3
 	note E_, 8
 ;Bar48
 	note A#, 8
 	note F_, 8
 ;Bar49
-	tone $0000
 	note C_, 8
-	tone $0002
 	note G_, 8
 ;Bar50
 	note G#, 8
 	note C#, 8
 ;Bar51
-	tone $0000
 	note C_, 8
-	tone $0002
 	note G_, 8
 ;Bar52
 	octave 4
@@ -532,34 +532,34 @@ Music_LowerNorfair_Ch2_PartE:
 	note D#, 4
 	note D#, 4
 	note D#, 4
-	notetype 8, $87
+	notetype 8, $97
 	note D#, 2
 	note A#, 2
 	note D#, 2
 ;Bar54
-	notetype 12, $87
+	notetype 12, $97
 	note E_, 4
 	note E_, 4
 	note E_, 4
-	notetype 8, $87
+	notetype 8, $97
 	note E_, 2
 	note B_, 2
 	note E_, 2
 ;Bar55
-	notetype 12, $87
+	notetype 12, $97
 	note D#, 4
 	note D#, 4
 	note D#, 4
-	notetype 8, $87
+	notetype 8, $97
 	note D#, 2
 	note A#, 2
 	note D#, 2
 ;Bar56
-	notetype 12, $87
+	notetype 12, $97
 	note E_, 4
 	note E_, 4
 	note E_, 4
-	notetype 8, $87
+	notetype 8, $97
 	note E_, 2
 	note B_, 2
 	note E_, 2
@@ -569,14 +569,14 @@ Music_LowerNorfair_Ch2_PartE:
 ; ============================================================================================================
 Music_LowerNorfair_Ch3:
 	stereopanning $ff
-	notetype 12, $2C
-	tone $0004
+	notetype 12, $1C
+	tone $0001
 	vibrato $16, $13
 
 Music_LowerNorfair_Ch3_master:
 ;INTRO
 	callchannel Music_LowerNorfair_Ch3_Intro
-	intensity $2C
+	intensity $1C
 ;PART A
 ;Bar9 - 16:
 	callchannel Music_LowerNorfair_Ch3_PartA
@@ -642,13 +642,13 @@ Music_LowerNorfair_Ch3_PartE:
 
 Music_LowerNorfair_Ch3_Intro:
 ;Bar3:
-	intensity $2C
+	intensity $1C
 	octave 3
 	note G_, 16
 ;Bar4:
-	intensity $2C
+	intensity $1C
 	note G#, 4
-	intensity $3C
+	intensity $2C
 	note G#, 1
 	note __, 11
 	loopchannel 3, Music_LowerNorfair_Ch3_Intro
