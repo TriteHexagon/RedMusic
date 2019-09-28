@@ -33,9 +33,9 @@ Music_CourtroomLounge_Ch1_master:
 	note G_, 1
 	note F_, 1
 	note A#, 1
-	note G#, 6
+	note G#, 5
 	intensity $97
-	note G#, 4
+	note G#, 5
 	intensity $98
 ;Bar 3
 	note G#, 1
@@ -53,7 +53,10 @@ Music_CourtroomLounge_Ch1_master:
 	octave 3
 	note C_, 1
 	note D#, 2
-	note D_, 4
+	notetype 3, $98
+	note C#, 1
+	note D_, 15
+	notetype 12, $98
 ;Bar 4
 	note __, 16
 	note __, 16
@@ -69,9 +72,9 @@ Music_CourtroomLounge_Ch1_master:
 	octave 3
 	note C_, 1
 	octave 2
-	note F_, 6
+	note F_, 5
 	intensity $97
-	note F_, 4
+	note F_, 5
 	intensity $98
 ;Bar 7
 	note A#, 1
@@ -92,20 +95,17 @@ Music_CourtroomLounge_Ch1_master:
 	note C_, 1
 	note D#, 1
 	note __, 1
-	note D_, 4
+	notetype 3, $98
+	note C#, 1
+	note D_, 15
+	notetype 12, $98
 ;Bar 8
 	note __, 16
 	note __, 16
 ;Bar 10
 	octave 2
-	note G#, 4
-	intensity $97
-	note G#, 2
-	intensity $98
-	note A#, 4
-	intensity $97
-	note A#, 2
-	intensity $98
+	note G#, 6
+	note A#, 6
 	octave 3
 	note C_, 4
 ;Bar 11
@@ -130,9 +130,9 @@ Music_CourtroomLounge_Ch1_master:
 ;Bar 12
 	note F_, 6
 	note G_, 6
-	note G#, 12
+	note G#, 10
 	intensity $97
-	note G#, 4
+	note G#, 6
 	intensity $98
 ;Bar 13
 	note __, 4
@@ -297,7 +297,7 @@ Music_CourtroomLounge_Ch3_Bar10:
 ; ============================================================================================================
 
 Music_CourtroomLounge_Ch4:
-	togglenoise 5 ; WARNING: this will sound bad. Change.
+	togglenoise 5
 	notetype 12
 	stereopanning $ff
 ;Bar 1

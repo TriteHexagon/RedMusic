@@ -1,5 +1,8 @@
 ; Route 10 (Pokémon Black & White)
 ; Demixed by TriteHexagon
+
+; dn 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 4, 4, 4, 4, 3, 3, 12, 12, 12, 12, 10, 10, 9, 9, 8, 8, 9, 9, 10, 10, 12, 12
+
 Music_Route10:
 	musicheader 4, 1, Music_Route10_Ch1
 	musicheader 1, 2, Music_Route10_Ch2

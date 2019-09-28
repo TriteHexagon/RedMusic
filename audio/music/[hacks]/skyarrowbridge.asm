@@ -1,18 +1,5 @@
-
-; Drumkit3:
-; 	dw Drum00
-; 	dw Snare12
-; 	dw Snare13
-; 	dw Snare14
-; 	dw Kick1
-; 	dw Triangle5
-; 	dw Snare5 ;was Drum20
-; 	dw Drum27
-; 	dw Drum28
-; 	dw Drum29
-; 	dw Snare9 ;was Drum00
-; 	dw Kick2
-; 	dw Crash2
+; Skyarrow Bridge (Pokémon BW/B2W2)
+; Demix by TriteHexagon 
 
 Music_SkyarrowBridge:
 	musicheader 4, 1, Music_SkyarrowBridge_Ch1
@@ -206,6 +193,7 @@ Music_SkyarrowBridge_Ch1_master:
 ;Ch1_Bar18:
 	callchannel Music_SkyarrowBridge_Ch1_bar_16_18
 	loopchannel 0, Music_SkyarrowBridge_Ch1_master
+	endchannel
 
 Music_SkyarrowBridge_Ch1_bar_13_15_17:
 	octave 2
@@ -786,7 +774,7 @@ Music_SkyarrowBridge_Ch3_master:
 Music_SkyarrowBridge_Ch4:
 	notetype 12
 	stereopanning $ff
-	togglenoise $3
+	togglenoise 3
 
 	callchannel Music_SkyarrowBridge_Ch4_Intro
 ;Ch4_Bar2:

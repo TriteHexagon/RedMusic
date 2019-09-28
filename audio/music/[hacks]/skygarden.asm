@@ -1,14 +1,13 @@
 ; 
 ; Demixed by TriteHexagon
 Music_SkyGarden:
-	musicheader 4, 1, Music_SkyGarden_ChEXTRA
+	musicheader 4, 1, Music_SkyGarden_Ch1
 	musicheader 1, 2, Music_SkyGarden_Ch2
 	musicheader 1, 3, Music_SkyGarden_Ch3
 	musicheader 1, 4, Music_SkyGarden_Ch4
 
 ; ============================================================================================================
 Music_SkyGarden_Ch1:
-    ;stereopanning $ff
     ;vibrato $12, $13
     notetype 12, $97
     dutycycle $2
@@ -673,7 +672,7 @@ Music_SkyGarden_Ch3_master:
     wavetype $1, 6, $13
 	callchannel Music_SkyGarden_Ch3_Bar18
 	octave 4
-    wavetype $1, 12, $1E
+    notetype 12, $1E
 	note D#, 2
 	note F#, 2
 	note B_, 2
@@ -686,6 +685,7 @@ Music_SkyGarden_Ch3_master:
 	note E_, 1
 	note __, 1
 ;Ch2_Bar25:
+    intensity $13
 	octave 4
 	note A_, 2
 	note __, 1
@@ -752,7 +752,6 @@ Music_SkyGarden_Ch3_Bar18:
 ; ============================================================================================================
 Music_SkyGarden_Ch4:
 	notetype 12
-	;stereopanning $ff
 	togglenoise $3
 
 ;Ch4_Bar1:

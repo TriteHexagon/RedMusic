@@ -1,5 +1,20 @@
-; 
+; Pokémon Center (Night)
 ; Demixed by TriteHexagon
+
+; dw Drum00
+; dw Drum00
+; dw Kick1 
+; dw Crash1 
+; dw Snare6
+; dw HiHat2
+; dw HiHat3 
+; dw Snare14
+; dw Drum27 
+; dw Snare10
+; dw Drum00 
+; dw Snare13 
+; dw Snare11
+
 Music_PKMN_Center_Night:
 	musicheader 4, 1, Music_PKMN_Center_Night_Ch1
 	musicheader 1, 2, Music_PKMN_Center_Night_Ch2
@@ -808,8 +823,6 @@ Music_PKMN_Center_Night_Ch3_end:
 	loopchannel 0, Music_PKMN_Center_Night_Ch3_master
 	endchannel
 
-
-
 ; ============================================================================================================
 Music_PKMN_Center_Night_Ch4:
 	notetype 8
@@ -818,35 +831,7 @@ Music_PKMN_Center_Night_Ch4:
 
 Music_PKMN_Center_Night_Ch4_master:
 ;Ch4_Bar1:
-	note F_, 6
-	note E_, 6
-	note E_, 10
-	note C#, 8
-;Ch4_Bar2:
-	note E_, 6
-	note E_, 6
-	note E_, 4
-	note C#, 2
-;Ch4_Bar3:
-	note F_, 6
-	note E_, 6
-	note E_, 10
-	note C#, 8
-;Ch4_Bar4:
-	note E_, 6
-	note E_, 6
-	note E_, 4
-	note C#, 2
-;Ch4_Bar5:
-	note F_, 6
-	note E_, 6
-	note E_, 10
-	note C#, 8
-;Ch4_Bar6:
-	note E_, 6
-	note E_, 6
-	note E_, 4
-	note C#, 2
+	callchannel Music_PKMN_Center_Night_Ch4_Bar1
 ;Ch4_Bar7:
 	note F_, 6
 	note E_, 4
@@ -1061,4 +1046,17 @@ Music_PKMN_Center_Night_Ch4_master:
 	note E_, 10
 	note C#, 2
 	loopchannel 0, Music_PKMN_Center_Night_Ch4_master
+	endchannel
+
+Music_PKMN_Center_Night_Ch4_Bar1:
+	note F_, 6
+	note E_, 6
+	note E_, 10
+	note C#, 8
+
+	note E_, 6
+	note E_, 6
+	note E_, 4
+	note C#, 2
+	loopchannel 3, Music_PKMN_Center_Night_Ch4_Bar1
 	endchannel

@@ -126,19 +126,20 @@ Music_InvestigationMiddle2002_Ch1_Intro:
 ;Bar 22
 	note __, 2
 	octave 2
+	intensity $63
 	note F#, 1
 	note G_, 1
 	note G_, 1
 	note A_, 1
-	intensity $66
+	intensity $63
 	note A_, 2
-	intensity $86
+	intensity $83
 	note A_, 1
 	note B_, 1
 	note B_, 1
 	octave 3
 	note C_, 1
-	intensity $66
+	intensity $63
 	note C_, 2
 	note __, 3
 	loopchannel 0, Music_InvestigationMiddle2002_Ch1
@@ -181,7 +182,7 @@ Music_InvestigationMiddle2002_Ch1_Bar1:
 Music_InvestigationMiddle2002_Ch2:
 	dutycycle $1
 	notetype 12, $88
-	vibrato $12, $25
+	vibrato $12, $2a
 ;Bar 1
 	note __, 16
 	note __, 16
@@ -266,7 +267,7 @@ Music_InvestigationMiddle2002_Ch2:
 	note G_, 15
 ;Bar 22
 	note __, 2
-	intensity $87
+	intensity $83
 	octave 2
 	note D_, 1
 	note E_, 1

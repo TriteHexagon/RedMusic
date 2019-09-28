@@ -143,8 +143,10 @@ Music:
 	dba Music_IcePathHGSS
 	dba Music_SkyarrowBridge
 	dba Music_PKMN_Center_Night
+	dba Music_MirorBBattle
 	;Ace Attorney
 	dba Music_CourtroomLounge
+	dba Music_CourtBegins
 	dba Music_TestimonyMod2001
 	dba Music_LogicAndTrick
 	dba Music_Objection2001
@@ -169,5 +171,5 @@ Music:
 	dba Music_MillenialFair
 	
 	;Current
-	dba Music_Template
+	dba Music_Placeholder
 	

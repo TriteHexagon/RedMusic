@@ -48,7 +48,7 @@ Drumkit2: ; e8e92
 	dw Snare9
 	dw Snare10
 	dw Snare11
-	dw HiHat2_Soft ; was Drum05
+	dw Kick1
 	dw Triangle1
 	dw Triangle2
 	dw HiHat1
@@ -602,5 +602,5 @@ SnareVar4:
 	endchannel
 
 Snare6Special:
-	noise C#,  3, $b2, $25
+	noise C#,  3, $a2, $25
 	endchannel

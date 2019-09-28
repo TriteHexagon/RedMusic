@@ -507,7 +507,7 @@ Music_BreakTheTargets_Ch2_G:
 ; ============================================================================================================
 Music_BreakTheTargets_Ch3:
 	stereopanning $ff
-	notetype 12, $1D
+	wavetype 0, 12, $1C
 	vibrato $00, $00
 
 ;Bar1:
@@ -518,8 +518,8 @@ Music_BreakTheTargets_Ch3:
 	note __, 16
 Music_BreakTheTargets_Ch3_master:
 ;Bar4:
+	waveform 0, $1C
 	octave 5
-	waveform $0, $1C
 	note A_, 8
 	callchannel Music_BreakTheTargets_Ch3_OP
 	notetype 8, $13
@@ -557,8 +557,8 @@ Music_BreakTheTargets_Ch3_master:
 	note D_, 8
 ;Bar13:
 	octave 4
+	intensity $1D
 	vibrato $00, $00
-	notetype 12, $1D
 	note A_, 1
 	note B_, 1
 	octave 5
@@ -572,12 +572,12 @@ Music_BreakTheTargets_Ch3_master:
 ;Bar14:
 	intensity $1B
 	callchannel Music_BreakTheTargets_Ch3_bass
-	;Bar22:
+;Bar22:
 	octave 4
-	intensity $23
+	wavetype $1, 12, $23
 	note E_, 16
 ;Bar23:
-	waveform $1, $3E
+	intensity $33
 	note E_, 8
 	note __, 8
 	note __, 12

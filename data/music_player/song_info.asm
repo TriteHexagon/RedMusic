@@ -143,8 +143,10 @@ SongInfo:
 	db "Ice Path@", ORIGIN_HGSS, COMPOSER_NONE, COMPOSER_NONE
 	db "Skyarrow Bridge@", ORIGIN_BW, COMPOSER_NONE, COMPOSER_NONE
 	db "Pokémon Center      (Night)@", ORIGIN_DPPT, COMPOSER_NONE, COMPOSER_NONE
+	db "Miror B. Battle@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;Ace Attorney
 	db "Courtroom Lounge@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Ace Attorney -      Court Begins@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Cross-Examination:","  Moderato 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Logic & Trick@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Objection 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
@@ -169,5 +171,5 @@ SongInfo:
 	db "Guardia's", "            Millenial Fair@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	
 	;Current
-	db "Template@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Placeholder@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db -1

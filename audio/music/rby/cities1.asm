@@ -579,7 +579,7 @@ Music_Cities1_branch_acce:
 
 Music_Cities1_Ch4: ; acef (2:6cef)
 	notetype 12
-	togglenoise 0
+	togglenoise 1
 Music_Cities1_Loop4:
 	callchannel Music_Cities1_branch_ad36
 Music_Cities1_branch_acf3:
@@ -590,66 +590,66 @@ Music_Cities1_branch_acf3:
 	callchannel Music_Cities1_branch_ad36
 	callchannel Music_Cities1_branch_ad5f
 	callchannel Music_Cities1_branch_ad52
-	note F_, 6
-	note F_, 6
-	note F#, 4
+	note A#, 6
+	note A#, 6
+	note B_, 4
 	callchannel Music_Cities1_branch_ad6e
 	callchannel Music_Cities1_branch_ad5f
 	callchannel Music_Cities1_branch_ad52
 	callchannel Music_Cities1_branch_ad6e
 	callchannel Music_Cities1_branch_ad52
-	note F_, 6
-	note F_, 6
-	note F#, 2
-	note F_, 2
-	note F_, 6
-	note F_, 6
-	note F_, 4
-	note F_, 6
-	note G_, 6
-	note G_, 4
+	note A#, 6
+	note A#, 6
+	note B_, 2
+	note A#, 2
+	note A#, 6
+	note A#, 6
+	note A#, 4
+	note A#, 6
+	note E_, 6
+	note E_, 4
 	loopchannel 0, Music_Cities1_Loop4
 Music_Cities1_branch_ad36:
-	note G_, 6
-	note G_, 6
-	note G_, 4
-	note G_, 6
-	note G_, 6
-	note G_, 2
-	note G_, 2
+	note E_, 6
+	note E_, 6
+	note E_, 4
+	note E_, 6
+	note E_, 6
+	note E_, 2
+	note E_, 2
 	endchannel
 
 Music_Cities1_branch_ad45:
-	note G_, 6
-	note G_, 6
-	note G_, 4
-	note G_, 6
-	note G_, 6
-	note G_, 4
+	note E_, 6
+	note E_, 6
+	note E_, 4
+	note E_, 6
+	note E_, 6
+	note E_, 4
 	endchannel
 
 Music_Cities1_branch_ad52:
-	note F_, 6
-	note F_, 6
-	note F#, 4
-	note F_, 6
-	note F_, 6
-	note F#, 4
+	note A#, 6
+	note A#, 6
+	note B_, 4
+	note A#, 6
+	note A#, 6
+	note B_, 4
 	endchannel
 
 Music_Cities1_branch_ad5f:
-	note F_, 6
-	note F_, 6
-	note F#, 4
-	note F_, 6
-	note F_, 6
-	note F#, 2
-	note F_, 2
+	note A#, 6
+	note A#, 6
+	note B_, 4
+	note A#, 6
+	note A#, 6
+	note B_, 2
+	note A#, 2
 	endchannel
 
 Music_Cities1_branch_ad6e:
-	note F_, 6
-	note F_, 6
-	note F#, 2
-	note F#, 2
+	note A#, 6
+	note A#, 6
+	note B_, 2
+	note B_, 2
 	endchannel

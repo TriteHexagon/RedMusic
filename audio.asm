@@ -292,6 +292,7 @@ INCLUDE "audio/music/[aceattorney]/courtroomlounge.asm"
 INCLUDE "audio/music/[aceattorney]/pursuitcorneredvar.asm"
 INCLUDE "audio/music/[aceattorney]/emaskye.asm"
 INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
+INCLUDE "audio/music/[aceattorney]/courtbegins.asm"
 
 SECTION "Hacks 2", ROMX
 
@@ -300,7 +301,8 @@ INCLUDE "audio/music/[hacks]/skyarrowbridge.asm"
 INCLUDE "audio/music/[hacks]/pkmncenternight.asm"
 INCLUDE "audio/music/[night]/azaleanight.asm"
 INCLUDE "audio/music/[hacks]/millenialfair.asm"
-INCLUDE "audio/music/[hacks]/template.asm"
+INCLUDE "audio/music/[hacks]/mirorbbattle.asm"
+INCLUDE "audio/music/[hacks]/[placeholder].asm"
 
 
 

@@ -10,7 +10,7 @@ Music_CalamariInkantation:
 ; ============================================================================================================
 Music_CalamariInkantation_Ch1:
 	tempo 132
-	volume $77
+	volume $66
 	dutycycle $0
 	stereopanning $ff
 	notetype $c, $b6

@@ -611,8 +611,9 @@ Music_Route113_Ch1_Bar13_16:
 ; ============================================================================================================
 Music_Route113_Ch2:
 	stereopanning $f
-	notetype 6, $78
-	dutycycle $2
+	notetype 6, $68
+	dutycycle $1
+	tone $0001
 	octave 3
 
 	note __, 4
@@ -668,7 +669,7 @@ Music_Route113_Ch2_BF#:
 	pitchoffset 1, F#
 	callchannel Music_Route113_Ch2_base3
 ;Bar19:
-	intensity $88
+	intensity $68
 	pitchoffset 1, A_
 	callchannel Music_Route113_Ch2_base1
 ;Bar20:
@@ -703,7 +704,7 @@ Music_Route113_Ch2_BF#:
 
 Music_Route113_Ch2_BF#_alt:
 ;Bar28-30:
-	intensity $68
+	intensity $58
 	pitchoffset 2, B_
 	callchannel Music_Route113_Ch2_base1
 	callchannel Music_Route113_Ch2_base2
@@ -712,7 +713,7 @@ Music_Route113_Ch2_BF#_alt:
 	callchannel Music_Route113_Ch2_base2
 	callchannel Music_Route113_Ch2_base3
 ;Bar34-36:
-	intensity $78
+	intensity $68
 	pitchoffset 2, F#
 	callchannel Music_Route113_Ch2_base1
 	callchannel Music_Route113_Ch2_base2
@@ -810,7 +811,6 @@ Music_Route113_Ch3_master:
 	note __, 2
 ;Bar5:
 	note __, 8
-	stereopanning $ff
 	intensity $16
 	vibrato 8, $46
 	octave 3
