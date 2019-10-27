@@ -294,6 +294,7 @@ INCLUDE "audio/music/[aceattorney]/emaskye.asm"
 INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
 INCLUDE "audio/music/[aceattorney]/courtbegins.asm"
 
+
 SECTION "Hacks 2", ROMX
 
 INCLUDE "audio/music/[hacks]/skygarden.asm"

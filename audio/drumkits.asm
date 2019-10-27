@@ -12,6 +12,7 @@ Drumkits: ; e8e52
 	dw Drumkit10 ;10
 	dw DrumkitTEST ;11
 	dw DrumkitCorneredVar ;12
+	dw DrumkitAceAttorney ;13
 ; e8e5e
 
 Drumkit0: ; e8e5e
@@ -168,7 +169,7 @@ Drumkit10: ; 10
 	dw Drum00 ; A_
 	dw Snare13 ; A# Samurai
 	dw Snare11 ;B_ PKMN Center / Samurai
-DrumkitTEST: ; 10
+DrumkitTEST: ; 11
 	dw Drum00
 	dw TrianglePL
 	dw TrianglePL2
@@ -184,7 +185,7 @@ DrumkitTEST: ; 10
 	dw TrianglePL10
 	dw TrianglePL11
 	dw TrianglePL12
-DrumkitCorneredVar: ; e8ee0
+DrumkitCorneredVar: ; 12
 	dw Drum00
 	dw Drum00
 	dw Drum00
@@ -198,6 +199,21 @@ DrumkitCorneredVar: ; e8ee0
 	dw Drum00
 	dw Drum00
 	dw Kick2 ;RESERVED
+
+DrumkitAceAttorney: ; 13
+	dw Drum00
+	dw Kick1
+	dw Drum29
+	dw Snare6
+	dw Snare14
+	dw Drum00
+	dw Drum00
+	dw HiHat2
+	dw Drum00
+	dw Drum00
+	dw Drum00
+	dw HiHat3
+	dw Drum00
 ; e8efa
 
 Drum00: ; e8efa

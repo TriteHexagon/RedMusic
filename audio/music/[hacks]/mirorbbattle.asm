@@ -15,8 +15,8 @@ Music_MirorBBattle_Ch1:
 	volume $77
 	dutycycle $2
 	notetype 12, $a6
+	vibrato $04, $a8
 	tone $0002
-	;sound_duty 2,2,1,1
 	tempo 163
 ;Bar 1
 	octave 1
@@ -174,6 +174,7 @@ Music_MirorBBattle_Ch1_Bar9:
 
 Music_MirorBBattle_Ch2:
 	notetype 12, $c7
+	;vibrato $08, $24
 	tone $0001
 ;Bar 1
 	note __, 16
@@ -347,19 +348,22 @@ Music_MirorBBattle_Ch2_loop:
 	note G_, 2
 	note __, 2
 ;Bar 25
-	intensity $98
+	dutycycle $0
+	intensity $68
+	note C_, 8
+	intensity $6f
+	note C_, 6
+	intensity $a7
 	note C_, 16
-	intensity $98
-	note C_, 9
-	intensity $97
-	note C_, 7
+	note __, 2
 	intensity $c7
 	loopchannel 0, Music_MirorBBattle_Ch2_loop
 
 ; ============================================================================================================
 
 Music_MirorBBattle_Ch3:
-	notetype 12, $15
+	notetype 12, $16
+	vibrato $00, $00
 ;Bar 1
 	note __, 16
 	note __, 16
@@ -386,6 +390,7 @@ Music_MirorBBattle_Ch3:
 	note __, 16
 	note __, 16
 ;Bar 11
+	intensity $15
 	note G_, 16
 	note G_, 1
 ;Bar 12

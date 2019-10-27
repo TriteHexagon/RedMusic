@@ -143,7 +143,7 @@ SongInfo:
 	db "Ice Path@", ORIGIN_HGSS, COMPOSER_NONE, COMPOSER_NONE
 	db "Skyarrow Bridge@", ORIGIN_BW, COMPOSER_NONE, COMPOSER_NONE
 	db "Pokémon Center      (Night)@", ORIGIN_DPPT, COMPOSER_NONE, COMPOSER_NONE
-	db "Miror B. Battle@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Miror B. Battle (XD)@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;Ace Attorney
 	db "Courtroom Lounge@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Ace Attorney -      Court Begins@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE

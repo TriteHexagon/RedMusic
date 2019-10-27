@@ -14,10 +14,147 @@ Music_Placeholder:
 Music_Placeholder_Ch1:
 	volume $77
 	dutycycle $2
-	notetype 12, $68
+	notetype 12, $58
 	vibrato $12, $24
 	tone $0002
 	tempo 212
+
+	callchannel Music_Placeholder_Ch1_3_Intro
+;Bar 5
+	notetype 6, $C8
+	octave 1
+	note G_, 8
+;Bar 6
+	pitchoffset 0, A_
+	callchannel Music_Placeholder_Ch1_Cx7
+	note __, 16
+	note __, 2
+	pitchoffset 1, B_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 0, C_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 0, D_
+	callchannel Music_Placeholder_Ch1_D8_88
+;Bar 8
+	pitchoffset 1, B_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 0, C_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 1, B_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 1, G_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 0, F_
+	callchannel Music_Placeholder_Ch1_Cx7
+	note __, 16
+	note __, 2
+;Bar 8
+	intensity $F8
+	pitchoffset 1, A_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 1, G_
+	callchannel Music_Placeholder_Ch1_D8_88
+	note __, 2
+	pitchoffset 1, A_
+	callchannel Music_Placeholder_Ch1_D8_88
+	octave 2
+	pitchoffset 0, C_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 1, B_
+	callchannel Music_Placeholder_Ch1_D8_88
+	octave 2
+	pitchoffset 0, D_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 0, A_
+	callchannel Music_Placeholder_Ch1_Cx7
+	note __, 16
+	note __, 2
+;Bar 9
+	pitchoffset 0, E_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 0, D_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 0, C_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 1, B_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 1, C_
+	intensity $78
+	note B_, 2
+	pitchoffset 1, G_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 1, C_
+	intensity $A8
+	note G_, 1
+	intensity $78
+	note G_, 1
+	pitchoffset 0, F_
+	callchannel Music_Placeholder_Ch1_Cx7
+	pitchoffset 0, C_
+;Bar 10
+	note __, 16
+	note __, 4
+	pitchoffset 1, G_
+	callchannel Music_Placeholder_Ch1_D8_88
+	note __, 2
+	pitchoffset 1, G_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 1, B_
+	callchannel Music_Placeholder_Ch1_D8_88
+	pitchoffset 0, C_
+	callchannel Music_Placeholder_Ch1_D8_88
+	intensity $78
+	note C_, 2
+;Bar 11
+	pitchoffset 0, A_
+	callchannel Music_Placeholder_Ch1_Cx7
+	pitchoffset 0, C_
+	notetype 12, $78
+	note __, 14
+;Bar 12
+	notetype 6, $F8
+	note G_, 1
+	note __, 3
+	pitchoffset 0, A_
+	callchannel Music_Placeholder_Ch1_Cx7
+	pitchoffset 0, C_
+;Bar 12
+	notetype 12, $1f
+	octave 4
+	note F_, 4
+	intensity $78
+	note F_, 12
+	loopchannel 0, Music_Placeholder_Ch1
+
+Music_Placeholder_Ch1_Cx7:
+	octave 1
+	intensity $F8
+	note C_, 1
+	intensity $B8
+	note C_, 1
+	intensity $A8
+	note C_, 1
+	intensity $78
+	note C_, 1
+	intensity $F8
+	note C_, 1
+	intensity $B8
+	note C_, 1
+	intensity $A8
+	note C_, 1
+	intensity $78
+	note C_, 1
+	endchannel
+
+Music_Placeholder_Ch1_D8_88:
+	octave 2
+	intensity $F8
+	note C_, 1
+	intensity $A8
+	note C_, 1
+	endchannel
+
+Music_Placeholder_Ch1_3_Intro:
 ;Bar 1
 	octave 2
 	note A_, 16
@@ -30,230 +167,6 @@ Music_Placeholder_Ch1:
 ;Bar 4
 	note E_, 4
 	note F_, 16
-;Bar 5
-	intensity $C8
-	octave 1
-	note G_, 4
-;Bar 6
-	intensity $D8
-	notetype 6, $D8
-	callchannel Music_Placeholder_Ch1_AAAAAAA
-	intensity $58
-	note A_, 1
-	notetype 12, $58
-	note __, 9
-	notetype 6, $D8
-	note B_, 1
-	intensity $88
-	note B_, 1
-	intensity $D8
-	octave 2
-	note C_, 1
-	intensity $88
-	note C_, 1
-	intensity $D8
-	note D_, 1
-	intensity $88
-	note D_, 1
-;Bar 8
-	intensity $D8
-	octave 1
-	note B_, 1
-	intensity $88
-	note B_, 1
-	intensity $D8
-	octave 2
-	note C_, 1
-	intensity $88
-	note C_, 1
-	intensity $D8
-	octave 1
-	note B_, 1
-	intensity $88
-	note B_, 1
-	intensity $D8
-	note G_, 1
-	intensity $88
-	note G_, 1
-	intensity $D8
-	note F_, 1
-	intensity $98
-	note F_, 1
-	intensity $88
-	note F_, 1
-	intensity $58
-	note F_, 1
-	intensity $D8
-	note F_, 1
-	intensity $98
-	note F_, 1
-	intensity $88
-	note F_, 1
-	intensity $58
-	note F_, 1
-	notetype 12, $58
-	note __, 9
-;Bar 8
-	intensity $D8
-	notetype 6, $D8
-	note A_, 1
-	intensity $88
-	note A_, 1
-	intensity $D8
-	note G_, 1
-	intensity $88
-	note G_, 1
-	notetype 12, $88
-	note __, 1
-	intensity $D8
-	notetype 6, $D8
-	note A_, 1
-	intensity $88
-	note A_, 1
-	intensity $D8
-	octave 2
-	note C_, 1
-	intensity $88
-	note C_, 1
-	intensity $D8
-	octave 1
-	note B_, 1
-	intensity $88
-	note B_, 1
-	intensity $D8
-	octave 2
-	note D_, 1
-	intensity $88
-	note D_, 1
-	intensity $D8
-	octave 1
-	callchannel Music_Placeholder_Ch1_AAAAAAA
-	intensity $58
-	note A_, 1
-	notetype 12, $58
-	note __, 9
-;Bar 9
-	intensity $D8
-	notetype 6, $D8
-	octave 2
-	note E_, 1
-	intensity $88
-	note E_, 1
-	intensity $D8
-	note D_, 1
-	intensity $88
-	note D_, 1
-	intensity $D8
-	note C_, 1
-	intensity $88
-	note C_, 1
-	intensity $D8
-	octave 1
-	note B_, 1
-	intensity $88
-	note B_, 1
-	intensity $58
-	notetype 12, $58
-	note B_, 1
-	intensity $D8
-	notetype 6, $D8
-	note G_, 1
-	intensity $98
-	note G_, 1
-	intensity $88
-	note G_, 1
-	intensity $58
-	note G_, 1
-	intensity $D8
-	note F_, 1
-	intensity $98
-	note F_, 1
-	intensity $88
-	note F_, 1
-	intensity $58
-	note F_, 1
-	intensity $D8
-	note F_, 1
-	intensity $98
-	note F_, 1
-	intensity $88
-	note F_, 1
-	intensity $58
-	note F_, 1
-;Bar 10
-	notetype 12, $58
-	note __, 10
-	intensity $D8
-	notetype 6, $D8
-	note G_, 1
-	intensity $88
-	note G_, 1
-	notetype 12, $88
-	note __, 1
-	intensity $D8
-	notetype 6, $D8
-	note G_, 1
-	intensity $88
-	note G_, 1
-	intensity $D8
-	note B_, 1
-	intensity $88
-	note B_, 1
-	intensity $D8
-	octave 2
-	note C_, 1
-	intensity $88
-	note C_, 1
-	intensity $58
-	notetype 12, $58
-	note C_, 1
-;Bar 11
-	intensity $D8
-	notetype 6, $D8
-	octave 1
-	callchannel Music_Placeholder_Ch1_AAAAAAA
-	intensity $58
-	note A_, 1
-	notetype 12, $58
-	note __, 14
-;Bar 12
-	intensity $D8
-	notetype 6, $D8
-	note G_, 1
-	note __, 3
-	callchannel Music_Placeholder_Ch1_AAAAAAA
-	intensity $38
-	note A_, 1
-;Bar 12
-	notetype 12, $1f
-	octave 4
-	note F_, 10
-	intensity $D8
-	note F_, 6
-	loopchannel 0, Music_Placeholder_Ch1
-
-Music_Placeholder_Ch1_AAAAAAA:
-	note A_, 1
-	intensity $98
-	note A_, 1
-	intensity $88
-	note A_, 1
-	intensity $58
-	note A_, 1
-	intensity $D8
-	note A_, 1
-	intensity $98
-	note A_, 1
-	intensity $88
-	note A_, 1
-	endchannel
-
-Music_Placeholder_Ch1_D8_88:
-	octave 2
-	intensity $D8
-	note C_, 1
-	intensity $88
-	note C_, 1
 	endchannel
 
 ; ============================================================================================================
@@ -370,9 +283,9 @@ Music_Placeholder_Ch2_loop1:
 	note __, 8
 ;Bar 12
 	octave 4
-	note B_, 10
-	intensity $D8
-	note B_, 6
+	note B_, 4
+	intensity $78
+	note B_, 12
 	loopchannel 0, Music_Placeholder_Ch2
 
 Music_Placeholder_Ch2_E:
@@ -429,20 +342,10 @@ Music_Placeholder_Ch2_G:
 
 Music_Placeholder_Ch3:
 	wavetype 1, 12, $1B
-	tone $0001
+	tone $0002
 	vibrato $12, $24
-;Bar 1
-	octave 2
-	note A_, 16
-;Bar 2
-	note G_, 4
-	note F_, 16
-;Bar 3
-	note G_, 4
-	note A_, 16
-;Bar 4
-	note E_, 4
-	note F_, 16
+
+	callchannel Music_Placeholder_Ch1_3_Intro
 ;Bar 5
 	note G_, 4
 ;Bar 6
@@ -464,7 +367,6 @@ Music_Placeholder_Ch3:
 	note __, 11
 ;Bar 12
 	notetype 12, $1B
-	octave 3
 	octave 2
 	note A_, 16
 	loopchannel 0, Music_Placeholder_Ch3
@@ -472,7 +374,7 @@ Music_Placeholder_Ch3:
 ; ============================================================================================================
 
 Music_Placeholder_Ch4:
-	togglenoise 1 ; WARNING: this will sound bad.
+	togglenoise 13
 	notetype 12
 Music_Placeholder_Ch4_loop:
 
@@ -497,7 +399,7 @@ Music_Placeholder_Ch4_Intro:
 	note F#, 2
 	note C_, 1
 	note C_, 1
-	note A#, 2
+	note A#, 4
 	loopchannel 0, Music_Placeholder_Ch4_loop
 
 ; ============================================================================================================
