@@ -293,7 +293,7 @@ INCLUDE "audio/music/[aceattorney]/pursuitcorneredvar.asm"
 INCLUDE "audio/music/[aceattorney]/emaskye.asm"
 INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
 INCLUDE "audio/music/[aceattorney]/courtbegins.asm"
-
+INCLUDE "audio/music/[aceattorney]/tellthetruth.asm"
 
 SECTION "Hacks 2", ROMX
 

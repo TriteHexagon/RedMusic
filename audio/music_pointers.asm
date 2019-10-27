@@ -152,12 +152,29 @@ Music:
 	dba Music_Objection2001
 	dba Music_Testimony2001
 	dba Music_Cornered
+	dba Music_TellTheTruth
 	dba Music_Suspense
 	dba Music_CorneredVariation
+	;dba Music_AAJingle
+	;dba Music_InvestigationOpening2001
 	dba Music_TurnaboutSisters2001
+	;dba Music_DetentionCenter
 	dba Music_DetectiveGumshoe
+	;dba Music_MayasGrief
+	;dba Music_Grossberg
+	;dba Music_CongratulationsEverybody
+	;dba Music_LightandShadowOfTheFilmStudio
 	dba Music_SteelSamurai
+	;dba Music_DL-6Incident
+	;dba Music_InvestigationCore2001
+	;dba Music_ClassroomTrial
+	;dba Music_WonTheCase
+	;dba Music_TurnaboutSistersBallad
+	;dba Music_SL-9Incident
 	dba Music_EmaSkye
+	;dba Music_TheBlueBadger
+	;dba Music_JakeMarshall
+	;dba Music_DamonGant
 	dba Music_PsycheLock
 	dba Music_InvestigationMiddle2002
 	;Others

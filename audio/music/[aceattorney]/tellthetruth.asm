@@ -290,7 +290,7 @@ Music_TellTheTruth_Ch2_loop1:
 
 Music_TellTheTruth_Ch2_E:
 	octave 3
-	dutycycle $1
+	;dutycycle $1
 	intensity $97
 	note E_, 1
 	intensity $77
