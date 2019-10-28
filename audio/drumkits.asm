@@ -206,14 +206,14 @@ DrumkitAceAttorney: ; 13
 	dw Drum29
 	dw Snare6
 	dw Snare14
-	dw Drum00
-	dw Drum00
+	dw Drum20
+	dw Drum20
 	dw HiHat2
-	dw Drum00
-	dw Drum00
-	dw Drum00
+	dw Drum20
+	dw Drum20
+	dw Drum20
 	dw HiHat3
-	dw Drum00
+	dw Drum20
 ; e8efa
 
 Drum00: ; e8efa

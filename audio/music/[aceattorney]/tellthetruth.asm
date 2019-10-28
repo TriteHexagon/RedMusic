@@ -122,7 +122,7 @@ Music_TellTheTruth_Ch1:
 	notetype 12, $1f
 	octave 4
 	note F_, 4
-	intensity $78
+	intensity $68
 	note F_, 12
 	loopchannel 0, Music_TellTheTruth_Ch1
 
@@ -173,7 +173,7 @@ Music_TellTheTruth_Ch1_3_Intro:
 
 Music_TellTheTruth_Ch2:
 	dutycycle $1
-	notetype 6, $97
+	notetype 6, $a2
 
 Music_TellTheTruth_Ch2_loop1:
 ;Bar 1
@@ -284,57 +284,57 @@ Music_TellTheTruth_Ch2_loop1:
 ;Bar 12
 	octave 4
 	note B_, 4
-	intensity $78
+	intensity $68
 	note B_, 12
 	loopchannel 0, Music_TellTheTruth_Ch2
 
 Music_TellTheTruth_Ch2_E:
 	octave 3
 	;dutycycle $1
-	intensity $97
+	intensity $a2
 	note E_, 1
-	intensity $77
+	intensity $72
 	note E_, 1
 	endchannel
 
 Music_TellTheTruth_Ch2_A:
-	intensity $97
+	intensity $a2
 	dutycycle $2
 	octave 3
 	note A_, 1
-	intensity $77
+	intensity $72
 	note A_, 1
 	endchannel
 
 Music_TellTheTruth_Ch2_B:
-	intensity $97
+	intensity $a2
 	dutycycle $2
 	note B_, 1
-	intensity $77
+	intensity $72
 	note B_, 1
 	endchannel
 
 Music_TellTheTruth_Ch2_C:
-	intensity $97
+	intensity $a2
 	dutycycle $2
 	note C_, 1
-	intensity $77
+	intensity $72
 	note C_, 1
 	endchannel
 
 Music_TellTheTruth_Ch2_D:
-	intensity $97
+	intensity $a2
 	dutycycle $2
 	note D_, 1
-	intensity $77
+	intensity $72
 	note D_, 1
 	endchannel
 
 Music_TellTheTruth_Ch2_G:
-	intensity $97
+	intensity $a2
 	dutycycle $2
 	note G_, 1
-	intensity $77
+	intensity $72
 	note G_, 1
 	endchannel
 
@@ -377,7 +377,7 @@ Music_TellTheTruth_Ch4:
 	togglenoise 13
 	notetype 12
 Music_TellTheTruth_Ch4_loop:
-
+	stereopanning $ff
 Music_TellTheTruth_Ch4_Intro:
 	note __, 16
 	loopchannel 9, Music_TellTheTruth_Ch4_Intro
@@ -387,18 +387,25 @@ Music_TellTheTruth_Ch4_Intro:
 ;Bar 11
 	note C_, 2
 	note C_, 2
+	stereopanning $f0
 	note F#, 8
 	note F#, 6
 ;Bar 12
+	stereopanning $ff
 	note C_, 1
+	stereopanning $f0
 	note F#, 1
+	stereopanning $ff
 	note C_, 2
 	note C_, 2
+	stereopanning $f0
 	note F#, 8
 ;Bar 13
 	note F#, 2
+	stereopanning $ff
 	note C_, 1
 	note C_, 1
+	stereopanning $f0
 	note A#, 4
 	loopchannel 0, Music_TellTheTruth_Ch4_loop
 

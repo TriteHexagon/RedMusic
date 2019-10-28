@@ -18,7 +18,7 @@ Music_CourtBegins_Ch1:
 	dutycycle $2
 	tempo 191
 	notetype 12, $57
-	vibrato $16, $12
+	vibrato $16, $26
 	tone $0000
 ;Bar 1
 	octave 4
@@ -579,7 +579,7 @@ Music_CourtBegins_Ch2_Bar3:
 
 Music_CourtBegins_Ch3:
 	wavetype 1, 12, $18
-	vibrato $12, $98
+	vibrato $12, $9f
 	stereopanning $ff
 	tone $0002
 ;Bar 1
