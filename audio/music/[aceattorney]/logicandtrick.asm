@@ -14,7 +14,7 @@ Music_LogicAndTrick:
 Music_LogicAndTrick_Ch1:
 	volume $77
 	dutycycle $2
-	notetype 12, $77
+	notetype 12, $87
 	tempo 175
 	stereopanning $f0
 
@@ -60,7 +60,7 @@ Music_LogicAndTrick_Ch1_End2:
 
 Music_LogicAndTrick_Ch2:
 	dutycycle $2
-	notetype 12, $56
+	notetype 12, $66
 	stereopanning $f
 
 	note __, 3
@@ -75,11 +75,35 @@ Music_LogicAndTrick_Ch2_loop:
 ; ============================================================================================================
 
 Music_LogicAndTrick_Ch3:
-	wavetype 1, 12, $31
+	wavetype 1, 12, $3B
 	stereopanning $ff
-	vibrato $12, $24
+	vibrato $08, $1a
 ;Bar 1
 	callchannel Music_LogicAndTrick_Ch3_Silence
+	octave 5
+	note C_, 16
+	note C_, 16
+	octave 4
+	note G_, 16
+	note G_, 16
+	octave 5
+	note D_, 16
+	note D_, 16
+	octave 4
+	note A_, 16
+	note A_, 16
+	note G_, 16
+	octave 5
+	note D_, 16
+	octave 4
+	note A_, 16
+	octave 5
+	note D_, 16
+	note C_, 16
+	note C_, 16
+	octave 4
+	note G_, 16
+	note G_, 16
 ;Bar 20
 	notetype 6, $31
 	callchannel Music_LogicAndTrick_Ch3_Loop
@@ -88,7 +112,7 @@ Music_LogicAndTrick_Ch3:
 
 Music_LogicAndTrick_Ch3_Silence:
 	note __, 16
-	loopchannel 20, Music_LogicAndTrick_Ch3_Silence
+	loopchannel 4, Music_LogicAndTrick_Ch3_Silence
 	endchannel
 
 Music_LogicAndTrick_Ch3_Loop:
@@ -109,7 +133,7 @@ Music_LogicAndTrick_Ch3_Loop:
 ; ============================================================================================================
 
 Music_LogicAndTrick_Ch4:
-	togglenoise 3 ; WARNING: this will sound bad. Change.
+	togglenoise 13
 	notetype 12
 	stereopanning $ff
 
@@ -120,206 +144,208 @@ Music_LogicAndTrick_Ch4_loop:
 	note __, 16
 	note __, 14
 ;Bar 4
-	note D#, 2
+	note C_, 2
 ;Bar 5
-	note D#, 4
-	note D#, 4
-	note D#, 4
-	note D#, 4
+	note C_, 4
+	note C_, 4
+	note C_, 4
+	note C_, 4
 ;Bar 6
-	note D#, 4
-	note D#, 4
-	note D#, 4
-	note D#, 2
-	note D_, 2
+	note C_, 4
+	note C_, 4
+	note C_, 4
+	note C_, 2
+	note C#, 2
 ;Bar 7
-	note D#, 4
-	note D#, 4
-	note D#, 4
-	note D#, 4
+	note C_, 4
+	note C_, 4
+	note C_, 4
+	note C_, 4
 ;Bar 8
-	note D#, 4
-	note D#, 4
-	note D#, 3
-	note D_, 1
-	note D#, 2
-	note D_, 2
+	note C_, 4
+	note C_, 4
+	note C_, 3
+	note C#, 1
+	note C_, 2
+	note C#, 2
 ;Bar 9
-	note D#, 4
-	note D#, 4
-	note D#, 4
-	note D#, 2
-	note D_, 2
+	note C_, 4
+	note C_, 4
+	note C_, 4
+	note C_, 2
+	note C#, 2
 ;Bar 10
-	note D#, 4
-	note D#, 4
-	note D#, 2
-	note D#, 2
-	note D#, 2
-	note D_, 2
+	note C_, 4
+	note C_, 4
+	note C_, 2
+	note C_, 2
+	note C_, 2
+	note C#, 2
 ;Bar 11
-	note D#, 4
-	note D#, 4
-	note D#, 4
-	note D#, 2
-	note D_, 2
+	note C_, 4
+	note C_, 4
+	note C_, 4
+	note C_, 2
+	note C#, 2
 ;Bar 12
-	note D#, 4
-	note D#, 4
-	note D#, 3
+	note C_, 4
+	note C_, 4
+	note C_, 3
 	notetype 6
-	note D_, 1
-	note D_, 1
+	note C#, 1
+	note C#, 1
 	notetype 12
-	note D#, 2
-	note D_, 2
+	note C_, 2
+	note C#, 2
 ;Bar 13
-	note D#, 4
-	note D_, 3
-	note D_, 1
-	note D_, 4
-	note D#, 4
+	callchannel Music_LogicAndTrick_Ch4_Bar13
 ;Bar 14
-	note D#, 4
-	note D_, 3
-	note D_, 1
-	note D#, 2
-	note D_, 2
-	note D_, 2
-	note D#, 1
-	note D_, 1
+	note C_, 4
+	note C#, 3
+	note C#, 1
+	note C_, 2
+	note C#, 2
+	note C#, 2
+	note C_, 1
+	note C#, 1
 ;Bar 15 = 13
-	note D#, 4
-	note D_, 3
-	note D_, 1
-	note D_, 4
-	note D#, 4
+	callchannel Music_LogicAndTrick_Ch4_Bar13
 ;Bar 16
-	note D#, 4
-	note D_, 3
-	note D_, 1
-	note D#, 2
-	note D#, 2
-	note D_, 2
-	note D_, 1
-	note D_, 1
+	note C_, 4
+	note C#, 3
+	note C#, 1
+	note C_, 2
+	note C_, 2
+	note C#, 2
+	note C#, 1
+	note C#, 1
 ;Bar 17
 	note D#, 4
-	note D_, 3
-	note D_, 5
-	note D_, 8
+	note C#, 3
+	note C#, 5
+	note C#, 8
 ;Bar 18
-	note D_, 3
-	note D_, 5
-	note D_, 8
+	note C#, 3
+	note C#, 5
+	note C#, 8
 ;Bar 19
-	note D_, 3
-	note D_, 5
-	note D_, 12
+	note C#, 3
+	note C#, 5
+	note C#, 12
 ;Bar 20
-	note D_, 1
-	note D_, 1
-	note D_, 1
-	note D_, 1
+	note C#, 1
+	note C#, 1
+	note C#, 1
+	note C#, 1
 	notetype 6
-	note D_, 1
-	note D_, 1
+	note C#, 1
+	note C#, 1
 	notetype 12
-	note D_, 1
-	note D_, 1
-	note D_, 1
+	note C#, 1
+	note C#, 1
+	note C#, 1
 ;Bar 21
 	note D#, 3
-	note D#, 1
-	note C_, 2
+	note C_, 1
+	note D_, 2
+	note C#, 2
 	note D_, 2
 	note C_, 2
-	note D#, 2
-	note C_, 3
-	note D_, 1
+	note D_, 3
+	note C#, 1
 ;Bar 22
 	callchannel Music_LogicAndTrick_Ch4_Bar22
-	note C_, 4
+	note D_, 2
+	note D#, 2
 ;Bar 23
 	callchannel Music_LogicAndTrick_Ch4_Bar22
-	note D_, 3
-	note D_, 1
+	note C#, 3
+	note C#, 1
 ;Bar 24
 	callchannel Music_LogicAndTrick_Ch4_Bar22
 	note __, 2
-	note D_, 1
-	note C_, 1
-;Bar 25
-	note C_, 3
 	note D#, 1
-	note C_, 2
+	note D_, 1
+;Bar 25
+	note D_, 3
+	note C_, 1
 	note D_, 2
-	note C_, 2
-	note D#, 4
+	note C#, 2
 	note D_, 2
+	note C_, 4
+	note C#, 2
 ;Bar 26
 	callchannel Music_LogicAndTrick_Ch4_Bar22
-	note D_, 2
-	note D#, 2
+	note C#, 2
+	note C_, 2
 ;Bar 27
 	callchannel Music_LogicAndTrick_Ch4_Bar22
 	note __, 2
-	note D_, 1
-	note D_, 1
+	note C#, 1
+	note C#, 1
 ;Bar 28
-	note C_, 2
-	note D#, 2
-	note D_, 3
-	note D_, 1
-	note C_, 2
-	note C_, 2
 	note D_, 2
-	note D_, 1
-	note D_, 1
+	note C_, 2
+	note C#, 3
+	note C#, 1
+	note D_, 2
+	note D_, 2
+	note D#, 2
+	note C#, 1
+	note C#, 1
 ;Bar 29
 	note D#, 4
-	note C_, 2
-	note C_, 1
-	note D_, 1
-	note C_, 2
-	note C_, 2
 	note D_, 2
-	note C_, 1
 	note D_, 1
+	note C#, 1
+	note D_, 2
+	note D_, 2
+	note D#, 2
+	note D_, 1
+	note C#, 1
 ;Bar 30
 Music_LogicAndTrick_Ch4_Bar30:
-	note C_, 2
-	note C_, 2
 	note D_, 2
-	note C_, 1
+	note D_, 2
+	note C#, 2
 	note D_, 1
-	note C_, 2
+	note C#, 1
+	note D_, 2
 	note D#, 2
-	note C_, 2
-	note C_, 1
+	note D_, 2
 	note D_, 1
+	note C#, 1
 	loopchannel 2, Music_LogicAndTrick_Ch4_Bar30
 ;Bar 32
-	note D#, 4
-	note C_, 2
-	note D_, 1
-	note D_, 1
-	note C_, 2
+	note C_, 4
+	note D_, 2
+	note C#, 1
+	note C#, 1
+	note D_, 2
 	note D#, 2
 	notetype 8
-	note D_, 2
-	note D_, 2
-	note D_, 2
+	note C#, 2
+	note C#, 2
+	note C#, 2
 	notetype 12
 	loopchannel 0, Music_LogicAndTrick_Ch4_loop
 
 Music_LogicAndTrick_Ch4_Bar22:
+	note D_, 2
 	note C_, 2
-	note D#, 2
-	note C_, 3
-	note D_, 1
+	note D_, 3
+	note C#, 1
+	note D_, 2
 	note C_, 2
-	note D#, 2
 	endchannel
+
+Music_LogicAndTrick_Ch4_Bar13:
+	note C_, 4
+	note C#, 3
+	note C#, 1
+	note C_, 4
+	note C#, 4
+	endchannel
+
 
 ; ============================================================================================================

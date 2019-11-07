@@ -202,18 +202,18 @@ DrumkitCorneredVar: ; 12
 
 DrumkitAceAttorney: ; 13
 	dw Drum00
-	dw Kick1
-	dw Drum29
-	dw Snare6
-	dw Snare14
-	dw Drum20
-	dw Drum20
-	dw HiHat2
-	dw Drum20
-	dw Drum20
-	dw Drum20
-	dw HiHat3
-	dw Drum20
+	dw Kick1   ;C
+	dw Drum29  ;C#
+	dw Snare11 ;D
+	dw Snare14 ;D#
+	dw Drum20  ;E
+	dw Snare9  ;F
+	dw HiHat2  ;F#
+	dw Drum20  ;G
+	dw Drum20  ;G#
+	dw Drum20  ;A Snare6Special
+	dw HiHat3  ;A#
+	dw Snare6  ;B
 ; e8efa
 
 Drum00: ; e8efa

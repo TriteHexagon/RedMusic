@@ -121,9 +121,9 @@ Music_TellTheTruth_Ch1:
 ;Bar 12
 	notetype 12, $1f
 	octave 4
-	note F_, 4
-	intensity $68
-	note F_, 12
+	note F_, 3
+	intensity $58
+	note F_, 13
 	loopchannel 0, Music_TellTheTruth_Ch1
 
 Music_TellTheTruth_Ch1_Cx7:
@@ -283,9 +283,9 @@ Music_TellTheTruth_Ch2_loop1:
 	note __, 8
 ;Bar 12
 	octave 4
-	note B_, 4
-	intensity $68
-	note B_, 12
+	note B_, 3
+	intensity $58
+	note B_, 13
 	loopchannel 0, Music_TellTheTruth_Ch2
 
 Music_TellTheTruth_Ch2_E:
@@ -343,7 +343,7 @@ Music_TellTheTruth_Ch2_G:
 Music_TellTheTruth_Ch3:
 	wavetype 1, 12, $1B
 	tone $0002
-	vibrato $12, $24
+	vibrato $08, $1a
 
 	callchannel Music_TellTheTruth_Ch1_3_Intro
 ;Bar 5

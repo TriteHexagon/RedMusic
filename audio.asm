@@ -275,6 +275,7 @@ INCLUDE "audio/music/[hacks]/route10.asm"
 INCLUDE "audio/music/[hacks]/breakthetargets.asm"
 INCLUDE "audio/music/[hacks]/redcanyon.asm"
 INCLUDE "audio/music/[hacks]/icepathHGSS.asm"
+INCLUDE "audio/music/[hacks]/battleregis.asm"
 
 SECTION "Ace Attorney", ROMX
 
@@ -283,7 +284,6 @@ INCLUDE "audio/music/[aceattorney]/testimonyallegro.asm"
 INCLUDE "audio/music/[aceattorney]/testimonymoderato.asm"
 INCLUDE "audio/music/[aceattorney]/turnaboutsisters2001.asm"
 INCLUDE "audio/music/[aceattorney]/objection2001.asm"
-INCLUDE "audio/music/[aceattorney]/psychelock.asm"
 INCLUDE "audio/music/[aceattorney]/steelsamurai.asm"
 INCLUDE "audio/music/[aceattorney]/gumshoe.asm"
 INCLUDE "audio/music/[aceattorney]/logicandtrick.asm"
@@ -291,9 +291,18 @@ INCLUDE "audio/music/[aceattorney]/suspense.asm"
 INCLUDE "audio/music/[aceattorney]/courtroomlounge.asm"
 INCLUDE "audio/music/[aceattorney]/pursuitcorneredvar.asm"
 INCLUDE "audio/music/[aceattorney]/emaskye.asm"
-INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
 INCLUDE "audio/music/[aceattorney]/courtbegins.asm"
 INCLUDE "audio/music/[aceattorney]/tellthetruth.asm"
+INCLUDE "audio/music/[aceattorney]/blissfulpeople.asm"
+INCLUDE "audio/music/[aceattorney]/turnaboutsistersballad.asm"
+INCLUDE "audio/music/[aceattorney]/investigationopening2001.asm"
+INCLUDE "audio/music/[aceattorney]/grossberg.asm"
+
+SECTION "Ace Attorney 2", ROMX
+
+INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
+INCLUDE "audio/music/[aceattorney]/psychelock.asm"
+INCLUDE "audio/music/[aceattorney]/investigationopening2004.asm"
 
 SECTION "Hacks 2", ROMX
 

@@ -5,24 +5,24 @@
 
 ; ============================================================================================================
 
-Music_Placeholder:
-	musicheader 4, 1, Music_Placeholder_Ch1
-	musicheader 1, 2, Music_Placeholder_Ch2
-	musicheader 1, 3, Music_Placeholder_Ch3
-	musicheader 1, 4, Music_Placeholder_Ch4
+Music_Grossberg:
+	musicheader 4, 1, Music_Grossberg_Ch1
+	musicheader 1, 2, Music_Grossberg_Ch2
+	musicheader 1, 3, Music_Grossberg_Ch3
+	musicheader 1, 4, Music_Grossberg_Ch4
 
-Music_Placeholder_Ch1:
+Music_Grossberg_Ch1:
 	volume $77
 	dutycycle $2
 	notetype 8, $A7
 	tempo 212
 	tone $0001
 ;Bar 1
-	callchannel Music_Placeholder_Ch1_Bar1
+	callchannel Music_Grossberg_Ch1_Bar1
 ;Bar 2
-	callchannel Music_Placeholder_Ch1_Bar2
+	callchannel Music_Grossberg_Ch1_Bar2
 ;Bar 3
-	callchannel Music_Placeholder_Ch1_Bar1
+	callchannel Music_Grossberg_Ch1_Bar1
 ;Bar 4
 	note __, 6
 	note G_, 2
@@ -34,7 +34,7 @@ Music_Placeholder_Ch1:
 	slidepitchto 2, 5, F_
 	note G_, 1
 ;Bar 5
-	callchannel Music_Placeholder_Ch1_Bar1
+	callchannel Music_Grossberg_Ch1_Bar1
 ;Bar 6
 	note __, 6
 	note G_, 2
@@ -51,7 +51,7 @@ Music_Placeholder_Ch1:
 	note E_, 4
 	note D_, 2
 ;Bar 7
-	callchannel Music_Placeholder_Ch1_Bar1
+	callchannel Music_Grossberg_Ch1_Bar1
 ;Bar 8
 	note __, 6
 	note E_, 2
@@ -127,12 +127,12 @@ Music_Placeholder_Ch1:
 ;Bar 13
 	dutycycle $0
 	pitchoffset 1, G_
-	callchannel Music_Placeholder_Ch1_2_Bar13_16
+	callchannel Music_Grossberg_Ch1_2_Bar13_16
 	pitchoffset 0, C_
 	dutycycle $2
-	loopchannel 0, Music_Placeholder_Ch1
+	loopchannel 0, Music_Grossberg_Ch1
 
-Music_Placeholder_Ch1_Bar1:
+Music_Grossberg_Ch1_Bar1:
 	note __, 6
 	notetype 4, $97
 	octave 3
@@ -145,7 +145,7 @@ Music_Placeholder_Ch1_Bar1:
 	notetype 8, $97
 	endchannel
 
-Music_Placeholder_Ch1_Bar2:
+Music_Grossberg_Ch1_Bar2:
 	notetype 8, $97
 	note __, 6
 	note G_, 2
@@ -159,7 +159,7 @@ Music_Placeholder_Ch1_Bar2:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch2:
+Music_Grossberg_Ch2:
 	dutycycle $1
 	notetype 12, $A7
 ;Bar 1
@@ -421,10 +421,10 @@ Music_Placeholder_Ch2:
 	intensity $37
 	note F#, 1
 ;Bar 13
-	callchannel Music_Placeholder_Ch1_2_Bar13_16
-	loopchannel 0, Music_Placeholder_Ch2
+	callchannel Music_Grossberg_Ch1_2_Bar13_16
+	loopchannel 0, Music_Grossberg_Ch2
 
-Music_Placeholder_Ch1_2_Bar13_16:
+Music_Grossberg_Ch1_2_Bar13_16:
 	notetype 8, $97
 	octave 3
 	note __, 6
@@ -568,15 +568,15 @@ Music_Placeholder_Ch1_2_Bar13_16:
 	
 ; ============================================================================================================
 
-Music_Placeholder_Ch3:
+Music_Grossberg_Ch3:
 	wavetype 1, 8, $1B
 	vibrato $08, $1c
 	tone $0002
 
-Music_Placeholder_Ch3_loop1:
+Music_Grossberg_Ch3_loop1:
 ;Bar 1
 	octave 2
-	callchannel Music_Placeholder_Ch3_Bar1
+	callchannel Music_Grossberg_Ch3_Bar1
 ;Bar 2
 	note __, 12
 	octave 1
@@ -584,15 +584,15 @@ Music_Placeholder_Ch3_loop1:
 	octave 2
 	note D_, 6
 ;Bar 3
-	callchannel Music_Placeholder_Ch3_Bar1
+	callchannel Music_Grossberg_Ch3_Bar1
 ;Bar 4
 	note __, 16
 	note __, 2
 	note D_, 6
-	loopchannel 2, Music_Placeholder_Ch3_loop1
+	loopchannel 2, Music_Grossberg_Ch3_loop1
 ;Bar 9
-Music_Placeholder_Ch3_loop2:
-	callchannel Music_Placeholder_Ch3_Bar9
+Music_Grossberg_Ch3_loop2:
+	callchannel Music_Grossberg_Ch3_Bar9
 ;Bar 10
 	octave 2
 	note C_, 6
@@ -602,16 +602,16 @@ Music_Placeholder_Ch3_loop2:
 	note A_, 6
 	note B_, 6
 ;Bar 11
-	callchannel Music_Placeholder_Ch3_Bar9
+	callchannel Music_Grossberg_Ch3_Bar9
 ;Bar 12
 	notetype 12, $1B
 	octave 2
 	note C_, 12
 	note D_, 4
-	loopchannel 2, Music_Placeholder_Ch3_loop2
-	loopchannel 0, Music_Placeholder_Ch3
+	loopchannel 2, Music_Grossberg_Ch3_loop2
+	loopchannel 0, Music_Grossberg_Ch3
 
-Music_Placeholder_Ch3_Bar1:
+Music_Grossberg_Ch3_Bar1:
 	note E_, 6
 	note __, 4
 	note E_, 2
@@ -620,7 +620,7 @@ Music_Placeholder_Ch3_Bar1:
 	note A_, 2
 	endchannel
 
-Music_Placeholder_Ch3_Bar9:
+Music_Grossberg_Ch3_Bar9:
 	notetype 8, $1B
 	octave 2
 	note E_, 6
@@ -634,45 +634,45 @@ Music_Placeholder_Ch3_Bar9:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch4:
+Music_Grossberg_Ch4:
 	togglenoise 13
 	notetype 12
 
-Music_Placeholder_Ch4_loop:
+Music_Grossberg_Ch4_loop:
 ;Bar 1
 	note __, 4
-	callchannel Music_Placeholder_Ch4_loop1
+	callchannel Music_Grossberg_Ch4_loop1
 ;Bar 4
-	callchannel Music_Placeholder_Ch4_Bar4
+	callchannel Music_Grossberg_Ch4_Bar4
 	note __, 4
 ;Bar 5
-	callchannel Music_Placeholder_Ch4_loop1
+	callchannel Music_Grossberg_Ch4_loop1
 ;Bar 8
-	callchannel Music_Placeholder_Ch4_Bar4
+	callchannel Music_Grossberg_Ch4_Bar4
 ;Bar 9
 	note A#, 4
-	callchannel Music_Placeholder_Ch4_Bar9
+	callchannel Music_Grossberg_Ch4_Bar9
 ;Bar 10
 	notetype 12
 	note A#, 4
-	callchannel Music_Placeholder_Ch4_Bar10
+	callchannel Music_Grossberg_Ch4_Bar10
 ;Bar 11
 	note A#, 4
-	callchannel Music_Placeholder_Ch4_Bar9
+	callchannel Music_Grossberg_Ch4_Bar9
 ;Bar 12
 	notetype 12
 	note F#, 4
-	callchannel Music_Placeholder_Ch4_Bar10
+	callchannel Music_Grossberg_Ch4_Bar10
 ;Bar 13
 	note A#, 4
-	callchannel Music_Placeholder_Ch4_Bar9
+	callchannel Music_Grossberg_Ch4_Bar9
 ;Bar 14
 	notetype 12
 	note A#, 4
-	callchannel Music_Placeholder_Ch4_Bar10
+	callchannel Music_Grossberg_Ch4_Bar10
 ;Bar 15
 	note A#, 4
-	callchannel Music_Placeholder_Ch4_Bar9
+	callchannel Music_Grossberg_Ch4_Bar9
 ;Bar 16
 	notetype 12
 	note A#, 4
@@ -682,14 +682,14 @@ Music_Placeholder_Ch4_loop:
 	notetype 12
 	note F#, 4
 	note A#, 4
-	loopchannel 0, Music_Placeholder_Ch4_loop
+	loopchannel 0, Music_Grossberg_Ch4_loop
 
-Music_Placeholder_Ch4_loop1:
+Music_Grossberg_Ch4_loop1:
 	note F#, 8
-	loopchannel 6, Music_Placeholder_Ch4_loop1
+	loopchannel 6, Music_Grossberg_Ch4_loop1
 	endchannel
 
-Music_Placeholder_Ch4_Bar4:
+Music_Grossberg_Ch4_Bar4:
 	notetype 8
 	note F#, 10
 	note F#, 1
@@ -698,7 +698,7 @@ Music_Placeholder_Ch4_Bar4:
 	note A#, 4
 	endchannel
 
-Music_Placeholder_Ch4_Bar9:
+Music_Grossberg_Ch4_Bar9:
 	notetype 8
 	note F#, 4
 	note F#, 2
@@ -709,7 +709,7 @@ Music_Placeholder_Ch4_Bar9:
 	note F#, 2
 	endchannel
 
-Music_Placeholder_Ch4_Bar10:
+Music_Grossberg_Ch4_Bar10:
 	notetype 8
 	note F#, 4
 	note F#, 2

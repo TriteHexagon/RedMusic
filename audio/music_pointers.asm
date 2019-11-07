@@ -144,6 +144,7 @@ Music:
 	dba Music_SkyarrowBridge
 	dba Music_PKMN_Center_Night
 	dba Music_MirorBBattle
+	dba Music_BattleVsRegis
 	;Ace Attorney
 	dba Music_CourtroomLounge
 	dba Music_CourtBegins
@@ -156,20 +157,20 @@ Music:
 	dba Music_Suspense
 	dba Music_CorneredVariation
 	;dba Music_AAJingle
-	;dba Music_InvestigationOpening2001
+	dba Music_InvestigationOpening2001
 	dba Music_TurnaboutSisters2001
 	;dba Music_DetentionCenter
 	dba Music_DetectiveGumshoe
 	;dba Music_MayasGrief
-	;dba Music_Grossberg
-	;dba Music_CongratulationsEverybody
+	dba Music_Grossberg
+	dba Music_BlissfulPeople
 	;dba Music_LightandShadowOfTheFilmStudio
 	dba Music_SteelSamurai
 	;dba Music_DL-6Incident
 	;dba Music_InvestigationCore2001
 	;dba Music_ClassroomTrial
 	;dba Music_WonTheCase
-	;dba Music_TurnaboutSistersBallad
+	dba Music_TurnaboutSistersBallad
 	;dba Music_SL-9Incident
 	dba Music_EmaSkye
 	;dba Music_TheBlueBadger
@@ -177,6 +178,7 @@ Music:
 	;dba Music_DamonGant
 	dba Music_PsycheLock
 	dba Music_InvestigationMiddle2002
+	dba Music_InvestigationOpening2004
 	;Others
 	dba Music_Temple
 	dba Music_LowerNorfair

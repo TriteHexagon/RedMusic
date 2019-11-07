@@ -130,9 +130,9 @@ SongInfo:
 	db "Cherrygrove City    ","(Night)@", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	db "Route 30 (Night)@", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	db "Violet City (Night)@", ORIGIN_GS, COMPOSER_GO_ICHINOSE, COMPOSER_NONE
-	db "Azalea Town (Night)@", ORIGIN_NONE, COMPOSER_GO_ICHINOSE, COMPOSER_NONE
+	db "Azalea Town (Night)@", ORIGIN_GS, COMPOSER_GO_ICHINOSE, COMPOSER_NONE
 	db "Route 34 (Night)@", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
-	db "Goldenrod City      (Night)@", ORIGIN_NONE, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
+	db "Goldenrod City      (Night)@", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	db "Route 38 (Night)@", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	db "Route 42 (Night)@", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	db "Route 26 (Night)@", ORIGIN_GS, COMPOSER_GO_ICHINOSE, COMPOSER_NONE
@@ -144,6 +144,7 @@ SongInfo:
 	db "Skyarrow Bridge@", ORIGIN_BW, COMPOSER_NONE, COMPOSER_NONE
 	db "Pokémon Center      (Night)@", ORIGIN_DPPT, COMPOSER_NONE, COMPOSER_NONE
 	db "Miror B. Battle (XD)@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Battle! Vs. Regis@", ORIGIN_RSE, COMPOSER_NONE, COMPOSER_NONE
 	;Ace Attorney
 	db "Courtroom Lounge@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Ace Attorney -      Court Begins@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
@@ -156,26 +157,27 @@ SongInfo:
 	db "Suspense@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Pursuit:"," Cornered   (Variation)@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Jingle - It Can't End Like This!@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	;db "Investigation - Opening 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Investigation -     Opening 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Maya Fey: Turnabout Sisters' Theme 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Detention Center@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Detective Gumshoe@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Reminiscing - Maya's Grief@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	;db "Marvin Grossberg - Age, Regret, Retribution@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	;db "Blissful People@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Marvin Grossberg - Old Age, Regret, Retribution@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Blissful People@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Reminiscing - Light and Shadow of the Film Studio@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Steel Samurai@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Reminiscing - The DL-6 Incident@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Investigation - Core 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Reminiscing - The Class Trial@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Won the Case! - First Victory@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	;db "Turnabout Sisters Ballad@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Turnabout Sisters   Ballad@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Ema Skye: Turnabout Sisters' Theme 2005@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Blue Badger - I Want to Protect@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Jake Marshall - Detective from the Wild West@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Damon Gant - Swimming, Anyone?@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Psycholock@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Investigation -     Middle 2002@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Investigation -     Opening 2004@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;Others
 	db "Palace / Temple@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Lower Norfair@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE

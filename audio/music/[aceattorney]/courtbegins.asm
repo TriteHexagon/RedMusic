@@ -579,7 +579,7 @@ Music_CourtBegins_Ch2_Bar3:
 
 Music_CourtBegins_Ch3:
 	wavetype 1, 12, $18
-	vibrato $12, $9f
+	vibrato $08, $1a ; $68
 	stereopanning $ff
 	tone $0002
 ;Bar 1
