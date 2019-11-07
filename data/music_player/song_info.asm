@@ -162,7 +162,7 @@ SongInfo:
 	;db "Detention Center@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Detective Gumshoe@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Reminiscing - Maya's Grief@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	db "Marvin Grossberg - Old Age, Regret, Retribution@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Marvin Grossberg@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Blissful People@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Reminiscing - Light and Shadow of the Film Studio@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Steel Samurai@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
