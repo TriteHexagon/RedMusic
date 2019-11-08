@@ -206,12 +206,12 @@ DrumkitAceAttorney: ; 13
 	dw Drum29  ;C#
 	dw Snare11 ;D
 	dw Snare14 ;D#
-	dw Drum20  ;E
+	dw Snare10 ;E
 	dw Snare9  ;F
 	dw HiHat2  ;F#
-	dw Drum20  ;G
-	dw Drum20  ;G#
-	dw Drum20  ;A Snare6Special
+	dw Drum20  ;G ;UNUSED
+	dw Drum20  ;G# ;UNUSED
+	dw Snare6Special ;A Snare6Special
 	dw HiHat3  ;A#
 	dw Snare6  ;B
 ; e8efa

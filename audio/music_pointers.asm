@@ -167,7 +167,7 @@ Music:
 	;dba Music_LightandShadowOfTheFilmStudio
 	dba Music_SteelSamurai
 	;dba Music_DL-6Incident
-	;dba Music_InvestigationCore2001
+	dba Music_InvestigationCore2001
 	;dba Music_ClassroomTrial
 	;dba Music_WonTheCase
 	dba Music_TurnaboutSistersBallad
