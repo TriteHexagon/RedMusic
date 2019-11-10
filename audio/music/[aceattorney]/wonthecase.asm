@@ -5,13 +5,13 @@
 
 ; ============================================================================================================
 
-Music_Placeholder:
-	musicheader 4, 1, Music_Placeholder_Ch1
-	musicheader 1, 2, Music_Placeholder_Ch2
-	musicheader 1, 3, Music_Placeholder_Ch3
-	musicheader 1, 4, Music_Placeholder_Ch4
+Music_WonTheCase:
+	musicheader 4, 1, Music_WonTheCase_Ch1
+	musicheader 1, 2, Music_WonTheCase_Ch2
+	musicheader 1, 3, Music_WonTheCase_Ch3
+	musicheader 1, 4, Music_WonTheCase_Ch4
 
-Music_Placeholder_Ch1:
+Music_WonTheCase_Ch1:
 	volume $77
 	dutycycle $3
 	notetype 12, $58
@@ -24,11 +24,11 @@ Music_Placeholder_Ch1:
 	octave 3
 	note D_, 4
 	
-Music_Placeholder_Ch1_Loop:
+Music_WonTheCase_Ch1_Loop:
 	volume $77
 	intensity $77
 	dutycycle $3
-	callchannel Music_Placeholder_Ch1_Bar1_4
+	callchannel Music_WonTheCase_Ch1_Bar1_4
 ;Bar 5
 	note F_, 4
 	intensity $67
@@ -41,7 +41,7 @@ Music_Placeholder_Ch1_Loop:
 	note D_, 1
 	;volume change
 	intensity $a7
-	callchannel Music_Placeholder_Ch1_Bar1_4
+	callchannel Music_WonTheCase_Ch1_Bar1_4
 ;Bar 9
 	intensity $88
 	note D_, 4
@@ -173,9 +173,9 @@ Music_Placeholder_Ch1_Loop:
 	note B_, 1
 	note G_, 1
 	note C_, 1
-	loopchannel 0, Music_Placeholder_Ch1_Loop
+	loopchannel 0, Music_WonTheCase_Ch1_Loop
 
-Music_Placeholder_Ch1_Bar1_4:
+Music_WonTheCase_Ch1_Bar1_4:
 	octave 2
 	note G_, 1
 	octave 3
@@ -259,7 +259,7 @@ Music_Placeholder_Ch1_Bar1_4:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch2:
+Music_WonTheCase_Ch2:
 	dutycycle $1
 	notetype 12, $68
 	vibrato $04, $18
@@ -268,7 +268,7 @@ Music_Placeholder_Ch2:
 	note G_, 4
 	intensity $78
 	note F_, 4
-Music_Placeholder_Ch2_Loop:
+Music_WonTheCase_Ch2_Loop:
 	dutycycle $1
 	intensity $85
 	note E_, 1
@@ -698,18 +698,18 @@ Music_Placeholder_Ch2_Loop:
 ;Bar 18
 	note B_, 2
 	note __, 6
-	loopchannel 0, Music_Placeholder_Ch2_Loop
+	loopchannel 0, Music_WonTheCase_Ch2_Loop
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch3:
+Music_WonTheCase_Ch3:
 	wavetype 1, 12, $1B
 	vibrato $00, $2a
 	tone $0002
 ;Bar 1
 	octave 2
 	note G_, 8
-Music_Placeholder_Ch3_Loop:
+Music_WonTheCase_Ch3_Loop:
 	intensity $1B
 	octave 3
 	note C_, 12
@@ -772,16 +772,16 @@ Music_Placeholder_Ch3_Loop:
 ;Bar 16
 	note G_, 10
 	note __, 6
-	loopchannel 0, Music_Placeholder_Ch3_Loop
+	loopchannel 0, Music_WonTheCase_Ch3_Loop
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch4:
+Music_WonTheCase_Ch4:
 	togglenoise 13
 	notetype 12
 ;Bar 1
 	note __, 8
-Music_Placeholder_Ch4_Loop:
+Music_WonTheCase_Ch4_Loop:
 	note __, 8
 	note __, 16
 	note __, 16
@@ -793,42 +793,42 @@ Music_Placeholder_Ch4_Loop:
 ;Bar 9
 	notetype 2
 	note __, 11
-Music_Placeholder_Ch4_Snare:
+Music_WonTheCase_Ch4_Snare:
 	note A#, 1
-	loopchannel 13, Music_Placeholder_Ch4_Snare
+	loopchannel 13, Music_WonTheCase_Ch4_Snare
 	notetype 12
-	callchannel Music_Placeholder_Ch4_type1
+	callchannel Music_WonTheCase_Ch4_type1
 ;Bar 10
-	callchannel Music_Placeholder_Ch4_type1
-	callchannel Music_Placeholder_Ch4_type2
+	callchannel Music_WonTheCase_Ch4_type1
+	callchannel Music_WonTheCase_Ch4_type2
 ;Bar 11
-	callchannel Music_Placeholder_Ch4_type1
+	callchannel Music_WonTheCase_Ch4_type1
 ;Bar 12
-	callchannel Music_Placeholder_Ch4_type1
-	callchannel Music_Placeholder_Ch4_type2
+	callchannel Music_WonTheCase_Ch4_type1
+	callchannel Music_WonTheCase_Ch4_type2
 ;Bar 13
-	callchannel Music_Placeholder_Ch4_type1
+	callchannel Music_WonTheCase_Ch4_type1
 ;Bar 14
-	callchannel Music_Placeholder_Ch4_type1
-	callchannel Music_Placeholder_Ch4_type2
+	callchannel Music_WonTheCase_Ch4_type1
+	callchannel Music_WonTheCase_Ch4_type2
 ;Bar 15
-	callchannel Music_Placeholder_Ch4_type1
+	callchannel Music_WonTheCase_Ch4_type1
 ;Bar 16
-	callchannel Music_Placeholder_Ch4_type1
+	callchannel Music_WonTheCase_Ch4_type1
 	note A#, 6
 ;Bar 17
 	note A#, 1
 	note A#, 1
-	loopchannel 0, Music_Placeholder_Ch4_Loop
+	loopchannel 0, Music_WonTheCase_Ch4_Loop
 
-Music_Placeholder_Ch4_type1:
+Music_WonTheCase_Ch4_type1:
 	note A#, 2
 	note F#, 1
 	note F#, 1
-	loopchannel 3, Music_Placeholder_Ch4_type1
+	loopchannel 3, Music_WonTheCase_Ch4_type1
 	endchannel
 
-Music_Placeholder_Ch4_type2:
+Music_WonTheCase_Ch4_type2:
 	note A#, 2
 	note A#, 2
 	note A#, 2

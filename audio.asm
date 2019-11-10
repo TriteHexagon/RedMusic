@@ -301,6 +301,7 @@ INCLUDE "audio/music/[aceattorney]/grossberg.asm"
 SECTION "Ace Attorney 2", ROMX
 
 INCLUDE "audio/music/[aceattorney]/investigationcore2001.asm"
+INCLUDE "audio/music/[aceattorney]/wonthecase.asm"
 INCLUDE "audio/music/[aceattorney]/psychelock.asm"
 INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
 INCLUDE "audio/music/[aceattorney]/investigationopening2004.asm"

@@ -169,7 +169,7 @@ SongInfo:
 	;db "Reminiscing - The DL-6 Incident@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Investigation -     Core 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Reminiscing - The Class Trial@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	;db "Won the Case! - First Victory@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Won the Case! - First Victory@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Turnabout Sisters   Ballad@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Ema Skye: Turnabout Sisters' Theme 2005@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Blue Badger - I Want to Protect@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
