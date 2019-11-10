@@ -297,12 +297,12 @@ INCLUDE "audio/music/[aceattorney]/blissfulpeople.asm"
 INCLUDE "audio/music/[aceattorney]/turnaboutsistersballad.asm"
 INCLUDE "audio/music/[aceattorney]/investigationopening2001.asm"
 INCLUDE "audio/music/[aceattorney]/grossberg.asm"
-INCLUDE "audio/music/[aceattorney]/investigationcore2001.asm"
 
 SECTION "Ace Attorney 2", ROMX
 
-INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
+INCLUDE "audio/music/[aceattorney]/investigationcore2001.asm"
 INCLUDE "audio/music/[aceattorney]/psychelock.asm"
+INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
 INCLUDE "audio/music/[aceattorney]/investigationopening2004.asm"
 
 SECTION "Hacks 2", ROMX

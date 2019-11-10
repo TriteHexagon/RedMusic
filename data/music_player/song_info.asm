@@ -167,7 +167,7 @@ SongInfo:
 	;db "Reminiscing - Light and Shadow of the Film Studio@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Steel Samurai@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Reminiscing - The DL-6 Incident@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	db "Investigation - Core 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Investigation -     Core 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Reminiscing - The Class Trial@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;db "Won the Case! - First Victory@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Turnabout Sisters   Ballad@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE

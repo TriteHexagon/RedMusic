@@ -150,10 +150,8 @@ Music_InvestigationCore2001_Ch1_Bar3:
 	note D#, 1
 	note E_, 1
 	note F#, 1
-	notetype 6, $82
 	note C#, 1
-	note __, 7
-	notetype 12, $82
+	note __, 3
 	note A_, 1
 	note G#, 1
 	note F#, 1
@@ -235,6 +233,7 @@ Music_InvestigationCore2001_Ch2:
 ;Bar 2
 	intensity $c4
 	callchannel Music_InvestigationCore2001_Ch2_Bar2
+	note B_, 1
 	octave 3
 	note C#, 2
 	octave 2
@@ -250,6 +249,7 @@ Music_InvestigationCore2001_Ch2:
 	note C#, 1
 ;Bar 3
 	callchannel Music_InvestigationCore2001_Ch2_Bar2
+	note B_, 2
 	octave 3
 	note C#, 1
 	note __, 3
@@ -351,7 +351,6 @@ Music_InvestigationCore2001_Ch2_Bar2:
 	octave 2
 	note F#, 1
 	note G#, 1
-	note B_, 1
 	endchannel
 
 Music_InvestigationCore2001_Ch2_Bar6:
@@ -462,7 +461,6 @@ Music_InvestigationCore2001_Ch3:
 	note D#, 14
 ;Bar 2
 	intensity $18
-	octave 2
 Music_InvestigationCore2001_Ch3_loop1:
 	callchannel Music_InvestigationCore2001_Ch3_Bar2
 	note B_, 1
@@ -478,7 +476,6 @@ Music_InvestigationCore2001_Ch3_loop1:
 	note G#, 1
 	loopchannel 2, Music_InvestigationCore2001_Ch3_loop1
 ;Bar 6
-	octave 2
 	callchannel Music_InvestigationCore2001_Ch3_Bar2
 	callchannel Music_InvestigationCore2001_Ch3_Bar6
 ;Bar 8
@@ -489,7 +486,6 @@ Music_InvestigationCore2001_Ch3_loop1:
 	note F#, 1
 	note G#, 1
 ;Bar 10
-	octave 2
 	callchannel Music_InvestigationCore2001_Ch3_Bar2
 	callchannel Music_InvestigationCore2001_Ch3_Bar6
 ;Bar 12
@@ -548,6 +544,7 @@ Music_InvestigationCore2001_Ch3_loop1:
 	loopchannel 0, Music_InvestigationCore2001_Ch3
 
 Music_InvestigationCore2001_Ch3_Bar2:
+	octave 2
 	note C#, 1
 	note E_, 1
 	note F#, 1
