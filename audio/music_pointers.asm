@@ -177,6 +177,7 @@ Music:
 	dba Music_BlueBadger
 	dba Music_JakeMarshall
 	dba Music_DamonGant
+	dba Music_RiseEnd
 	dba Music_PsycheLock
 	dba Music_InvestigationMiddle2002
 	dba Music_InvestigationOpening2004
