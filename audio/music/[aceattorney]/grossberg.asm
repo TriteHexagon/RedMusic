@@ -14,7 +14,7 @@ Music_Grossberg:
 Music_Grossberg_Ch1:
 	volume $77
 	dutycycle $2
-	notetype 8, $A7
+	notetype 8, $77
 	tempo 212
 	tone $0001
 ;Bar 1
@@ -31,8 +31,10 @@ Music_Grossberg_Ch1:
 	note A#, 4
 	note A_, 4
 	note G_, 3
+	intensity $71
 	slidepitchto 2, 5, F_
 	note G_, 1
+	intensity $77
 ;Bar 5
 	callchannel Music_Grossberg_Ch1_Bar1
 ;Bar 6
@@ -43,8 +45,10 @@ Music_Grossberg_Ch1:
 	note A_, 2
 	notetype 4, $77
 	note G_, 6
+	intensity $64
 	slidepitchto 1, 5, A_
 	note G_, 1
+	intensity $64
 	slidepitchto 1, 5, G#
 	note A_, 1
 	notetype 8, $77
@@ -60,9 +64,11 @@ Music_Grossberg_Ch1:
 	note A_, 4
 	notetype 4, $77
 	note G_, 6
+	intensity $64
 	slidepitchto 1, 5, A_
 	note G_, 1
 	slidepitchto 1, 5, G#
+	intensity $64
 	note A_, 1
 	notetype 8, $77
 	note A_, 4
@@ -121,7 +127,9 @@ Music_Grossberg_Ch1:
 	note D_, 8
 ;Bar 12
 	note E_, 6
-	note __, 6
+	intensity $85
+	note E_, 3
+	note __, 3
 	intensity $68
 	note F#, 6
 ;Bar 13

@@ -654,7 +654,7 @@ Music_InvestigationOpening2004_Ch3_loop1:
 	note __, 3
 	note G_, 9
 	note __, 3
-	notetype 12, $1B
+	notetype 12, $18 ;$1B
 	octave 3
 	note D_, 1
 	note C#, 1
@@ -666,7 +666,7 @@ Music_InvestigationOpening2004_Ch3_loop1:
 	note C#, 1
 	octave 1
 	note F#, 1
-	notetype 6, $1B
+	notetype 6, $18 ;$1B
 	note B_, 5
 	note __, 1
 	note B_, 1

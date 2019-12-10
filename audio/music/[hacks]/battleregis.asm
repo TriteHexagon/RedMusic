@@ -16,7 +16,6 @@ Music_BattleVsRegis_Ch1:
 	dutycycle $2
 	tempo 119
 	tone $0001
-	;stereopanning $f
 ;Bar 1
 	notetype 8, $97
 	octave 5
@@ -120,7 +119,6 @@ Music_BattleVsRegis_Ch1_main_loop:
 Music_BattleVsRegis_Ch2:
 	dutycycle $3
 	vibrato $12, $35
-	;stereopanning $f0
 ;Bar 1
 	notetype 8, $B6
 	octave 4

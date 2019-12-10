@@ -5,13 +5,13 @@
 
 ; ============================================================================================================
 
-Music_Placeholder:
-	musicheader 4, 1, Music_Placeholder_Ch1
-	musicheader 1, 2, Music_Placeholder_Ch2
-	musicheader 1, 3, Music_Placeholder_Ch3
-	musicheader 1, 4, Music_Placeholder_Ch4
+Music_RiseEnd:
+	musicheader 4, 1, Music_RiseEnd_Ch1
+	musicheader 1, 2, Music_RiseEnd_Ch2
+	musicheader 1, 3, Music_RiseEnd_Ch3
+	musicheader 1, 4, Music_RiseEnd_Ch4
 
-Music_Placeholder_Ch1:
+Music_RiseEnd_Ch1:
 	volume $77
 	dutycycle $2
 	notetype 12, $58
@@ -24,20 +24,20 @@ Music_Placeholder_Ch1:
 	note __, 16
 	note __, 16
 ;Bar 5
-	callchannel Music_Placeholder_Ch1_Intro
+	callchannel Music_RiseEnd_Ch1_Intro
 
-Music_Placeholder_Ch1_loop:
-	callchannel Music_Placeholder_Ch1_Intro
-	callchannel Music_Placeholder_Ch1_Intro
+Music_RiseEnd_Ch1_loop:
+	callchannel Music_RiseEnd_Ch1_Intro
+	callchannel Music_RiseEnd_Ch1_Intro
 ;Bar 29
 	note __, 16
 	note __, 16
 	note __, 16
 	note __, 16
 ;Bar 21
-	callchannel Music_Placeholder_Ch1_Intro
+	callchannel Music_RiseEnd_Ch1_Intro
 ;Bar 25
-	callchannel Music_Placeholder_Ch1_Intro
+	callchannel Music_RiseEnd_Ch1_Intro
 ;Bar 29
 	intensity $38
 	note F_, 16
@@ -78,7 +78,7 @@ Music_Placeholder_Ch1_loop:
 	notetype 12, $77
 	note G_, 4
 ;Bar 37
-	callchannel Music_Placeholder_Ch1_Bar37
+	callchannel Music_RiseEnd_Ch1_Bar37
 ;Bar 38
 	note __, 2
 	note F#, 4
@@ -86,7 +86,7 @@ Music_Placeholder_Ch1_loop:
 	note E_, 4
 	note G_, 4
 ;Bar 39
-	callchannel Music_Placeholder_Ch1_Bar37
+	callchannel Music_RiseEnd_Ch1_Bar37
 ;Bar 40
 	note F#, 1
 	note __, 2
@@ -95,7 +95,7 @@ Music_Placeholder_Ch1_loop:
 	note F#, 4
 	note G_, 4
 ;Bar 41
-	callchannel Music_Placeholder_Ch1_Bar41
+	callchannel Music_RiseEnd_Ch1_Bar41
 ;Bar 43
 	note __, 2
 	note F#, 6
@@ -113,9 +113,9 @@ Music_Placeholder_Ch1_loop:
 	note A_, 4
 	note G_, 4
 ;Bar 45
-	callchannel Music_Placeholder_Ch1_Bar41
+	callchannel Music_RiseEnd_Ch1_Bar41
 ;Bar 47
-	callchannel Music_Placeholder_Ch1_Bar37
+	callchannel Music_RiseEnd_Ch1_Bar37
 ;Bar 48
 	note A_, 1
 	note __, 2
@@ -146,9 +146,9 @@ Music_Placeholder_Ch1_loop:
 	note C_, 12
 ;Bar 55
 	note __, 4
-	loopchannel 0, Music_Placeholder_Ch1_loop
+	loopchannel 0, Music_RiseEnd_Ch1_loop
 
-Music_Placeholder_Ch1_Intro:
+Music_RiseEnd_Ch1_Intro:
 	octave 3
 	note B_, 14
 	note __, 2
@@ -156,10 +156,10 @@ Music_Placeholder_Ch1_Intro:
 	octave 4
 	note C_, 14
 	note __, 2
-	loopchannel 2, Music_Placeholder_Ch1_Intro
+	loopchannel 2, Music_RiseEnd_Ch1_Intro
 	endchannel
 
-Music_Placeholder_Ch1_Bar37:
+Music_RiseEnd_Ch1_Bar37:
 	note __, 2
 	note G_, 6
 	note __, 2
@@ -167,7 +167,7 @@ Music_Placeholder_Ch1_Bar37:
 	note F#, 4
 	endchannel
 
-Music_Placeholder_Ch1_Bar41:
+Music_RiseEnd_Ch1_Bar41:
 	note __, 2
 	note G_, 6
 	note __, 2
@@ -184,7 +184,7 @@ Music_Placeholder_Ch1_Bar41:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch2:
+Music_RiseEnd_Ch2:
 	dutycycle $2
 	notetype 12, $48
 	vibrato $00, $12
@@ -211,24 +211,24 @@ Music_Placeholder_Ch2:
 	note G_, 1
 	notetype 12, $a6
 ;Bar 9
-Music_Placeholder_Ch2_loop:
+Music_RiseEnd_Ch2_loop:
 	dutycycle $3
-	callchannel Music_Placeholder_Ch2_Main
+	callchannel Music_RiseEnd_Ch2_Main
 ;Bar 16
 	note __, 16
 ;Bar 17
 	notetype 8, $78
 	dutycycle $2
-	callchannel Music_Placeholder_Ch2_Bar17_Type1
-	callchannel Music_Placeholder_Ch2_Bar17_Type2
+	callchannel Music_RiseEnd_Ch2_Bar17_Type1
+	callchannel Music_RiseEnd_Ch2_Bar17_Type2
 ;Bar 18
-	callchannel Music_Placeholder_Ch2_Bar17_Type1
-	callchannel Music_Placeholder_Ch2_Bar17_Type2
+	callchannel Music_RiseEnd_Ch2_Bar17_Type1
+	callchannel Music_RiseEnd_Ch2_Bar17_Type2
 ;Bar 19
-	callchannel Music_Placeholder_Ch2_Bar17_Type1
-	callchannel Music_Placeholder_Ch2_Bar17_Type2
+	callchannel Music_RiseEnd_Ch2_Bar17_Type1
+	callchannel Music_RiseEnd_Ch2_Bar17_Type2
 ;Bar 20
-	callchannel Music_Placeholder_Ch2_Bar17_Type1
+	callchannel Music_RiseEnd_Ch2_Bar17_Type1
 	notetype 12, $a6
 	dutycycle $3
 	octave 3
@@ -239,7 +239,7 @@ Music_Placeholder_Ch2_loop:
 	notetype 12, $a6
 ;Bar 21
 	octave 3
-	callchannel Music_Placeholder_Ch2_Main
+	callchannel Music_RiseEnd_Ch2_Main
 ;Bar 28
 	intensity $a6
 	note E_, 2
@@ -257,15 +257,15 @@ Music_Placeholder_Ch2_loop:
 	notetype 8, $78
 	octave 4
 	dutycycle $2
-	callchannel Music_Placeholder_Ch2_Bar29
+	callchannel Music_RiseEnd_Ch2_Bar29
 ;Bar 31
-	callchannel Music_Placeholder_Ch2_Bar31
+	callchannel Music_RiseEnd_Ch2_Bar31
 ;Bar 32
-	callchannel Music_Placeholder_Ch2_Bar31
+	callchannel Music_RiseEnd_Ch2_Bar31
 ;Bar 33
-	callchannel Music_Placeholder_Ch2_Bar29
+	callchannel Music_RiseEnd_Ch2_Bar29
 ;Bar 35
-	callchannel Music_Placeholder_Ch2_Bar31
+	callchannel Music_RiseEnd_Ch2_Bar31
 ;Bar 36
 	note F#, 2
 	note D#, 2
@@ -278,7 +278,7 @@ Music_Placeholder_Ch2_loop:
 	note __, 10
 ;Bar 37
 	octave 3
-	callchannel Music_Placeholder_Ch2_Bar37_41
+	callchannel Music_RiseEnd_Ch2_Bar37_41
 	note E_, 1
 	intensity $a6
 	note D_, 2
@@ -319,7 +319,7 @@ Music_Placeholder_Ch2_loop:
 	note A_, 16
 	note A_, 4
 ;Bar 45
-	callchannel Music_Placeholder_Ch2_Bar37_41
+	callchannel Music_RiseEnd_Ch2_Bar37_41
 	note E_, 1
 	intensity $a6
 	note D_, 2
@@ -365,9 +365,9 @@ Music_Placeholder_Ch2_loop:
 	note __, 15
 	note G_, 1
 	notetype 12, $a6
-	loopchannel 0, Music_Placeholder_Ch2_loop
+	loopchannel 0, Music_RiseEnd_Ch2_loop
 
-Music_Placeholder_Ch2_Main:
+Music_RiseEnd_Ch2_Main:
 	intensity $a6
 	note A_, 2
 	intensity $78
@@ -449,7 +449,7 @@ Music_Placeholder_Ch2_Main:
 	intensity $a6
 	endchannel
 
-Music_Placeholder_Ch2_Bar37_41:
+Music_RiseEnd_Ch2_Bar37_41:
 	octave 3
 	intensity $a6
 	note E_, 2
@@ -470,23 +470,23 @@ Music_Placeholder_Ch2_Bar37_41:
 	note F#, 2
 	endchannel
 
-Music_Placeholder_Ch2_Bar29:
+Music_RiseEnd_Ch2_Bar29:
 	note F_, 2
 	note C_, 2
 	note F_, 2
 	note G#, 2
-	loopchannel 6, Music_Placeholder_Ch2_Bar29
+	loopchannel 6, Music_RiseEnd_Ch2_Bar29
 	endchannel
 
-Music_Placeholder_Ch2_Bar31:
+Music_RiseEnd_Ch2_Bar31:
 	note F#, 2
 	note D_, 2
 	note F#, 2
 	note A_, 2
-	loopchannel 3, Music_Placeholder_Ch2_Bar31
+	loopchannel 3, Music_RiseEnd_Ch2_Bar31
 	endchannel
 
-Music_Placeholder_Ch2_Bar17_Type1:
+Music_RiseEnd_Ch2_Bar17_Type1:
 	octave 4
 	note E_, 2
 	note D_, 2
@@ -498,7 +498,7 @@ Music_Placeholder_Ch2_Bar17_Type1:
 	note E_, 2
 	endchannel
 
-Music_Placeholder_Ch2_Bar17_Type2:
+Music_RiseEnd_Ch2_Bar17_Type2:
 	note D_, 2
 	note E_, 2
 	note D_, 2
@@ -510,36 +510,36 @@ Music_Placeholder_Ch2_Bar17_Type2:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch3:
+Music_RiseEnd_Ch3:
 	wavetype 2, 12, $11
 
-Music_Placeholder_Ch3_loop1:
+Music_RiseEnd_Ch3_loop1:
 ;Bar 1
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_RiseEnd_Ch3_Type1
 	note A_, 6
 	note __, 3
 ;Bar 3
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_RiseEnd_Ch3_Type1
 	octave 1
 	note A_, 6
 	note __, 3
-	loopchannel 2, Music_Placeholder_Ch3_loop1
+	loopchannel 2, Music_RiseEnd_Ch3_loop1
 
-Music_Placeholder_Ch3_loop:
+Music_RiseEnd_Ch3_loop:
 ;Bar 9
-	callchannel Music_Placeholder_Ch3_loop2
+	callchannel Music_RiseEnd_Ch3_loop2
 ;Bar 17
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_RiseEnd_Ch3_Type1
 	note A_, 6
 	note __, 3
 ;Bar 19
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_RiseEnd_Ch3_Type1
 	octave 1
 	note A_, 6
 	note __, 3
 ;Bar 21
 	octave 2
-	callchannel Music_Placeholder_Ch3_loop2
+	callchannel Music_RiseEnd_Ch3_loop2
 ;Bar 29
 	octave 1
 	note A#, 6
@@ -579,7 +579,7 @@ Music_Placeholder_Ch3_loop:
 	octave 2
 	note B_, 8
 ;Bar 37
-	callchannel Music_Placeholder_Ch3_Bar37_39
+	callchannel Music_RiseEnd_Ch3_Bar37_39
 ;Bar 40
 	octave 1
 	note B_, 4
@@ -628,7 +628,7 @@ Music_Placeholder_Ch3_loop:
 	octave 1
 	note B_, 4
 ;Bar 45
-	callchannel Music_Placeholder_Ch3_Bar37_39
+	callchannel Music_RiseEnd_Ch3_Bar37_39
 ;Bar 48
 	octave 1
 	note B_, 4
@@ -670,12 +670,12 @@ Music_Placeholder_Ch3_loop:
 	note E_, 1
 	note __, 13
 ;Bar 54
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_RiseEnd_Ch3_Type1
 	note A_, 5
 	note __, 4
-	loopchannel 0, Music_Placeholder_Ch3_loop
+	loopchannel 0, Music_RiseEnd_Ch3_loop
 
-Music_Placeholder_Ch3_Type1:
+Music_RiseEnd_Ch3_Type1:
 	octave 2
 	note E_, 1
 	note __, 1
@@ -696,7 +696,7 @@ Music_Placeholder_Ch3_Type1:
 	note __, 1
 	endchannel
 
-Music_Placeholder_Ch3_loop2:
+Music_RiseEnd_Ch3_loop2:
 	octave 2
 	note E_, 1
 	note __, 1
@@ -707,10 +707,10 @@ Music_Placeholder_Ch3_loop2:
 	note __, 1
 	note D_, 1
 	note __, 13
-	loopchannel 4, Music_Placeholder_Ch3_loop2
+	loopchannel 4, Music_RiseEnd_Ch3_loop2
 	endchannel
 
-Music_Placeholder_Ch3_Bar37_39:
+Music_RiseEnd_Ch3_Bar37_39:
 	octave 2
 	note C_, 3
 	note C_, 1
@@ -740,15 +740,15 @@ Music_Placeholder_Ch3_Bar37_39:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch4:
+Music_RiseEnd_Ch4:
 	togglenoise 13
 	notetype 12
 ;Bar 1
-Music_Placeholder_Ch4_Intro:
+Music_RiseEnd_Ch4_Intro:
 	note C_, 2
 	note C_, 8
 	note C_, 6
-	loopchannel 2, Music_Placeholder_Ch4_Intro
+	loopchannel 2, Music_RiseEnd_Ch4_Intro
 ;Bar 3
 	note C_, 2
 	note C_, 1
@@ -768,11 +768,11 @@ Music_Placeholder_Ch4_Intro:
 	note D#, 2
 	note A#, 2
 ;Bar 5
-	callchannel Music_Placeholder_Ch4_Bar5
+	callchannel Music_RiseEnd_Ch4_Bar5
 ;Bar 6
-	callchannel Music_Placeholder_Ch4_Bar5
+	callchannel Music_RiseEnd_Ch4_Bar5
 ;Bar 7
-	callchannel Music_Placeholder_Ch4_Bar5
+	callchannel Music_RiseEnd_Ch4_Bar5
 ;Bar 8
 	note C_, 2
 	note C_, 1
@@ -783,36 +783,36 @@ Music_Placeholder_Ch4_Intro:
 	note F_, 2
 	note A#, 2
 
-Music_Placeholder_Ch4_loop:
+Music_RiseEnd_Ch4_loop:
 ;Bar 9
-	callchannel Music_Placeholder_Ch4_Bar5
+	callchannel Music_RiseEnd_Ch4_Bar5
 ;Bar 10
-	callchannel Music_Placeholder_Ch4_Bar5
+	callchannel Music_RiseEnd_Ch4_Bar5
 ;Bar 11
-	callchannel Music_Placeholder_Ch4_Bar5
+	callchannel Music_RiseEnd_Ch4_Bar5
 ;Bar 12
-	callchannel Music_Placeholder_Ch4_Bar12
+	callchannel Music_RiseEnd_Ch4_Bar12
 ;Bar 13
-	callchannel Music_Placeholder_Ch4_Bar5
+	callchannel Music_RiseEnd_Ch4_Bar5
 ;Bar 14
-	callchannel Music_Placeholder_Ch4_Bar5
+	callchannel Music_RiseEnd_Ch4_Bar5
 ;Bar 15
-	callchannel Music_Placeholder_Ch4_Bar5
+	callchannel Music_RiseEnd_Ch4_Bar5
 ;Bar 16
-	callchannel Music_Placeholder_Ch4_Bar12
+	callchannel Music_RiseEnd_Ch4_Bar12
 ;Bar 17
-	callchannel Music_Placeholder_Ch4_Bar17
+	callchannel Music_RiseEnd_Ch4_Bar17
 ;Bar 20
 	note D#, 2
 	note C_, 10
 	note F_, 2
 	note A#, 2
 ;Bar 21
-	callchannel Music_Placeholder_Ch4_Bar21
+	callchannel Music_RiseEnd_Ch4_Bar21
 ;Bar 22
-	callchannel Music_Placeholder_Ch4_Bar21
+	callchannel Music_RiseEnd_Ch4_Bar21
 ;Bar 23
-	callchannel Music_Placeholder_Ch4_Bar21
+	callchannel Music_RiseEnd_Ch4_Bar21
 ;Bar 24
 	note C_, 2
 	note C_, 1
@@ -825,11 +825,11 @@ Music_Placeholder_Ch4_loop:
 	note D#, 1
 	note D#, 1
 ;Bar 25
-	callchannel Music_Placeholder_Ch4_Bar21
+	callchannel Music_RiseEnd_Ch4_Bar21
 ;Bar 26
-	callchannel Music_Placeholder_Ch4_Bar21
+	callchannel Music_RiseEnd_Ch4_Bar21
 ;Bar 27
-	callchannel Music_Placeholder_Ch4_Bar21
+	callchannel Music_RiseEnd_Ch4_Bar21
 ;Bar 28
 	note C_, 2
 	note C_, 1
@@ -841,7 +841,7 @@ Music_Placeholder_Ch4_loop:
 	note F_, 3
 	note F_, 1
 ;Bar 29
-	callchannel Music_Placeholder_Ch4_Bar29_35
+	callchannel Music_RiseEnd_Ch4_Bar29_35
 ;Bar 36
 	note C_, 2
 	note A#, 6
@@ -850,56 +850,56 @@ Music_Placeholder_Ch4_loop:
 	note F_, 1
 	note C_, 2
 ;Bar 37
-	callchannel Music_Placeholder_Ch4_Bar37
+	callchannel Music_RiseEnd_Ch4_Bar37
 ;Bar 38
-	callchannel Music_Placeholder_Ch4_Bar37
+	callchannel Music_RiseEnd_Ch4_Bar37
 ;Bar 39
-	callchannel Music_Placeholder_Ch4_Bar37
+	callchannel Music_RiseEnd_Ch4_Bar37
 ;Bar 40
-	callchannel Music_Placeholder_Ch4_Bar40
+	callchannel Music_RiseEnd_Ch4_Bar40
 ;Bar 41
-	callchannel Music_Placeholder_Ch4_Bar37
+	callchannel Music_RiseEnd_Ch4_Bar37
 ;Bar 42
-	callchannel Music_Placeholder_Ch4_Bar37
+	callchannel Music_RiseEnd_Ch4_Bar37
 ;Bar 43
-	callchannel Music_Placeholder_Ch4_Bar37
+	callchannel Music_RiseEnd_Ch4_Bar37
 ;Bar 44
-	callchannel Music_Placeholder_Ch4_Bar40
+	callchannel Music_RiseEnd_Ch4_Bar40
 ;Bar 45
-	callchannel Music_Placeholder_Ch4_Bar37
+	callchannel Music_RiseEnd_Ch4_Bar37
 ;Bar 46
-	callchannel Music_Placeholder_Ch4_Bar37
+	callchannel Music_RiseEnd_Ch4_Bar37
 ;Bar 47
-	callchannel Music_Placeholder_Ch4_Bar37
+	callchannel Music_RiseEnd_Ch4_Bar37
 ;Bar 48
-	callchannel Music_Placeholder_Ch4_Bar40
+	callchannel Music_RiseEnd_Ch4_Bar40
 ;Bar 49
-	callchannel Music_Placeholder_Ch4_Bar37
+	callchannel Music_RiseEnd_Ch4_Bar37
 ;Bar 50
-	callchannel Music_Placeholder_Ch4_Bar37
+	callchannel Music_RiseEnd_Ch4_Bar37
 ;Bar 51
 	note A#, 4
 	note A#, 4
 	note A#, 4
 	note A#, 4
 ;Bar 52
-	callchannel Music_Placeholder_Ch4_Bar52
+	callchannel Music_RiseEnd_Ch4_Bar52
 	note D#, 1
 	note D#, 3
 	note D#, 4
 	note D#, 1
 	note D#, 1
 ;Bar 54
-	callchannel Music_Placeholder_Ch4_Bar52
+	callchannel Music_RiseEnd_Ch4_Bar52
 	note __, 6
 	note F_, 1
 	note F_, 1
 	note F_, 1
 	note F_, 1
-	loopchannel 0, Music_Placeholder_Ch4_loop
+	loopchannel 0, Music_RiseEnd_Ch4_loop
 
 
-Music_Placeholder_Ch4_Bar5:
+Music_RiseEnd_Ch4_Bar5:
 	note C_, 2
 	note C_, 1
 	note D#, 3
@@ -911,7 +911,7 @@ Music_Placeholder_Ch4_Bar5:
 	note D#, 1
 	endchannel
 
-Music_Placeholder_Ch4_Bar12:
+Music_RiseEnd_Ch4_Bar12:
 	note C_, 2
 	note C_, 1
 	note D#, 1
@@ -924,16 +924,16 @@ Music_Placeholder_Ch4_Bar12:
 	note D#, 1
 	endchannel
 
-Music_Placeholder_Ch4_Bar17:
+Music_RiseEnd_Ch4_Bar17:
 	note D#, 2
 	note C_, 4
 	note D#, 1
 	note C_, 3
 	note D#, 6
-	loopchannel 3, Music_Placeholder_Ch4_Bar17
+	loopchannel 3, Music_RiseEnd_Ch4_Bar17
 	endchannel
 
-Music_Placeholder_Ch4_Bar21:
+Music_RiseEnd_Ch4_Bar21:
 	note C_, 2
 	note C_, 1
 	note D#, 1
@@ -946,7 +946,7 @@ Music_Placeholder_Ch4_Bar21:
 	note D#, 1
 	endchannel
 
-Music_Placeholder_Ch4_Bar29_35:
+Music_RiseEnd_Ch4_Bar29_35:
 	note C_, 2
 	note A#, 4
 	note C_, 1
@@ -954,10 +954,10 @@ Music_Placeholder_Ch4_Bar29_35:
 	note F_, 2
 	note A#, 4
 	note D#, 2
-	loopchannel 7,Music_Placeholder_Ch4_Bar29_35
+	loopchannel 7,Music_RiseEnd_Ch4_Bar29_35
 	endchannel
 
-Music_Placeholder_Ch4_Bar37:
+Music_RiseEnd_Ch4_Bar37:
 	note C_, 2
 	note D#, 1
 	note D#, 1
@@ -972,7 +972,7 @@ Music_Placeholder_Ch4_Bar37:
 	note D#, 1
 	endchannel
 
-Music_Placeholder_Ch4_Bar40:
+Music_RiseEnd_Ch4_Bar40:
 	note C_, 2
 	note D#, 1
 	note C_, 1
@@ -986,7 +986,7 @@ Music_Placeholder_Ch4_Bar40:
 	note F_, 1
 	endchannel
 
-Music_Placeholder_Ch4_Bar52:
+Music_RiseEnd_Ch4_Bar52:
 	note C_, 2
 	note C_, 8
 	note C_, 6

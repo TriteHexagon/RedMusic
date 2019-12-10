@@ -297,11 +297,23 @@ INCLUDE "audio/music/[aceattorney]/blissfulpeople.asm"
 INCLUDE "audio/music/[aceattorney]/turnaboutsistersballad.asm"
 INCLUDE "audio/music/[aceattorney]/investigationopening2001.asm"
 INCLUDE "audio/music/[aceattorney]/grossberg.asm"
+INCLUDE "audio/music/[aceattorney]/jingle.asm"
 
 SECTION "Ace Attorney 2", ROMX
 
 INCLUDE "audio/music/[aceattorney]/investigationcore2001.asm"
 INCLUDE "audio/music/[aceattorney]/wonthecase.asm"
+INCLUDE "audio/music/[aceattorney]/dl-6.asm"
+INCLUDE "audio/music/[aceattorney]/detentioncenter.asm"
+INCLUDE "audio/music/[aceattorney]/jakemarshall.asm"
+INCLUDE "audio/music/[aceattorney]/damongant.asm"
+INCLUDE "audio/music/[aceattorney]/mayasgrief.asm"
+INCLUDE "audio/music/[aceattorney]/bluebadger.asm"
+INCLUDE "audio/music/[aceattorney]/sl-9incident.asm"
+INCLUDE "audio/music/[aceattorney]/classroomtrial.asm"
+INCLUDE "audio/music/[aceattorney]/lightandshadow.asm"
+INCLUDE "audio/music/[aceattorney]/AAend.asm"
+
 INCLUDE "audio/music/[aceattorney]/psychelock.asm"
 INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
 INCLUDE "audio/music/[aceattorney]/investigationopening2004.asm"

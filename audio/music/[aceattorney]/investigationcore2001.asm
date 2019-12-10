@@ -231,7 +231,7 @@ Music_InvestigationCore2001_Ch2:
 	intensity $98
 	note C#, 8
 ;Bar 2
-	intensity $c4
+	intensity $c3
 	callchannel Music_InvestigationCore2001_Ch2_Bar2
 	note B_, 1
 	octave 3
@@ -267,20 +267,20 @@ Music_InvestigationCore2001_Ch2:
 	note C#, 2
 	octave 2
 	note F#, 1
-	intensity $b4
+	intensity $b3
 	note G#, 1
 	note B_, 1
 	octave 3
 	note C#, 2
 	octave 2
 	note G#, 1
-	intensity $a4
+	intensity $a3
 	note B_, 1
 	octave 3
 	note C#, 1
 	note E_, 1
 	note D#, 1
-	intensity $94
+	intensity $93
 	octave 2
 	note B_, 1
 	octave 3
@@ -289,13 +289,13 @@ Music_InvestigationCore2001_Ch2:
 	octave 2
 	note G#, 1
 	note B_, 1
-	intensity $74
+	intensity $73
 	octave 3
 	note C#, 2
 	octave 2
 	note F#, 1
 	note G#, 1
-	intensity $54
+	intensity $53
 	note B_, 1
 	note __, 9
 ;Bar 6
@@ -303,22 +303,22 @@ Music_InvestigationCore2001_Ch2:
 	callchannel Music_InvestigationCore2001_Ch2_Bar6
 ;Bar 9
 	intensity $1f
-	note G#, 8
-	intensity $98
-	note G#, 8
+	note G#, 7
+	intensity $88
+	note G#, 9
 ;Bar 10
 	callchannel Music_InvestigationCore2001_Ch2_Bar6
 ;Bar 13
 	octave 4
 	intensity $1f
-	note C#, 8
-	intensity $98
-	note C#, 8
+	note C#, 7
+	intensity $88
+	note C#, 9
 	note __, 16
 	note __, 16
 ;Bar 16
 	dutycycle $1
-	intensity $d4
+	intensity $d3
 	callchannel Music_InvestigationCore2001_Ch2_Bar16
 	note F#, 1
 	note E_, 1
@@ -332,7 +332,7 @@ Music_InvestigationCore2001_Ch2:
 	note D#, 1
 	note E_, 1
 ;Bar 24
-	intensity $74
+	intensity $63
 	note F#, 1
 	note E_, 1
 	note D#, 1
@@ -356,20 +356,20 @@ Music_InvestigationCore2001_Ch2_Bar2:
 Music_InvestigationCore2001_Ch2_Bar6:
 	octave 4
 	intensity $1f
-	note E_, 8
-	intensity $98
-	note E_, 8
+	note E_, 7
+	intensity $88
+	note E_, 9
 ;Bar 7
 	intensity $1f
-	note D#, 8
-	intensity $98
-	note D#, 8
+	note D#, 7
+	intensity $88
+	note D#, 9
 ;Bar 8
 	octave 3
 	intensity $1f
-	note B_, 8
-	intensity $98
-	note B_, 8
+	note B_, 7
+	intensity $88
+	note B_, 9
 	endchannel
 
 Music_InvestigationCore2001_Ch2_Bar16:
