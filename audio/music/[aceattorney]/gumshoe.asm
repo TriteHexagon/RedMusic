@@ -12,7 +12,7 @@ Music_DetectiveGumshoe_Ch1:
 	volume $77
 	dutycycle $3
 	stereopanning $f
-	notetype $c, $84
+	notetype $c, $83
 	vibrato $12, $14
 	tone $0002
 
@@ -48,15 +48,15 @@ Music_DetectiveGumshoe_Ch1_Part_B:
 	callchannel Music_DetectiveGumshoe_Ch1_A#
 	callchannel Music_DetectiveGumshoe_Ch1_D_
 	callchannel Music_DetectiveGumshoe_Ch1_F_
-	notetype 8, $84
+	notetype 8, $83
 	note A#, 2
-	intensity $74
+	intensity $73
 	note A#, 2
 ;Ch1_Bar15:
-	intensity $74
+	intensity $73
 	note A#, 2
 	note __, 3
-	notetype 12, $84
+	notetype 12, $83
 	note __, 12
 ;Ch1_Bar16:
 	note G_, 2
@@ -80,10 +80,10 @@ Music_DetectiveGumshoe_Ch1_Part_B:
 ;Ch1_Bar21:
 	note F_, 5
 	note __, 1
-	notetype 4, $84
+	notetype 4, $83
 	note F#, 1
 	note G_, 5
-	notetype 12, $84
+	notetype 12, $83
 	note F_, 3
 	note D#, 5
 ;Bar22:
@@ -94,105 +94,105 @@ Music_DetectiveGumshoe_Ch1_Part_B:
 	note A#, 2
 	note D#, 8
 ;Ch1_Bar24:
-	intensity $34
+	intensity $33
 	note C_, 1
 	note C_, 1
 	note G_, 1
 	note G_, 1
 	octave 5
-	intensity $54
+	intensity $53
 	note C_, 1
 	note C_, 1
 	octave 4
 	note C_, 1
 	note C_, 1
-	intensity $84
+	intensity $83
 	note G_, 1
 	note G_, 1
 	octave 5
 	note C_, 1
 	note C_, 1
 	octave 4
-	intensity $94
+	intensity $93
 	note C_, 1
 	note C_, 1
-	intensity $a4
+	intensity $a3
 	note G_, 1
 	note G_, 1
 	octave 5
-	intensity $84
+	intensity $83
 	note C_, 1
-	intensity $74
+	intensity $73
 	note C_, 1
 	octave 4
 	callchannel Music_DetectiveGumshoe_Ch1_Main_Loop
 	callchannel Music_DetectiveGumshoe_Ch1_C_
 	callchannel Music_DetectiveGumshoe_Ch1_G_
-	intensity $84
+	intensity $83
 	note C_, 1
-	intensity $74
+	intensity $73
 	note D_, 1
 ;Ch1_Bar26:
-	intensity $84
+	intensity $83
 	note G_, 1
-	intensity $74
+	intensity $73
 	octave 5
 	note C_, 1
 	loopchannel 0, Music_DetectiveGumshoe_Ch1_master
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_Main_Loop:
-	intensity $84
+	intensity $83
 	note C_, 1
-	intensity $74
+	intensity $73
 	note C_, 1
 	note G_, 1
-	intensity $74
+	intensity $73
 	note G_, 1
 	octave 5
 	note C_, 1
-	intensity $74
+	intensity $73
 	note C_, 1
 	octave 4
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_G_:
-	intensity $84
+	intensity $83
 	note G_, 1
-	intensity $74
+	intensity $73
 	note G_, 1
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_A#:
-	intensity $84
+	intensity $83
 	note A#, 1
-	intensity $74
+	intensity $73
 	note A#, 1
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_D_:
-	intensity $84
+	intensity $83
 	note D_, 1
-	intensity $74
+	intensity $73
 	note D_, 1
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_F_:
-	intensity $84
+	intensity $83
 	note F_, 1
-	intensity $74
+	intensity $73
 	note F_, 1
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_C_:
-	intensity $84
+	intensity $83
 	note C_, 1
-	intensity $74
+	intensity $73
 	note C_, 1
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_Bar16:
-	notetype 4, $84
+	notetype 4, $83
 	octave 5
 	note C_, 1
 	note C_, 5
@@ -202,7 +202,7 @@ Music_DetectiveGumshoe_Ch1_Bar16:
 	note F_, 8
 	note F_, 1
 	note G_, 12
-	notetype 12, $84
+	notetype 12, $83
 	endchannel
 
 Music_DetectiveGumshoe_Ch1_Bar18:
@@ -507,54 +507,49 @@ Music_DetectiveGumshoe_Ch3_master:
 	note A#, 3
 	note __, 7
 ;Ch3_Bar15:
-	note A#, 2
-	octave 3
-	note C_, 2 
-	note __, 1
-	note D_, 2 
-	note __, 1
-	note D#, 2
-	note F_, 2 
-	note __, 1
-	octave 2
-	note G_, 2 
-	note __, 1
-;Ch3_Bar16:
-	note G#, 2
-	note G#, 2 
-	note __, 1
-	note G#, 2 
-	note __, 1
-	note G#, 2
-	note G#, 2
-	note G#, 2
-	note A#, 4
-;Ch3_Bar17:
-	octave 3
-	note C_, 2 
-	note __, 1
-	note D_, 2 
-	note __, 1
-	note D#, 2
-	note F_, 2 
-	note __, 1
-	octave 2
-	note G_, 2 
-	note __, 1
-;Ch3_Bar18:
-	note G#, 2
-	octave 3
-	note C_, 2 
-	note __, 1
-	note C_, 2 
-	note __, 1
-	note C_, 2 
-	note __, 1
+	callchannel Music_DetectiveGumshoe_Ch3_Bar15_18
 	octave 2
 	note A#, 2 
 	note __, 1
 	note A#, 2
 ;Ch3_Bar19:
+	callchannel Music_DetectiveGumshoe_Ch3_Bar15_18
+	octave 2
+	note A#, 2 
+	note __, 1
+	note A#, 1
+	note __, 1
+;Ch3_Bar23:
+	note A#, 1
+	note __, 1
+	note G#, 2 
+	note __, 1
+	note G#, 2 
+	note __, 1
+	note G#, 2
+	note G#, 3
+	note __, 3
+;Ch3_Bar24:
+	note G#, 1
+	note G#, 1
+	note A#, 1
+	note A#, 1
+	note __, 4
+	note A#, 2
+	note A#, 2 
+	note __, 1
+	note A#, 2 
+	note __, 1
+;Ch3_Bar25:
+	note A#, 2
+	note __, 14
+;Ch3_Bar26:
+	note G_, 1
+	note G_, 1
+	loopchannel 0, Music_DetectiveGumshoe_Ch3_master
+	endchannel
+
+Music_DetectiveGumshoe_Ch3_Bar15_18:
 	note A#, 2
 	octave 3
 	note C_, 2 
@@ -599,302 +594,252 @@ Music_DetectiveGumshoe_Ch3_master:
 	note __, 1
 	note C_, 2 
 	note __, 1
-	octave 2
-	note A#, 2 
-	note __, 1
-	note A#, 1
-	note __, 1
-;Ch3_Bar23:
-	note A#, 1
-	note __, 1
-	note G#, 2 
-	note __, 1
-	note G#, 2 
-	note __, 1
-	note G#, 2
-	note G#, 3
-	note __, 3
-;Ch3_Bar24:
-	note G#, 1
-	note G#, 1
-	note A#, 1
-	note A#, 1
-	note __, 4
-	note A#, 2
-	note A#, 2 
-	note __, 1
-	note A#, 2 
-	note __, 1
-;Ch3_Bar25:
-	note A#, 2
-	note __, 14
-;Ch3_Bar26:
-	note G_, 1
-	note G_, 1
-	loopchannel 0, Music_DetectiveGumshoe_Ch3_master
 	endchannel
 
 ; ============================================================================================================
 Music_DetectiveGumshoe_Ch4:
 	notetype 12
 	stereopanning $ff
-	togglenoise $3
+	togglenoise 13
 
 	note __, 2
 Music_DetectiveGumshoe_Ch4_master:
 ;Ch4_Bar1:
-	note A#, 1
-	note A#, 3
-	note G#, 6
+	note C_, 1
+	note C_, 3
+	note C#, 6
 	stereopanning $f0
-	note F_, 2
-	note D_, 4
+	note A#, 2
+	note D#, 4
 	stereopanning $ff
 ;Ch4_Bar2:
-	note A#, 3
-	note A#, 3
-	note G#, 1
-	note G#, 1
-	note A#, 2
-	note A#, 2
-	note G#, 3
+	note C_, 3
+	note C_, 3
+	note C#, 1
+	note C#, 1
+	note C_, 2
+	note C_, 2
+	note C#, 3
 ;Ch4_Bar3:
-	note G#, 3
+	note C#, 3
 	stereopanning $f0
-	note F_, 2
-	note D_, 4
+	note A#, 2
+	note D#, 4
 	stereopanning $ff
-	note A#, 2
-	note A#, 2
-	note G#, 5
+	note C_, 2
+	note C_, 2
+	note C#, 5
 ;Ch4_Bar4:
 	stereopanning $f0
-	note F_, 1
-	note A#, 2
-	note F_, 4
-	stereopanning $ff
 	note A#, 1
-	note A#, 3
-	note G#, 6
+	note C_, 2
+	note A#, 4
+	stereopanning $ff
+	note C_, 1
+	note C_, 3
+	note C#, 6
 ;Ch4_Bar5:
 	stereopanning $f0
-	note F_, 2
-	note D_, 4
+	note A#, 2
+	note D#, 4
 	stereopanning $ff
-	note A#, 3
-	note A#, 3
+	note C_, 3
+	note C_, 3
 ;Ch4_Bar6:
-	note G#, 1
-	note G#, 1
-	note A#, 1
-	note A#, 3
-	note G#, 6
+	note C#, 1
+	note C#, 1
+	note C_, 1
+	note C_, 3
+	note C#, 6
 	stereopanning $f0
-	note F_, 2
-	note D_, 3
+	note A#, 2
+	note D#, 3
 	stereopanning $ff
 ;Ch4_Bar7:
-	note G#, 1
-	note A#, 4
-	note G#, 3
-	note G#, 1
-	note A#, 2
-	note A#, 2
-	note G#, 4
+	note C#, 1
+	note C_, 4
+	note C#, 3
+	note C#, 1
+	note C_, 2
+	note C_, 2
+	note C#, 4
 ;Ch4_Bar8:
 	stereopanning $f0
-	note F_, 1
-	stereopanning $ff
 	note A#, 1
+	stereopanning $ff
+	note C_, 1
 	stereopanning $f0
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	note F_, 2
-	note D_, 2
+	note D#, 2
+	note D#, 2
+	note D#, 2
+	note D#, 2
+	note A#, 2
+	note D#, 2
 ;Ch4_Bar9:
-	note D_, 2
-	note D_, 3
+	note D#, 2
+	note D#, 3
 	stereopanning $ff
-	note A#, 3
+	note C_, 3
 	stereopanning $f0
-	note D_, 1
+	note D#, 1
 	stereopanning $ff
-	note G#, 1
-	note A#, 2
-	note A#, 2
+	note C#, 1
+	note C_, 2
+	note C_, 2
 	stereopanning $f0
-	note D_, 2
+	note D#, 2
 ;Ch4_Bar10:
-	note D_, 1
+	note D#, 1
 	stereopanning $ff
-	note G#, 1
+	note C#, 1
 	stereopanning $f0
-	note D_, 2
-	note F_, 2
-	note D_, 2
-	note D_, 2
+	note D#, 2
+	note A#, 2
+	note D#, 2
+	note D#, 2
 	stereopanning $ff
-	note A#, 2
-	note A#, 2
+	note C_, 2
+	note C_, 2
 	stereopanning $f0
-	note D_, 2
+	note D#, 2
 ;Ch4_Bar11:
-	note D_, 2
-	note D_, 1
-	note F_, 1
-	stereopanning $ff
-	note A#, 2
-	stereopanning $f0
-	note F_, 4
-	stereopanning $ff
+	note D#, 2
+	note D#, 1
 	note A#, 1
-	note A#, 1
+	stereopanning $ff
+	note C_, 2
 	stereopanning $f0
-	note D_, 2
-	note D_, 2
+	note A#, 4
+	stereopanning $ff
+	note C_, 1
+	note C_, 1
+	stereopanning $f0
+	note D#, 2
+	note D#, 2
 ;Ch4_Bar12:
-	note D_, 2
-	note D_, 2
-	note F_, 2
-	note D_, 2
-	note D_, 2
+	note D#, 2
+	note D#, 2
+	note A#, 2
+	note D#, 2
+	note D#, 2
 	stereopanning $ff
-	note A#, 3
-	note A#, 3
+	note C_, 3
+	note C_, 3
 ;Ch4_Bar13:
 	stereopanning $f0
-	note D_, 1
+	note D#, 1
 	stereopanning $ff
-	note G#, 1
-	note A#, 1
-	note A#, 1
+	note C#, 1
+	note C_, 1
+	note C_, 1
 	stereopanning $f0
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	note D_, 1
-	note D_, 1
-	note F_, 2
-	note D_, 2
-;Ch4_Bar14:
-	note D_, 1
-	stereopanning $ff
-	note G#, 1
-	note A#, 1
-	stereopanning $f0
-	note D_, 1
-	note D_, 1
-	stereopanning $ff
-	note A#, 1
-	stereopanning $f0
-	note F_, 2
-	stereopanning $ff
-	note A#, 3
-	note G#, 1
+	note D#, 2
+	note D#, 2
+	note D#, 2
+	note D#, 1
+	note D#, 1
 	note A#, 2
+	note D#, 2
+;Ch4_Bar14:
+	note D#, 1
+	stereopanning $ff
+	note C#, 1
+	note C_, 1
 	stereopanning $f0
-	note F_, 2
+	note D#, 1
+	note D#, 1
+	stereopanning $ff
+	note C_, 1
+	stereopanning $f0
+	note A#, 2
+	stereopanning $ff
+	note C_, 3
+	note C#, 1
+	note C_, 2
+	stereopanning $f0
+	note A#, 2
 	stereopanning $ff
 ;Ch4_Bar15:
-	note G#, 1
-	note G#, 1
-	note A#, 3
-	note A#, 3
-	note A#, 2 ;double with G#
-	note A#, 3
-	note A#, 3
+	note C#, 1
+	note C#, 1
+	callchannel Music_DetectiveGumshoe_Ch4_Type1
 ;Ch4_Bar16:
-	note A#, 2 ;double with G#
+	note C_, 2 ;double with C#
 	stereopanning $f0
-	note F_, 4
-	note F_, 4
+	note A#, 4
+	note A#, 4
 	stereopanning $ff
-	note A#, 2
-	note A#, 2
+	note C_, 2
+	note C_, 2
 	stereopanning $f0
-	note F_, 4
+	note A#, 4
 	stereopanning $ff
 ;Ch4_Bar17:
-	note A#, 3
-	note A#, 3
-	note A#, 2 ;double with G#
-	note A#, 3
-	note A#, 1
-	note G#, 2
+	note C_, 3
+	note C_, 3
+	note C_, 2 ;double with C#
+	note C_, 3
+	note C_, 1
+	note C#, 2
 ;Ch4_Bar18:
-	note A#, 2 ;double with G#
-	note A#, 1
-	stereopanning $f0
-	note D_, 1
-	note F_, 2
-	stereopanning $ff
-	note A#, 2 ;double with G#
-	stereopanning $f0
-	note D_, 2
-	stereopanning $ff
+	callchannel Music_DetectiveGumshoe_Ch4_Bar18
 	note A#, 2
-	stereopanning $f0
-	note D_, 2
-	note F_, 2
 ;Ch4_Bar19:
 	stereopanning $ff
-	note A#, 2
-	note A#, 3
-	note A#, 3
-	note A#, 2 ;double with G#
-	note A#, 3
-	note A#, 3
+	note C_, 2
+	callchannel Music_DetectiveGumshoe_Ch4_Type1
 ;Ch4_Bar20:
-	note A#, 2 ;double with G#
+	note C_, 2 ;double with C#
 	stereopanning $f0
-	note F_, 4
-	note F_, 4
+	note A#, 4
+	note A#, 4
 	stereopanning $ff
-	note A#, 2
-	note A#, 2
+	note C_, 2
+	note C_, 2
 	stereopanning $f0
-	note F_, 3
+	note A#, 3
 ;Ch4_Bar21:	
 	stereopanning $ff
-	note G#, 1
-	note A#, 3
-	note A#, 3
-	note A#, 2 ;double with G#
-	note A#, 3
-	note A#, 3
+	note C#, 1
+	callchannel Music_DetectiveGumshoe_Ch4_Type1
 ;Ch4_Bar22:
-	note A#, 2 ;double with G#
-	note A#, 1
-	stereopanning $f0
-	note D_, 1
-	note F_, 2
-	stereopanning $ff
-	note A#, 2 ;double with G#
-	stereopanning $f0
-	note D_, 2
-	stereopanning $ff
-	note A#, 2
-	stereopanning $f0
-	note D_, 2
+	callchannel Music_DetectiveGumshoe_Ch4_Bar18
 ;Ch4_Bar23:
-	note F_, 4
-	note F_, 4
-	note F_, 4
-	note F_, 4
-;Ch4_Bar24:
-	note F_, 4
-	note F_, 4
-	note F_, 4
-	note F_, 4
-	note F_, 2
+Music_DetectiveGumshoe_Ch4_Asharp_loop:
+	note A#, 4
+	loopchannel 8, Music_DetectiveGumshoe_Ch4_Asharp_loop
+	note A#, 2
 ;Ch4_Bar25:
-	note D_, 1
-	note D_, 1
-	note F_, 14
+	note D#, 1
+	note D#, 1
+	note A#, 14
 ;Ch4_Bar26:
 	stereopanning $ff
-	note A#, 2
+	note C_, 2
 	loopchannel 0, Music_DetectiveGumshoe_Ch4_master
 	endchannel
+
+Music_DetectiveGumshoe_Ch4_Type1:
+	note C_, 3
+	note C_, 3
+	note C_, 2 ;double with C#
+	note C_, 3
+	note C_, 3
+	endchannel
+
+Music_DetectiveGumshoe_Ch4_Bar18:
+	note C_, 2 ;double with C#
+	note C_, 1
+	stereopanning $f0
+	note D#, 1
+	note A#, 2
+	stereopanning $ff
+	note C_, 2 ;double with C#
+	stereopanning $f0
+	note D#, 2
+	stereopanning $ff
+	note C_, 2
+	stereopanning $f0
+	note D#, 2
+	endchannel
+

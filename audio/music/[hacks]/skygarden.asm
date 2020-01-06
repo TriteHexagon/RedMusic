@@ -560,7 +560,7 @@ Music_SkyGarden_Ch3_master:
 	note G#, 2
 ;Ch2_Bar8:
 	octave 3
-    wavetype $1, 12, $1E
+    wavetype 2, 12, $15
 	note A#, 6
 	octave 4
 	note C_, 1
@@ -575,12 +575,12 @@ Music_SkyGarden_Ch3_master:
 	note A#, 1
 	note __, 1
 	note B_, 7
-	intensity $2E
+	intensity $25
 	note B_, 1
 ;Ch2_Bar10:
 	note __, 16
 ;Ch2_Bar11:
-	intensity $1D
+	intensity $14
     vibrato $08, $26
 	octave 4
 	note B_, 4
@@ -612,11 +612,11 @@ Music_SkyGarden_Ch3_master:
 	note F#, 2
 ;Ch2_Bar17:
 	note F#, 12
-	intensity $2D
+	intensity $24
 	note F#, 4
 ;Ch2_Bar18:
 	octave 4
-	intensity $3D
+	intensity $34
 	note F#, 4
     vibrato $16, $13
     wavetype $1, 6, $13
@@ -645,7 +645,7 @@ Music_SkyGarden_Ch3_master:
     intensity $23
     note G#, 1
     note __, 1
-    wavetype $1, 12, $1E
+    wavetype 2, 12, $15
 	note C#, 2
 	note __, 1
 	note E_, 2
@@ -672,7 +672,7 @@ Music_SkyGarden_Ch3_master:
     wavetype $1, 6, $13
 	callchannel Music_SkyGarden_Ch3_Bar18
 	octave 4
-    notetype 12, $1E
+    wavetype 2, 12, $15
 	note D#, 2
 	note F#, 2
 	note B_, 2
@@ -685,7 +685,7 @@ Music_SkyGarden_Ch3_master:
 	note E_, 1
 	note __, 1
 ;Ch2_Bar25:
-    intensity $13
+    waveform 1, $13
 	octave 4
 	note A_, 2
 	note __, 1

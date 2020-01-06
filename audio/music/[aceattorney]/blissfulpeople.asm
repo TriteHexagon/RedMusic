@@ -24,24 +24,7 @@ Music_BlissfulPeople_Ch1_loop:
 ;Bar 2
 	callchannel Music_BlissfulPeople_Ch1_Bar2
 	callchannel Music_BlissfulPeople_Ch1_Bar2Plus
-	note __, 2
-	intensity $A8
-	octave 2
-	note G_, 2
-	intensity $88
-	note G_, 1
-	intensity $78
-	note G_, 1
-	intensity $A8
-	octave 3
-	note C_, 2
-	note G_, 1
-	intensity $88
-	note G_, 1
-	intensity $78
-	note G_, 1
-	intensity $58
-	note G_, 1
+	callchannel Music_BlissfulPeople_Ch1_Bar6
 ;Bar 4
 	callchannel Music_BlissfulPeople_Ch1_Bar2
 	callchannel Music_BlissfulPeople_Ch1_Bar2Plus
@@ -66,24 +49,7 @@ Music_BlissfulPeople_Ch1_loop:
 ;Bar 6
 	callchannel Music_BlissfulPeople_Ch1_Bar2
 	callchannel Music_BlissfulPeople_Ch1_Bar2Plus
-	note __, 2
-	intensity $A8
-	octave 2
-	note G_, 2
-	intensity $88
-	note G_, 1
-	intensity $78
-	note G_, 1
-	intensity $A8
-	octave 3
-	note C_, 2
-	note G_, 1
-	intensity $88
-	note G_, 1
-	intensity $78
-	note G_, 1
-	intensity $58
-	note G_, 1
+	callchannel Music_BlissfulPeople_Ch1_Bar6
 ;Bar 8
 	callchannel Music_BlissfulPeople_Ch1_Bar2
 	note E_, 2
@@ -185,6 +151,27 @@ Music_BlissfulPeople_Ch1_Bar2:
 	octave 4
 	note C_, 2
 	note D_, 2
+	endchannel
+
+Music_BlissfulPeople_Ch1_Bar6:
+	note __, 2
+	intensity $A8
+	octave 2
+	note G_, 2
+	intensity $88
+	note G_, 1
+	intensity $78
+	note G_, 1
+	intensity $A8
+	octave 3
+	note C_, 2
+	note G_, 1
+	intensity $88
+	note G_, 1
+	intensity $78
+	note G_, 1
+	intensity $58
+	note G_, 1
 	endchannel
 
 Music_BlissfulPeople_Ch1_Bar2Plus:
@@ -309,82 +296,82 @@ Music_BlissfulPeople_Ch2_loop:
 	dutycycle $3
 	callchannel Music_BlissfulPeople_Ch2_Bar10_11
 ;Bar 12
-	intensity $A8
+	intensity $98
 	note C_, 2
 	note D_, 2
-	intensity $88
-	note D_, 1
 	intensity $78
 	note D_, 1
-	intensity $A8
+	intensity $68
+	note D_, 1
+	intensity $98
 	note E_, 2
-	intensity $88
-	note E_, 1
 	intensity $78
 	note E_, 1
-	intensity $A8
+	intensity $68
+	note E_, 1
+	intensity $98
 	note C_, 2
-	intensity $88
-	note C_, 1
 	intensity $78
 	note C_, 1
-	intensity $A8
+	intensity $68
+	note C_, 1
+	intensity $98
 	note C_, 2
 ;Bar 13
-	intensity $88
-	note C_, 1
 	intensity $78
 	note C_, 1
-	intensity $A8
+	intensity $68
+	note C_, 1
+	intensity $98
 	octave 2
 	note G_, 2
 	octave 3
 	note D_, 2
 	note __, 2
 	note C_, 2
-	intensity $88
-	note C_, 1
 	intensity $78
 	note C_, 1
-	intensity $A8
+	intensity $68
+	note C_, 1
+	intensity $98
 	octave 2
 	note B_, 2
-	intensity $88
-	note B_, 1
 	intensity $78
+	note B_, 1
+	intensity $68
 	note B_, 1
 ;Bar 14
 	callchannel Music_BlissfulPeople_Ch2_Bar10_11
 ;Bar 16
-	intensity $A8
+	intensity $98
 	note C_, 4
-	intensity $88
-	note C_, 1
 	intensity $78
 	note C_, 1
-	intensity $58
+	intensity $68
+	note C_, 1
+	intensity $48
 	note C_, 1
 	note C_, 1
-	intensity $A8
+	intensity $98
 	note G_, 2
-	intensity $88
-	note G_, 1
 	intensity $78
+	note G_, 1
+	intensity $68
 	note G_, 1
 	note __, 2
-	intensity $A8
+	intensity $98
 	octave 2
 	note A_, 2
 ;Bar 17
 	note __, 2
 	note B_, 6
-	intensity $88
-	note B_, 1
 	intensity $78
 	note B_, 1
-	intensity $58
+	intensity $68
 	note B_, 1
 	intensity $48
+	note B_, 1
+	intensity $38
 	note B_, 1
 	note __, 4
 	loopchannel 0, Music_BlissfulPeople_Ch2_loop
@@ -413,43 +400,43 @@ Music_BlissfulPeople_Ch2_Bar2:
 
 Music_BlissfulPeople_Ch2_Bar10_11:
 	octave 2
-	intensity $A8
+	intensity $98
 	note G_, 4
-	intensity $88
-	note G_, 1
 	intensity $78
 	note G_, 1
-	intensity $58
+	intensity $68
+	note G_, 1
+	intensity $48
 	note G_, 1
 	note G_, 1
-	intensity $A8
+	intensity $98
 	note A_, 4
-	intensity $88
-	note A_, 1
 	intensity $78
 	note A_, 1
-	intensity $A8
+	intensity $68
+	note A_, 1
+	intensity $98
 	note B_, 2
 ;Bar 11
-	intensity $88
-	note B_, 1
 	intensity $78
 	note B_, 1
-	intensity $A8
+	intensity $68
+	note B_, 1
+	intensity $98
 	note A_, 2
 	note B_, 2
-	intensity $88
-	note B_, 1
 	intensity $78
 	note B_, 1
-	intensity $A8
+	intensity $68
+	note B_, 1
+	intensity $98
 	octave 3
 	note C_, 4
-	intensity $88
-	note C_, 1
 	intensity $78
 	note C_, 1
-	intensity $58
+	intensity $68
+	note C_, 1
+	intensity $48
 	note C_, 1
 	note C_, 1
 	endchannel
@@ -489,6 +476,7 @@ Music_BlissfulPeople_Ch3_loop:
 	callchannel Music_BlissfulPeople_Ch3_Base
 	pitchoffset 0, C_
 ;Bar 10
+	;stereopanning $f0
 	octave 4
 	note C_, 12
 	note __, 2
@@ -541,6 +529,7 @@ Music_BlissfulPeople_Ch3_loop:
 	note __, 2
 	note D_, 10
 	note __, 4
+	;stereopanning $ff
 	loopchannel 0, Music_BlissfulPeople_Ch3_loop
 
 Music_BlissfulPeople_Ch3_Base:
@@ -588,6 +577,7 @@ Music_BlissfulPeople_Ch4_loop:
 	note C_, 2
 	note D#, 2
 ;Bar 10
+	;stereopanning $f
 	callchannel Music_BlissfulPeople_Ch4_Bar10
 ;Bar 11
 	callchannel Music_BlissfulPeople_Ch4_Bar11
@@ -609,6 +599,7 @@ Music_BlissfulPeople_Ch4_loop:
 	callchannel Music_BlissfulPeople_Ch4_Bar11
 	note B_, 2
 	note __, 2
+	;stereopanning $ff
 	loopchannel 0, Music_BlissfulPeople_Ch4_loop
 
 Music_BlissfulPeople_Ch4_Bar2:

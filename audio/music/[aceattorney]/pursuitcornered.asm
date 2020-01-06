@@ -10,6 +10,50 @@ Music_Cornered:
 Music_Cornered_Ch1:
 	tempo 128
 	volume $77
+	stereopanning $f
+	notetype 12, $a4
+	dutycycle $0
+	octave 3
+
+Music_Cornered_Ch1_master:
+;Bar1:
+	octave 4
+	callchannel Music_Cornered_Ch1_Bar1
+	note C#, 2
+;Bar2:
+	callchannel Music_Cornered_Ch1_Bar1
+	octave 3
+	note B_, 2
+;Bar3:
+	octave 4
+	callchannel Music_Cornered_Ch1_Bar3
+	note C#, 2
+;Bar4:
+	callchannel Music_Cornered_Ch1_Bar3
+	octave 3
+	note B_, 2
+	loopchannel 0, Music_Cornered_Ch1_master
+	endchannel
+
+Music_Cornered_Ch1_Bar1:
+	note C_, 3
+	note C_, 3
+	note C_, 3
+	note C_, 3
+	note C_, 2
+	endchannel
+
+Music_Cornered_Ch1_Bar3:
+	note C_, 3
+	note C_, 3
+	note C_, 3
+	note C_, 1
+	note C_, 2
+	note C_, 2
+	endchannel
+	
+; ============================================================================================================
+Music_Cornered_Ch2:
 	dutycycle $2
 	stereopanning $ff
 	notetype $c, $b8
@@ -30,7 +74,42 @@ Music_Cornered_Ch1:
 	intensity $57
 	note G_, 1
 
-Music_Cornered_Ch1_master:
+Music_Cornered_Ch2_master:
+	callchannel Music_Cornered_Ch2_Part1
+;Bar8:
+	callchannel Music_Cornered_Ch2_Bar8
+	
+	callchannel Music_Cornered_Ch2_Part2
+;Bar14:
+	note F_, 1
+	intensity $87
+	note F_, 1
+	callchannel Music_Cornered_Ch2_Type1
+	intensity $97
+	note F_, 1
+	intensity $87
+	note F_, 1
+	callchannel Music_Cornered_Ch2_Type1
+	callchannel Music_Cornered_Ch2_Type1
+;Bar15:
+	callchannel Music_Cornered_Ch2_Bar15
+;Bar17:
+	callchannel Music_Cornered_Ch2_Part3
+;Bar20:
+	callchannel Music_Cornered_Ch2_Bar8
+	
+	callchannel Music_Cornered_Ch2_Part4
+
+	intensity $97
+	callchannel Music_Cornered_Ch2_Type2
+	intensity $77
+	callchannel Music_Cornered_Ch2_Type2
+	
+	callchannel Music_Cornered_Ch2_Part5
+	loopchannel 0, Music_Cornered_Ch2_master
+	endchannel
+
+Music_Cornered_Ch2_Part1:
 ;Bar5:
 	octave 5
 	intensity $b8
@@ -70,18 +149,9 @@ Music_Cornered_Ch1_master:
 	note C#, 2
 	note F_, 2
 	note G#, 2
-;Bar8:
-	intensity $d8
-	note G_, 2
-	intensity $b8
-	octave 3
-	note A#, 2
-	octave 4
-	note D#, 2
-	note G_, 2
-	intensity $d8
-	note D#, 2
-	intensity $b8
+	endchannel
+
+Music_Cornered_Ch2_Part2:
 	octave 3
 	note D#, 2
 	note A#, 2
@@ -192,52 +262,9 @@ Music_Cornered_Ch1_master:
 	octave 4
 	note D#, 2
 	note G#, 2
-;Bar14:
-	note F_, 1
-	intensity $87
-	note F_, 1
-	note F_, 1
-	intensity $67
-	note F_, 1
-	note F_, 1
-	intensity $47
-	note F_, 1
-	intensity $97
-	note F_, 1
-	intensity $87
-	note F_, 1
-	note F_, 1
-	intensity $67
-	note F_, 1
-	note F_, 1
-	intensity $47
-	note F_, 1
-	intensity $87
-	note F_, 1
-	intensity $67
-	note F_, 1
-	note F_, 1
-	intensity $47
-	note F_, 1
-;Bar15:
-	intensity $67
-	note F_, 1
-	intensity $47
-	note F_, 1
-	note F_, 1
-	intensity $37
-	note F_, 1
-	note F_, 1
-	intensity $27
-	note F_, 1
-	intensity $17
-	note F_, 1
-	intensity $07
-	note F_, 1
-	note __, 8
-;Bar16:
-	note __, 16
-;Bar17:
+	endchannel
+
+Music_Cornered_Ch2_Part3:
 	octave 5
 	intensity $c8
 	note C_, 8
@@ -262,18 +289,9 @@ Music_Cornered_Ch1_master:
 	note A#, 1
 	intensity $57
 	note A#, 1
-;Bar20:
-	intensity $d8
-	note G_, 2
-	intensity $b8
-	octave 3
-	note A#, 2
-	octave 4
-	note D#, 2
-	note G_, 2
-	intensity $d8
-	note D#, 2
-	intensity $b8
+	endchannel
+
+Music_Cornered_Ch2_Part4:
 	octave 3
 	note D#, 2
 	note G_, 2
@@ -358,28 +376,9 @@ Music_Cornered_Ch1_master:
 	note A#, 2
 	octave 4
 	note C_, 2
-	intensity $97
-	note F_, 2
-	octave 3
-	note A#, 2
-	octave 4
-	note C_, 2
-	note F_, 2
-	octave 3
-	note A#, 2
-	octave 4
-	note C_, 2
-	intensity $77
-	note F_, 2
-	octave 3
-	note A#, 2
-	octave 4
-	note C_, 2
-	note F_, 2
-	octave 3
-	note A#, 2
-	octave 4
-	note C_, 2
+	endchannel
+
+Music_Cornered_Ch2_Part5:
 	intensity $47
 	note F_, 2
 ;Bar26:
@@ -401,54 +400,63 @@ Music_Cornered_Ch1_master:
 	note __, 16
 ;Bar28:
 	note __, 16
-
-	loopchannel 0, Music_Cornered_Ch1_master
 	endchannel
 
-; ============================================================================================================
-Music_Cornered_Ch2:
-	stereopanning $f
-	;vibrato $12, $14
-	notetype 12, $a4
-	dutycycle $0
+Music_Cornered_Ch2_Bar8:
+	intensity $d8
+	note G_, 2
+	intensity $b8
 	octave 3
+	note A#, 2
+	octave 4
+	note D#, 2
+	note G_, 2
+	intensity $d8
+	note D#, 2
+	intensity $b8
+	endchannel
 
-Music_Cornered_Ch2_master:
-;Bar1:
-	octave 4
-	note C_, 3
-	note C_, 3
-	note C_, 3
-	note C_, 3
-	note C_, 2
-	note C#, 2
-;Bar2:
-	note C_, 3
-	note C_, 3
-	note C_, 3
-	note C_, 3
-	note C_, 2
+Music_Cornered_Ch2_Bar15:
+	intensity $67
+	note F_, 1
+	intensity $47
+	note F_, 1
+	note F_, 1
+	intensity $37
+	note F_, 1
+	note F_, 1
+	intensity $27
+	note F_, 1
+	intensity $17
+	note F_, 1
+	intensity $16
+	note F_, 1
+	note __, 8
+;Bar16:
+	note __, 16
+	endchannel
+	
+Music_Cornered_Ch2_Type1:
+	intensity $87
+	note F_, 1
+	intensity $67
+	note F_, 1
+	note F_, 1
+	intensity $47
+	note F_, 1
+	endchannel
+
+Music_Cornered_Ch2_Type2:
+	note F_, 2
 	octave 3
-	note B_, 2
-;Bar3:
+	note A#, 2
 	octave 4
-	note C_, 3
-	note C_, 3
-	note C_, 3
-	note C_, 1
 	note C_, 2
-	note C_, 2
-	note C#, 2
-;Bar4:
-	note C_, 3
-	note C_, 3
-	note C_, 3
-	note C_, 1
-	note C_, 2
-	note C_, 2
+	note F_, 2
 	octave 3
-	note B_, 2
-	loopchannel 0, Music_Cornered_Ch2_master
+	note A#, 2
+	octave 4
+	note C_, 2
 	endchannel
 
 ; ============================================================================================================
@@ -663,48 +671,26 @@ Music_Cornered_Ch3_F:
 Music_Cornered_Ch4:
 	notetype 12
 	stereopanning $ff
-	togglenoise $5
+	togglenoise 13
 
 ;Bar1:
 	callchannel Music_Cornered_Ch4_loop
 ;Bar2:
 	note __, 2
-	note B_, 1
-	note B_, 1
+	note C_, 1
+	note C_, 1
 ;Bar3:
-	note B_, 2
-	stereopanning $f0
-	note D#, 2
+Music_Cornered_Bar3:
 	stereopanning $ff
-	note B_, 2
+	note C_, 2
 	stereopanning $f0
-	note D#, 2
-	stereopanning $ff
-	note B_, 2
-	stereopanning $f0
-	note D#, 2
-	stereopanning $ff
-	note B_, 2
-	stereopanning $f0
-	note D#, 2
-	stereopanning $ff
+	note G_, 2
+	loopchannel 6, Music_Cornered_Bar3
 ;Bar4:
-	note B_, 2
-	stereopanning $f0
-	note D#, 2
 	stereopanning $ff
-	note B_, 2
-	stereopanning $f0
-	note D#, 2
-	stereopanning $ff
-	note D_, 1
-	note D_, 1
-	note D_, 1
-	note D_, 1
-	note D_, 1
-	note D_, 1
-	note D_, 1
-	note D_, 1
+Music_Cornered_Bar4:
+	note C#, 1
+	loopchannel 8, Music_Cornered_Bar4
 Music_Cornered_Ch4_master:
 ;Bar5:
 	callchannel Music_Cornered_Ch4_BDBB
@@ -716,21 +702,21 @@ Music_Cornered_Ch4_master:
 ;Bar19:
 	callchannel Music_Cornered_Ch4_BDBD
 ;Bar20:
-	note B_, 2
+	note C_, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note D_, 1
+	note C#, 1
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note D_, 1
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note D_, 2
-	note D_, 1
-	note D_, 1
+	note C#, 1
+	note C_, 1
+	note C#, 1
+	note C_, 2
+	note C#, 2
+	note C#, 1
+	note C#, 1
 ;Bar21:
 	callchannel Music_Cornered_Ch4_BDBD
 ;Bar22:
@@ -738,20 +724,20 @@ Music_Cornered_Ch4_master:
 ;Bar23:
 	callchannel Music_Cornered_Ch4_BDBD
 ;Bar24:
-	note B_, 2
+	note C_, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note D_, 2
+	note C#, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note D_, 2
-	note B_, 1
-	note D_, 1
+	note C_, 1
+	note C#, 1
+	note C_, 2
+	note C#, 2
+	note C_, 1
+	note C#, 1
 ;Bar25:
 	callchannel Music_Cornered_Ch4_BDBD
 ;Bar26:
@@ -760,86 +746,86 @@ Music_Cornered_Ch4_master:
 	callchannel Music_Cornered_Ch4_BDBD
 ;Bar28:
 	stereopanning $ff
-	note B_, 2
-	note D_, 2
-	note D_, 2
-	note D_, 1
-	note D_, 1
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note D_, 2
-	note D_, 1
-	note D_, 1
+	note C_, 2
+	note C#, 2
+	note C#, 2
+	note C#, 1
+	note C#, 1
+	note C_, 1
+	note C#, 1
+	note C_, 2
+	note C#, 2
+	note C#, 1
+	note C#, 1
 	loopchannel 0, Music_Cornered_Ch4_master
 	endchannel
 
 Music_Cornered_Ch4_loop:
 	note __, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
 	loopchannel 7, Music_Cornered_Ch4_loop
 	endchannel
 
 Music_Cornered_Ch4_BDBD:
 	stereopanning $ff
-	note B_, 2
+	note C_, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note D_, 2
+	note C#, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note B_, 2
+	note C_, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note D_, 2
+	note C#, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
 	endchannel
 
 Music_Cornered_Ch4_BDBB:
 	stereopanning $ff
-	note B_, 2
+	note C_, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note D_, 2
+	note C#, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note B_, 2
+	note C_, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note B_, 2
+	note C_, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
 	endchannel
 
 Music_Cornered_Ch4_BDBDD:
 	stereopanning $ff
-	note B_, 2
+	note C_, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note D_, 2
+	note C#, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note B_, 1
-	note D_, 1
+	note C_, 1
+	note C#, 1
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
-	note D_, 2
+	note C#, 2
 	stereopanning $f0
-	note D#, 2
+	note G_, 2
 	stereopanning $ff
 	endchannel
 

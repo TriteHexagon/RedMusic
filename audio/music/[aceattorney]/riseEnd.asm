@@ -217,7 +217,7 @@ Music_RiseEnd_Ch2_loop:
 ;Bar 16
 	note __, 16
 ;Bar 17
-	notetype 8, $78
+	notetype 8, $93
 	dutycycle $2
 	callchannel Music_RiseEnd_Ch2_Bar17_Type1
 	callchannel Music_RiseEnd_Ch2_Bar17_Type2
@@ -229,32 +229,36 @@ Music_RiseEnd_Ch2_loop:
 	callchannel Music_RiseEnd_Ch2_Bar17_Type2
 ;Bar 20
 	callchannel Music_RiseEnd_Ch2_Bar17_Type1
-	notetype 12, $a6
+	notetype 12, $a7
 	dutycycle $3
 	octave 3
 	note __, 4
-	notetype 3, $a6
+	notetype 3, $a7
 	note __, 15
 	note G_, 1
-	notetype 12, $a6
+	notetype 12, $a7
 ;Bar 21
 	octave 3
 	callchannel Music_RiseEnd_Ch2_Main
 ;Bar 28
-	intensity $a6
+	intensity $a7
 	note E_, 2
-	intensity $78
-	note E_, 4
-	intensity $a6
+	intensity $77
+	note E_, 2
+	intensity $67
+	note E_, 2
+	intensity $a7
 	note D_, 2
-	intensity $78
-	note D_, 4
-	intensity $a6
+	intensity $77
+	note D_, 2
+	intensity $67
+	note D_, 2
+	intensity $a7
 	note C_, 2
-	intensity $78
+	intensity $77
 	note C_, 2
 ;Bar 29
-	notetype 8, $78
+	notetype 8, $93
 	octave 4
 	dutycycle $2
 	callchannel Music_RiseEnd_Ch2_Bar29
@@ -266,92 +270,131 @@ Music_RiseEnd_Ch2_loop:
 	callchannel Music_RiseEnd_Ch2_Bar29
 ;Bar 35
 	callchannel Music_RiseEnd_Ch2_Bar31
-;Bar 36
+;Bar 37
 	note F#, 2
 	note D#, 2
 	note F#, 2
 	note A_, 2
 	note F#, 2
 	note D#, 2
-	notetype 12, $a6
+	notetype 12, $a7
 	dutycycle $3
-	note __, 10
+	note __, 8
 ;Bar 37
 	octave 3
 	callchannel Music_RiseEnd_Ch2_Bar37_41
-	note E_, 1
-	intensity $a6
-	note D_, 2
-	intensity $78
-	note D_, 16
-	note D_, 5
-	intensity $a6
-;Bar 41
+	note __, 5
+;Bar 39
+	intensity $a7
 	note E_, 2
 	note F#, 2
 	note G_, 2
-	note A_, 2
-	note G_, 1
-	intensity $a6
-	note B_, 2
-	intensity $78
-	note B_, 16
-	intensity $a6
-	note B_, 1
+	note F#, 2
+	note E_, 1
+	intensity $a7
+	note D_, 2
+	intensity $77
+	note D_, 2
+	intensity $67
+	note D_, 2
+	intensity $57
+	note D_, 2
+	intensity $47
+	note D_, 2
+	note __, 11
+	intensity $a7
+;Bar 41
+	callchannel Music_RiseEnd_Ch2_Bar37_41
+	note __, 1
 ;Bar 42
+	intensity $a7
 	note B_, 1
 	octave 4
 	note D_, 1
 ;Bar 43
-	intensity $a6
+	intensity $a7
 	note E_, 2
-	intensity $78
-	note E_, 4
-	intensity $a6
+	intensity $77
 	note E_, 2
-	intensity $78
+	intensity $67
 	note E_, 2
-	intensity $a6
+	intensity $a7
+	note E_, 2
+	intensity $77
+	note E_, 2
+	intensity $a7
 	note D_, 2
 	octave 3
 	note A_, 2
-	intensity $78
-	note A_, 16
-	note A_, 4
+	intensity $77
+	note A_, 2
+	intensity $67
+	note A_, 2
+	intensity $57
+	note A_, 2
+	intensity $47
+	note A_, 2
+	note __, 10
 ;Bar 45
 	callchannel Music_RiseEnd_Ch2_Bar37_41
+	note __, 5
+;Bar 47
+	intensity $a7
+	note E_, 2
+	note F#, 2
+	note G_, 2
+	note F#, 2
 	note E_, 1
-	intensity $a6
+	intensity $a7
 	note D_, 2
-	intensity $78
-	note D_, 13
+	intensity $77
+	note D_, 2
+	intensity $67
+	note D_, 2
+	intensity $57
+	note D_, 2
+	intensity $47
+	note D_, 2
+	note __, 5
 ;Bar 48
-	intensity $a6
+	intensity $a7
 	octave 2
 	note B_, 2
 	octave 3
 	note D_, 2
-	intensity $a6
+	intensity $a7
 	note E_, 2
-	intensity $78
-	note E_, 10
-	intensity $a6
+	intensity $77
+	note E_, 2
+	intensity $67
+	note E_, 2
+	intensity $57
+	note E_, 2
+	intensity $47
+	note E_, 2
+	note __, 2
+	intensity $a7
 ;Bar 49
 	note A_, 1
 	note G_, 1
 	note __, 1
 	octave 4
-	intensity $a6
+	intensity $a7
 	note D_, 2
-	intensity $78
-	note D_, 16
-	note D_, 1
+	intensity $77
+	note D_, 2
+	intensity $67
+	note D_, 2
+	intensity $57
+	note D_, 2
+	intensity $47
+	note D_, 2
+	note __, 9
 ;Bar 51
-	intensity $48
-	dutycycle $2
-	octave 2
 	note __, 16
 ;Bar 52
+	intensity $48
+	dutycycle $2
 	octave 3
 	note D_, 14
 	note __, 16
@@ -368,106 +411,141 @@ Music_RiseEnd_Ch2_loop:
 	loopchannel 0, Music_RiseEnd_Ch2_loop
 
 Music_RiseEnd_Ch2_Main:
-	intensity $a6
+	intensity $b7
 	note A_, 2
-	intensity $78
-	note A_, 8
-	intensity $a6
+	intensity $77
+	note A_, 2
+	intensity $67
+	note A_, 2
+	intensity $57
+	note A_, 2
+	intensity $47
+	note A_, 2
+	intensity $a7
 	note E_, 2
 	note F#, 2
 	note G_, 2
 ;Bar 10
-	intensity $a6
+	intensity $b7
 	note A_, 2
-	intensity $78
+	intensity $77
 	note A_, 1
-	intensity $a6
+	intensity $a7
 	note B_, 2
-	intensity $78
+	intensity $77
 	note B_, 1
-	intensity $a6
+	intensity $a7
 	note E_, 2
-	intensity $78
-	note E_, 4
-	intensity $a6
+	intensity $77
+	note E_, 2
+	intensity $67
+	note E_, 2
+	intensity $a7
 	note D_, 1
 	note E_, 1
 	note F#, 1
 	note G_, 1
 ;Bar 11
-	intensity $a6
+	intensity $b7
 	note A_, 2
-	intensity $78
-	note A_, 4
-	intensity $a6
-	note F#, 2
-	intensity $78
-	note F#, 4
-	intensity $a6
-	note D_, 2
-	intensity $78
-	note D_, 10
+	intensity $77
+	note A_, 2
 	intensity $67
-	note D_, 3
+	note A_, 2
+	intensity $b7
+	note F#, 2
+	intensity $77
+	note F#, 2
+	intensity $67
+	note F#, 2
+	intensity $b7
+	note D_, 2
+	intensity $77
+	note D_, 2
+	intensity $67
+	note D_, 2
+	intensity $57
+	note D_, 2
+	intensity $47
+	note D_, 2
 ;Bar 12
-	note __, 3
-	intensity $a6
+	note __, 8
+	intensity $b7
 	note F#, 1
 	note G_, 1
 ;Bar 13
 	note A_, 2
-	intensity $78
-	note A_, 10
-	intensity $a6
+	intensity $77
+	note A_, 2
+	intensity $67
+	note A_, 2
+	intensity $57
+	note A_, 2
+	intensity $47
+	note A_, 2
+	note __, 2
+	intensity $a7
 	note G_, 2
-	intensity $78
+	intensity $77
 	note G_, 2
 ;Bar 14
-	intensity $a6
+	intensity $b7
 	note A_, 2
-	intensity $78
+	intensity $77
 	note A_, 1
-	intensity $a6
+	intensity $b7
 	note B_, 2
-	intensity $78
+	intensity $77
 	note B_, 1
-	intensity $a6
+	intensity $a7
 	note E_, 2
-	intensity $78
-	note E_, 4
-	note __, 2
-	intensity $a6
-	note D_, 2
+	intensity $77
+	note E_, 2
+	intensity $67
+	note E_, 2
+	intensity $57
+	note E_, 2
 ;Bar 15
+	intensity $a7
+	note D_, 2
+	intensity $b7
 	note E_, 2
-	intensity $78
-	note E_, 4
-	intensity $a6
+	intensity $77
+	note E_, 2
+	intensity $67
+	note E_, 2
+	intensity $b7
 	note A_, 2
-	intensity $78
-	note A_, 8
-	intensity $a6
+	intensity $77
+	note A_, 2
+	intensity $67
+	note A_, 2
+	intensity $57
+	note A_, 2
+	intensity $47
+	note A_, 2
+	intensity $b7
 	endchannel
 
 Music_RiseEnd_Ch2_Bar37_41:
+	note __, 2
 	octave 3
-	intensity $a6
+	intensity $a7
 	note E_, 2
 	note F#, 2
 	note G_, 2
 	note A_, 2
 	note G_, 1
 	note B_, 2
-	intensity $78
-	note B_, 16
-	intensity $78
-	note B_, 5
-;Bar 39
-	intensity $a6
-	note E_, 2
-	note F#, 2
-	note G_, 2
-	note F#, 2
+	intensity $77
+	note B_, 2
+	intensity $67
+	note B_, 2
+	intensity $57
+	note B_, 2
+	intensity $47
+	note B_, 2
+	note __, 8
 	endchannel
 
 Music_RiseEnd_Ch2_Bar29:
@@ -511,15 +589,20 @@ Music_RiseEnd_Ch2_Bar17_Type2:
 ; ============================================================================================================
 
 Music_RiseEnd_Ch3:
-	wavetype 2, 12, $11
+	wavetype 1, 12, $1F
 
 Music_RiseEnd_Ch3_loop1:
 ;Bar 1
 	callchannel Music_RiseEnd_Ch3_Type1
+	notetype 3, $2F
+	note __, 3
+	note G#, 1
+	notetype 12, $1F
 	note A_, 6
 	note __, 3
 ;Bar 3
 	callchannel Music_RiseEnd_Ch3_Type1
+	note __, 1
 	octave 1
 	note A_, 6
 	note __, 3
@@ -530,10 +613,15 @@ Music_RiseEnd_Ch3_loop:
 	callchannel Music_RiseEnd_Ch3_loop2
 ;Bar 17
 	callchannel Music_RiseEnd_Ch3_Type1
+	notetype 3, $2F
+	note __, 3
+	note G#, 1
+	notetype 12, $1F
 	note A_, 6
 	note __, 3
 ;Bar 19
 	callchannel Music_RiseEnd_Ch3_Type1
+	note __, 1
 	octave 1
 	note A_, 6
 	note __, 3
@@ -671,6 +759,10 @@ Music_RiseEnd_Ch3_loop:
 	note __, 13
 ;Bar 54
 	callchannel Music_RiseEnd_Ch3_Type1
+	notetype 3, $2F
+	note __, 3
+	note G#, 1
+	notetype 12, $1F
 	note A_, 5
 	note __, 4
 	loopchannel 0, Music_RiseEnd_Ch3_loop
@@ -693,7 +785,6 @@ Music_RiseEnd_Ch3_Type1:
 	note __, 1
 	note E_, 1
 	note D_, 1
-	note __, 1
 	endchannel
 
 Music_RiseEnd_Ch3_loop2:
@@ -750,17 +841,17 @@ Music_RiseEnd_Ch4_Intro:
 	note C_, 6
 	loopchannel 2, Music_RiseEnd_Ch4_Intro
 ;Bar 3
-	note C_, 2
-	note C_, 1
+	note D#, 2
+	note D#, 1
 	note D#, 3
 	note D#, 1
 	note D#, 3
-	note C_, 4
+	note D#, 4
 	note D#, 1
 	note D#, 1
 ;Bar 4
-	note C_, 2
-	note C_, 1
+	note D#, 2
+	note D#, 1
 	note D#, 3
 	note D#, 1
 	note D#, 3

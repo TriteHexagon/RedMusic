@@ -13,7 +13,7 @@ Music_SL9Incident:
 Music_SL9Incident_Ch1:
 	volume $44
 	dutycycle $2
-	notetype 12, $68
+	notetype 12, $58
 	;vibrato $04, $1c
 	tempo 166
 	tone $0001
@@ -31,14 +31,14 @@ Music_SL9Incident_Ch1:
 	note __, 8
 ;Bar 8
 	octave 3
-	notetype 6, $68
+	notetype 6, $58
 	note C_, 1
 	note F_, 1 
 	note A#, 2
-	notetype 12, $68
+	notetype 12, $58
 	octave 4
 	note D#, 16
-	intensity $67
+	intensity $57
 	note D#, 6 
 ;Bar 10
 	callchannel Music_SL9Incident_Ch1_Bar3
@@ -46,14 +46,14 @@ Music_SL9Incident_Ch1:
 	callchannel Music_SL9Incident_Ch1_Bar6
 ;Bar 13
 	octave 2
-	notetype 6, $68
+	notetype 6, $58
 	note G_, 1 
 	octave 3
 	note C_, 1 
 	note F_, 2
-	notetype 12, $68
+	notetype 12, $58
 	note A_, 16
-	intensity $67
+	intensity $57
 	note A_, 6
 ;Bar 14
 	note __, 8
@@ -63,65 +63,65 @@ Music_SL9Incident_Ch1:
 	callchannel Music_SL9Incident_Ch1_Bar3
 ;Bar 18
 	octave 2
-	notetype 6, $68
+	notetype 6, $58
 	note A#, 1 
 	octave 3
 	note C#, 1 
 	note F_, 2
-	notetype 12, $68
+	notetype 12, $58
 	note G#, 16
-	intensity $67
+	intensity $57
 	note G#, 6 
 ;Bar 19
 	octave 2
-	notetype 6, $68
+	notetype 6, $58
 	note F#, 1
 	octave 3
 	note F_, 1 
 	note G#, 2
-	notetype 12, $68
+	notetype 12, $58
 	octave 4
 	note C#, 16
-	intensity $67
+	intensity $57
 	note C#, 6
 	loopchannel 0, Music_SL9Incident_Ch1
 
 Music_SL9Incident_Ch1_Bar1:
 	octave 3
-	notetype 6, $68
+	notetype 6, $58
 	note C_, 1
 	note D#, 1
 	note F_, 2 
-	notetype 12, $68
+	notetype 12, $58
 	note A#, 16
-	intensity $67
+	intensity $57
 	note A#, 6
 	endchannel
 
 Music_SL9Incident_Ch1_Bar3:
 	octave 3
-	notetype 6, $68
+	notetype 6, $58
 	note C#, 1
 	note F_, 1
 	note G_, 2 
-	notetype 12, $68
+	notetype 12, $58
 	octave 4
 	note C_, 16
-	intensity $67
+	intensity $57
 	note C_, 6
 	endchannel
 
 Music_SL9Incident_Ch1_Bar6:
 	octave 2
-	notetype 6, $68
+	notetype 6, $58
 	note A#, 1 
 	octave 3
 	note F_, 1
 	note G#, 2
-	notetype 12, $68
+	notetype 12, $58
 	octave 4
 	note C#, 16
-	intensity $67
+	intensity $57
 	note C#, 6
 	endchannel
 

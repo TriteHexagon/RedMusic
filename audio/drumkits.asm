@@ -59,18 +59,18 @@ Drumkit2: ; e8e92
 	dw HiHat2
 Drumkit3: ; e8eac
 	dw Drum00
-	dw Snare12
-	dw Snare13
-	dw Snare14
-	dw Kick1
-	dw Triangle5
-	dw HiHat3 ;was Drum20
-	dw Drum27
-	dw Drum28
-	dw Drum29
-	dw Snare9 ;was Drum00
-	dw Kick2
-	dw Crash2
+	dw Snare12 ;C_
+	dw Snare13 ;C#
+	dw Snare14 ;D_
+	dw Kick1 ;D#
+	dw Triangle5 ;E_
+	dw HiHat3 ;F_ was Drum20
+	dw Drum27 ;F#
+	dw Drum28 ;G_
+	dw Drum29 ;G#
+	dw Snare9 ;A_ was Drum00
+	dw Kick2 ;A#
+	dw Crash2 ;B_
 Drumkit4: ; e8ec6
 	dw Drum00
 	dw Snare2 ;was Drum20
@@ -157,18 +157,18 @@ Drumkit4S: ; 9
 	dw Crash1
 Drumkit10: ; 10
 	dw Drum00
-	dw TaikoDrum ;C_ Samurai
-	dw Kick1 ;C# PKMN Center / Samurai
-	dw Crash1 ;D_ Samurai
-	dw Snare6Special ;D# Investigation Middle
+	dw TaikoDrum ;C_ 
+	dw Kick1 ;C# PKMN Center
+	dw Crash1 ;D_
+	dw Snare6Special ;D# 
 	dw HiHat2 ;E_ PKMN Center
 	dw HiHat3 ;F_ PKMN Center
-	dw Snare14 ;F# Investigation Middle
-	dw Drum27 ;G_ Investigation Middle
-	dw Snare10 ;G# Samurai
+	dw Snare14 ;F# 
+	dw Drum27 ;G_ 
+	dw Snare10 ;G#
 	dw Drum00 ; A_
-	dw Snare13 ; A# Samurai
-	dw Snare11 ;B_ PKMN Center / Samurai
+	dw Snare13 ; A#
+	dw Snare11 ;B_ PKMN Center
 DrumkitTEST: ; 11
 	dw Drum00
 	dw TrianglePL
@@ -187,17 +187,17 @@ DrumkitTEST: ; 11
 	dw TrianglePL12
 DrumkitCorneredVar: ; 12
 	dw Drum00
-	dw Drum00
-	dw Drum00
-	dw Snare11 ;RESERVED
-	dw Drum27 ;RESERVED
-	dw SnareVar1 ;RESERVED E
-	dw SnareVar2 ;RESERVED F
-	dw SnareVar3 ;RESERVED F#
-	dw SnareVar4 ;RESERVED G
-	dw Drum00
-	dw Drum00
-	dw Drum00
+	dw Snare13 ;C
+	dw Snare14 ;C#
+	dw Snare11 ;RESERVED D_
+	dw Drum27 ;RESERVED D#
+	dw OrchestraHit1 ;RESERVED E
+	dw OrchestraHit2 ;RESERVED F
+	dw OrchestraHit3 ;RESERVED F#
+	dw OrchestraHit4 ;RESERVED G
+	dw Snare10 ; G#
+	dw Crash1 ; A_
+	dw TaikoDrum ;A#
 	dw Kick2 ;RESERVED
 
 DrumkitAceAttorney: ; 13
@@ -206,11 +206,11 @@ DrumkitAceAttorney: ; 13
 	dw Drum29  ;C#
 	dw Snare11 ;D
 	dw Snare14 ;D#
-	dw Snare10 ;E REDUNDANT
+	dw Snare12 ;E
 	dw Snare9  ;F
 	dw HiHat2  ;F#
 	dw Drum27  ;G 
-	dw Drum20  ;G# ;UNUSED
+	dw Snare13  ;G# ; Redudant? = C#
 	dw Snare6Special ;A Snare6Special
 	dw HiHat3 ;A#
 	dw Snare6 ;B
@@ -584,24 +584,24 @@ TrianglePL12:
 	noise C#,  2, $62, $3a
 	endchannel
 
-SnareVar1:
-	noise C#,  6, $b7, $25
-	noise C#,  8, $a3, $26
+OrchestraHit1:
+	noise D_,  6, $88, $25
+	noise C#,  1, $74, $26
 	endchannel
 
-SnareVar2:
-	noise C#,  6, $b7, $23
-	noise C#,  8, $a3, $24
+OrchestraHit2:
+	noise D_,  6, $88, $23
+	noise C#,  1, $74, $24
 	endchannel
 
-SnareVar3:
-	noise C#,  6, $b7, $22
-	noise C#,  8, $a3, $23
+OrchestraHit3:
+	noise D_,  6, $98, $22
+	noise C#,  1, $74, $23
 	endchannel
 
-SnareVar4:
-	noise C#,  6, $b7, $21
-	noise C#,  8, $a3, $22
+OrchestraHit4:
+	noise D_,  6, $98, $21
+	noise C#,  1, $74, $22
 	endchannel
 
 Snare6Special:

@@ -14,13 +14,14 @@ Music_TellTheTruth:
 Music_TellTheTruth_Ch1:
 	volume $77
 	dutycycle $2
-	notetype 12, $58
-	vibrato $12, $24
+	notetype 12, $48
+	vibrato $08, $1a
 	tone $0002
 	tempo 212
 
 	callchannel Music_TellTheTruth_Ch1_3_Intro
 ;Bar 5
+	vibrato $12, $24
 	notetype 6, $C8
 	octave 1
 	note G_, 8
@@ -119,6 +120,7 @@ Music_TellTheTruth_Ch1:
 	callchannel Music_TellTheTruth_Ch1_Cx7
 	pitchoffset 0, C_
 ;Bar 12
+	vibrato $08, $1a
 	notetype 12, $1f
 	octave 4
 	note F_, 3
@@ -290,16 +292,16 @@ Music_TellTheTruth_Ch2_loop1:
 
 Music_TellTheTruth_Ch2_E:
 	octave 3
-	;dutycycle $1
-	intensity $a2
+	dutycycle $3
+	intensity $92
 	note E_, 1
-	intensity $72
+	intensity $62
 	note E_, 1
 	endchannel
 
 Music_TellTheTruth_Ch2_A:
 	intensity $a2
-	dutycycle $2
+	dutycycle $1
 	octave 3
 	note A_, 1
 	intensity $72
@@ -308,7 +310,7 @@ Music_TellTheTruth_Ch2_A:
 
 Music_TellTheTruth_Ch2_B:
 	intensity $a2
-	dutycycle $2
+	dutycycle $1
 	note B_, 1
 	intensity $72
 	note B_, 1
@@ -316,7 +318,7 @@ Music_TellTheTruth_Ch2_B:
 
 Music_TellTheTruth_Ch2_C:
 	intensity $a2
-	dutycycle $2
+	dutycycle $1
 	note C_, 1
 	intensity $72
 	note C_, 1
@@ -324,7 +326,7 @@ Music_TellTheTruth_Ch2_C:
 
 Music_TellTheTruth_Ch2_D:
 	intensity $a2
-	dutycycle $2
+	dutycycle $1
 	note D_, 1
 	intensity $72
 	note D_, 1
@@ -332,7 +334,7 @@ Music_TellTheTruth_Ch2_D:
 
 Music_TellTheTruth_Ch2_G:
 	intensity $a2
-	dutycycle $2
+	dutycycle $1
 	note G_, 1
 	intensity $72
 	note G_, 1

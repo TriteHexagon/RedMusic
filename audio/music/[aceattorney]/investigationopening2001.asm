@@ -409,7 +409,7 @@ Music_InvestigationOpening2001_Ch2_Quintuple:
 ; ============================================================================================================
 
 Music_InvestigationOpening2001_Ch3:
-	wavetype 1, 12, $18
+	wavetype 1, 12, $19
 	vibrato $00, $24
 	tone $0001
 ;Bar 1
@@ -418,16 +418,13 @@ Music_InvestigationOpening2001_Ch3:
 ;Bar 2
 	callchannel Music_InvestigationOpening2001_Ch3_Bar2
 ;Bar 3
-	notetype 3, $18
+	notetype 3, $19
 	note F#, 3
 	note __, 1
-	notetype 12, $18
-	note F#, 1
-	intensity $28
-	note F#, 1
-	intensity $38
-	note F#, 1
-	intensity $18
+	notetype 12, $19
+	pitchoffset 1, F#
+	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
+	pitchoffset 0, C_
 	note __, 5
 	note F#, 1
 	octave 3
@@ -435,13 +432,13 @@ Music_InvestigationOpening2001_Ch3:
 	octave 2
 	note F#, 1
 	note D#, 1
-	intensity $28
+	intensity $29
 	note D#, 1
-	notetype 3, $18
+	notetype 3, $19
 	note G#, 3
 	note __, 1
-	notetype 12, $18
-	intensity $28
+	notetype 12, $19
+	intensity $29
 	note G#, 1
 ;Bar 4
 	callchannel Music_InvestigationOpening2001_Ch3_Bar2
@@ -450,11 +447,11 @@ Music_InvestigationOpening2001_Ch3:
 ;Bar 6
 	callchannel Music_InvestigationOpening2001_Ch3_Bar2
 ;Bar 7
-	notetype 3, $18
+	notetype 3, $19
 	note F#, 3
 	note __, 1
-	notetype 12, $18
-	pitchoffset 0, F#
+	notetype 12, $19
+	pitchoffset 1, F#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
 	note __, 5
@@ -465,85 +462,68 @@ Music_InvestigationOpening2001_Ch3:
 	note F#, 1
 	octave 3
 	note F_, 1
-	intensity $28
+	intensity $29
 	note F_, 1
-	intensity $18
+	intensity $19
 	octave 2
 	note D#, 1
 	note E_, 1
 ;Bar 8
-	notetype 3, $18
-	note F_, 3
-	note __, 1
-	notetype 12, $18
-	pitchoffset 0, F_
+	callchannel Music_InvestigationOpening2001_Ch3_MiniF_
+	pitchoffset 1, F_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
-	intensity $18
+	intensity $19
 	note __, 2
-	notetype 3, $18
-	note F_, 3
-	note __, 1
-	notetype 12, $18
+	callchannel Music_InvestigationOpening2001_Ch3_MiniF_
 	note F_, 1
 	note __, 4
-	pitchoffset 0, F_
+	pitchoffset 1, F_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
 	note __, 1
 ;Bar 9
-	notetype 3, $18
+	notetype 3, $19
 	note D#, 3
 	note __, 1
-	notetype 12, $18
-	pitchoffset 0, D#
+	notetype 12, $19
+	pitchoffset 1, D#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
 	note __, 2
-	notetype 3, $18
-	note F_, 3
-	note __, 1
-	notetype 12, $18
-	note F_, 1
-	intensity $28
-	note F_, 1
-	intensity $18
-	note F_, 1
-	intensity $28
+	callchannel Music_InvestigationOpening2001_Ch3_MiniF_
+	pitchoffset 1, F_
+	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
+	pitchoffset 0, C_
+	intensity $29
 	note F_, 1
 	note __, 1
-	pitchoffset 0, F_
+	pitchoffset 1, F_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
 	note __, 1
 ;Bar 10
-	notetype 3, $18
-	note F_, 3
-	note __, 1
-	notetype 12, $18
-	pitchoffset 0, F#
+	callchannel Music_InvestigationOpening2001_Ch3_MiniF_
+	pitchoffset 1, F#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	note __, 6
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
 ;Bar 11
-	notetype 3, $18
+	notetype 3, $19
 	note D#, 3
 	note __, 1
-	notetype 12, $18
-	pitchoffset 0, D#
+	notetype 12, $19
+	pitchoffset 1, D#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
 	note __, 2
-	notetype 3, $18
-	note F_, 3
-	note __, 1
-	notetype 12, $18
+	callchannel Music_InvestigationOpening2001_Ch3_MiniF_
 	note F_, 1
-	intensity $28
+	intensity $29
 	note F_, 1
-	pitchoffset 0, F_
+	pitchoffset 1, F_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	note __, 1
@@ -553,170 +533,173 @@ Music_InvestigationOpening2001_Ch3:
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 ;Bar 13
-	pitchoffset 0, C#
+	pitchoffset 1, C#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
-	pitchoffset 0, C_
-	note __, 1
-	note C#, 1
-	intensity $28
-	note C#, 1
-	octave 1
-	intensity $18
-	note A#, 1
-	intensity $28
-	note A#, 1
-	octave 2
+	callchannel Music_InvestigationOpening2001_Ch3_Bar13
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
-	pitchoffset 0, D#
+	pitchoffset 1, D#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
 	note F_, 1
-	intensity $28
+	intensity $29
 	note F_, 1
 ;Bar 14
 	note __, 10
-	pitchoffset 0, D#
+	pitchoffset 1, D#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
-	pitchoffset 0, F_
+	pitchoffset 1, F_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 ;Bar 15
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	note __, 1
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
-	pitchoffset 0, C_
+	pitchoffset 1, C_
 	note __, 1
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	octave 1
 	note A#, 1
-	intensity $28
+	intensity $29
 	note A#, 1
 	note __, 4
 ;Bar 16
-	pitchoffset 0, A#
+	pitchoffset 1, A#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	note __, 1
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
-	pitchoffset 0, C_
 	octave 2
 	note C_, 1
-	intensity $28
+	intensity $29
 	note C_, 1
 ;Bar 17
-	pitchoffset 0, C#
+	pitchoffset 1, C#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
-	pitchoffset 0, C_
-	note __, 1
-	note C#, 1
-	intensity $28
-	note C#, 1
-	intensity $18
-	octave 1
-	note A#, 1
-	intensity $28
-	note A#, 1
-	octave 2
+	callchannel Music_InvestigationOpening2001_Ch3_Bar13
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
-	pitchoffset 0, D#
+	pitchoffset 1, D#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
 	note F_, 1
-	intensity $28
+	intensity $29
 	note F_, 1
 ;Bar 18
 	note __, 8
-	pitchoffset 0, F_
+	pitchoffset 1, F_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
 	note F_, 1
-	intensity $28
+	intensity $29
 	note F_, 1
 ;Bar 19
-	pitchoffset 0, C#
+	pitchoffset 1, C#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	note __, 1
-	octave 3
+	pitchoffset 0, C#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
 	note __, 1
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
+	octave 3
 	note C_, 1
-	intensity $28
+	intensity $29
 	note C_, 1
-	intensity $18
+	intensity $19
 	octave 2
 	note G#, 1
 	note A#, 1
-	intensity $28
+	intensity $29
 	note A#, 1
 ;Bar 20
 	note __, 4
-	pitchoffset 0, A#
+	pitchoffset 1, A#
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	note __, 1
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	callchannel Music_InvestigationOpening2001_Ch3_TripleC_
 	pitchoffset 0, C_
+	octave 2
 	note G#, 1
-	intensity $28
+	intensity $29
 	note G#, 1
 	loopchannel 0, Music_InvestigationOpening2001_Ch3
 
 Music_InvestigationOpening2001_Ch3_Bar1:
-	notetype 3, $18
+	notetype 3, $19
 	note F#, 3
 	note __, 1
-	notetype 12, $18
+	notetype 12, $19
 	note F#, 1
-	intensity $28
+	intensity $29
 	note F#, 1
-	intensity $38
+	intensity $39
 	note F#, 1
-	intensity $18
+	intensity $19
 	note __, 5
 	note F#, 1
 	note __, 2
 	note F#, 2
-	intensity $28
+	intensity $29
 	note F#, 1
-	intensity $38
+	intensity $39
 	note F#, 1
-	intensity $18
+	intensity $19
 	endchannel
 
 Music_InvestigationOpening2001_Ch3_Bar2:
-	notetype 3, $18
+	notetype 3, $19
 	note F_, 3
 	note __, 1
-	notetype 12, $18
+	notetype 12, $19
 	note F_, 1
-	intensity $28
+	intensity $29
 	note F_, 1
-	intensity $38
+	intensity $39
 	note F_, 1
-	intensity $18
+	intensity $19
 	note __, 5
 	note F_, 1
 	note __, 2
 	note F_, 2
-	intensity $28
+	intensity $29
 	note F_, 1
-	intensity $38
+	intensity $39
 	note F_, 1
-	intensity $18
+	intensity $19
 	endchannel
 
 Music_InvestigationOpening2001_Ch3_TripleC_:
+	octave 3
+	intensity $19
+	note C_, 1
+	intensity $29
+	note C_, 1
+	intensity $39
+	note C_, 1
+	intensity $19
 	octave 2
-	intensity $18
-	note C_, 1
-	intensity $28
-	note C_, 1
-	intensity $38
-	note C_, 1
-	intensity $18
+	endchannel
+
+Music_InvestigationOpening2001_Ch3_Bar13:
+	pitchoffset 0, C_
+	note __, 1
+	note C#, 1
+	intensity $29
+	note C#, 1
+	octave 1
+	intensity $19
+	note A#, 1
+	intensity $29
+	note A#, 1
+	pitchoffset 1, C_
+	endchannel
+
+Music_InvestigationOpening2001_Ch3_MiniF_:
+	notetype 3, $19
+	note F_, 3
+	note __, 1
+	notetype 12, $19
 	endchannel
 
 ; ============================================================================================================
@@ -803,13 +786,7 @@ Music_InvestigationOpening2001_Ch4_loop:
 	note F_, 4
 	note C_, 3
 ;Bar 13
-	note C_, 1
-	note C#, 2
-	note C_, 2
-	note D_, 2
-	note C_, 2
-	note F_, 4
-	note C_, 1
+	callchannel Music_InvestigationOpening2001_Ch4_Bar13
 ;Bar 14
 	note C_, 3
 	note D_, 2
@@ -821,13 +798,7 @@ Music_InvestigationOpening2001_Ch4_loop:
 	note C_, 1
 	note C_, 3
 ;Bar 15
-	note C_, 1
-	note C#, 2
-	note C_, 2
-	note D_, 2
-	note C_, 2
-	note F_, 4
-	note C_, 1
+	callchannel Music_InvestigationOpening2001_Ch4_Bar13
 ;Bar 16
 	note C_, 3
 	note D_, 2
@@ -898,4 +869,14 @@ Music_InvestigationOpening2001_Ch4_Bar2:
 	note D#, 1
 	note D_, 1
 	note F_, 4
+	endchannel
+
+Music_InvestigationOpening2001_Ch4_Bar13:
+	note C_, 1
+	note C#, 2
+	note C_, 2
+	note D_, 2
+	note C_, 2
+	note F_, 4
+	note C_, 1
 	endchannel

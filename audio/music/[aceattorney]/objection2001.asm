@@ -72,11 +72,7 @@ Music_Objection2001_Ch1:
 Music_Objection2001_Ch1_master:
 
 ;Ch1_Bar13:
-	callchannel Music_Objection2001_Ch1_G_SP
-;Ch1_Bar14:
-	callchannel Music_Objection2001_Ch1_F_SP
-;Ch1_Bar15:
-	callchannel Music_Objection2001_Ch1_C_SP
+	callchannel Music_Objection2001_Ch1_SP
 ;Ch1_Bar16:
 	note D_, 3
 	note D_, 3
@@ -116,11 +112,7 @@ Music_Objection2001_Ch1_master:
 	note F_, 3
 	note F_, 4
 ;Ch1_Bar19:
-	callchannel Music_Objection2001_Ch1_G_SP
-;Ch1_Bar20:
-	callchannel Music_Objection2001_Ch1_F_SP
-;Ch1_Bar21:
-	callchannel Music_Objection2001_Ch1_C_SP
+	callchannel Music_Objection2001_Ch1_SP
 ;Ch1_Bar22:
 	callchannel Music_Objection2001_Ch1_D_
 ;Ch1_Bar23:
@@ -200,25 +192,19 @@ Music_Objection2001_Ch1_D#:
 	note D#, 2
 	endchannel
 
-Music_Objection2001_Ch1_G_SP:
+Music_Objection2001_Ch1_SP:
 	note G_, 3
 	note G_, 3
 	note G_, 2
 	note __, 4
 	note G_, 2
 	note G_, 2
-	endchannel
-
-Music_Objection2001_Ch1_F_SP:
 	note F_, 3
 	note F_, 3
 	note F_, 2
 	note __, 4
 	note F_, 2
 	note F_, 2
-	endchannel
-
-Music_Objection2001_Ch1_C_SP:
 	note C_, 3
 	note C_, 3
 	note C_, 2
@@ -552,8 +538,7 @@ Music_Objection2001_Ch1_Bar15_16:
 	note G_, 1
 ;Ch2_Bar16:
 	octave 4
-
-	dutycycle $0 ;Ch0
+	dutycycle $0
 	intensity $b7
 	note F_, 1
 	intensity $87
@@ -594,10 +579,7 @@ Music_Objection2001_Ch3:
 	note __, 16
 	loopchannel 6, Music_Objection2001_Ch3
 ;Ch3_Bar7:
-	octave 4
-	note A#, 2
-	intensity $25
-	note A#, 14
+	callchannel Music_Objection2001_Ch3_As_16
 ;Ch3_Bar8:
 	note A#, 16
 ;Ch3_Bar9:5
@@ -614,232 +596,261 @@ Music_Objection2001_Ch3:
 	intensity $25
 	note F_, 6
 ;Ch3_Bar11:
-	intensity $35
-	note A#, 2
-	intensity $25
-	note A#, 14
+	callchannel Music_Objection2001_Ch3_As_16
 ;Ch3_Bar12:
 	intensity $35
 	note A#, 2
 	intensity $25
 	note A#, 6
-
 	intensity $35
 	note A_, 2
 	intensity $25
 	note A_, 6
 Music_Objection2001_Ch3_master:
 ;Ch3_Bar13:
+	callchannel Music_Objection2001_Ch3_As_16
+;Ch3_Bar14:
+	callchannel Music_Objection2001_Ch3_A_16
+;Ch3_Bar15:
+	callchannel Music_Objection2001_Ch3_G_16
+;Ch3_Bar16:
+	callchannel Music_Objection2001_Ch3_F_16
+;Ch3_Bar17:
+	callchannel Music_Objection2001_Ch3_G_16
+;Ch3_Bar18:
+	callchannel Music_Objection2001_Ch3_Bar18
+;Ch3_Bar19:
+	callchannel Music_Objection2001_Ch3_As_16
+;Ch3_Bar20:
+	callchannel Music_Objection2001_Ch3_A_16
+;Ch3_Bar21:
+	callchannel Music_Objection2001_Ch3_G_16
+;Ch3_Bar22:
+	callchannel Music_Objection2001_Ch3_F_16
+;Ch3_Bar23:
+	callchannel Music_Objection2001_Ch3_G_16
+;Ch3_Bar24:
+	callchannel Music_Objection2001_Ch3_Bar18
+	loopchannel 0, Music_Objection2001_Ch3_master
+	endchannel
+
+Music_Objection2001_Ch3_As_16:
+	octave 4
 	intensity $35
 	note A#, 2
 	intensity $25
 	note A#, 14
-;Ch3_Bar14:
+	endchannel
+
+Music_Objection2001_Ch3_A_16:
 	intensity $35
 	note A_, 2
 	intensity $25
 	note A_, 14
-;Ch3_Bar15:
+	endchannel
+
+Music_Objection2001_Ch3_G_16:
 	intensity $35
 	note G_, 2
 	intensity $25
 	note G_, 14
-;Ch3_Bar16:
+	endchannel
+
+Music_Objection2001_Ch3_F_16:
 	intensity $35
 	note F_, 2
 	intensity $25
 	note F_, 14
-;Ch3_Bar17:
-	intensity $35
-	note G_, 2
-	intensity $25
-	note G_, 14
-;Ch3_Bar18:
+	endchannel
+
+Music_Objection2001_Ch3_Bar18:
 	note G_, 8
 	intensity $35
 	note A_, 2
 	intensity $25
 	note A_, 6
-;Ch3_Bar19:
-	intensity $35
-	note A#, 2
-	intensity $25
-	note A#, 14
-;Ch3_Bar20:
-	intensity $35
-	note A_, 2
-	intensity $25
-	note A_, 14
-;Ch3_Bar21:
-	intensity $35
-	note G_, 2
-	intensity $25
-	note G_, 14
-;Ch3_Bar22:
-	intensity $35
-	note F_, 2
-	intensity $25
-	note F_, 14
-;Ch3_Bar23:
-	intensity $35
-	note G_, 2
-	intensity $25
-	note G_, 14
-;Ch3_Bar24:
-	intensity $35
-	note G_, 2
-	intensity $25
-	note G_, 6
-	intensity $35
-	note A_, 2
-	intensity $25
-	note A_, 6
-	loopchannel 0, Music_Objection2001_Ch3_master
 	endchannel
 
 ; ============================================================================================================
 Music_Objection2001_Ch4:
 	notetype 12
 	stereopanning $ff
-	togglenoise $3
+	togglenoise 13
 
 ;Ch4_Bar1:
 	note __, 16
+	note __, 16
+	note __, 16
 ;Ch4_Bar2:
-	loopchannel 3, Music_Objection2001_Ch4
 ;Ch4_Bar4:
 	note __, 8
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
+	note D_, 1
+	note D_, 1
+	note D_, 1
+	note D_, 1
+	note D_, 1
+	note D_, 1
+	note D_, 1
+	note D_, 1
 	note __, 16
 ;Ch4_Bar5:
 	note __, 8
 ;Ch4_Bar6:
-	note C#, 2
-	note C#, 2
-	note C#, 2
-	note D#, 1
-	note C#, 1
+	note D_, 2
+	note D_, 2
+	note D_, 2
+	note C_, 1
+	note D_, 1
 ;Ch4_Bar7:
 	callchannel Music_Objection2001_Ch4_Bar7
 ;Ch4_Bar8:
 	callchannel Music_Objection2001_Ch4_Bar8
-	note D#, 1
-	note C#, 1
+	note C_, 1
+	note D_, 1
 ;Ch4_Bar9:
 	callchannel Music_Objection2001_Ch4_Bar7
 ;Ch4_Bar10:
-	note D#, 2
-	note C#, 2
-	note D#, 2
-	note C#, 2
-	note D#, 1
-	note D_, 1
-	note F#, 2
-	note D#, 2
+	note C_, 2
 	note D_, 2
+	note C_, 2
+	note D_, 2
+	note C_, 1
+	note D#, 1
+	note A#, 2
+	note C_, 2
+	note D#, 2
 ;Ch4_Bar11:
 	callchannel Music_Objection2001_Ch4_Bar8
-	note C#, 1
-	note C#, 1
+	note D_, 1
+	note D_, 1
 ;Ch4_Bar12:
+	note C_, 2
 	note D#, 2
-	note D_, 2
-	note D#, 3
-	note D_, 1
+	note C_, 3
 	note D#, 1
-	note D_, 1
-	note D#, 2
-	note D#, 2
-	note D_, 1
-	note D_, 1
+	note C_, 1
+	note D#, 1
+	note C_, 2
+	note C_, 2
+	note D#, 1
+	note D#, 1
 
 Music_Objection2001_Ch4_master:
-
-	callchannel Music_Objection2001_Ch4_Bar13_14
+	callchannel Music_Objection2001_Ch4_Bar13
+	callchannel Music_Objection2001_Ch4_Bar14
+	callchannel Music_Objection2001_Ch4_Bar15
+	callchannel Music_Objection2001_Ch4_Bar14
+;Ch4_Bar17:
+	callchannel Music_Objection2001_Ch4_Bar17
+	note __, 1
+	note D_, 1
+	note A#, 2
+	note F_, 2
+	note D#, 1
+	note D#, 1
+;Ch4_Bar19:
+	callchannel Music_Objection2001_Ch4_Bar13
+	callchannel Music_Objection2001_Ch4_Bar14
+	callchannel Music_Objection2001_Ch4_Bar15
+	callchannel Music_Objection2001_Ch4_Bar14
 ;Ch4_Bar23:
-	note D#, 2
-	note D#, 2
-	note D_, 1
-	note C#, 1
-	note C#, 1
-	note D_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 2
-	note D_, 2
-	note C#, 1
-	note D_, 1
-;Ch4_Bar24:
+	callchannel Music_Objection2001_Ch4_Bar17
 	note D#, 1
-	note C#, 1
-	note C#, 1
 	note D#, 1
-	note D_, 2
-	note C#, 2
-	note D_, 1
-	note D_, 1
+	note C_, 1
 	note D#, 1
-	note D_, 1
-	note D_, 1
-	note D_, 1
-	note D_, 1
-	note D_, 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
 	loopchannel 0, Music_Objection2001_Ch4_master
 	endchannel
 
 Music_Objection2001_Ch4_Bar7:
-	note D#, 2
-	note C#, 2
-	note D#, 2
-	note C#, 2
-	note D#, 2
-	note C#, 2
-	note D#, 2
-	note C#, 2
+	note C_, 2
+	note D_, 2
+	note C_, 2
+	note D_, 2
+	note C_, 2
+	note D_, 2
+	note C_, 2
+	note D_, 2
 	endchannel
 
 Music_Objection2001_Ch4_Bar8:
-	note D#, 2
-	note C#, 2
-	note D#, 2
-	note C#, 2
-	note D#, 1
-	note C#, 1
-	note C#, 2
-	note D#, 2
+	note C_, 2
+	note D_, 2
+	note C_, 2
+	note D_, 2
+	note C_, 1
+	note D_, 1
+	note D_, 2
+	note C_, 2
 	endchannel
 
-Music_Objection2001_Ch4_Bar13_14:
+Music_Objection2001_Ch4_Bar13:
 ;Ch4_Bar13:
-	note D#, 2
-	note C#, 2
-	note D_, 1
-	note C#, 1
-	note C#, 1
+	note C_, 2
 	note D_, 2
+	note D#, 1
+	note D_, 1
 	note D_, 1
 	note D#, 2
-	note D_, 2
-	note C#, 1
+	note F_, 1
+	note C_, 2
+	note D#, 2
 	note D_, 1
+	note D#, 1
+	endchannel
+
+Music_Objection2001_Ch4_Bar14:
 ;Ch4_Bar14:
+	note C_, 2
+	note D_, 1
+	note D_, 1
 	note D#, 2
-	note C#, 1
-	note C#, 1
+	note D_, 1
+	note D#, 2
+	note F_, 1
+	note A#, 2
+	note F_, 2
+	note D#, 1
+	note D#, 1
+	endchannel
+
+Music_Objection2001_Ch4_Bar15:
+;Ch4_Bar13:
+	note C_, 2
 	note D_, 2
-	note C#, 1
-	note D_, 2
-	note C#, 1
-	note F#, 2
-	note C#, 2
+	note D#, 1
 	note D_, 1
 	note D_, 1
-	loopchannel 5, Music_Objection2001_Ch4_Bar13_14
+	note D#, 2
+	note D#, 1
+	note C_, 2
+	note F_, 2
+	note D_, 1
+	note F_, 1
+	endchannel
+
+Music_Objection2001_Ch4_Bar17:
+	note C_, 2
+	note C_, 2
+	note D#, 1
+	note D_, 1
+	note D_, 1
+	note D#, 1
+	note D_, 1
+	note D#, 1
+	note C_, 2
+	note D#, 2
+	note D_, 1
+	note D#, 1
+;Ch4_Bar18:
+	note C_, 1
+	note D_, 1
+	note D_, 1
+	note C_, 1
+	note D#, 2
+	note D_, 2
 	endchannel

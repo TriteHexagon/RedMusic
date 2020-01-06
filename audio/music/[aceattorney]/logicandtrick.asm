@@ -12,9 +12,9 @@ Music_LogicAndTrick:
 	musicheader 1, 4, Music_LogicAndTrick_Ch4
 
 Music_LogicAndTrick_Ch1:
-	volume $77
+	volume $66
 	dutycycle $2
-	notetype 12, $87
+	notetype 12, $97
 	tempo 175
 	stereopanning $f0
 
@@ -60,7 +60,7 @@ Music_LogicAndTrick_Ch1_End2:
 
 Music_LogicAndTrick_Ch2:
 	dutycycle $2
-	notetype 12, $66
+	notetype 12, $76
 	stereopanning $f
 
 	note __, 3
@@ -75,7 +75,7 @@ Music_LogicAndTrick_Ch2_loop:
 ; ============================================================================================================
 
 Music_LogicAndTrick_Ch3:
-	wavetype 1, 12, $3B
+	wavetype 1, 12, $2B
 	stereopanning $ff
 	vibrato $08, $1a
 ;Bar 1
@@ -105,9 +105,9 @@ Music_LogicAndTrick_Ch3:
 	note G_, 16
 	note G_, 16
 ;Bar 20
-	notetype 6, $31
+	notetype 6, $21
 	callchannel Music_LogicAndTrick_Ch3_Loop
-	notetype 12, $31
+	notetype 12, $3B
 	loopchannel 0, Music_LogicAndTrick_Ch3
 
 Music_LogicAndTrick_Ch3_Silence:
@@ -151,11 +151,7 @@ Music_LogicAndTrick_Ch4_loop:
 	note C_, 4
 	note C_, 4
 ;Bar 6
-	note C_, 4
-	note C_, 4
-	note C_, 4
-	note C_, 2
-	note C#, 2
+	callchannel Music_LogicAndTrick_Ch4_Bar6
 ;Bar 7
 	note C_, 4
 	note C_, 4
@@ -165,186 +161,210 @@ Music_LogicAndTrick_Ch4_loop:
 	note C_, 4
 	note C_, 4
 	note C_, 3
-	note C#, 1
+	note D#, 1
 	note C_, 2
-	note C#, 2
+	note D#, 2
 ;Bar 9
-	note C_, 4
-	note C_, 4
-	note C_, 4
-	note C_, 2
-	note C#, 2
+	callchannel Music_LogicAndTrick_Ch4_Bar6
 ;Bar 10
 	note C_, 4
 	note C_, 4
 	note C_, 2
 	note C_, 2
 	note C_, 2
-	note C#, 2
+	note D#, 2
 ;Bar 11
-	note C_, 4
-	note C_, 4
-	note C_, 4
-	note C_, 2
-	note C#, 2
+	callchannel Music_LogicAndTrick_Ch4_Bar6
 ;Bar 12
 	note C_, 4
 	note C_, 4
 	note C_, 3
 	notetype 6
-	note C#, 1
-	note C#, 1
+	note D#, 1
+	note D#, 1
 	notetype 12
 	note C_, 2
-	note C#, 2
+	note D#, 2
 ;Bar 13
 	callchannel Music_LogicAndTrick_Ch4_Bar13
 ;Bar 14
 	note C_, 4
-	note C#, 3
-	note C#, 1
+	note D#, 3
+	note D#, 1
 	note C_, 2
-	note C#, 2
-	note C#, 2
+	note D#, 2
+	note D#, 2
 	note C_, 1
-	note C#, 1
+	note D#, 1
 ;Bar 15 = 13
 	callchannel Music_LogicAndTrick_Ch4_Bar13
 ;Bar 16
 	note C_, 4
-	note C#, 3
-	note C#, 1
-	note C_, 2
-	note C_, 2
-	note C#, 2
-	note C#, 1
-	note C#, 1
-;Bar 17
-	note D#, 4
-	note C#, 3
-	note C#, 5
-	note C#, 8
-;Bar 18
-	note C#, 3
-	note C#, 5
-	note C#, 8
-;Bar 19
-	note C#, 3
-	note C#, 5
-	note C#, 12
-;Bar 20
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	note C#, 1
-	notetype 6
-	note C#, 1
-	note C#, 1
-	notetype 12
-	note C#, 1
-	note C#, 1
-	note C#, 1
-;Bar 21
 	note D#, 3
+	note D#, 1
+	note C_, 2
+	note C_, 2
+	note D#, 2
+	note D#, 1
+	note D#, 1
+;Bar 17
+	stereopanning $f0
+	note A#, 4
+	stereopanning $ff
+Music_LogicAndTrick_Ch4_loop1:
+	note D#, 3
+	note D#, 5
+	note D#, 8
+	loopchannel 3, Music_LogicAndTrick_Ch4_loop1
+;Bar 20
+	note __, 4
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	notetype 6
+	note D#, 1
+	note D#, 1
+	notetype 12
+	note D#, 1
+	note D#, 1
+	note D#, 1
+;Bar 21
+	stereopanning $f0
+	note A#, 3
+	stereopanning $ff
 	note C_, 1
-	note D_, 2
-	note C#, 2
+	note F_, 2
+	note D#, 2
 	note D_, 2
 	note C_, 2
-	note D_, 3
-	note C#, 1
+	note F_, 3
+	note D#, 1
 ;Bar 22
 	callchannel Music_LogicAndTrick_Ch4_Bar22
-	note D_, 2
-	note D#, 2
+	note F_, 2
+	stereopanning $f0
+	note A#, 2
+	stereopanning $ff
 ;Bar 23
 	callchannel Music_LogicAndTrick_Ch4_Bar22
-	note C#, 3
-	note C#, 1
+	note F_, 3
+	note D#, 1
 ;Bar 24
 	callchannel Music_LogicAndTrick_Ch4_Bar22
 	note __, 2
-	note D#, 1
+	stereopanning $f0
+	note A#, 1
+	stereopanning $ff
 	note D_, 1
 ;Bar 25
 	note D_, 3
 	note C_, 1
-	note D_, 2
-	note C#, 2
+	note F_, 2
+	note D#, 2
 	note D_, 2
 	note C_, 4
-	note C#, 2
+	note D#, 2
 ;Bar 26
 	callchannel Music_LogicAndTrick_Ch4_Bar22
-	note C#, 2
+	note D#, 2
 	note C_, 2
 ;Bar 27
 	callchannel Music_LogicAndTrick_Ch4_Bar22
 	note __, 2
-	note C#, 1
-	note C#, 1
+	note D#, 1
+	note D#, 1
 ;Bar 28
 	note D_, 2
 	note C_, 2
-	note C#, 3
-	note C#, 1
+	note F_, 3
+	note D#, 1
 	note D_, 2
 	note D_, 2
-	note D#, 2
-	note C#, 1
-	note C#, 1
+	stereopanning $f0
+	note A#, 2
+	stereopanning $ff
+	note D#, 1
+	note D#, 1
 ;Bar 29
-	note D#, 4
-	note D_, 2
+	stereopanning $f0
+	note A#, 4
+	stereopanning $ff
+	note F_, 2
 	note D_, 1
-	note C#, 1
+	note D#, 1
 	note D_, 2
 	note D_, 2
-	note D#, 2
+	stereopanning $f0
+	note A#, 2
+	stereopanning $ff
 	note D_, 1
-	note C#, 1
+	note D#, 1
 ;Bar 30
-Music_LogicAndTrick_Ch4_Bar30:
 	note D_, 2
 	note D_, 2
-	note C#, 2
+	note F_, 2
 	note D_, 1
-	note C#, 1
+	note D#, 1
 	note D_, 2
-	note D#, 2
-	note D_, 2
+	stereopanning $f0
+	note A#, 2
+	stereopanning $ff
+	note F_, 2
 	note D_, 1
-	note C#, 1
-	loopchannel 2, Music_LogicAndTrick_Ch4_Bar30
+	note D#, 1
+;Bar 31
+	note D_, 2
+	note D_, 2
+	note F_, 2
+	note D_, 1
+	note D#, 1
+	note D_, 2
+	note D_, 2
+	stereopanning $f0
+	note A#, 2
+	stereopanning $ff
+	note D_, 1
+	note D#, 1
 ;Bar 32
-	note C_, 4
+	note F_, 4
+	note F_, 2
+	note D#, 1
+	note D#, 1
 	note D_, 2
-	note C#, 1
-	note C#, 1
-	note D_, 2
-	note D#, 2
+	stereopanning $f0
+	note A#, 2
+	stereopanning $ff
 	notetype 8
-	note C#, 2
-	note C#, 2
-	note C#, 2
+	note F_, 2
+	note D#, 2
+	note D#, 2
 	notetype 12
 	loopchannel 0, Music_LogicAndTrick_Ch4_loop
+
+Music_LogicAndTrick_Ch4_Bar6:
+	note C_, 4
+	note C_, 4
+	note C_, 4
+	note C_, 2
+	note D#, 2
+	endchannel
 
 Music_LogicAndTrick_Ch4_Bar22:
 	note D_, 2
 	note C_, 2
-	note D_, 3
-	note C#, 1
+	note F_, 3
+	note D#, 1
 	note D_, 2
 	note C_, 2
 	endchannel
 
 Music_LogicAndTrick_Ch4_Bar13:
 	note C_, 4
-	note C#, 3
-	note C#, 1
+	note D#, 3
+	note D#, 1
 	note C_, 4
-	note C#, 4
+	note D#, 4
 	endchannel
 
 

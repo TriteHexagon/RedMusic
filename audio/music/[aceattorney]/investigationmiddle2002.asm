@@ -437,7 +437,7 @@ Music_InvestigationMiddle2002_Ch3_Bar19:
 ; ============================================================================================================
 
 Music_InvestigationMiddle2002_Ch4:
-	togglenoise 10
+	togglenoise 13
 	notetype 12
 Music_InvestigationMiddle2002_Ch4_master:
 ;Bar 1
@@ -465,24 +465,24 @@ Music_InvestigationMiddle2002_Ch4_master:
 ;Bar 12
 	callchannel Music_InvestigationMiddle2002_Ch4_Bar4
 ;Bar 13
-	note C#, 2
-	note C#, 2
-	note D#, 2
+	note C_, 2
+	note C_, 2
+	note A_, 2
 	note G_, 2
-	note C#, 1
-	note D#, 1
+	note C_, 1
+	note A_, 1
 	note G_, 2
-	note D#, 4
+	note A_, 4
 ;Bar 14
-	note C#, 2
-	note C#, 2
-	note D#, 2
+	note C_, 2
+	note C_, 2
+	note A_, 2
 	note G_, 1
-	note D#, 1
-	note C#, 1
-	note D#, 1
+	note A_, 1
+	note C_, 1
+	note A_, 1
 	note G_, 2
-	note D#, 4
+	note A_, 4
 ;Bar 15
 	callchannel Music_InvestigationMiddle2002_Ch4_Bar15
 ;Bar 16
@@ -490,94 +490,94 @@ Music_InvestigationMiddle2002_Ch4_master:
 ;Bar 17
 	callchannel Music_InvestigationMiddle2002_Ch4_Bar15
 ;Bar 18
-	note C#, 2
-	note A#, 1
-	note C#, 1
-	note F#, 2
-	note A#, 2
+	note C_, 2
+	note G#, 1
+	note C_, 1
+	note D#, 2
+	note G#, 2
 	note G_, 2
-	note C#, 2
-	note F#, 2
-	note F#, 1
-	note F#, 1
+	note C_, 2
+	note D#, 2
+	note D#, 1
+	note D#, 1
 ;Bar 19
 	callchannel Music_InvestigationMiddle2002_Ch4_Bar15
 ;Bar 20
 	callchannel Music_InvestigationMiddle2002_Ch4_Bar16
 ;Bar 21
-	note C#, 2
-	note A#, 1
-	note C#, 1
-	note F#, 2
-	note A#, 3
-	note F#, 3
-	note C#, 2
-	note A#, 4
+	note C_, 2
+	note G#, 1
+	note C_, 1
+	note D#, 2
+	note G#, 3
+	note D#, 3
+	note C_, 2
+	note G#, 4
 ;Bar 22
-	note F#, 1
-	note F#, 1
-	note F#, 1
-	note F#, 3
-	note F#, 1
-	note F#, 1
-	note F#, 1
-	note F#, 2
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 3
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 2
 	note __, 4
 	loopchannel 0, Music_InvestigationMiddle2002_Ch4_master
 
 Music_InvestigationMiddle2002_Ch4_Bar1:
-	note C#, 2
+	note C_, 2
 	note G_, 2
-	note C#, 2
+	note C_, 2
 	note G_, 2
-	note C#, 1
-	note F#, 1
-	note C#, 2
-	note F#, 2
-	note A#, 2
+	note C_, 1
+	note D#, 1
+	note C_, 2
+	note D#, 2
+	note G#, 2
 	endchannel
 
 Music_InvestigationMiddle2002_Ch4_Bar2:
-	note C#, 2
+	note C_, 2
 	note G_, 2
-	note C#, 2
+	note C_, 2
 	note G_, 2
-	note F#, 2
-	note F#, 2
-	note C#, 4
+	note D#, 2
+	note D#, 2
+	note C_, 4
 	endchannel
 
 Music_InvestigationMiddle2002_Ch4_Bar4:
-	note C#, 2
+	note C_, 2
 	note G_, 2
-	note C#, 2
+	note C_, 2
 	note G_, 2
-	note F#, 1
-	note F#, 1
-	note F#, 1
-	note F#, 1
-	note F#, 4
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 4
 	endchannel
 
 Music_InvestigationMiddle2002_Ch4_Bar15:
-	note C#, 2
-	note A#, 1
-	note C#, 1
-	note F#, 2
-	note A#, 3
-	note F#, 3
-	note C#, 2
-	note A#, 2
+	note C_, 2
+	note G#, 1
+	note C_, 1
+	note D#, 2
+	note G#, 3
+	note D#, 3
+	note C_, 2
+	note G#, 2
 	endchannel
 
 Music_InvestigationMiddle2002_Ch4_Bar16:
-	note C#, 2
-	note A#, 1
-	note C#, 1
-	note F#, 2
-	note A#, 2
+	note C_, 2
+	note G#, 1
+	note C_, 1
+	note D#, 2
+	note G#, 2
 	note G_, 2
-	note C#, 2
-	note F#, 4
+	note C_, 2
+	note D#, 4
 	endchannel
 

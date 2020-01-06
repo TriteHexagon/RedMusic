@@ -887,6 +887,7 @@ Music_PKMN_Center_Night_Ch4_master:
 	note E_, 6
 	note E_, 4
 ;Ch4_Bar15:
+Music_PKMN_Center_Night_Ch4_loop1:
 	note C#, 2
 	note E_, 4
 	note E_, 2
@@ -895,31 +896,10 @@ Music_PKMN_Center_Night_Ch4_master:
 	note E_, 4
 	note E_, 2
 	note E_, 4
-;Ch4_Bar16:
-	note C#, 2
-	note E_, 4
-	note E_, 2
-	note E_, 4
-	note C#, 2
-	note E_, 4
-	note E_, 2
-	note E_, 4
+	loopchannel 2, Music_PKMN_Center_Night_Ch4_loop1
 ;Ch4_Bar17:
-	note C#, 2
-	note C#, 4
-	note B_, 2
-	note F_, 6
-	note F_, 4
-	note B_, 2
-	note E_, 4
+	callchannel Music_PKMN_Center_Night_Ch4_Bar17_18
 ;Ch4_Bar18:
-	note B_, 2
-	note E_, 4
-	note B_, 2
-	note F_, 6
-	note E_, 4
-	note E_, 2
-	note B_, 4
 ;Ch4_Bar19:
 	note C#, 2
 	note C#, 4
@@ -936,21 +916,8 @@ Music_PKMN_Center_Night_Ch4_master:
 	note E_, 2
 	note B_, 4
 ;Ch4_Bar21:
-	note C#, 2
-	note C#, 4
-	note B_, 2
-	note F_, 6
-	note F_, 4
-	note B_, 2
-	note E_, 4
+	callchannel Music_PKMN_Center_Night_Ch4_Bar17_18
 ;Ch4_Bar22:
-	note B_, 2
-	note E_, 4
-	note B_, 2
-	note F_, 6
-	note E_, 4
-	note E_, 2
-	note B_, 4
 ;Ch4_Bar23:
 	note C#, 2
 	note B_, 4
@@ -1059,4 +1026,22 @@ Music_PKMN_Center_Night_Ch4_Bar1:
 	note E_, 4
 	note C#, 2
 	loopchannel 3, Music_PKMN_Center_Night_Ch4_Bar1
+	endchannel
+
+Music_PKMN_Center_Night_Ch4_Bar17_18:
+	note C#, 2
+	note C#, 4
+	note B_, 2
+	note F_, 6
+	note F_, 4
+	note B_, 2
+	note E_, 4
+;Ch4_Bar18:
+	note B_, 2
+	note E_, 4
+	note B_, 2
+	note F_, 6
+	note E_, 4
+	note E_, 2
+	note B_, 4
 	endchannel

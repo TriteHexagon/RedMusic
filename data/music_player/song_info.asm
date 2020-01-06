@@ -133,6 +133,7 @@ SongInfo:
 	db "Azalea Town (Night)@", ORIGIN_GS, COMPOSER_GO_ICHINOSE, COMPOSER_NONE
 	db "Route 34 (Night)@", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	db "Goldenrod City      (Night)@", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
+	db "Ecruteak City       (Night)@", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	db "Route 38 (Night)@", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	db "Route 42 (Night)@", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	db "Route 26 (Night)@", ORIGIN_GS, COMPOSER_GO_ICHINOSE, COMPOSER_NONE
@@ -159,12 +160,12 @@ SongInfo:
 	db "Jingle - It Can't EndLike This!@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Investigation -     Opening 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Maya Fey: Turnabout Sisters' Theme 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	db "Detention Center@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	db "Detective Gumshoe@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Detention Center @", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Detective Gumshoe @", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Reminiscing -       Maya's Grief@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Marvin Grossberg@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Blissful People@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	db "Reminiscing -       Light and Shadow of the Film Studio@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Reminiscing -       Light and Shadow@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Steel Samurai@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Reminiscing -       DL-6 Incident@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Investigation -     Core 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
@@ -180,7 +181,9 @@ SongInfo:
 	db "Rise from the       Ashes - End@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Psyche-Lock@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Investigation -     Middle 2002@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Maya Fey: Turnabout Sisters' Theme 2002@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Investigation -     Opening 2004@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Cross-Examination:","  Allegro 2004@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;Others
 	db "Palace / Temple@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Lower Norfair@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE

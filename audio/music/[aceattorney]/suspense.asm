@@ -216,7 +216,7 @@ Music_Suspense_Ch12_15
 ; ============================================================================================================
 
 Music_Suspense_Ch4:
-	togglenoise 5
+	togglenoise 13
 	notetype 12
 	stereopanning $ff
 ;Bar 1
@@ -225,235 +225,121 @@ Music_Suspense_Ch4:
 	note __, 16
 	note __, 14
 ;Bar 4
-	note B_, 1
-	note B_, 1
-Music_Suspense_Ch4_loop:
+	note C_, 1
+	note C_, 1
+Music_Suspense_Ch4_master:
 ;Bar 5
-	note B_, 1
-	note D_, 1
-	note D#, 2
-	note D_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note D_, 1
-	note D_, 1
-	note B_, 2
-	note D_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type1
 ;Bar 6
-	note D_, 1
-	note D_, 1
-	note D#, 2
-	note D_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note D_, 1
-	note D_, 1
-	note B_, 2
-	note D_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type2
 ;Bar 7
-	note B_, 1
-	note D_, 1
-	note D#, 2
-	note D_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note D_, 1
-	note D_, 1
-	note B_, 2
-	note D_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type1
 ;Bar 8
-	note D_, 1
-	note D_, 1
-	note D#, 2
-	note D_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note D_, 1
-	note D_, 1
-	note B_, 1
-	note B_, 1
+	callchannel Music_Suspense_Ch4_Type3
 ;Bar 9
-	note B_, 1
-	note D_, 1
-	note D#, 2
-	note D_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note D_, 1
-	note D_, 1
-	note B_, 2
-	note D_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type1
 ;Bar 10
-	note D_, 1
-	note D_, 1
-	note D#, 2
-	note D_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note D_, 1
-	note D_, 1
-	note B_, 2
-	note D_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type2
 ;Bar 11
-	note B_, 1
-	note D_, 1
-	note D#, 2
-	note D_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note D_, 1
-	note D_, 1
-	note B_, 2
-	note D_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type1
 ;Bar 12
-	note D_, 1
-	note D_, 1
-	note D#, 2
-	note D_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note D_, 1
-	note D_, 1
-	note B_, 1
-	note B_, 1
+	callchannel Music_Suspense_Ch4_Type3
 ;Bar 13
-	note B_, 1
-	note D_, 1
-	note D#, 2
-	note B_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note B_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type4
 ;Bar 14
-	note B_, 1
-	note D_, 1
-	note D#, 2
-	note B_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note B_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type4
 ;Bar 15
-	note B_, 1
-	note D_, 1
-	note D#, 2
-	note B_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note B_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type4
 ;Bar 16
-	note B_, 1
-	note D_, 1
-	note D#, 2
-	note B_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note B_, 1
-	note D_, 1
-	note B_, 1
-	note B_, 1
+	callchannel Music_Suspense_Ch4_Type5
 ;Bar 17
-	note B_, 1
-	note D_, 1
-	note D#, 2
-	note B_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note B_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type4
 ;Bar 18
-	note B_, 1
-	note D_, 1
-	note D#, 2
-	note B_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note B_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type4
 ;Bar 19
-	note B_, 1
-	note D_, 1
-	note D#, 2
-	note B_, 1
-	note D_, 1
-	note D#, 1
-	note B_, 1
-	note B_, 1
-	note D_, 1
-	note B_, 2
-	note B_, 1
-	note D_, 1
-	note D#, 2
+	callchannel Music_Suspense_Ch4_Type4
 ;Bar 20
-	note B_, 1
+	callchannel Music_Suspense_Ch4_Type5
+	loopchannel 0, Music_Suspense_Ch4_master
+
+Music_Suspense_Ch4_Type1:
+	note C_, 1
 	note D_, 1
-	note D#, 2
-	note B_, 1
+	note G_, 2
 	note D_, 1
-	note D#, 1
-	note B_, 1
-	note B_, 1
 	note D_, 1
-	note B_, 2
-	note B_, 1
+	note G_, 1
+	note C_, 1
 	note D_, 1
-	note B_, 1
-	note B_, 1
-	loopchannel 0, Music_Suspense_Ch4_loop
+	note D_, 1
+	note C_, 2
+	note D_, 1
+	note D_, 1
+	note G_, 2
+	endchannel
+
+Music_Suspense_Ch4_Type2:
+	note D_, 1
+	note D_, 1
+	note G_, 2
+	note D_, 1
+	note D_, 1
+	note G_, 1
+	note C_, 1
+	note D_, 1
+	note D_, 1
+	note C_, 2
+	note D_, 1
+	note D_, 1
+	note G_, 2
+	endchannel
+
+Music_Suspense_Ch4_Type3:
+	note D_, 1
+	note D_, 1
+	note G_, 2
+	note D_, 1
+	note D_, 1
+	note G_, 1
+	note C_, 1
+	note C_, 1
+	note D_, 1
+	note C_, 2
+	note D_, 1
+	note D_, 1
+	note C_, 1
+	note C_, 1
+	endchannel
+
+Music_Suspense_Ch4_Type4:
+	note C_, 1
+	note D_, 1
+	note G_, 2
+	note C_, 1
+	note D_, 1
+	note G_, 1
+	note C_, 1
+	note C_, 1
+	note D_, 1
+	note C_, 2
+	note C_, 1
+	note D_, 1
+	note G_, 2
+	endchannel
+
+Music_Suspense_Ch4_Type5:
+	note C_, 1
+	note D_, 1
+	note G_, 2
+	note C_, 1
+	note D_, 1
+	note G_, 1
+	note C_, 1
+	note C_, 1
+	note D_, 1
+	note C_, 2
+	note C_, 1
+	note D_, 1
+	note C_, 1
+	note C_, 1
+	endchannel

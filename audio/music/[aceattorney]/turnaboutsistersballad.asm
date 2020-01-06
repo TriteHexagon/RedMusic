@@ -324,27 +324,14 @@ Music_TurnaboutSistersBallad_Ch2:
 	note __, 8
 Music_TurnaboutSistersBallad_Ch2_loop:
 	octave 2
+Music_TurnaboutSistersBallad_Ch2_Type1:
 	note E_, 8
-;Bar 2
 	note F_, 8
 	note G_, 4
-;Bar 3
 	note G#, 4
 	note A_, 8
-	note E_, 8
-;Bar 4
-	note F_, 8
-	note G_, 4
-;Bar 5
-	note G#, 4
-	note A_, 8
-	note E_, 8
+	loopchannel 3, Music_TurnaboutSistersBallad_Ch2_Type1
 ;Bar 6
-	note F_, 8
-	note G_, 4
-;Bar 7
-	note G#, 4
-	note A_, 8
 	note E_, 4
 ;Bar 8
 	note __, 2
@@ -387,22 +374,8 @@ Music_TurnaboutSistersBallad_Ch3:
 	note E_, 4
 	note F_, 4
 Music_TurnaboutSistersBallad_Ch3_loop:
-	notetype 2, $1B
-	note G_, 16
-	intensity $2B
-	note G_, 2
-	notetype 12, $1B
-	note G_, 1
-	note __, 2 
-	note C_, 6
-;Bar 2
-	note __, 1
-	notetype 3, $1B
-	note D_, 1
-	note E_, 3 
-	notetype 12, $1B
-	note D_, 1
-	note C_, 1
+	callchannel Music_TurnaboutSistersBallad_Ch3_Type1
+	callchannel Music_TurnaboutSistersBallad_Ch3_Type2
 	octave 3
 	note B_, 2
 	octave 4
@@ -419,22 +392,9 @@ Music_TurnaboutSistersBallad_Ch3_loop:
 	octave 4
 	note E_, 1
 	note F_, 1
-	notetype 2, $1B
-	note G_, 16
-	intensity $2B
-	note G_, 2
-	notetype 12, $1B
-	note G_, 1
-	note __, 2
-	note C_, 6
+	callchannel Music_TurnaboutSistersBallad_Ch3_Type1
+	callchannel Music_TurnaboutSistersBallad_Ch3_Type2
 ;Bar 4
-	note __, 1
-	notetype 3, $1B
-	note D_, 1
-	note E_, 3 
-	notetype 12, $1B
-	note D_, 1
-	note C_, 1
 	note D_, 3
 	note G_, 3
 	note F_, 3
@@ -446,22 +406,9 @@ Music_TurnaboutSistersBallad_Ch3_loop:
 	octave 4
 	note E_, 1
 	note F_, 1
-	notetype 2, $1B
-	note G_, 16
-	intensity $2B
-	note G_, 2
-	notetype 12, $1B
-	note G_, 1
-	note __, 2
-	note C_, 6
+	callchannel Music_TurnaboutSistersBallad_Ch3_Type1
+	callchannel Music_TurnaboutSistersBallad_Ch3_Type2
 ;Bar 6
-	note __, 1
-	notetype 3, $1B
-	note D_, 1
-	note E_, 3 
-	notetype 12, $1B
-	note D_, 1
-	note C_, 1
 	octave 3
 	note B_, 2
 	octave 4
@@ -482,13 +429,7 @@ Music_TurnaboutSistersBallad_Ch3_loop:
 	note E_, 1
 	note F_, 1
 	octave 4
-	notetype 2, $1B
-	note G_, 16
-	intensity $2B
-	note G_, 2
-	notetype 12, $1B
-	note G_, 1
-	note __, 2
+	callchannel Music_TurnaboutSistersBallad_Ch3_Type1
 	octave 5
 	note C_, 5
 ;Bar 8
@@ -536,10 +477,8 @@ Music_TurnaboutSistersBallad_Ch3_loop:
 	note B_, 1
 	octave 4
 	note C_, 7
-	notetype 12, $1B
-	note C_, 1
+	note C_, 4
 	octave 3
-	notetype 3, $1B
 	note B_, 1
 	octave 4
 	note C_, 11
@@ -575,3 +514,24 @@ Music_TurnaboutSistersBallad_Ch3_loop:
 	note E_, 1
 	note F_, 1
 	loopchannel 0, Music_TurnaboutSistersBallad_Ch3_loop
+
+Music_TurnaboutSistersBallad_Ch3_Type1:
+	notetype 3, $1B
+	note G_, 11
+	note __, 1
+	notetype 12, $1B
+	note G_, 1
+	note __, 2
+	endchannel
+
+Music_TurnaboutSistersBallad_Ch3_Type2: 
+	note C_, 6
+;Bar 2
+	note __, 1
+	notetype 3, $1B
+	note D_, 1
+	note E_, 3 
+	notetype 12, $1B
+	note D_, 1
+	note C_, 1
+	endchannel

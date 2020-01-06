@@ -25,31 +25,29 @@ Music_AAJingle_Ch1:
 	note G_, 4
 	note E_, 10
 	note __, 16
-	note __, 16
 	endchannel
 
 ; ============================================================================================================
 
 Music_AAJingle_Ch2:
 	dutycycle $1
-	notetype 12, $87
+	notetype 6, $87
 ;Bar 1
 	octave 4
-	note C_, 5
-	notetype 6, $67
+	note C_, 10
+	intensity $67
 	note C_, 1
 	intensity $47
 	note C_, 1
-	notetype 12, $87
-	note D_, 7
+	intensity $87
+	note D_, 14
 ;Bar 2
-	notetype 6, $67
+	intensity $67
 	note D_, 1
 	intensity $47
 	note D_, 1
 	notetype 12, $87
 	note G_, 10
-	note __, 16
 	note __, 16
 	endchannel
 
@@ -63,7 +61,6 @@ Music_AAJingle_Ch3:
 	note E_, 8
 ;Bar 2
 	note F_, 7
-	note __, 16
 	note __, 16
 	endchannel
 

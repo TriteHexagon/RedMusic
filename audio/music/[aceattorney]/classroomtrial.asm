@@ -17,12 +17,7 @@ Music_ClassroomTrial_Ch1:
 	tone $0002
 	tempo 191
 ;Bar 1
-	octave 3
-	note G_, 8
-	intensity $a8
-	note G_, 4
-	intensity $1f
-	note F_, 8
+	callchannel Music_ClassroomTrial_Ch1_Bar1
 ;Bar 2
 	note D#, 8
 	intensity $a8
@@ -44,12 +39,7 @@ Music_ClassroomTrial_Ch1:
 ;Bar 5
 	note B_, 8
 ;Bar 6
-	octave 3
-	note G_, 8
-	intensity $a8
-	note G_, 4
-	intensity $1f
-	note F_, 8
+	callchannel Music_ClassroomTrial_Ch1_Bar1
 ;Bar 7
 	note A#, 8
 	intensity $a8
@@ -70,6 +60,15 @@ Music_ClassroomTrial_Ch1:
 ;Bar 10
 	note D_, 8
 	loopchannel 0, Music_ClassroomTrial_Ch1
+
+Music_ClassroomTrial_Ch1_Bar1:
+	octave 3
+	note G_, 8
+	intensity $a8
+	note G_, 4
+	intensity $1f
+	note F_, 8
+	endchannel
 
 ; ============================================================================================================
 

@@ -11,9 +11,9 @@ Music_MayasGrief:
 	musicheader 1, 3, Music_MayasGrief_Ch3
 
 Music_MayasGrief_Ch1:
-	volume $55
+	volume $66
 	dutycycle $2
-	notetype 12, $68
+	notetype 12, $58
 	tone $0001
 	vibrato $04, $1a
 	tempo 258
@@ -83,7 +83,7 @@ Music_MayasGrief_Ch1_Intro:
 
 Music_MayasGrief_Ch2:
 	dutycycle $1
-	notetype 12, $97
+	notetype 12, $87
 ;Bar 1
 	callchannel Music_MayasGrief_Ch2_Bar1
 ;Bar 2
@@ -111,44 +111,44 @@ Music_MayasGrief_Ch2:
 
 Music_MayasGrief_Ch2_Finale:
 ;Bar 13
-	intensity $87
+	intensity $77
 	octave 4
+	callchannel Music_MayasGrief_Ch2_2D_2D#
+	intensity $87
 	callchannel Music_MayasGrief_Ch2_2D_2D#
 	intensity $97
 	callchannel Music_MayasGrief_Ch2_2D_2D#
-	intensity $a7
-	callchannel Music_MayasGrief_Ch2_2D_2D#
 	note D_, 1
-	intensity $b7
+	intensity $a7
 	note D#, 1
 	note D_, 1
 	note D#, 1
 ;Bar 14
 	callchannel Music_MayasGrief_Ch2_2D_2D#
-	intensity $a7
-	callchannel Music_MayasGrief_Ch2_2D_2D#
 	intensity $97
-	callchannel Music_MayasGrief_Ch2_2A#_2D_
+	callchannel Music_MayasGrief_Ch2_2D_2D#
 	intensity $87
+	callchannel Music_MayasGrief_Ch2_2A#_2D_
+	intensity $77
 	callchannel Music_MayasGrief_Ch2_2A#_2D_
 ;Bar 15
 	callchannel Music_MayasGrief_Ch2_2C_2D_
+	intensity $87
+	callchannel Music_MayasGrief_Ch2_2C_2D_
 	intensity $97
 	callchannel Music_MayasGrief_Ch2_2C_2D_
-	intensity $a7
-	callchannel Music_MayasGrief_Ch2_2C_2D_
 	note C_, 1
-	intensity $b7
+	intensity $a7
 	note D_, 1
 	note C_, 1
 	note D_, 1
 ;Bar 16
 	callchannel Music_MayasGrief_Ch2_2C_2D_
-	intensity $a7
-	callchannel Music_MayasGrief_Ch2_2C_2D_
 	intensity $97
-	callchannel Music_MayasGrief_Ch2_2G_2D_
+	callchannel Music_MayasGrief_Ch2_2C_2D_
 	intensity $87
+	callchannel Music_MayasGrief_Ch2_2G_2D_
+	intensity $77
 	callchannel Music_MayasGrief_Ch2_2G_2D_
 	loopchannel 2, Music_MayasGrief_Ch2_Finale
 
@@ -191,104 +191,104 @@ Music_MayasGrief_Ch2_2G_2D_:
 	endchannel
 
 Music_MayasGrief_Ch2_Bar1:
-	intensity $97
+	intensity $87
 	octave 3
 	note C_, 1
-	intensity $77
+	intensity $67
 	note C_, 1
-	intensity $a7
-	note G_, 1
 	intensity $97
 	note G_, 1
-	intensity $b7
+	intensity $87
+	note G_, 1
+	intensity $a7
 	octave 4
 	note D_, 1
-	intensity $97
+	intensity $87
 	note D_, 1
-	intensity $c7
-	note D#, 1
-	intensity $a7
-	note D#, 1
-	intensity $97
-	note D#, 1
-	intensity $77
-	note D#, 1
 	intensity $b7
-	note D_, 1
-	intensity $97
-	note D_, 1
-	intensity $a7
 	note D#, 1
 	intensity $97
+	note D#, 1
+	intensity $87
+	note D#, 1
+	intensity $67
+	note D#, 1
+	intensity $a7
+	note D_, 1
+	intensity $87
+	note D_, 1
+	intensity $97
+	note D#, 1
+	intensity $87
 	note D#, 1
 	octave 3
 	note A#, 1
-	intensity $77
+	intensity $67
 	note A#, 1
 	endchannel
 
 Music_MayasGrief_Ch2_Bar2:
+	intensity $87
+	note C_, 1
+	intensity $67
+	note C_, 1
 	intensity $97
-	note C_, 1
-	intensity $77
-	note C_, 1
+	note G_, 1
+	intensity $87
+	note G_, 1
 	intensity $a7
-	note G_, 1
-	intensity $97
-	note G_, 1
-	intensity $b7
 	octave 4
 	note D_, 1
-	intensity $97
+	intensity $87
 	note D_, 1
-	intensity $c7
-	note D#, 1
-	intensity $a7
+	intensity $b7
 	note D#, 1
 	intensity $97
 	note D#, 1
-	intensity $77
+	intensity $87
+	note D#, 1
+	intensity $67
 	note D#, 1
 	note __, 2
-	intensity $a7
-	note D_, 1
 	intensity $97
+	note D_, 1
+	intensity $87
 	note D_, 1
 	octave 3
 	note A#, 1
-	intensity $77
+	intensity $67
 	note A#, 1
 	endchannel
 
 Music_MayasGrief_Ch2_Bar3:
+	intensity $87
+	note C_, 1
+	note C_, 1
 	intensity $97
-	note C_, 1
-	note C_, 1
+	note G_, 1
+	intensity $87
+	note G_, 1
 	intensity $a7
-	note G_, 1
-	intensity $97
-	note G_, 1
-	intensity $b7
 	octave 4
 	note D_, 1
-	intensity $97
+	intensity $87
 	note D_, 1
-	intensity $c7
-	note C_, 1
-	intensity $a7
+	intensity $b7
 	note C_, 1
 	intensity $97
 	note C_, 1
-	intensity $77
+	intensity $87
 	note C_, 1
-	intensity $a7
-	note F_, 1
+	intensity $67
+	note C_, 1
 	intensity $97
 	note F_, 1
-	intensity $77
+	intensity $87
+	note F_, 1
+	intensity $67
 	note F_, 1
 	note F_, 1
-	intensity $97
+	intensity $87
 	note D#, 1
 	note D_, 1
 	endchannel 
@@ -297,27 +297,27 @@ Music_MayasGrief_Ch2_Bar4:
 	octave 3
 	note C_, 1
 	note C_, 1
-	intensity $a7
-	note G_, 1
 	intensity $97
 	note G_, 1
-	intensity $b7
+	intensity $87
+	note G_, 1
+	intensity $a7
 	octave 4
 	note D_, 1
-	intensity $97
+	intensity $87
 	note D_, 1
-	intensity $c7
-	note D#, 1
-	intensity $a7
+	intensity $b7
 	note D#, 1
 	intensity $97
 	note D#, 1
-	intensity $77
+	intensity $87
+	note D#, 1
+	intensity $67
 	note D#, 1
 	note __, 2
-	intensity $a7
-	note D_, 1
 	intensity $97
+	note D_, 1
+	intensity $87
 	note D_, 1
 	octave 3
 	note A#, 1
@@ -371,10 +371,10 @@ Music_MayasGrief_Ch3:
 	note __, 16
 	note __, 16
 ;Bar 17
-	notetype 12, $1B
+	notetype 16, $1B
 	octave 4
-	note G_, 16
-	note G_, 4
+	note G_, 15
+	notetype 12, $1B
 ;Bar 18
 	note A#, 4
 	note G#, 4

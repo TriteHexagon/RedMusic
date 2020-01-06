@@ -252,7 +252,7 @@ Music_LightandShadowOfTheFilmStudio_Ch4_loop:
 	callchannel Music_LightandShadowOfTheFilmStudio_Ch4_Intro
 ;Bar 7
 	note D#, 1
-	note E_, 1
+	note C#, 1
 ;Bar 8
 	callchannel Music_LightandShadowOfTheFilmStudio_Ch4_Bar8
 ;Bar 9
@@ -292,7 +292,7 @@ Music_LightandShadowOfTheFilmStudio_Ch4_loop:
 ;Bar 16
 	note C_, 2
 	note D#, 1
-	note E_, 1
+	note C#, 1
 	note D#, 3
 	note D#, 3
 	note C_, 2

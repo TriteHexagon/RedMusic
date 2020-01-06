@@ -18,7 +18,7 @@ Music_CourtBegins_Ch1:
 	dutycycle $2
 	tempo 191
 	notetype 12, $57
-	vibrato $16, $26
+	vibrato $16, $1a
 	tone $0000
 ;Bar 1
 	octave 4
@@ -41,15 +41,7 @@ Music_CourtBegins_Ch1:
 	intensity $57
 	octave 5
 ;Bar 10
-	note C_, 1
-	note D#, 1
-	note F_, 1
-	note C_, 1
-	intensity $77
-	note D#, 1
-	note F_, 1
-	note C_, 1
-	note D#, 1
+	callchannel Music_CourtBegins_Ch1_Bar10
 	intensity $87
 	note F_, 1
 	octave 4
@@ -71,15 +63,7 @@ Music_CourtBegins_Ch1:
 	intensity $57
 	octave 5
 ;Bar 12
-	note C_, 1
-	note D#, 1
-	note F_, 1
-	note C_, 1
-	intensity $77
-	note D#, 1
-	note F_, 1
-	note C_, 1
-	note D#, 1
+	callchannel Music_CourtBegins_Ch1_Bar10
 	intensity $87
 	note F_, 1
 	note C_, 1
@@ -171,6 +155,18 @@ Music_CourtBegins_Ch1_Bar6:
 	stereopanning $ff
 	endchannel
 
+Music_CourtBegins_Ch1_Bar10:
+	note C_, 1
+	note D#, 1
+	note F_, 1
+	note C_, 1
+	intensity $77
+	note D#, 1
+	note F_, 1
+	note C_, 1
+	note D#, 1
+	endchannel
+
 Music_CourtBegins_Ch1_Bar13:
 	note D#, 1
 	note D#, 1
@@ -218,16 +214,7 @@ Music_CourtBegins_Ch2:
 	note A#, 1
 	note F_, 1
 ;Bar 3
-	note C_, 1
-	note G_, 1
-	octave 4
-	note C_, 1
-	intensity $57
-	note C_, 1
-	intensity $87
-	octave 3
-	note G_, 1
-	note C_, 1
+	callchannel Music_CourtBegins_Ch2_Bar7
 	callchannel Music_CourtBegins_Ch2_Bar3
 ;Bar 4
 	note D_, 1
@@ -242,73 +229,19 @@ Music_CourtBegins_Ch2:
 	octave 3
 	note C_, 2
 	callchannel Music_CourtBegins_Ch2_Bar3
-	intensity $47
-	stereopanning $f
 ;Bar 6
-	octave 3
-	note D_, 1
-	stereopanning $f0
-	octave 4
-	note D_, 1
-	stereopanning $f
-	octave 3
-	note D_, 1
-	stereopanning $f0
-	octave 4
-	note D_, 1
-	stereopanning $f
+	intensity $47
+	callchannel Music_CourtBegins_Ch2_Bar6_loop
 	intensity $57
-	octave 3
-	note D_, 1
-	stereopanning $f0
-	octave 4
-	note D_, 1
-	stereopanning $f
-	octave 3
-	note D_, 1
-	stereopanning $f0
-	octave 4
-	note D_, 1
-	stereopanning $f
+	callchannel Music_CourtBegins_Ch2_Bar6_loop
 	intensity $67
-	octave 3
-	note D_, 1
-	stereopanning $f0
-	octave 4
-	note D_, 1
-	stereopanning $f
-	octave 3
-	note D_, 1
-	stereopanning $f0
-	octave 4
-	note D_, 1
-	stereopanning $f
+	callchannel Music_CourtBegins_Ch2_Bar6_loop
 	intensity $77
-	octave 3
-	note D_, 1
-	stereopanning $f0
-	octave 4
-	note D_, 1
-	stereopanning $f
-	octave 3
-	note D_, 1
-	stereopanning $f0
-	octave 4
-	note D_, 1
+	callchannel Music_CourtBegins_Ch2_Bar6_loop
 	stereopanning $ff
 ;Bar 7
 	intensity $87
-	octave 3
-	note C_, 1
-	note G_, 1
-	octave 4
-	note C_, 1
-	intensity $57
-	note C_, 1
-	intensity $87
-	octave 3
-	note G_, 1
-	note C_, 1
+	callchannel Music_CourtBegins_Ch2_Bar7
 	callchannel Music_CourtBegins_Ch2_Bar3
 ;Bar 8
 	note D_, 2
@@ -320,21 +253,12 @@ Music_CourtBegins_Ch2:
 	note C_, 3
 	notetype 12, $87
 	octave 3
-	note A#, 1
-	intensity $67
-	note A#, 1
-	intensity $57
-	note A#, 1
-	intensity $47
-	note A#, 1
-	intensity $87
-	note A#, 1
-	intensity $67
-	note A#, 1
-	intensity $57
-	note A#, 1
-	intensity $67
-	note A#, 1
+
+	pitchoffset 1, G# ;was A#
+	callchannel Music_CourtBegins_Ch2_Bar12
+	callchannel Music_CourtBegins_Ch2_Bar12
+	pitchoffset 0, C_
+
 	intensity $87
 	octave 4
 	note D_, 2
@@ -372,45 +296,12 @@ Music_CourtBegins_Ch2:
 	note F_, 1
 	stereopanning $f
 	note F_, 1
-	stereopanning $f0
 ;Bar 10
-	note F_, 1
-	stereopanning $f
-	octave 3
-	note F_, 1
-	stereopanning $f0
-	octave 4
-	note F_, 1
-	stereopanning $f
-	octave 3
-	note F_, 1
-	stereopanning $f0
+	callchannel Music_CourtBegins_Ch2_Bar10_loop
 	intensity $57
-	octave 4
-	note F_, 1
-	stereopanning $f
-	octave 3
-	note F_, 1
-	stereopanning $f0
-	octave 4
-	note F_, 1
-	stereopanning $f
-	octave 3
-	note F_, 1
-	stereopanning $f0
+	callchannel Music_CourtBegins_Ch2_Bar10_loop
 	intensity $67
-	octave 4
-	note F_, 1
-	stereopanning $f
-	octave 3
-	note F_, 1
-	stereopanning $f0
-	octave 4
-	note F_, 1
-	stereopanning $f
-	octave 3
-	note F_, 1
-	stereopanning $f0
+	callchannel Music_CourtBegins_Ch2_Bar10_loop
 	intensity $77
 	octave 4
 	note F_, 1
@@ -436,84 +327,25 @@ Music_CourtBegins_Ch2:
 	octave 3
 	note G_, 1
 	note C_, 1
-	note D_, 1
-	note A_, 1
-	octave 4
-	note D_, 1
-	intensity $67
-	note D_, 1
-	intensity $57
-	note D_, 1
-	intensity $67
-	note D_, 1
-	intensity $57
-	note D_, 1
-	intensity $47
-	note D_, 1
-	intensity $57
-	note D_, 1
-	intensity $47
-	note D_, 1
+	callchannel Music_CourtBegins_Ch2_Bar3
 ;Bar 12
-	intensity $87
-	octave 3
-	note F_, 1
-	intensity $67
-	note F_, 1
-	intensity $57
-	note F_, 1
-	intensity $67
-	note F_, 1
-	intensity $87
-	note G_, 1
-	intensity $67
-	note G_, 1
-	intensity $57
-	note G_, 1
-	intensity $67
-	note G_, 1
-	intensity $87
-	note A#, 1
-	intensity $67
-	note A#, 1
-	intensity $57
-	note A#, 1
-	intensity $67
-	note A#, 1
-	intensity $87
-	octave 4
-	note D_, 1
-	intensity $67
-	note D_, 1
-	intensity $57
-	note D_, 1
-	intensity $67
-	note D_, 1
+	pitchoffset 1, D# ;was F
+	callchannel Music_CourtBegins_Ch2_Bar12
+
+	pitchoffset 1, F_ ;was G
+	callchannel Music_CourtBegins_Ch2_Bar12
+
+	pitchoffset 1, G# ;was A#
+	callchannel Music_CourtBegins_Ch2_Bar12
+
+	pitchoffset 0, C_
+	callchannel Music_CourtBegins_Ch2_Bar12
 ;Bar 13
 	dutycycle $1
-	octave 3
-	note A#, 1
-	note A#, 1
-	note __, 4
-	note A#, 1
-	note A#, 1
-	note __, 6
-	octave 4
-	intensity $88
-	note D_, 10
-	intensity $87
-	note D_, 4
-	intensity $a7
-;Bar 14
-	note __, 4
+	callchannel Music_CourtBegins_Ch2_Bar13
+	callchannel Music_CourtBegins_Ch2_Bar14
 ;Bar 15
-	octave 3
-	note A#, 1
-	note A#, 1
-	note __, 4
-	note A#, 1
-	note A#, 1
-	note __, 6
+	callchannel Music_CourtBegins_Ch2_Bar13
 	intensity $88
 	note A#, 10
 	intensity $87
@@ -524,28 +356,10 @@ Music_CourtBegins_Ch2:
 	note A#, 1
 	note A#, 1
 ;Bar 17
-	note A#, 1
-	note A#, 1
-	note __, 4
-	note A#, 1
-	note A#, 1
-	note __, 6
-	octave 4
-	intensity $88
-	note D_, 10
-	intensity $87
-	note D_, 4
-	intensity $a7
-;Bar 18
-	note __, 4
+	callchannel Music_CourtBegins_Ch2_Bar13
+	callchannel Music_CourtBegins_Ch2_Bar14
 ;Bar 19
-	octave 3
-	note A#, 1
-	note A#, 1
-	note __, 4
-	note A#, 1
-	note A#, 1
-	note __, 6
+	callchannel Music_CourtBegins_Ch2_Bar13
 	intensity $88
 	note A#, 10
 	intensity $87
@@ -572,8 +386,75 @@ Music_CourtBegins_Ch2_Bar3:
 	note D_, 1
 	intensity $57
 	note D_, 1
-	intensity $33
+	intensity $37
 	note D_, 1
+	endchannel
+
+Music_CourtBegins_Ch2_Bar6_loop:
+	stereopanning $f
+	octave 3
+	note D_, 1
+	stereopanning $f0
+	octave 4
+	note D_, 1
+	loopchannel 2, Music_CourtBegins_Ch2_Bar6_loop
+	endchannel
+
+Music_CourtBegins_Ch2_Bar10_loop:
+	stereopanning $f0
+	octave 4
+	note F_, 1
+	stereopanning $f
+	octave 3
+	note F_, 1
+	loopchannel 2, Music_CourtBegins_Ch2_Bar10_loop
+	endchannel
+
+Music_CourtBegins_Ch2_Bar7:
+	octave 3
+	note C_, 1
+	note G_, 1
+	octave 4
+	note C_, 1
+	intensity $57
+	note C_, 1
+	intensity $87
+	octave 3
+	note G_, 1
+	note C_, 1
+	endchannel
+
+Music_CourtBegins_Ch2_Bar12:
+	octave 4
+	intensity $87
+	note D_, 1
+	intensity $67
+	note D_, 1
+	intensity $57
+	note D_, 1
+	intensity $67
+	note D_, 1
+	endchannel
+
+Music_CourtBegins_Ch2_Bar13:
+	octave 3
+	note A#, 1
+	note A#, 1
+	note __, 4
+	note A#, 1
+	note A#, 1
+	note __, 6
+	endchannel
+
+Music_CourtBegins_Ch2_Bar14:
+	octave 4
+	intensity $88
+	note D_, 10
+	intensity $87
+	note D_, 4
+	intensity $a7
+;Bar 14
+	note __, 4
 	endchannel
 ; ============================================================================================================
 
@@ -605,87 +486,22 @@ Music_CourtBegins_Ch3:
 	note A#, 1
 ;Bar 5
 	callchannel Music_CourtBegins_Ch3_Intro
-	intensity $18
 ;Bar 6
-	note G_, 1
-	note A#, 1
-	octave 3
-	note C_, 1
-	note __, 2
-	octave 2
-	note F_, 1
-	note G_, 1
-	note A#, 1
-	note __, 3
-	octave 3
-	note D_, 1
-	note D_, 1
-	octave 2
-	note A#, 1
-	note F_, 2
+	callchannel Music_CourtBegins_Ch3_Bar6
 ;Bar 7
 	callchannel Music_CourtBegins_Ch3_Intro
-	intensity $18
 ;Bar 8
-	note G_, 1
-	note F_, 1
-	note __, 4
-	note G_, 1
-	note A#, 1
-	note __, 3
-	note A#, 1
-	octave 3
-	note G#, 1
-	note G_, 1
-	note D#, 1
-	octave 2
-	note A#, 1
+	callchannel Music_CourtBegins_Ch3_Bar8
 ;Bar 9
 	callchannel Music_CourtBegins_Ch3_Intro
-	intensity $18
 ;Bar 10
-	note G_, 1
-	note A#, 1
-	octave 3
-	note C_, 1
-	note __, 2
-	octave 2
-	note F_, 1
-	note G_, 1
-	note A#, 1
-	note __, 3
-	octave 3
-	note D_, 1
-	note D_, 1
-	octave 2
-	note A#, 1
-	note F_, 2
+	callchannel Music_CourtBegins_Ch3_Bar6
 ;Bar 11
 	callchannel Music_CourtBegins_Ch3_Intro
-	intensity $18
 ;Bar 12
-	note G_, 1
-	note F_, 1
-	note __, 4
-	note G_, 1
-	note A#, 1
-	note __, 3
-	note A#, 1
-	octave 3
-	note G#, 1
-	note G_, 1
-	note D#, 1
-	octave 2
-	note A#, 1
+	callchannel Music_CourtBegins_Ch3_Bar8
 ;Bar 13
-	octave 3
-	note C_, 1
-	note C_, 1
-	note __, 4
-	octave 2
-	note F_, 1
-	note F_, 1
-	note __, 6
+	callchannel Music_CourtBegins_Ch3_Bar13
 	note G_, 11
 ;Bar 14
 	note G_, 1
@@ -698,14 +514,7 @@ Music_CourtBegins_Ch3:
 	note A#, 1
 	note F_, 1
 ;Bar 15
-	octave 3
-	note C_, 1
-	note C_, 1
-	note __, 4
-	octave 2
-	note F_, 1
-	note F_, 1
-	note __, 6
+	callchannel Music_CourtBegins_Ch3_Bar13
 	note G_, 6
 ;Bar 16
 	note A#, 2
@@ -715,13 +524,7 @@ Music_CourtBegins_Ch3:
 	note C_, 2
 	note D_, 4
 ;Bar 17
-	note C_, 1
-	note C_, 1
-	note __, 4
-	octave 2
-	note F_, 1
-	note F_, 1
-	note __, 6
+	callchannel Music_CourtBegins_Ch3_Bar13
 	note G_, 11
 ;Bar 18
 	note G_, 1
@@ -733,14 +536,8 @@ Music_CourtBegins_Ch3:
 	note D#, 1
 	note F_, 1
 ;Bar 19
-	note C_, 1
-	note C_, 1
-	note __, 4
-	octave 2
-	note F_, 1
-	note F_, 1
-	note __, 6
-	notetype 12, $18
+	callchannel Music_CourtBegins_Ch3_Bar13
+	intensity $18
 	note G_, 16
 	note __, 2
 	loopchannel 0, Music_CourtBegins_Ch3
@@ -752,10 +549,58 @@ Music_CourtBegins_Ch3_Intro:
 	note G_, 10
 	endchannel
 
+Music_CourtBegins_Ch3_Bar6:
+	intensity $18
+	note G_, 1
+	note A#, 1
+	octave 3
+	note C_, 1
+	note __, 2
+	octave 2
+	note F_, 1
+	note G_, 1
+	note A#, 1
+	note __, 3
+	octave 3
+	note D_, 1
+	note D_, 1
+	octave 2
+	note A#, 1
+	note F_, 2
+	endchannel
+
+Music_CourtBegins_Ch3_Bar8:
+	intensity $18
+	note G_, 1
+	note F_, 1
+	note __, 4
+	note G_, 1
+	note A#, 1
+	note __, 3
+	note A#, 1
+	octave 3
+	note G#, 1
+	note G_, 1
+	note D#, 1
+	octave 2
+	note A#, 1
+	endchannel
+
+Music_CourtBegins_Ch3_Bar13:
+	octave 3
+	note C_, 1
+	note C_, 1
+	note __, 4
+	octave 2
+	note F_, 1
+	note F_, 1
+	note __, 6
+	endchannel
+
 ; ============================================================================================================
 
 Music_CourtBegins_Ch4:
-	togglenoise 10
+	togglenoise 13
 	notetype 12
 	stereopanning $ff
 
@@ -763,122 +608,118 @@ Music_CourtBegins_Ch4_loop:
 ;Bar 1
 	note __, 4
 Music_CourtBegins_Ch4_intro:
-	note G#, 8
+	note D_, 8
 	loopchannel 6, Music_CourtBegins_Ch4_intro
 	note __, 6
 ;Bar 4
-	note G#, 1
-	note G#, 1
-	note F_, 2
-	note G#, 1
-	note F#, 1
+	note D_, 1
+	note D_, 1
+	note A#, 2
+	note D_, 1
+	note D#, 1
 ;Bar 5
 	callchannel Music_CourtBegins_Ch4_Bar5_7
 ;Bar 8
-	note C#, 1
-	note C#, 3
-	note F#, 2
-	note C#, 1
-	note C#, 3
-	note G#, 1
-	note G#, 1
-	note F_, 2
-	note G#, 1
-	note F#, 1
+	note C_, 1
+	note C_, 3
+	note D#, 2
+	note C_, 1
+	note C_, 3
+	note D_, 1
+	note D_, 1
+	note A#, 2
+	note D_, 1
+	note D#, 1
 ;Bar 9
 	callchannel Music_CourtBegins_Ch4_Bar5_7
 ;Bar 12
-	note C#, 1
-	note C#, 3
-	note F#, 2
-	note C#, 1
-	note C#, 3
-	note C#, 1
-	note C#, 1
-	note F#, 2
-	note F#, 1
-	note F#, 1
+	note C_, 1
+	note C_, 3
+	note D#, 2
+	note C_, 1
+	note C_, 3
+	note C_, 1
+	note C_, 1
+	note D#, 2
+	note D#, 1
+	note D#, 1
 ;Bar 13
-	note C#, 1
-	note C#, 3
-	note D#, 2
-	note C#, 1
-	note C#, 3
-	note C#, 2
-	note D#, 2
-	note C#, 6
+	note C_, 1
+	note C_, 3
+	note A_, 2
+	note C_, 1
+	note C_, 3
+	note C_, 2
+	note A_, 2
+	note C_, 6
 ;Bar 14
-	note D#, 6
-	note C#, 2
-	note D#, 4
+	note A_, 6
+	note C_, 2
+	note A_, 4
 ;Bar 15
-	note C#, 1
-	note C#, 3
-	note D#, 2
-	note C#, 1
-	note C#, 3
-	note C#, 1
-	note C#, 1
-	note D#, 2
-	note C#, 4
+	callchannel Music_CourtBegins_Ch4_Bar15
 ;Bar 16
-	note C#, 2
-	note D#, 6
-	note C#, 1
-	note C#, 1
-	note D#, 2
-	note D#, 2
+	note C_, 2
+	note A_, 6
+	note C_, 1
+	note C_, 1
+	note A_, 2
+	note A_, 2
 ;Bar 17
-	note C#, 1
-	note C#, 3
-	note D#, 2
-	note C#, 1
-	note C#, 3
-	note C#, 2
-	note D#, 2
-	note C#, 4
+	note C_, 1
+	note C_, 3
+	note A_, 2
+	note C_, 1
+	note C_, 3
+	note C_, 2
+	note A_, 2
+	note C_, 4
 ;Bar 18
-	note C#, 2
-	note D#, 3
-	note D#, 3
-	note C#, 1
-	note C#, 1
-	note D#, 4
+	note C_, 2
+	note A_, 3
+	note A_, 3
+	note C_, 1
+	note C_, 1
+	note A_, 4
 ;Bar 19
-	note C#, 1
-	note C#, 3
-	note D#, 2
-	note C#, 1
-	note C#, 3
-	note C#, 1
-	note C#, 1
-	note D#, 2
-	note C#, 4
+	callchannel Music_CourtBegins_Ch4_Bar15
 ;Bar 20
-	note C#, 1
-	note C#, 1
-	note D#, 3
-	note D#, 3
-	note C#, 2
-	note D#, 3
+	note C_, 1
+	note C_, 1
+	note A_, 3
+	note A_, 3
+	note C_, 2
+	note A_, 3
 	note __, 1
 	loopchannel 0, Music_CourtBegins_Ch4_loop
 
 Music_CourtBegins_Ch4_Bar5_7:
-	note C#, 4
-	note G#, 2
-	note C#, 6
-	note F#, 4
+	note C_, 4
+	note D_, 2
+	note C_, 6
+	note D#, 4
 ;Bar 6
-	note C#, 4
-	note F#, 2
-	note C#, 6
-	note F#, 4
+	note C_, 4
+	note D#, 2
+	note C_, 6
+	note D#, 4
 ;Bar 7
-	note C#, 4
-	note G#, 2
-	note C#, 6
-	note F#, 4
+	note C_, 4
+	note D_, 2
+	note C_, 6
+	note D#, 4
+	endchannel
+
+Music_CourtBegins_Ch4_Bar15:
+	note C_, 1
+	note C_, 3
+	note A_, 2
+	note C_, 1
+	note C_, 3
+	note C_, 1
+	note C_, 1
+	note A_, 2
+	note C_, 4
 	endchannel
 
 ; ============================================================================================================

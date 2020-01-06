@@ -442,13 +442,13 @@ Music_DamonGant_Ch2_Bar7:
 ; ============================================================================================================
 
 Music_DamonGant_Ch3:
-	wavetype 2, 8, $11
+	wavetype 1, 8, $1F
 	vibrato 04, $1f
 ;Bar 1
 	octave 2
 	note F#, 2
 	note __, 4
-	notetype 12, $11
+	notetype 12, $1F
 	note F#, 14
 ;Bar 2
 	note __, 2
@@ -462,10 +462,10 @@ Music_DamonGant_Ch3:
 	note __, 2
 ;Bar 5
 Music_DamonGant_Ch3_loop:
-	notetype 8, $11
+	notetype 8, $1F
 	note F#, 2
 	note __, 4
-	notetype 12, $11
+	notetype 12, $1F
 	note F#, 16
 	note F#, 8
 ;Bar 6
@@ -511,10 +511,10 @@ Music_DamonGant_Ch3_loop1:
 	note E_, 10
 	note __, 2
 ;Bar 25
-	notetype 8, $11
+	notetype 8, $1F
 	note G#, 2
 	note __, 4
-	notetype 12, $11
+	notetype 12, $1F
 	note G#, 14
 ;Bar 26
 	note __, 2

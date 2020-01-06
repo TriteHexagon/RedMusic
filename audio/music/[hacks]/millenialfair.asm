@@ -704,27 +704,27 @@ Music_MillenialFair_Ch3_master:
 	note __, 16
 ;Bar 7
 	octave 5
-	notetype 6, $1f
+	wavetype 2, 6, $16
 	note G#, 1
 	note A_, 5
-	notetype 12, $1f
+	notetype 12, $16
 	callchannel Music_MillenialFair_Ch3_Bar7
 ;Bar 9
 	callchannel Music_MillenialFair_Ch3_Bar9
-	notetype 6, $1f
+	notetype 6, $16
 	note B_, 1
 	note A_, 1
-	notetype 12, $1f
+	notetype 12, $16
 	note G_, 2
 	note A_, 4 
 	note __, 2 
 	octave 5
 ;Bar 10
 	octave 5
-	notetype 6, $1f
+	notetype 6, $16
 	note G#, 1
 	note A_, 5
-	notetype 12, $1f
+	notetype 12, $16
 	callchannel Music_MillenialFair_Ch3_Bar7
 	note E_, 3
 ;Bar 12
@@ -732,16 +732,16 @@ Music_MillenialFair_Ch3_master:
 	note __, 1 ;14 WARNING: Rounded
 	note G_, 1
 	note F#, 3
-	notetype 6, $1f
+	notetype 6, $16
 	note G_, 1
 	note F#, 1
-	notetype 12, $1f
+	notetype 12, $16
 	note E_, 2
 	note F#, 4
 	note C#, 2
 ;Bar 13
 	octave 5
-	notetype 6, $17
+	wavetype 1, 6, $17
 	note G#, 1
 	note A_, 5
 	notetype 12, $17
@@ -776,7 +776,7 @@ Music_MillenialFair_Ch3_master:
 	note F#, 4
 	note C#, 2
 ;Bar 19
-	intensity $1f
+	waveform 2, $16
 	callchannel Music_MillenialFair_Ch3_Bar19
 	note E_, 8 
 	note __, 4
@@ -784,20 +784,20 @@ Music_MillenialFair_Ch3_master:
 	callchannel Music_MillenialFair_Ch3_Bar19
 ;Bar 24
 	note E_, 16
-	note E_, 2 ;214 WARNING: Rounded
+	note E_, 2 
 ;Bar 25
-	note __, 2 ;26 WARNING: Rounded
-	notetype 6, $1f
+	note __, 2 
+	notetype 6, $16
 	note E_, 1
 	note F#, 1
-	notetype 12, $1f
+	notetype 12, $16
 	note E_, 1
 	note D_, 2
 	note E_, 16
 	note E_, 6
 	note __, 2
 ;Bar 26
-	intensity $17
+	waveform 1, $17
 	note A_, 4 ;44 WARNING: Rounded
 ;Bar 27
 	note A_, 1 ;10 WARNING: Rounded
@@ -889,19 +889,19 @@ Music_MillenialFair_Ch3_master:
 ;Bar 38
 	note B_, 1
 	note __, 1
-	notetype 3, $2f
+	wavetype 2, 3, $26
 	note F#, 1
 	note G_, 3
-	notetype 12, $2f
+	notetype 12, $26
 	note F#, 1
 	note E_, 1
 	note D_, 1
 	note C#, 1
 	octave 4
-	notetype 6, $2f
+	notetype 6, $26
 	note D_, 1
 	note __, 1
-	notetype 12, $2f
+	notetype 12, $26
 	note A_, 1
 	note __, 5
 	loopchannel 0, Music_MillenialFair_Ch3_master
@@ -945,10 +945,10 @@ Music_MillenialFair_Ch3_Bar9:
 
 Music_MillenialFair_Ch3_Bar19:
 ; Bar 19-20
-	notetype 3, $1f
+	notetype 3, $16
 	note __, 7
 	note C#, 1
-	notetype 6, $1f
+	notetype 6, $16
 	note D_, 1
 	note __, 3
 	note D_, 1
@@ -958,11 +958,11 @@ Music_MillenialFair_Ch3_Bar19:
 	note E_, 1
 	note __, 3
 	loopchannel 2, Music_MillenialFair_Ch3_Bar19
-	notetype 3, $1f
+	notetype 3, $16
 	note F#, 1
 	note G_, 11
 	note __, 4
-	notetype 12, $1f
+	notetype 12, $16
 	note A_, 1 
 	note __, 1 
 	note F#, 2

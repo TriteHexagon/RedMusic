@@ -133,6 +133,7 @@ Music:
 	dba Music_AzaleaTownNight
 	dba Music_Route34Night
 	dba Music_GoldenrodCityNight
+	dba Music_EcruteakCityNight
 	dba Music_Route38Night
 	dba Music_Route42Night
 	dba Music_Route26Night
@@ -180,7 +181,9 @@ Music:
 	dba Music_RiseEnd
 	dba Music_PsycheLock
 	dba Music_InvestigationMiddle2002
+	dba Music_TurnaboutSisters2002
 	dba Music_InvestigationOpening2004
+	dba Music_TestimonyAllegro2004
 	;Others
 	dba Music_Temple
 	dba Music_LowerNorfair

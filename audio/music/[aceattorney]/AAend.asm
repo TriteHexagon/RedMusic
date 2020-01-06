@@ -294,16 +294,8 @@ Music_AAEnd_Ch2:
 	note C_, 8
 	intensity $45
 	note C_, 2
-	intensity $48
 ;Bar 19
-	note G_, 4
-	intensity $45
-	note G_, 2
-	intensity $48
-	note F_, 8
-	intensity $45
-	note F_, 2
-	intensity $48
+	callchannel Music_AAEnd_Ch2_Bar19
 ;Bar 20
 	note D#, 14
 	intensity $45
@@ -315,16 +307,8 @@ Music_AAEnd_Ch2:
 	note D#, 8
 	intensity $45
 	note D#, 2
-	intensity $48
 ;Bar 23
-	note G_, 4
-	intensity $45
-	note G_, 2
-	intensity $48
-	note F_, 8
-	intensity $45
-	note F_, 2
-	intensity $48
+	callchannel Music_AAEnd_Ch2_Bar19
 ;Bar 24
 	note F_, 14
 	intensity $45
@@ -418,10 +402,22 @@ Music_AAEnd_Ch2_Bar17:
 	intensity $48
 	endchannel
 
+Music_AAEnd_Ch2_Bar19:
+	intensity $48
+	note G_, 4
+	intensity $45
+	note G_, 2
+	intensity $48
+	note F_, 8
+	intensity $45
+	note F_, 2
+	intensity $48
+	endchannel
+
 ; ============================================================================================================
 
 Music_AAEnd_Ch3:
-	wavetype 1, 12, $17
+	wavetype 1, 12, $1D
 	vibrato $08, $1a
 ;Bar 1
 	octave 4
@@ -447,10 +443,10 @@ Music_AAEnd_Ch3:
 ;Bar 7
 	note D#, 6
 	note F_, 7
-	notetype 6, $17
+	notetype 6, $1D
 	note F#, 1
 	note F_, 1
-	notetype 12, $17
+	notetype 12, $1D
 	note D#, 7
 ;Bar 8
 	note __, 3
@@ -466,10 +462,10 @@ Music_AAEnd_Ch3_loop:
 	note G_, 10
 ;Bar 10
 	note __, 2
-	notetype 6, $17
+	notetype 6, $1D
 	note A_, 1 
 	note A#, 3
-	notetype 12, $17
+	notetype 12, $1D
 	note G#, 2
 	note G_, 2
 	note D#, 4
@@ -499,10 +495,10 @@ Music_AAEnd_Ch3_loop:
 	note G_, 8
 ;Bar 14
 	note __, 2
-	notetype 6, $17
+	notetype 6, $1D
 	note F#, 1 
 	note G_, 3
-	notetype 12, $17
+	notetype 12, $1D
 	note F_, 2
 	note D#, 2
 	note D#, 6
@@ -511,7 +507,7 @@ Music_AAEnd_Ch3_loop:
 	note G_, 14
 ;Bar 16
 	note __, 2
-	intensity $18
+	intensity $1C
 	note C_, 1
 	note D_, 1
 	note D#, 6
@@ -541,10 +537,10 @@ Music_AAEnd_Ch3_loop:
 	note D#, 6
 ;Bar 21
 	note D_, 4
-	notetype 6, $18
+	notetype 6, $1C
 	note E_, 1 
 	note F_, 7
-	notetype 12, $18
+	notetype 12, $1C
 	octave 3
 	note A#, 6
 ;Bar 22
@@ -573,7 +569,7 @@ Music_AAEnd_Ch3_loop:
 	octave 3
 	note B_, 6
 	note __, 2
-	intensity $17
+	intensity $1D
 	octave 4
 	note C_, 1
 	note D_, 1
@@ -602,10 +598,10 @@ Music_AAEnd_Ch3_loop:
 	note D#, 6
 ;Bar 33
 	note F_, 6
-	notetype 3, $17
+	notetype 3, $1D
 	note F_, 1
 	note F#, 3
-	notetype 12, $17
+	notetype 12, $1D
 	note F_, 1
 	note D#, 14
 ;Bar 34
@@ -643,9 +639,9 @@ Music_AAEnd_Ch4_loop1:
 	note D_, 1
 	note D_, 1
 	note A#, 2
+	note D#, 1
 	note C#, 1
-	note C#, 1
-	note C_, 1
+	note D_, 1
 	note D_, 1
 
 Music_AAEnd_Ch4_loop:
@@ -666,36 +662,23 @@ Music_AAEnd_Ch4_loop:
 ;Bar 16
 	callchannel Music_AAEnd_Ch4_Bar12
 ;Bar 17
+Music_AAEnd_Ch4_loop2:
 	callchannel Music_AAEnd_Ch4_Bar17
-;Bar 18
 	callchannel Music_AAEnd_Ch4_Bar18
 	note D_, 1
 	note C#, 1
-;Bar 19
 	callchannel Music_AAEnd_Ch4_Bar17
-;Bar 20
 	callchannel Music_AAEnd_Ch4_Bar18
+	note D#, 1
 	note C#, 1
-	note C#, 1
-;Bar 21
-	callchannel Music_AAEnd_Ch4_Bar17
-;Bar 22
-	callchannel Music_AAEnd_Ch4_Bar18
-	note D_, 1
-	note C#, 1
-;Bar 23
-	callchannel Music_AAEnd_Ch4_Bar17
-;Bar 24
-	callchannel Music_AAEnd_Ch4_Bar18
-	note C#, 1
-	note C#, 1
+	loopchannel 2, Music_AAEnd_Ch4_loop2
 ;Bar 25
 	note C_, 4
 	note D_, 2
 	note C_, 2
 	note D_, 2
 	note A#, 2
-	note C#, 2
+	note D#, 2
 	note D_, 1
 	note C#, 1
 ;Bar 26
@@ -707,138 +690,127 @@ Music_AAEnd_Ch4_loop:
 ;Bar 27
 	callchannel Music_AAEnd_Ch4_Bar27
 ;Bar 28
-	note C_, 2
-	note C_, 2
-	note C#, 3
-	note C#, 1
+	callchannel Music_AAEnd_Ch4_Type2
 	note D_, 2
 	note A#, 2
-	note C#, 4
+	note D#, 4
 ;Bar 29
 	callchannel Music_AAEnd_Ch4_Bar27
 ;Bar 30
-	note C_, 2
-	note C_, 2
-	note C#, 3
-	note C#, 1
+	callchannel Music_AAEnd_Ch4_Type2
 	callchannel Music_AAEnd_Ch4_Type1
 ;Bar 31
 	callchannel Music_AAEnd_Ch4_Bar27
 ;Bar 32
-	note D_, 2
-	note C_, 2
-	note C#, 3
-	note C#, 1
+	callchannel Music_AAEnd_Ch4_Type2
 	note D_, 1
 	note D_, 1
 	note A#, 2
-	note C#, 4
+	note D#, 4
 ;Bar 33
-	note D_, 2
-	note C_, 2
-	note C#, 3
-	note C#, 1
+	callchannel Music_AAEnd_Ch4_Type2
 	note D_, 1
-	note C#, 1
+	note D#, 1
 	note A#, 2
-	note C#, 2
+	note D#, 2
 	note C_, 2
 ;Bar 34
+Music_AAEnd_Ch4_loop3:
 	note D_, 2
 	note C#, 1
 	note C_, 1
-
-	note D_, 2
-	note C#, 1
-	note C_, 1
-
-	note D_, 2
-	note C#, 1
-	note C_, 1
+	loopchannel 3, Music_AAEnd_Ch4_loop3
 
 	note A#, 2
-	note C#, 1
+	note D#, 1
 	note C#, 1
 	loopchannel 0, Music_AAEnd_Ch4_loop
 
 Music_AAEnd_Ch4_Bar9:
 	note C_, 2
 	note C_, 2
-	note C#, 2
+	note D#, 2
 	note D_, 1
-	note C#, 1
+	note D#, 1
 	note D_, 1
 	note C#, 1
 	note A#, 2
-	note C#, 2
+	note D#, 2
 	note C_, 2
 	endchannel
 
 Music_AAEnd_Ch4_Bar10:
 	note D_, 2
 	note C_, 2
-	note C#, 2
+	note D#, 2
 	note D_, 1
 	note C#, 1
 	note D_, 2
 	note A#, 2
-	note C#, 2
+	note D#, 2
 	note D_, 2
 	endchannel
 
 Music_AAEnd_Ch4_Bar12:
 	note D_, 2
 	note C_, 2
-	note C#, 2
+	note D#, 2
 	note D_, 1
 	note C#, 1
 	note D_, 1
 	note D_, 1
 	note A#, 2
-	note C#, 2
-	note C#, 1
+	note D#, 2
+	note D#, 1
 	note C#, 1
 	endchannel
 
 Music_AAEnd_Ch4_Bar17:
 	note C_, 2
 	note C_, 2
-	note C#, 2
+	note D#, 2
 	note C_, 2
 	note D_, 2
 	note A#, 2
-	note C#, 2
+	note D#, 2
 	note C_, 2
 	endchannel
 
 Music_AAEnd_Ch4_Bar18:
 	note D_, 2
 	note C_, 2
-	note C#, 2
+	note D#, 2
 	note C_, 2
 	note D_, 1
 	note D_, 1
 	note A#, 2
-	note C#, 2
+	note D#, 2
 	endchannel
 
 Music_AAEnd_Ch4_Bar27:
-	note D_, 2
 	note C_, 2
-	note C#, 3
+	note C_, 2
+	note D#, 3
 	note C#, 1
 	note D_, 1
 	note C#, 1
 	note A#, 2
-	note C#, 2
+	note D#, 2
 	note C_, 2
 	endchannel
 
 Music_AAEnd_Ch4_Type1:
 	note D_, 2
 	note A#, 2
-	note C#, 2
+	note D#, 2
 	note C#, 1
+	note C#, 1
+	endchannel
+
+Music_AAEnd_Ch4_Type2:
+	note C_, 2
+	note C_, 2
+	note D#, 3
 	note C#, 1
 	endchannel
 

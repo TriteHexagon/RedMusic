@@ -231,7 +231,7 @@ Music_InvestigationCore2001_Ch2:
 	intensity $98
 	note C#, 8
 ;Bar 2
-	intensity $c3
+	intensity $d2
 	callchannel Music_InvestigationCore2001_Ch2_Bar2
 	note B_, 1
 	octave 3
@@ -267,20 +267,20 @@ Music_InvestigationCore2001_Ch2:
 	note C#, 2
 	octave 2
 	note F#, 1
-	intensity $b3
+	intensity $c2
 	note G#, 1
 	note B_, 1
 	octave 3
 	note C#, 2
 	octave 2
 	note G#, 1
-	intensity $a3
+	intensity $b2
 	note B_, 1
 	octave 3
 	note C#, 1
 	note E_, 1
 	note D#, 1
-	intensity $93
+	intensity $a2
 	octave 2
 	note B_, 1
 	octave 3
@@ -289,13 +289,13 @@ Music_InvestigationCore2001_Ch2:
 	octave 2
 	note G#, 1
 	note B_, 1
-	intensity $73
+	intensity $82
 	octave 3
 	note C#, 2
 	octave 2
 	note F#, 1
 	note G#, 1
-	intensity $53
+	intensity $62
 	note B_, 1
 	note __, 9
 ;Bar 6
@@ -318,7 +318,7 @@ Music_InvestigationCore2001_Ch2:
 	note __, 16
 ;Bar 16
 	dutycycle $1
-	intensity $d3
+	intensity $e2
 	callchannel Music_InvestigationCore2001_Ch2_Bar16
 	note F#, 1
 	note E_, 1
@@ -332,7 +332,7 @@ Music_InvestigationCore2001_Ch2:
 	note D#, 1
 	note E_, 1
 ;Bar 24
-	intensity $63
+	intensity $72
 	note F#, 1
 	note E_, 1
 	note D#, 1
@@ -633,7 +633,7 @@ Music_InvestigationCore2001_Ch4_loop:
 	note F#, 1
 	note C#, 1
 	note D#, 1
-	note E_, 1
+	note D#, 1
 	note A_, 2
 ;Bar 5
 	note C_, 2
@@ -644,15 +644,7 @@ Music_InvestigationCore2001_Ch4_loop:
 	note D#, 1
 	note C#, 1
 ;Bar 6
-	note C_, 2
-	note F#, 1
-	note C#, 1
-	note D#, 1
-	note C#, 1
-	note A_, 2
-	note D#, 6
-	note A_, 1
-	note D#, 1
+	callchannel Music_InvestigationCore2001_Ch4_Bar6
 ;Bar 7
 	note C_, 2
 	note D#, 2
@@ -667,28 +659,12 @@ Music_InvestigationCore2001_Ch4_loop:
 	note F#, 1
 	note C#, 1
 	note D#, 1
-	note E_, 1
+	note D#, 1
 	note A_, 2
 ;Bar 9
-	note C_, 2
-	note D#, 2
-	note C_, 2
-	note D#, 1
-	note E_, 1
-	note D#, 4
-	note D#, 2
-	note F#, 1
-	note C#, 1
+	callchannel Music_InvestigationCore2001_Ch4_Bar9
 ;Bar 10
-	note C_, 2
-	note F#, 1
-	note C#, 1
-	note C_, 1
-	note C#, 1
-	note A_, 2
-	note D#, 6
-	note A_, 1
-	note D#, 1
+	callchannel Music_InvestigationCore2001_Ch4_Bar6
 ;Bar 11
 	note C_, 2
 	note D#, 2
@@ -706,23 +682,15 @@ Music_InvestigationCore2001_Ch4_loop:
 	note F#, 1
 	note C#, 1
 	note D#, 1
-	note E_, 1
+	note D#, 1
 	note A_, 2
 ;Bar 13
-	note C_, 2
-	note D#, 2
-	note C_, 2
-	note D#, 1
-	note E_, 1
-	note D#, 4
-	note D#, 2
-	note F#, 1
-	note C#, 1
+	callchannel Music_InvestigationCore2001_Ch4_Bar9
 ;Bar 14
 	note C_, 2
 	note F#, 1
 	note C#, 1
-	note C_, 1
+	note D#, 1
 	note C#, 1
 	note D#, 2
 	note A_, 6
@@ -732,10 +700,10 @@ Music_InvestigationCore2001_Ch4_loop:
 	note C_, 2
 	note D#, 2
 	note C_, 3
-	note E_, 1
+	note D#, 1
 	note A_, 2
 	note C#, 1
-	note E_, 1
+	note D#, 1
 	note D#, 1
 	note D#, 1
 	note D#, 1
@@ -754,7 +722,7 @@ Music_InvestigationCore2001_Ch4_loop:
 	note D#, 3
 	note F#, 1
 	note A#, 2
-	note E_, 1
+	note D#, 1
 	note D#, 1
 ;Bar 20
 	callchannel Music_InvestigationCore2001_Ch4_Bar16
@@ -767,7 +735,7 @@ Music_InvestigationCore2001_Ch4_loop:
 	note D#, 2
 	note C_, 2
 	note C#, 1
-	note E_, 1
+	note D#, 1
 	note D#, 3
 	note F#, 1
 	note A#, 2
@@ -791,17 +759,29 @@ Music_InvestigationCore2001_Ch4_loop:
 	note F#, 1
 	note C#, 1
 	note D#, 1
-	note E_, 1
+	note D#, 1
 	note A_, 2
 ;Bar 27
 	note C_, 2
 	note D#, 2
 	note C_, 2
 	note D#, 1
-	note E_, 1
+	note D#, 1
 	note A_, 4
 	note __, 4
 	loopchannel 0, Music_InvestigationCore2001_Ch4_loop
+
+Music_InvestigationCore2001_Ch4_Bar6:
+	note C_, 2
+	note F#, 1
+	note C#, 1
+	note D#, 1
+	note C#, 1
+	note A_, 2
+	note D#, 6
+	note A_, 1
+	note D#, 1
+	endchannel
 
 Music_InvestigationCore2001_Ch4_Bar16:
 	note C_, 2
@@ -821,12 +801,24 @@ Music_InvestigationCore2001_Ch4_Bar17:
 	note D#, 2
 	note C_, 2
 	note C#, 1
-	note E_, 1
+	note D#, 1
 	note D#, 3
 	note F#, 1
 	note C#, 1
 	note D#, 1
 	note A#, 2
+	endchannel
+
+Music_InvestigationCore2001_Ch4_Bar9:
+	note C_, 2
+	note D#, 2
+	note C_, 2
+	note D#, 1
+	note D#, 1
+	note D#, 4
+	note D#, 2
+	note F#, 1
+	note C#, 1
 	endchannel
 
 ; ============================================================================================================

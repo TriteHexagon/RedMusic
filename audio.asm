@@ -144,6 +144,7 @@ INCLUDE "audio/music/gsc/contestresults.asm"
 SECTION "GSC Music 5", ROMX
 
 INCLUDE "audio/music/gsc/ecruteakcity.asm"
+INCLUDE "audio/music/[night]/ecruteakcitynight.asm"
 INCLUDE "audio/music/gsc/dancinghall.asm"
 INCLUDE "audio/music/gsc/lookkimonogirl.asm"
 INCLUDE "audio/music/gsc/burnedtower.asm"
@@ -277,7 +278,7 @@ INCLUDE "audio/music/[hacks]/redcanyon.asm"
 INCLUDE "audio/music/[hacks]/icepathHGSS.asm"
 INCLUDE "audio/music/[hacks]/battleregis.asm"
 
-SECTION "Ace Attorney", ROMX
+SECTION "Ace Attorney 1", ROMX
 
 INCLUDE "audio/music/[aceattorney]/pursuitcornered.asm"
 INCLUDE "audio/music/[aceattorney]/testimonyallegro.asm"
@@ -318,6 +319,8 @@ INCLUDE "audio/music/[aceattorney]/riseEnd.asm"
 INCLUDE "audio/music/[aceattorney]/psychelock.asm"
 INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
 INCLUDE "audio/music/[aceattorney]/investigationopening2004.asm"
+INCLUDE "audio/music/[aceattorney]/testimonyallegro2004.asm"
+INCLUDE "audio/music/[aceattorney]/turnaboutsisters2002.asm"
 
 SECTION "Hacks 2", ROMX
 

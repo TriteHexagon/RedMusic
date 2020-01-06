@@ -22,34 +22,60 @@ Music_SteelSamurai_Ch1_master:
 	intensity $c7
 	octave 3
 	note C_, 1
+	intensity $a7
 	note C_, 1
+	intensity $c7
 	note D_, 1
+	notetype 6, $a7
 	note D_, 1
+	intensity $97
+	note D_, 1
+	notetype 12, $c7
 	note __, 2
 	note D#, 3
+	intensity $a7
 	note D#, 1
+	intensity $c7
 	note C_, 1
+	intensity $a7
 	note C_, 1
+	intensity $c7
 	note D#, 1
+	intensity $a7
 	note D#, 1
+	intensity $97
 	note D#, 1
+	intensity $87
 	note D#, 1
 ;Ch1_Bar3:
+	intensity $c7
 	note F_, 1
+	intensity $a7
 	note F_, 1
+	intensity $c7
 	note D#, 1
+	intensity $a7
 	note D#, 1
+	intensity $c7
 	note F_, 1
+	intensity $a7
 	note F_, 1
+	intensity $c7
 	note G_, 14
 ;Ch1_Bar4:
+	intensity $a7
 	note G_, 1
+	intensity $97
 	note G_, 3
+	intensity $c7
 	note A#, 6
+	intensity $a7
 	note A#, 1
+	intensity $97
 	note A#, 1
 ;Ch1_Bar5:
 	octave 4
+	intensity $c7
 	note C_, 4
 	tone $0001
 	note __, 13
@@ -124,9 +150,10 @@ Music_SteelSamurai_Ch1_master:
 	note G_, 2
 	note __, 2
 	note G_, 2
+;Ch1_Bar12:
+	intensity $77
 	octave 4
 	note C_, 2
-;Ch1_Bar12:
 	octave 3
 	note A#, 2
 	note A#, 2
@@ -144,7 +171,7 @@ Music_SteelSamurai_Ch1_master:
 	note D_, 4
 	octave 3
 	note A#, 4
-	intensity $77
+	intensity $67
 	note F_, 1
 ;Ch1_Bar16:
 	note G_, 1
@@ -701,49 +728,50 @@ Music_SteelSamurai_Ch3_master:
 Music_SteelSamurai_Ch4:
 	notetype 12
 	stereopanning $ff
-	togglenoise 10
+	togglenoise 12
 
 ;Ch4_Bar1:
 	note __, 2
+	note A#, 1
 Music_SteelSamurai_Ch4_master:
 	callchannel Music_SteelSamurai_Ch4_Intro
 ;Ch4_Bar2:
-	note D_, 6
-	note D_, 10
+	note E_, 6
+	note F_, 10
 ;Ch4_Bar3:
-	note D_, 6
-	note D_, 12
+	note F_, 6
+	note F#, 12
 ;Ch4_Bar4:
-	note A#, 2
-	note A#, 4
-	note A#, 3
-	note A#, 1
-	note C#, 2
-	note A#, 2
+	note C_, 2
+	note C_, 4
+	note C_, 3
+	note C_, 1
+	note B_, 2
+	note C_, 2
 ;Ch4_Bar5:
-	note D_, 4
+	note G_, 4
 	callchannel Music_SteelSamurai_Ch4_Bar5
 ;Ch4_Bar6:
 	callchannel Music_SteelSamurai_Ch4_Bar6
 ;Ch4_Bar7:
-	note C#, 2
-	note C_, 2
+	note B_, 2
+	note A#, 2
 	callchannel Music_SteelSamurai_Ch4_Bar5
 ;Ch4_Bar8:
 	callchannel Music_SteelSamurai_Ch4_Bar8
-	note C_, 1
-	note C_, 1
+	note A#, 1
+	note A#, 1
 ;Ch4_Bar9:
 	callchannel Music_SteelSamurai_Ch4_TRIM_CHI
 ;Ch4_Bar10:
 	callchannel Music_SteelSamurai_Ch4_Bar6
 ;Ch4_Bar11:
-	note C#, 2
-	note C_, 2
+	note B_, 2
+	note A#, 2
 	callchannel Music_SteelSamurai_Ch4_Bar5
 ;Ch4_Bar12:
 	callchannel Music_SteelSamurai_Ch4_Bar8
-	note C#, 2
+	note B_, 2
 ;Ch4_Bar13:
 
 Music_SteelSamurai_Ch4_Bar13_20:
@@ -753,7 +781,8 @@ Music_SteelSamurai_Ch4_Bar13_20:
 ;Ch4_Bar15:
 	callchannel Music_SteelSamurai_Ch4_Bar13
 ;Ch4_Bar16:
-	note C#, 2
+	note B_, 2
+	note A#, 1
 	callchannel Music_SteelSamurai_Ch4_Intro
 	loopchannel 2, Music_SteelSamurai_Ch4_Bar13_20
 ;Ch4_Bar21:
@@ -766,84 +795,83 @@ Music_SteelSamurai_Ch4_Bar13_20:
 ;Ch4_Bar27:
 	callchannel Music_SteelSamurai_Ch4_Bar13
 ;Ch4_Bar28:
-	note C#, 4
 	note B_, 4
-	note C#, 4
+	note D_, 4
 	note B_, 4
+	note D_, 4
 ;Ch4_Bar29:
-	note C#, 4
 	note B_, 4
-	note C#, 4
+	note D_, 4
 	note B_, 4
+	note D_, 4
 ;Ch4_Bar30:
-	note D_, 8
-	note D_, 8
+	note F_, 8
+	note F#, 8
 ;Ch4_Bar31:
-	note D_, 2
+	note G_, 3
 	loopchannel 0, Music_SteelSamurai_Ch4_master
 	endchannel
 
 Music_SteelSamurai_Ch4_Intro:
-	note C_, 1
-	note C_, 1
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	note C_, 2
+	note A#, 1
+	note A#, 2
+	note A#, 2
+	note A#, 2
+	note A#, 2
+	note A#, 2
+	note A#, 2
 	endchannel
 
 Music_SteelSamurai_Ch4_Bar5:
-	note C#, 3
-	note C_, 1
-	note C#, 2
-	note C_, 2
-	note C#, 2
-	note C_, 1
-	note C_, 1
+	note B_, 3
+	note A#, 1
+	note B_, 2
+	note A#, 2
+	note B_, 2
+	note A#, 1
+	note A#, 1
 	endchannel
 
 Music_SteelSamurai_Ch4_Bar6:
-	note C#, 2
-	note C_, 2
-	note C#, 3
-	note C_, 1
-	note C#, 2
-	note C_, 2
-	note C#, 4
-	endchannel
-
-Music_SteelSamurai_Ch4_Bar8:
-	note C#, 2
-	note C_, 2
-	note C#, 3
-	note C_, 1
-	note C#, 2
-	note C#, 2
-	note C#, 2
-	endchannel
-
-Music_SteelSamurai_Ch4_Bar13:
-	note C#, 4
-	note C#, 4
-	note C#, 4
+	note B_, 2
+	note A#, 2
+	note B_, 3
+	note A#, 1
+	note B_, 2
+	note A#, 2
 	note B_, 4
 	endchannel
 
+Music_SteelSamurai_Ch4_Bar8:
+	note B_, 2
+	note A#, 2
+	note B_, 3
+	note A#, 1
+	note B_, 2
+	note B_, 2
+	note B_, 2
+	endchannel
+
+Music_SteelSamurai_Ch4_Bar13:
+	note B_, 4
+	note B_, 4
+	note B_, 4
+	note D_, 4
+	endchannel
+
 Music_SteelSamurai_Ch4_Bar21:
-	note C#, 6
-	note C#, 2
 	note B_, 6
 	note B_, 2
+	note D_, 6
+	note D_, 2
 ;Ch4_Bar22:
-	note C#, 4
-	note C#, 4
+	note B_, 4
+	note B_, 4
+	note D_, 2
+	note C#, 1
+	note D_, 1
 	note B_, 2
-	note F#, 1
-	note B_, 1
-	note C#, 2
-	note B_, 2
+	note D_, 2
 	endchannel
 
 Music_SteelSamurai_Ch4_TRIM_CHI:
@@ -855,7 +883,7 @@ Music_SteelSamurai_Ch4_TRIM_CHI:
 	note G#, 1
 	note G#, 1
 	note __, 2
-	note D_, 4
+	note A_, 4
 	note G#, 1
 	note G#, 1
 	note G#, 1
@@ -867,7 +895,7 @@ Music_SteelSamurai_Ch4_TRIM_CHI:
 	note G#, 1
 	note G#, 1
 	note __, 2
-	note D_, 4
+	note A_, 4
 	note G#, 1
 	note G#, 1
 	note G#, 1

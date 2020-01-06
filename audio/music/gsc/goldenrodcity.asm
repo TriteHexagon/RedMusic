@@ -184,6 +184,7 @@ Music_GoldenrodCity_Ch2: ; eb519
 Music_GoldenrodCity_branch_eb523: ; eb523
 	intensity $97
 	callchannel Music_GoldenrodCity_branch_eb555
+	dutycycle $1
 	octave 4
 	note F_, 2
 	note F#, 2
@@ -191,6 +192,7 @@ Music_GoldenrodCity_branch_eb523: ; eb523
 	note F_, 2
 	note D#, 8
 	callchannel Music_GoldenrodCity_branch_eb555
+	dutycycle $1
 	note G#, 2
 	note A#, 2
 	octave 5
@@ -245,7 +247,6 @@ Music_GoldenrodCity_branch_eb555: ; eb555
 	note A#, 2
 	note G#, 2
 	note F#, 2
-	dutycycle $1
 	endchannel
 ; eb572
 
