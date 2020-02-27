@@ -56,7 +56,7 @@ Music_Cornered_Ch1_Bar3:
 Music_Cornered_Ch2:
 	dutycycle $2
 	stereopanning $ff
-	notetype $c, $b8
+	notetype 12, $b8
 	vibrato $00, $12
 
 ;Bar1:

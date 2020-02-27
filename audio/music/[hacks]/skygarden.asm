@@ -58,7 +58,6 @@ Music_SkyGarden_Ch1_master:
     note C#, 1
 	intensity $97
     note C#, 3
-	intensity $92
 	slidepitchto 1, 2, C#
     note C#, 1
     octave 2
@@ -994,7 +993,6 @@ Music_SkyGarden_ChEXTRA:
     tone $0001
     volume $77
     tempo 130
-    
     
     ;note __, 16
 Music_SkyGarden_ChEXTRA_master:

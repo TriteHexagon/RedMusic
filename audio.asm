@@ -277,6 +277,7 @@ INCLUDE "audio/music/[hacks]/breakthetargets.asm"
 INCLUDE "audio/music/[hacks]/redcanyon.asm"
 INCLUDE "audio/music/[hacks]/icepathHGSS.asm"
 INCLUDE "audio/music/[hacks]/battleregis.asm"
+INCLUDE "audio/music/[hacks]/route201.asm"
 
 SECTION "Ace Attorney 1", ROMX
 
@@ -330,6 +331,7 @@ INCLUDE "audio/music/[hacks]/pkmncenternight.asm"
 INCLUDE "audio/music/[night]/azaleanight.asm"
 INCLUDE "audio/music/[hacks]/millenialfair.asm"
 INCLUDE "audio/music/[hacks]/mirorbbattle.asm"
+INCLUDE "audio/music/[hacks]/GXrealtalk.asm"
 INCLUDE "audio/music/[hacks]/[placeholder].asm"
 
 

@@ -126,6 +126,7 @@ Music:
 	dba Music_SuicuneBattle
 	dba Music_GymLeaderBattleRSE
 	;Night Versions
+	dba Music_NewBarkTownNight
 	dba Music_Route29Night
 	dba Music_CherrygroveCityNight
 	dba Music_Route30Night
@@ -146,6 +147,8 @@ Music:
 	dba Music_PKMN_Center_Night
 	dba Music_MirorBBattle
 	dba Music_BattleVsRegis
+	dba Music_Route201
+	dba Music_Route201Night
 	;Ace Attorney
 	dba Music_CourtroomLounge
 	dba Music_CourtBegins
@@ -193,6 +196,7 @@ Music:
 	dba Music_RedCanyon
 	dba Music_SkyGarden
 	dba Music_MillenialFair
+	dba Music_GXRealTalk
 	
 	;Current
 	dba Music_Placeholder

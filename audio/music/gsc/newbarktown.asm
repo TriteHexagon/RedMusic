@@ -14,26 +14,10 @@ Music_NewBarkTown_Ch1: ; eb2dd
 Music_NewBarkTown_branch_eb2eb: ; eb2eb
 	dutycycle $0
 	callchannel Music_NewBarkTown_branch_eb349
-	octave 3
-	note C#, 1
-	note __, 1
-	octave 2
-	note A_, 1
-	note __, 1
-	octave 3
-	note G_, 2
-	note F#, 2
+	callchannel Music_NewBarkTown_Ch1_Part1
 	dutycycle $2
 	intensity $82
-	note E_, 1
-	note F#, 1
-	note E_, 1
-	note D_, 1
-	note C#, 1
-	octave 2
-	note B_, 1
-	note A_, 1
-	note G_, 1
+	callchannel Music_NewBarkTown_Ch1_Part2
 	dutycycle $0
 	intensity $87
 	callchannel Music_NewBarkTown_branch_eb349
@@ -47,40 +31,13 @@ Music_NewBarkTown_branch_eb2eb: ; eb2eb
 	note E_, 2
 	dutycycle $2
 	intensity $82
-	note C#, 1
-	note __, 1
-	octave 2
-	note A_, 1
-	octave 3
-	note C#, 1
-	note E_, 1
-	note G_, 1
-	note A_, 1
-	octave 4
-	note C#, 1
-	note E_, 1
-	note A_, 1
+	callchannel Music_NewBarkTown_Ch1_Part3
 	dutycycle $1
 	intensity $5e
 	callchannel Music_NewBarkTown_branch_eb37c
 	callchannel Music_NewBarkTown_branch_eb37c
 	callchannel Music_NewBarkTown_branch_eb37c
-	octave 2
-	note G_, 2
-	note B_, 2
-	octave 3
-	note D_, 2
-	note F#, 4
-	note G_, 4
-	note D_, 2
-	octave 2
-	note A_, 2
-	octave 3
-	note C#, 2
-	note E_, 2
-	note G_, 4
-	note A_, 4
-	note B_, 2
+		callchannel Music_NewBarkTown_Ch1_Part4
 	intensity $87
 	loopchannel 0, Music_NewBarkTown_branch_eb2eb
 ; eb349
@@ -157,6 +114,67 @@ Music_NewBarkTown_branch_eb37c: ; eb37c
 	note A_, 4
 	note E_, 2
 	endchannel
+
+;New Parts
+Music_NewBarkTown_Ch1_Part1:
+	octave 3
+	note C#, 1
+	note __, 1
+	octave 2
+	note A_, 1
+	note __, 1
+	octave 3
+	note G_, 2
+	note F#, 2
+	endchannel
+
+Music_NewBarkTown_Ch1_Part2:
+	note E_, 1
+	note F#, 1
+	note E_, 1
+	note D_, 1
+	note C#, 1
+	octave 2
+	note B_, 1
+	note A_, 1
+	note G_, 1
+	endchannel
+
+Music_NewBarkTown_Ch1_Part3:
+	note C#, 1
+	note __, 1
+	octave 2
+	note A_, 1
+	octave 3
+	note C#, 1
+	note E_, 1
+	note G_, 1
+	note A_, 1
+	octave 4
+	note C#, 1
+	note E_, 1
+	note A_, 1
+	endchannel
+
+Music_NewBarkTown_Ch1_Part4:
+	octave 2
+	note G_, 2
+	note B_, 2
+	octave 3
+	note D_, 2
+	note F#, 4
+	note G_, 4
+	note D_, 2
+	octave 2
+	note A_, 2
+	octave 3
+	note C#, 2
+	note E_, 2
+	note G_, 4
+	note A_, 4
+	note B_, 2
+	endchannel
+
 ; eb38d
 
 Music_NewBarkTown_Ch2: ; eb38d
@@ -264,6 +282,20 @@ Music_NewBarkTown_Ch3: ; eb400
 	note E_, 2
 Music_NewBarkTown_branch_eb408: ; eb408
 	vibrato $16, $23
+	callchannel Music_NewBarkTown_Ch3_Part1
+	intensity $25
+	vibrato $12, $53
+	callchannel Music_NewBarkTown_Ch3_Part2
+	intensity $10
+	vibrato $16, $23
+	octave 5
+	note D_, 1
+	note E_, 1
+	loopchannel 0, Music_NewBarkTown_branch_eb408
+; eb453
+
+;New Parts
+Music_NewBarkTown_Ch3_Part1:
 	note F#, 4
 	note A_, 4
 	note G_, 2
@@ -310,8 +342,9 @@ Music_NewBarkTown_branch_eb408: ; eb408
 	note F#, 1
 	note E_, 4
 	note __, 4
-	intensity $25
-	vibrato $12, $53
+	endchannel
+
+Music_NewBarkTown_Ch3_Part2:
 	octave 2
 	note G_, 16
 	note A_, 16
@@ -321,10 +354,75 @@ Music_NewBarkTown_branch_eb408: ; eb408
 	note A_, 16
 	note G_, 16
 	note A_, 14
-	intensity $10
-	vibrato $16, $23
+	endchannel
+
+Music_NewBarkTownNight: ; eb2d3
+	musicheader 3, 1, Music_NewBarkTownNight_Ch1
+	musicheader 1, 2, Music_NewBarkTownNight_Ch2
+	musicheader 1, 3, Music_NewBarkTownNight_Ch3
+
+Music_NewBarkTownNight_Ch1:
+	tempo 197
+	volume $77
+	stereopanning $f
+	vibrato $12, $22
+	notetype $c, $87
+	note __, 4
+
+Music_NewBarkTownNight_main:
+	dutycycle $1
+	callchannel Music_NewBarkTown_branch_eb349
+	callchannel Music_NewBarkTown_Ch1_Part1
+	dutycycle $2
+	intensity $82
+	callchannel Music_NewBarkTown_Ch1_Part2
+	dutycycle $1
+	intensity $87
+	callchannel Music_NewBarkTown_branch_eb349
+	octave 3
+	note C#, 1
+	note __, 1
+	octave 2
+	note A_, 1
+	note __, 1
+	octave 3
+	note E_, 2
+	dutycycle $2
+	intensity $82
+	callchannel Music_NewBarkTown_Ch1_Part3
+	dutycycle $2
+	intensity $5e
+	callchannel Music_NewBarkTown_branch_eb37c
+	callchannel Music_NewBarkTown_branch_eb37c
+	callchannel Music_NewBarkTown_branch_eb37c
+	callchannel Music_NewBarkTown_Ch1_Part4
+	intensity $87
+	loopchannel 0, Music_NewBarkTownNight_main
+
+Music_NewBarkTownNight_Ch2:
+	stereopanning $ff
+	vibrato $12, $22
+	notetype $6, $a7
+	note __, 8
+
+	callchannel Music_NewBarkTown_branch_eb396
+	endchannel
+
+Music_NewBarkTownNight_Ch3: ; eb400
+	stereopanning $f0
+	notetype $c, $12
+	octave 5
+	note D_, 2
+	note E_, 2
+Music_NewBarkTownNight_Ch3_main: ; eb408
+	vibrato $16, $22
+	callchannel Music_NewBarkTown_Ch3_Part1
+	intensity $24
+	vibrato $12, $52
+	callchannel Music_NewBarkTown_Ch3_Part2
+	intensity $12
+	vibrato $16, $22
 	octave 5
 	note D_, 1
 	note E_, 1
-	loopchannel 0, Music_NewBarkTown_branch_eb408
-; eb453
+	loopchannel 0, Music_NewBarkTownNight_Ch3_main

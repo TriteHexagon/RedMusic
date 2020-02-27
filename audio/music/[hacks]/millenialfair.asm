@@ -42,15 +42,15 @@ Music_MillenialFair_Ch1:
 	note D_, 2
 	note E_, 2
 	note F#, 2
-	note G_, 1 ;10 WARNING: Rounded
-	note __, 1 ;14 WARNING: Rounded
+	note G_, 1 
+	note __, 1 
 	note G_, 2
 ;Bar 3
 	note A_, 2
-	note B_, 1 ;10 WARNING: Rounded
-	note __, 1 ;14 WARNING: Rounded
-	note A_, 2 ;22 WARNING: Rounded
-	note __, 1 ;14 WARNING: Rounded
+	note B_, 1 
+	note __, 1 
+	note A_, 2 
+	note __, 1 
 	intensity $77
 	note A_, 1
 	intensity $97
@@ -988,57 +988,57 @@ Music_MillenialFair_Ch3_SevenDs:
 ; ============================================================================================================
 
 Music_MillenialFair_Ch4:
-	togglenoise 1 ; WARNING: this will sound bad. Change.
+	togglenoise 3
 	notetype 12
 ;Bar 1
 	callchannel Music_MillenialFair_Ch4_intro1
 	callchannel Music_MillenialFair_Ch4_riff
 	notetype 12
-	note G#, 1
-	note G#, 2
-	note G#, 6
+	note E_, 1
+	note E_, 2
+	note E_, 6
 Music_MillenialFair_Ch4_master:
 ;Bar 4
 	callchannel Music_MillenialFair_Ch4_intro2
 ;Bar 6
-	note G#, 2
-	note G#, 2
-	note G#, 2
-	note G#, 2
-	note G#, 1
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	note E_, 1
 ;Bar 7
 	callchannel Music_MillenialFair_Ch4_intro2
-	note G#, 1
-	note G#, 1
-	note G#, 1
+	note E_, 1
+	note E_, 1
+	note E_, 1
 ;Bar 10
 	callchannel Music_MillenialFair_Ch4_intro2
-	note G#, 2
-	note G#, 2
-	note G#, 2
-	note G#, 2
-	note G#, 1
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	note E_, 1
 ;Bar 13
 	callchannel Music_MillenialFair_Ch4_intro2
-	note G#, 1
-	note G#, 1
-	note G#, 1
-	note G#, 2
-	note G#, 1
+	note E_, 1
+	note E_, 1
+	note E_, 1
+	note E_, 2
+	note E_, 1
 ;Bar 16
 	callchannel Music_MillenialFair_Ch4_intro1
-	note G#, 1
-	note G#, 2
-	note G#, 2
-	note G#, 2
-	note G#, 2
+	note E_, 1
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	note E_, 2
 ;Bar 19
 Music_MillenialFair_Ch4_Mid:
 	note __, 2
-	note A_, 2
-	note A_, 4
-	note A_, 2
-	note A_, 2
+	note D_, 2
+	note D_, 4
+	note D_, 2
+	note D_, 2
 	loopchannel 11, Music_MillenialFair_Ch4_Mid
 	note __, 16
 	note __, 16
@@ -1051,36 +1051,29 @@ Music_MillenialFair_Ch4_Mid:
 	callchannel Music_MillenialFair_Ch4_intro2
 	callchannel Music_MillenialFair_Ch4_riff
 	notetype 12
-	note G#, 1
-	note G#, 2
-	note G#, 6
+	note E_, 1
+	note E_, 2
+	note E_, 6
 	loopchannel 0, Music_MillenialFair_Ch4_master
 
-Music_MillenialFair_Ch4_loop:
-	note G#, 2
-	note G#, 1
-	note G#, 1
-	note G#, 2
-	endchannel
-
 Music_MillenialFair_Ch4_intro2:
-	note G#, 2
-	note G#, 1
-	note G#, 1
-	note G#, 2
+	note E_, 2
+	note E_, 1
+	note E_, 1
+	note E_, 2
 	loopchannel 7, Music_MillenialFair_Ch4_intro2
 	endchannel
 
 Music_MillenialFair_Ch4_intro1:
-	note G#, 2
-	note G#, 1
-	note G#, 1
-	note G#, 2
+	note E_, 2
+	note E_, 1
+	note E_, 1
+	note E_, 2
 	loopchannel 6, Music_MillenialFair_Ch4_intro1
 	endchannel
 
 Music_MillenialFair_Ch4_riff:
 	notetype 4
-	note G#, 1
+	note E_, 1
 	loopchannel 9, Music_MillenialFair_Ch4_riff
 	endchannel

@@ -17,6 +17,7 @@ Music_TurnaboutSisters2001_Ch1:
 
 Music_TurnaboutSisters2001_Ch1_master:
 ;Bar1:
+	octave 3
 	note G#, 1
 	note A#, 1
 	callchannel Music_TurnaboutSisters2001_Ch1_Bar1

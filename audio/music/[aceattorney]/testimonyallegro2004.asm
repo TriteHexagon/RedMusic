@@ -695,249 +695,49 @@ Music_TestimonyAllegro2004_Ch2_Part1:
 	note __, 1
 	loopchannel 2, Music_TestimonyAllegro2004_Ch2_Part1
 ;Bar 17
-	dutycycle $1
-	stereopanning $ff
-	notetype 12, $a7
-	octave 5
-	note D_, 1
-	note D_, 1
-	intensity $97
-	note D_, 1
-	intensity $77
-	note D_, 1
+	callchannel Music_TestimonyAllegro2004_Ch2_Type1
 
 	dutycycle $0
 	stereopanning $f
 	intensity $a3
-	note D_, 2
-	octave 4
-	note A_, 2
-	octave 5
-	note F#, 2
-	octave 4
-	note A_, 2
+	callchannel Music_TestimonyAllegro2004_Ch2_Type5
 
-	intensity $a7
-	dutycycle $1
-	stereopanning $ff
-	octave 5
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note F#, 1
+	callchannel Music_TestimonyAllegro2004_Ch2_Type2
 ;Bar 18
-	intensity $97
-	note F#, 1
-	intensity $77
-	note F#, 1
+	callchannel Music_TestimonyAllegro2004_Ch2_Type3
 
-	intensity $a3
-	dutycycle $0
-	stereopanning $f
-	octave 4
-	note A_, 2
-	octave 5
-	note D_, 2
-
-	dutycycle $1
-	stereopanning $ff
-	intensity $a7
-	note E_, 1
-	note E_, 1
-	intensity $97
-	note E_, 1
-	intensity $77
-	note E_, 1
-
-	intensity $a3
-	dutycycle $0
-	stereopanning $f
-	octave 4
-	note A_, 2
-	octave 5
-	note D_, 2
-
-	intensity $a7
-	dutycycle $1
-	stereopanning $ff
-	note D_, 1
-	note D_, 1
+	callchannel Music_TestimonyAllegro2004_Ch2_Type1
 ;Bar 19
-	intensity $97
-	note D_, 1
-	intensity $77
-	note D_, 1
-
-	intensity $a3
-	dutycycle $0
-	stereopanning $f
-	octave 4
-	note B_, 2
-	octave 5
-	note D_, 2
-	octave 4
-	note B_, 2
-	octave 5
-	note F#, 2
-	octave 4
-	note B_, 2
-
-	intensity $a7
-	dutycycle $1
-	stereopanning $ff
-	octave 5
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note F#, 1
+	callchannel Music_TestimonyAllegro2004_Ch2_Type4
+	callchannel Music_TestimonyAllegro2004_Ch2_Type2
 ;Bar 20
-	intensity $97
-	note F#, 1
-	intensity $77
-	note F#, 1
+	callchannel Music_TestimonyAllegro2004_Ch2_Type3
 
-	intensity $a3
-	dutycycle $0
-	stereopanning $f
-	octave 4
-	note B_, 2
-	octave 5
-	note D_, 2
-
-	intensity $a7
-	dutycycle $1
-	stereopanning $ff
-	note E_, 1
-	note E_, 1
-	intensity $97
-	note E_, 1
-	intensity $77
-	note E_, 1
-
-	intensity $a3
-	dutycycle $0
-	stereopanning $f
-	octave 4
-	note B_, 2
-	octave 5
-	note D_, 2
-
-	intensity $a7
-	dutycycle $1
-	stereopanning $ff
-	note D_, 1
-	note D_, 1
+	callchannel Music_TestimonyAllegro2004_Ch2_Type1
 ;Bar 21
-	intensity $97
-	note D_, 1
-	intensity $77
-	note D_, 1
 
 	intensity $a3
 	dutycycle $0
 	stereopanning $f
 	octave 4
 	note A_, 2
-	octave 5
-	note D_, 2
-	octave 4
-	note A_, 2
-	octave 5
-	note F#, 2
-	octave 4
-	note A_, 2
+	callchannel Music_TestimonyAllegro2004_Ch2_Type5
 
-	intensity $a7
-	dutycycle $1
-	stereopanning $ff
-	octave 5
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note F#, 1
+	callchannel Music_TestimonyAllegro2004_Ch2_Type2
 ;Bar 22
-	intensity $97
-	note F#, 1
-	intensity $77
-	note F#, 1
+	callchannel Music_TestimonyAllegro2004_Ch2_Type3
 
-	intensity $a3
-	dutycycle $0
-	stereopanning $f
-	octave 4
-	note A_, 2
-	octave 5
-	note D_, 2
-
-	intensity $a7
-	dutycycle $1
-	stereopanning $ff
-	note E_, 1
-	note E_, 1
-	intensity $97
-	note E_, 1
-	intensity $77
-	note E_, 1
-
-	intensity $a3
-	dutycycle $0
-	stereopanning $f
-	octave 4
-	note A_, 2
-	octave 5
-	note D_, 2
-
-	intensity $a7
-	dutycycle $1
-	stereopanning $ff
-	note D_, 1
-	note D_, 1
+	callchannel Music_TestimonyAllegro2004_Ch2_Type1
 ;Bar 23
-	intensity $97
-	note D_, 1
-	intensity $77
-	note D_, 1
-
-	intensity $a3
-	dutycycle $0
-	stereopanning $f
-	octave 4
-	note B_, 2
-	octave 5
-	note D_, 2
-	octave 4
-	note B_, 2
-	octave 5
-	note F#, 2
-	octave 4
-	note B_, 2
+	callchannel Music_TestimonyAllegro2004_Ch2_Type4
 	
-	intensity $a7
-	dutycycle $1
-	stereopanning $ff
-	octave 5
-	note E_, 1
-	note E_, 1
-	note F#, 1
-	note F#, 1
+	callchannel Music_TestimonyAllegro2004_Ch2_Type2
 ;Bar 24
-	intensity $97
-	note F#, 1
-	intensity $77
-	note F#, 1
-
-	intensity $a3
-	dutycycle $0
-	stereopanning $f
-	octave 4
-	note B_, 2
-	octave 5
-	note D_, 2
-	intensity $a7
-
 	dutycycle $1
+	intensity $b7
 	stereopanning $ff
 	note G_, 1
+	intensity $a7
 	note G_, 1
 	intensity $97
 	note G_, 1
@@ -977,9 +777,9 @@ Music_TestimonyAllegro2004_Ch2_Part1:
 	intensity $a7
 	note F#, 1
 	note F#, 1
-	intensity $97
+	intensity $87
 	note F#, 1
-	intensity $77
+	intensity $67
 	note F#, 1
 
 	dutycycle $3
@@ -1000,9 +800,9 @@ Music_TestimonyAllegro2004_Ch2_Part1:
 	intensity $a7
 	note D#, 1
 ;Bar 32
-	intensity $97
-	note D#, 1
 	intensity $87
+	note D#, 1
+	intensity $67
 	note D#, 1
 	note D#, 1
 	note __, 3
@@ -1010,9 +810,9 @@ Music_TestimonyAllegro2004_Ch2_Part1:
 	note A#, 1
 	intensity $a7
 	note A#, 1
-	intensity $97
-	note A#, 1
 	intensity $87
+	note A#, 1
+	intensity $67
 	note A#, 1
 	intensity $b7
 	octave 3
@@ -1032,26 +832,24 @@ Music_TestimonyAllegro2004_Ch2_Part1:
 ;Bar 33
 	callchannel Music_TestimonyAllegro2004_Ch2_Bar33_38
 ;Bar 39
-	intensity $a7
+	intensity $b7
 	octave 6
 	note C#, 1
-	intensity $97
-	octave 6
+	intensity $a7
 	note C#, 1
 	intensity $87
-	octave 6
 	note C#, 1
-	intensity $a7
+	intensity $b7
 	octave 5
 	note B_, 1
-	intensity $97
+	intensity $a7
 	note B_, 1
 	intensity $87
 	note B_, 1
-	intensity $a7
+	intensity $b7
 	octave 6
 	note C#, 1
-	intensity $97
+	intensity $a7
 	note C#, 1
 	intensity $87
 	note C#, 1
@@ -1060,50 +858,50 @@ Music_TestimonyAllegro2004_Ch2_Part1:
 
 	dutycycle $3
 	stereopanning $f
-	intensity $b7
-	octave 3
-	note B_, 1
-	intensity $a7
+	intensity $c7
 	octave 3
 	note B_, 1
 	intensity $b7
+	octave 3
+	note B_, 1
+	intensity $c7
 	octave 4
 	note D_, 1
-	intensity $a7
-	note D_, 1
 	intensity $b7
+	note D_, 1
+	intensity $c7
 	note F#, 1
-	intensity $a7
+	intensity $b7
 	note F#, 1
 ;Bar 40
 	intensity $97
 	note F#, 1
-	intensity $87
+	intensity $77
 	note F#, 1
 	note F#, 1
 	note __, 3
-	intensity $b7
+	intensity $c7
 	note G#, 1
-	intensity $a7
+	intensity $b7
 	note G#, 1
 	intensity $97
 	note G#, 1
-	intensity $87
+	intensity $77
 	note G#, 1
-	intensity $b7
+	intensity $c7
 	octave 3
 	note G#, 1
-	intensity $a7
-	note G#, 1
 	intensity $b7
+	note G#, 1
+	intensity $c7
 	octave 4
 	note G#, 1
-	intensity $a7
-	note G#, 1
 	intensity $b7
+	note G#, 1
+	intensity $c7
 	octave 3
 	note G#, 1
-	intensity $a7
+	intensity $b7
 	note G#, 1
 ;Bar 41
 	loopchannel 0, Music_TestimonyAllegro2004_Ch2
@@ -1118,17 +916,19 @@ Music_TestimonyAllegro2004_Ch2_Bar33_38:
 	note C#, 1
 	intensity $97
 	note C#, 1
-	intensity $a7
+	intensity $b7
 	octave 4
 	note B_, 1
+	intensity $a7
 	note B_, 1
 	intensity $97
 	note B_, 1
-	intensity $a7
+	intensity $b7
 	octave 5
 	note C#, 1
+	intensity $a7
 	note C#, 1
-	intensity $97
+	intensity $87
 	note C#, 1
 	intensity $77
 	note C#, 1
@@ -1151,17 +951,17 @@ Music_TestimonyAllegro2004_Ch2_Bar33_38:
 	intensity $a7
 	note F#, 1
 ;Bar 34
-	intensity $97
-	note F#, 1
 	intensity $87
+	note F#, 1
+	intensity $67
 	note F#, 1
 	intensity $b7
 	note F#, 1
 	intensity $a7
 	note F#, 1
-	intensity $97
-	note F#, 1
 	intensity $87
+	note F#, 1
+	intensity $67
 	note F#, 1
 	intensity $b7
 	note C#, 1
@@ -1179,28 +979,31 @@ Music_TestimonyAllegro2004_Ch2_Bar33_38:
 	note C#, 1
 	intensity $a7
 	note C#, 1
-	intensity $97
-	note C#, 1
 	intensity $87
+	note C#, 1
+	intensity $67
 	note C#, 1
 ;Bar 35
 	dutycycle $1
 	stereopanning $ff
-	intensity $a7
+	intensity $b7
 	octave 5
 	note F#, 1
-	note F#, 1
-	intensity $97
-	note F#, 1
-	intensity $a7
-	note E_, 1
-	note E_, 1
-	intensity $97
-	note E_, 1
 	intensity $a7
 	note F#, 1
+	intensity $87
 	note F#, 1
-	intensity $97
+	intensity $b7
+	note E_, 1
+	intensity $a7
+	note E_, 1
+	intensity $87
+	note E_, 1
+	intensity $b7
+	note F#, 1
+	intensity $a7
+	note F#, 1
+	intensity $87
 	note F#, 1
 	intensity $77
 	note F#, 1
@@ -1223,9 +1026,9 @@ Music_TestimonyAllegro2004_Ch2_Bar33_38:
 	intensity $a7
 	note F#, 1
 ;Bar 36
-	intensity $97
-	note F#, 1
 	intensity $87
+	note F#, 1
+	intensity $67
 	note F#, 1
 	note F#, 1
 	note __, 3
@@ -1233,17 +1036,17 @@ Music_TestimonyAllegro2004_Ch2_Bar33_38:
 	note B_, 1
 	intensity $a7
 	note B_, 1
-	intensity $97
-	note B_, 1
 	intensity $87
+	note B_, 1
+	intensity $67
 	note B_, 1
 	intensity $b7
 	note G#, 1
 	intensity $a7
 	note G#, 1
-	intensity $97
-	note G#, 1
 	intensity $87
+	note G#, 1
+	intensity $67
 	note G#, 1
 	intensity $b7
 	note E_, 1
@@ -1252,28 +1055,22 @@ Music_TestimonyAllegro2004_Ch2_Bar33_38:
 ;Bar 37
 	dutycycle $1
 	stereopanning $ff
+	intensity $b7
+	octave 5
+	note A_, 1
 	intensity $a7
-	octave 5
 	note A_, 1
-	intensity $77
-	octave 4
-	intensity $97
-	octave 5
-	note A_, 1
-	intensity $77
-	octave 4
 	intensity $87
-	octave 5
 	note A_, 1
-	intensity $a7
+	intensity $b7
 	note G#, 1
-	intensity $97
+	intensity $a7
 	note G#, 1
 	intensity $87
 	note G#, 1
-	intensity $a7
+	intensity $b7
 	note A_, 1
-	intensity $97
+	intensity $a7
 	note A_, 1
 	intensity $87
 	note A_, 1
@@ -1298,9 +1095,9 @@ Music_TestimonyAllegro2004_Ch2_Bar33_38:
 	intensity $a7
 	note F#, 1
 ;Bar 38
-	intensity $97
-	note F#, 1
 	intensity $87
+	note F#, 1
+	intensity $67
 	note F#, 1
 	note F#, 1
 	note __, 7
@@ -1319,6 +1116,82 @@ Music_TestimonyAllegro2004_Ch2_Bar33_38:
 
 	dutycycle $1
 	stereopanning $ff
+	endchannel
+
+Music_TestimonyAllegro2004_Ch2_Type1:
+	dutycycle $1
+	stereopanning $ff
+	notetype 12, $b7
+	octave 5
+	note D_, 1
+	intensity $a7
+	note D_, 1
+	intensity $97
+	note D_, 1
+	intensity $77
+	note D_, 1
+	endchannel
+
+Music_TestimonyAllegro2004_Ch2_Type2:
+	intensity $b7
+	dutycycle $1
+	stereopanning $ff
+	octave 5
+	note E_, 1
+	intensity $a7
+	note E_, 1
+	intensity $b7
+	note F#, 1
+	intensity $a7
+	note F#, 1
+	intensity $97
+	note F#, 1
+	intensity $77
+	note F#, 1
+	intensity $77
+	note F#, 1
+	note __, 3
+	endchannel
+
+Music_TestimonyAllegro2004_Ch2_Type3:
+	intensity $b7
+	note E_, 1
+	intensity $a7
+	note E_, 1
+	intensity $97
+	note E_, 1
+	intensity $77
+	note E_, 1
+	intensity $77
+	note E_, 1
+	note __, 3
+	endchannel
+
+Music_TestimonyAllegro2004_Ch2_Type4:
+	intensity $a3
+	dutycycle $0
+	stereopanning $f
+	octave 4
+	note B_, 2
+	octave 5
+	note D_, 2
+	octave 4
+	note B_, 2
+	octave 5
+	note F#, 2
+	octave 4
+	note B_, 2
+	endchannel
+
+Music_TestimonyAllegro2004_Ch2_Type5:
+	octave 5
+	note D_, 2
+	octave 4
+	note A_, 2
+	octave 5
+	note F#, 2
+	octave 4
+	note A_, 2
 	endchannel
 
 ; ============================================================================================================

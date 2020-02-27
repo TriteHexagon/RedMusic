@@ -1204,7 +1204,7 @@ Music_Route113_Ch3_master:
 ; ============================================================================================================
 Music_Route113_Ch4:
 	notetype 12
-	stereopanning $ff
+	stereopanning $f0
 	togglenoise $5
 
 	note __, 2

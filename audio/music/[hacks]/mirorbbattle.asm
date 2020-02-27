@@ -185,6 +185,7 @@ Music_MirorBBattle_Ch2_loop:
 	note __, 16
 ;Bar 5
 	octave 3
+Music_MirorBBattle_Ch2_Bar5:
 	note D#, 1
 	note F_, 2
 	note G#, 2
@@ -192,77 +193,18 @@ Music_MirorBBattle_Ch2_loop:
 	note D#, 1
 	note F_, 2
 	note G#, 5
-;Bar 6
-	note D#, 1
-	note F_, 2
-	note G#, 2
-	note F_, 3
-	note D#, 1
-	note F_, 2
-	note G#, 5
-;Bar 7
-	note D#, 1
-	note F_, 2
-	note G#, 2
-	note F_, 3
-	note D#, 1
-	note F_, 2
-	note G#, 5
-;Bar 8
-	note D#, 1
-	note F_, 2
-	note G#, 2
-	note F_, 3
-	note D#, 1
-	note F_, 2
-	note G#, 5
+	loopchannel 4, Music_MirorBBattle_Ch2_Bar5
 ;Bar 9
-	octave 2
-	note A#, 1
-	octave 3
-	note C_, 2
-	note D#, 2
-	note C_, 3
-	octave 2
-	note A#, 1
-	octave 3
-	note C_, 2
+	callchannel Music_MirorBBattle_Ch2_Bar9
 	note D#, 5
 ;Bar 10
-	octave 2
-	note A#, 1
-	octave 3
-	note C_, 2
-	note D#, 2
-	note C_, 3
-	octave 2
-	note A#, 1
-	octave 3
-	note C_, 2
+	callchannel Music_MirorBBattle_Ch2_Bar9
 	note D#, 5
 ;Bar 11
-	octave 2
-	note A#, 1
-	octave 3
-	note C_, 2
-	note D#, 2
-	note C_, 3
-	octave 2
-	note A#, 1
-	octave 3
-	note C_, 2
+	callchannel Music_MirorBBattle_Ch2_Bar9
 	note D#, 5
 ;Bar 12
-	octave 2
-	note A#, 1
-	octave 3
-	note C_, 2
-	note D#, 2
-	note C_, 3
-	octave 2
-	note A#, 1
-	octave 3
-	note C_, 2
+	callchannel Music_MirorBBattle_Ch2_Bar9
 	note __, 5
 ;Bar 13
 	dutycycle $0
@@ -349,9 +291,9 @@ Music_MirorBBattle_Ch2_loop:
 	note __, 2
 ;Bar 25
 	dutycycle $0
-	intensity $68
+	intensity $58
 	note C_, 8
-	intensity $6f
+	intensity $5f
 	note C_, 6
 	intensity $a7
 	note C_, 16
@@ -359,18 +301,28 @@ Music_MirorBBattle_Ch2_loop:
 	intensity $c7
 	loopchannel 0, Music_MirorBBattle_Ch2_loop
 
+Music_MirorBBattle_Ch2_Bar9:
+	octave 2
+	note A#, 1
+	octave 3
+	note C_, 2
+	note D#, 2
+	note C_, 3
+	octave 2
+	note A#, 1
+	octave 3
+	note C_, 2
+	endchannel
+
 ; ============================================================================================================
 
 Music_MirorBBattle_Ch3:
 	notetype 12, $16
 	vibrato $00, $00
 ;Bar 1
+Music_MirorBBattle_Ch3_Silence:
 	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
+	loopchannel 6, Music_MirorBBattle_Ch3_Silence
 	note __, 2
 ;Bar 7
 	octave 5
@@ -582,17 +534,7 @@ Music_MirorBBattle_Ch4_loop:
 	note C_, 2
 	note D#, 2
 ;Bar 4
-	note E_, 2
-	note D#, 2
-	note C_, 2
-	note D#, 1
-	note D#, 1
-	note E_, 1
-	note D#, 1
-	note D#, 2
-	note A#, 2
-	note E_, 1
-	note E_, 1
+	callchannel Music_MirorBBattle_Ch4_Bar4
 ;Bar 5
 	callchannel Music_MirorBBattle_Ch4_Bar5
 ;Bar 7
@@ -621,17 +563,7 @@ Music_MirorBBattle_Ch4_loop:
 ;Bar 20
 	callchannel Music_MirorBBattle_Ch4_Bar16
 ;Bar 22
-	note E_, 2
-	note D#, 2
-	note C_, 2
-	note D#, 1
-	note D#, 1
-	note E_, 1
-	note D#, 1
-	note D#, 2
-	note A#, 2
-	note E_, 1
-	note E_, 1
+	callchannel Music_MirorBBattle_Ch4_Bar4
 ;Bar 23
 	note G#, 2
 	note G#, 2
@@ -709,6 +641,20 @@ Music_MirorBBattle_Ch4_Bar16:
 	note D#, 2
 	note C_, 2
 	note D#, 2
+	endchannel
+
+Music_MirorBBattle_Ch4_Bar4:
+	note E_, 2
+	note D#, 2
+	note C_, 2
+	note D#, 1
+	note D#, 1
+	note E_, 1
+	note D#, 1
+	note D#, 2
+	note A#, 2
+	note E_, 1
+	note E_, 1
 	endchannel
 
 ; ============================================================================================================

@@ -1,10 +1,10 @@
 ; 
 ; Demixed by TriteHexagon
 Music_PsycheLock:
-	musicheader 4, 1, Music_PsycheLock_Ch1
+	musicheader 3, 1, Music_PsycheLock_Ch1
 	musicheader 1, 2, Music_PsycheLock_Ch2
 	musicheader 1, 3, Music_PsycheLock_Ch3
-	musicheader 1, 4, Music_PsycheLock_Ch4
+
 
 ; ============================================================================================================
 Music_PsycheLock_Ch1:
@@ -294,8 +294,12 @@ Music_PsycheLock_Ch3_master:
 	note G_, 12
 	note A_, 4
 ;Ch3_Bar6:
-	note D_, 16
-	note D_, 3
+	note D_, 11
+	intensity $25
+	note D_, 4
+	intensity $35
+	note D_, 4
+	intensity $15
 ;Ch3_Bar7:
 	note __, 13
 ;Ch3_Bar8:
@@ -313,7 +317,9 @@ Music_PsycheLock_Ch3_master:
 	note A_, 16
 ;Ch3_Bar11:
 	intensity $25
-	note A_, 8
+	note A_, 4
+	intensity $35
+	note A_, 4
 	intensity $15
 ;Ch3_Bar12:
 	note __, 12
@@ -322,78 +328,78 @@ Music_PsycheLock_Ch3_master:
 	loopchannel 0, Music_PsycheLock_Ch3_master
 	endchannel
 
-; ============================================================================================================
-Music_PsycheLock_Ch4:
-	notetype 12
-	togglenoise 11
+; ; ============================================================================================================
+; Music_PsycheLock_Ch4:
+; 	notetype 12
+; 	togglenoise 11
 
-;Ch3_Bar1:
-	note __, 16
-;Ch3_Bar2:
-	note __, 16
-;Ch3_Bar3:
-	note __, 16
-Music_PsycheLock_Ch4_master:
-;Ch3_Bar4:
-	note __, 16
-;Ch3_Bar5:
-	note __, 16
-;Ch3_Bar6:
-	note __, 12
-	notetype 6
-	stereopanning $f
-	note C_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	stereopanning $ff
-	note E_, 1
-	note F_, 1
-	note F#, 1
-	note G_, 1
-;Ch3_Bar7:
-	note G#, 1
-	stereopanning $f0
-	note A_, 1
-	note A#, 1
-	note B_, 2
-	note __, 1
-	notetype 12
-	stereopanning $ff
-	note __, 13
-;Ch3_Bar8:
-	octave 5
-	note __, 16
-;Ch3_Bar9:
-	note __, 16
-;Ch3_Bar10:
-	note __, 16
-;Ch3_Bar11:
-	note __, 8
-	notetype 6
-	stereopanning $f
-	note C_, 1
-	note C#, 1
-	note D_, 1
-	note D#, 1
-	stereopanning $ff
-	note E_, 1
-	note F_, 1
-	note D#, 1
-	note E_, 1
-;Ch3_Bar7:
-	note F_, 1
-	stereopanning $f0
-	note F_, 1
-	note G_, 1
-	note G#, 1
+; ;Ch3_Bar1:
+; 	note __, 16
+; ;Ch3_Bar2:
+; 	note __, 16
+; ;Ch3_Bar3:
+; 	note __, 16
+; Music_PsycheLock_Ch4_master:
+; ;Ch3_Bar4:
+; 	note __, 16
+; ;Ch3_Bar5:
+; 	note __, 16
+; ;Ch3_Bar6:
+; 	note __, 12
+; 	notetype 6
+; 	stereopanning $f
+; 	note C_, 1
+; 	note C#, 1
+; 	note D_, 1
+; 	note D#, 1
+; 	stereopanning $ff
+; 	note E_, 1
+; 	note F_, 1
+; 	note F#, 1
+; 	note G_, 1
+; ;Ch3_Bar7:
+; 	note G#, 1
+; 	stereopanning $f0
+; 	note A_, 1
+; 	note A#, 1
+; 	note B_, 2
+; 	note __, 1
+; 	notetype 12
+; 	stereopanning $ff
+; 	note __, 13
+; ;Ch3_Bar8:
+; 	octave 5
+; 	note __, 16
+; ;Ch3_Bar9:
+; 	note __, 16
+; ;Ch3_Bar10:
+; 	note __, 16
+; ;Ch3_Bar11:
+; 	note __, 8
+; 	notetype 6
+; 	stereopanning $f
+; 	note C_, 1
+; 	note C#, 1
+; 	note D_, 1
+; 	note D#, 1
+; 	stereopanning $ff
+; 	note E_, 1
+; 	note F_, 1
+; 	note D#, 1
+; 	note E_, 1
+; ;Ch3_Bar7:
+; 	note F_, 1
+; 	stereopanning $f0
+; 	note F_, 1
+; 	note G_, 1
+; 	note G#, 1
 
-	note A_, 1
-	note A#, 1
-	note B_, 2
-	notetype 12
-;Ch3_Bar12:
-	note __, 16
-;Ch3_Bar13:
-	note __, 16
-	loopchannel 0, Music_PsycheLock_Ch4_master
+; 	note A_, 1
+; 	note A#, 1
+; 	note B_, 2
+; 	notetype 12
+; ;Ch3_Bar12:
+; 	note __, 16
+; ;Ch3_Bar13:
+; 	note __, 16
+; loopchannel 0, Music_PsycheLock_Ch4_master
