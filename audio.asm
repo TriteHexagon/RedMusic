@@ -264,6 +264,19 @@ INCLUDE "data/pokemon/cries.asm"
 
 INCLUDE "audio/cries.asm"
 
+SECTION "Kanto Gen 2", ROMX
+
+INCLUDE "audio/music/gsckanto/celadoncity.asm"
+INCLUDE "audio/music/gsckanto/kantotrainerbattle.asm"
+INCLUDE "audio/music/gsckanto/kantowildbattle.asm"
+INCLUDE "audio/music/gsckanto/lavendertown.asm"
+INCLUDE "audio/music/gsckanto/pallettown.asm"
+INCLUDE "audio/music/gsckanto/route1.asm"
+INCLUDE "audio/music/gsckanto/route3.asm"
+INCLUDE "audio/music/gsckanto/route12.asm"
+INCLUDE "audio/music/gsckanto/vermilioncity.asm"
+INCLUDE "audio/music/gsckanto/viridiancity.asm"
+
 SECTION "Hacks", ROMX
 
 INCLUDE "audio/music/[hacks]/temple.asm"
@@ -278,6 +291,21 @@ INCLUDE "audio/music/[hacks]/redcanyon.asm"
 INCLUDE "audio/music/[hacks]/icepathHGSS.asm"
 INCLUDE "audio/music/[hacks]/battleregis.asm"
 INCLUDE "audio/music/[hacks]/route201.asm"
+INCLUDE "audio/music/[hacks]/seviiIslands.asm"
+INCLUDE "audio/music/[hacks]/lakeOfRageHGSS.asm"
+INCLUDE "audio/music/[hacks]/friendlyShop.asm"
+
+SECTION "Hacks 2", ROMX
+
+INCLUDE "audio/music/[hacks]/skygarden.asm"
+INCLUDE "audio/music/[hacks]/skyarrowbridge.asm"
+INCLUDE "audio/music/[hacks]/pkmncenternight.asm"
+INCLUDE "audio/music/[hacks]/millenialfair.asm"
+INCLUDE "audio/music/[hacks]/mirorbbattle.asm"
+INCLUDE "audio/music/[hacks]/GXrealtalk.asm"
+INCLUDE "audio/music/[hacks]/victoryRoadRSE.asm"
+INCLUDE "audio/music/[hacks]/atdoomsgate.asm"
+INCLUDE "audio/music/[hacks]/[placeholder].asm"
 
 SECTION "Ace Attorney 1", ROMX
 
@@ -323,16 +351,6 @@ INCLUDE "audio/music/[aceattorney]/investigationopening2004.asm"
 INCLUDE "audio/music/[aceattorney]/testimonyallegro2004.asm"
 INCLUDE "audio/music/[aceattorney]/turnaboutsisters2002.asm"
 
-SECTION "Hacks 2", ROMX
-
-INCLUDE "audio/music/[hacks]/skygarden.asm"
-INCLUDE "audio/music/[hacks]/skyarrowbridge.asm"
-INCLUDE "audio/music/[hacks]/pkmncenternight.asm"
-INCLUDE "audio/music/[night]/azaleanight.asm"
-INCLUDE "audio/music/[hacks]/millenialfair.asm"
-INCLUDE "audio/music/[hacks]/mirorbbattle.asm"
-INCLUDE "audio/music/[hacks]/GXrealtalk.asm"
-INCLUDE "audio/music/[hacks]/[placeholder].asm"
 
 
 

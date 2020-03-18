@@ -125,6 +125,17 @@ Music:
 	dba Music_KantoLegendBattleXY
 	dba Music_SuicuneBattle
 	dba Music_GymLeaderBattleRSE
+	;Gen2 Kanto
+	dba Music_GSCCeladonCity
+	dba Music_GSCKantoTrainerBattle
+	dba Music_GSCKantoWildBattle
+	dba Music_GSCLavenderTown
+	dba Music_GSCPalletTown
+	dba Music_GSCRoute1
+	dba Music_GSCRoute3
+	dba Music_GSCRoute12
+	dba Music_GSCVermilionCity
+	dba Music_GSCViridianCity
 	;Night Versions
 	dba Music_NewBarkTownNight
 	dba Music_Route29Night
@@ -138,6 +149,9 @@ Music:
 	dba Music_Route38Night
 	dba Music_Route42Night
 	dba Music_Route26Night
+	dba Music_GSCViridianCity_Night
+	dba Music_GSCRoute3_Night
+	dba Music_GSCRoute12_Night
 	;Pokémon
 	dba Music_Route113
 	dba Music_CinnabarIslandFRLG
@@ -149,39 +163,43 @@ Music:
 	dba Music_BattleVsRegis
 	dba Music_Route201
 	dba Music_Route201Night
+	dba Music_SeviiIslands
+	dba Music_LakeOfRageHGSS
+	dba Music_FriendlyShop
+	dba Music_VictoryRoadRSE
 	;Ace Attorney
-	dba Music_CourtroomLounge
-	dba Music_CourtBegins
-	dba Music_TestimonyMod2001
-	dba Music_LogicAndTrick
-	dba Music_Objection2001
-	dba Music_Testimony2001
-	dba Music_Cornered
-	dba Music_TellTheTruth
-	dba Music_Suspense
-	dba Music_CorneredVariation
-	dba Music_AAJingle
-	dba Music_InvestigationOpening2001
-	dba Music_TurnaboutSisters2001
-	dba Music_DetentionCenter
-	dba Music_DetectiveGumshoe
-	dba Music_MayasGrief
-	dba Music_Grossberg
-	dba Music_BlissfulPeople
-	dba Music_LightandShadowOfTheFilmStudio
-	dba Music_SteelSamurai
-	dba Music_DL6Incident
-	dba Music_InvestigationCore2001
-	dba Music_ClassroomTrial
-	dba Music_WonTheCase
-	dba Music_AAEnd
-	dba Music_TurnaboutSistersBallad
-	dba Music_SL9Incident
-	dba Music_EmaSkye
-	dba Music_BlueBadger
-	dba Music_JakeMarshall
-	dba Music_DamonGant
-	dba Music_RiseEnd
+	; dba Music_CourtroomLounge
+	; dba Music_CourtBegins
+	; dba Music_TestimonyMod2001
+	; dba Music_LogicAndTrick
+	; dba Music_Objection2001
+	; dba Music_Testimony2001
+	; dba Music_Cornered
+	; dba Music_TellTheTruth
+	; dba Music_Suspense
+	; dba Music_CorneredVariation
+	; dba Music_AAJingle
+	; dba Music_InvestigationOpening2001
+	; dba Music_TurnaboutSisters2001
+	; dba Music_DetentionCenter
+	; dba Music_DetectiveGumshoe
+	; dba Music_MayasGrief
+	; dba Music_Grossberg
+	; dba Music_BlissfulPeople
+	; dba Music_LightandShadowOfTheFilmStudio
+	; dba Music_SteelSamurai
+	; dba Music_DL6Incident
+	; dba Music_InvestigationCore2001
+	; dba Music_ClassroomTrial
+	; dba Music_WonTheCase
+	; dba Music_AAEnd
+	; dba Music_TurnaboutSistersBallad
+	; dba Music_SL9Incident
+	; dba Music_EmaSkye
+	; dba Music_BlueBadger
+	; dba Music_JakeMarshall
+	; dba Music_DamonGant
+	; dba Music_RiseEnd
 	dba Music_PsycheLock
 	dba Music_InvestigationMiddle2002
 	dba Music_TurnaboutSisters2002
@@ -197,6 +215,7 @@ Music:
 	dba Music_SkyGarden
 	dba Music_MillenialFair
 	dba Music_GXRealTalk
+	dba Music_AtDoomsGate
 	
 	;Current
 	dba Music_Placeholder

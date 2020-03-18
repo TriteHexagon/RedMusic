@@ -157,7 +157,7 @@ Drumkit4S: ; 9
 	dw Crash1
 Drumkit10: ; 10
 	dw Drum00
-	dw TaikoDrum ;C_ 
+	dw Snare8 ;C_ 
 	dw Kick1 ;C# PKMN Center
 	dw Crash1 ;D_
 	dw Snare6Special ;D# 

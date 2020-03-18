@@ -533,7 +533,7 @@ ChangeToNightMusic::
 	ld a, [TimeOfDay]
 	cp NITE
 	jr nz, .no_night
-	;Loads currently selected music from to a
+	;Loads currently selected music from e to a
 	ld a, e
 .next ;Pokémon Center
 	cp a, MUSIC_POKECENTER
