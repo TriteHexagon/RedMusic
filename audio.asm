@@ -305,6 +305,7 @@ INCLUDE "audio/music/[hacks]/mirorbbattle.asm"
 INCLUDE "audio/music/[hacks]/GXrealtalk.asm"
 INCLUDE "audio/music/[hacks]/victoryRoadRSE.asm"
 INCLUDE "audio/music/[hacks]/atdoomsgate.asm"
+INCLUDE "audio/music/[hacks]/discoDescent.asm"
 INCLUDE "audio/music/[hacks]/[placeholder].asm"
 
 SECTION "Ace Attorney 1", ROMX

@@ -12,7 +12,7 @@ Music_VictoryRoadRSE:
 	musicheader 1, 4, Music_VictoryRoadRSE_Ch4
 
 Music_VictoryRoadRSE_Ch1:
-	volume $66
+	volume $77
 	tempo 144
 	tone $0002
 	;vibrato $12, $24
@@ -40,7 +40,8 @@ Music_VictoryRoadRSE_Ch1:
 	note G_, 2
 	note G#, 2
 	octave 3
-	intensity $65
+	stereopanning $f0
+	intensity $55
 	note B_, 1
 	note A#, 1
 	note A_, 1
@@ -410,6 +411,7 @@ Music_VictoryRoadRSE_Ch1_loop:
 	note __, 9
 	octave 4
 	intensity $65
+	stereopanning $f0
 	note D_, 1
 	note C#, 1
 	note C_, 1
@@ -443,6 +445,7 @@ Music_VictoryRoadRSE_Ch2:
 	intensity $6e
 	note E_, 12
 	dutycycle $0
+	intensity $87
 ;Bar 2
 	callchannel Music_VictoryRoadRSE_Ch1_2_Intro
 	note D#, 2
@@ -455,7 +458,8 @@ Music_VictoryRoadRSE_Ch2:
 	note __, 1
 	note E_, 2
 	callchannel Music_VictoryRoadRSE_Ch1_2_Intro
-	stereopanning $ff
+	;stereopanning $ff
+	intensity $97
 	note G#, 1
 	note G_, 1
 	note F#, 1
@@ -655,7 +659,8 @@ Music_VictoryRoadRSE_Ch2_loop2:
 	note G#, 3
 	note __, 3
 	octave 4
-	stereopanning $ff
+	;stereopanning $ff
+	intensity $97
 	note B_, 1
 	note A#, 1
 	note A_, 1
@@ -746,7 +751,8 @@ Music_VictoryRoadRSE_Ch3:
 ;Bar 4
 	callchannel Music_VictoryRoadRSE_Ch3_Intro
 	octave 2
-	stereopanning $ff
+	;stereopanning $ff
+	intensity $18
 	note C#, 1
 	note D_, 1
 	note D#, 1
@@ -760,6 +766,7 @@ Music_VictoryRoadRSE_Ch3:
 	note B_, 1
 	octave 3
 	note C_, 1
+	intensity $19
 ;Bar 6
 Music_VictoryRoadRSE_Ch3_loop:
 	stereopanning $ff
@@ -888,7 +895,6 @@ Music_VictoryRoadRSE_Ch3_loop:
 	note C_, 2
 	;stereopanning $ff
 ;Bar 19 PART3
-	volume $77
 	vibrato $08, $34
 	intensity $13
 	octave 4
@@ -905,7 +911,6 @@ Music_VictoryRoadRSE_Ch3_loop:
 ;Bar 21
 	notetype 12, $13
 	note G#, 16
-	volume $66
 ;Bar 22
 	notetype 8, $1F
 	vibrato $12, $14
@@ -918,11 +923,11 @@ Music_VictoryRoadRSE_Ch3_loop:
 	note D#, 2
 	notetype 4, $1F
 	note D_, 1
-	note C#, 1 
+	note C#, 1
+	intensity $2F
 	note C_, 1
 	octave 4
 	note B_, 1
-	volume $77
 	vibrato $08, $34
 	notetype 8, $13
 	note C_, 2
@@ -950,7 +955,6 @@ Music_VictoryRoadRSE_Ch3_loop:
 	note G_, 2
 	note G#, 16
 	note G#, 4
-	volume $66
 ;Bar 25
 	intensity $1F
 	vibrato $12, $14
@@ -970,6 +974,7 @@ Music_VictoryRoadRSE_Ch3_loop:
 	note F#, 2
 	intensity $29
 	note G#, 2
+	intensity $39
 	note G_, 1
 	note F#, 1
 	intensity $19
@@ -1003,7 +1008,8 @@ Music_VictoryRoadRSE_Ch3_loop:
 	note G#, 3
 	note __, 3
 	octave 2
-	stereopanning $ff
+	;stereopanning $ff
+	intensity $18
 	note E_, 1
 	note F_, 1
 	note F#, 1
@@ -1017,6 +1023,7 @@ Music_VictoryRoadRSE_Ch3_loop:
 	note C#, 1
 	note D_, 1
 	note D#, 1
+	intensity $19
 	loopchannel 0, Music_VictoryRoadRSE_Ch3_loop
 
 Music_VictoryRoadRSE_Ch3_Intro:

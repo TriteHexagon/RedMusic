@@ -216,6 +216,7 @@ Music:
 	dba Music_MillenialFair
 	dba Music_GXRealTalk
 	dba Music_AtDoomsGate
+	dba Music_DiscoDescent
 	
 	;Current
 	dba Music_Placeholder

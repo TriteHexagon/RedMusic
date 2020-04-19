@@ -216,6 +216,7 @@ SongInfo:
 	db "Guardia's", "            Millenial Fair@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "GameXplain          Real Talk Theme@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "At Doom's Gate@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Disco Descent@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	
 	;Current
 	db "Placeholder@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE

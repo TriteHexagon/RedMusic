@@ -240,18 +240,18 @@ Music_SeviiIslands_Ch2_loop:
 	intensity $98
 	callchannel Music_SeviiIslands_Ch2_Main
 	octave 4
-	note B_, 5
+	note B_, 6
 	intensity $96
-	note B_, 3
+	note B_, 2
 	intensity $98
 ;Bar 7
 	note B_, 1
 	note A_, 1
 	note G_, 1
 	note A_, 1
-	note B_, 5
+	note B_, 6
 	intensity $96
-	note B_, 3
+	note B_, 2
 	notetype 8, $98
 	note G_, 4
 	callchannel Music_SeviiIslands_Ch2_Main
@@ -358,9 +358,9 @@ Music_SeviiIslands_Ch2_Main:
 ;Bar 5
 	note E_, 4
 	notetype 12, $98
-	note C_, 9
+	note C_, 10
 	intensity $96
-	note C_, 3
+	note C_, 2
 	intensity $98
 ;Bar 6
 	note E_, 4
@@ -497,8 +497,8 @@ Music_SeviiIslands_Ch4:
 	notetype 12
 ;Bar 1
 	note D#, 2
-	note C#, 1
-	note C#, 1
+	note A_, 1
+	note A_, 1
 	note D#, 2
 	note G_, 1
 	note G_, 1
