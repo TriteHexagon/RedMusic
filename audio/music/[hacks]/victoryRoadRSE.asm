@@ -174,7 +174,7 @@ Music_VictoryRoadRSE_Ch1_loop:
 	note G#, 1
 	note __, 7
 ;Bar 19
-	intensity $73
+	intensity $83
 	dutycycle $1
 	octave 3
 	note G#, 1
@@ -275,12 +275,12 @@ Music_VictoryRoadRSE_Ch1_loop:
 	note E_, 2
 	note D#, 6
 	note F#, 2
-	notetype 4, $73
+	notetype 4, $83
 	note F_, 1
 	note E_, 1
 	note D#, 1
 	note D_, 1
-	notetype 8, $73
+	notetype 8, $83
 	note __, 2
 	note G#, 1
 	note F#, 1
@@ -411,7 +411,7 @@ Music_VictoryRoadRSE_Ch1_loop:
 	note __, 9
 	octave 4
 	intensity $65
-	stereopanning $f0
+	stereopanning $ff
 	note D_, 1
 	note C#, 1
 	note C_, 1
@@ -458,7 +458,6 @@ Music_VictoryRoadRSE_Ch2:
 	note __, 1
 	note E_, 2
 	callchannel Music_VictoryRoadRSE_Ch1_2_Intro
-	;stereopanning $ff
 	intensity $97
 	note G#, 1
 	note G_, 1
@@ -475,6 +474,7 @@ Music_VictoryRoadRSE_Ch2:
 	note A_, 1
 ;Bar 6
 Music_VictoryRoadRSE_Ch2_loop:
+	stereopanning $ff
 	notetype 8, $83
 	dutycycle $1
 	octave 2

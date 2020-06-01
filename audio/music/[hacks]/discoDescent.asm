@@ -283,7 +283,7 @@ Music_DiscoDescent_Ch1_Bar51:
 	note B_, 2
 	note __, 2
 	note A_, 2
-	intensity $83
+	intensity $84
 	note A_, 16
 	endchannel
 
@@ -426,7 +426,7 @@ Music_DiscoDescent_Ch1_Outro_Base1:
 Music_DiscoDescent_Ch2:
 	dutycycle $1
 	notetype 12, $97
-	tone $0001
+	tone $0000
 	vibrato $08, $34
 ;Bar 2
 	octave 2
@@ -506,6 +506,7 @@ Music_DiscoDescent_Ch2_Bar13_1:
 	note C_, 2
 	loopchannel 2, Music_DiscoDescent_Ch2_Bar13_1
 
+	tone $0003
 Music_DiscoDescent_Ch2_Bar13_2:
 	octave 2
 	intensity $78
@@ -514,6 +515,7 @@ Music_DiscoDescent_Ch2_Bar13_2:
 	intensity $98
 	note E_, 2
 	loopchannel 2, Music_DiscoDescent_Ch2_Bar13_2
+	tone $0000
 ;Bar 14
 	octave 2
 	callchannel Music_DiscoDescent_Rest_A
@@ -543,11 +545,11 @@ Music_DiscoDescent_Ch2_Bar13_2:
 	octave 3
 	note B_, 1
 	note G_, 1
-	note B_, 1
-	note __, 1
+	intensity $b6
+	note B_, 2
 	octave 4
-	note C_, 1
-	note __, 1
+	note C_, 2
+	intensity $b8
 	octave 3
 	note B_, 1
 	note G_, 3
@@ -626,16 +628,16 @@ Music_DiscoDescent_Ch2_Bar13_2:
 	intensity $88
 	note A_, 8
 	vibrato $00, $7a
-	intensity $78
-	note A_, 8
-	vibrato $00, $8b
 	intensity $68
 	note A_, 8
-	vibrato $00, $9c
+	vibrato $00, $8b
 	intensity $58
 	note A_, 8
-	vibrato $00, $ad
+	vibrato $00, $9c
 	intensity $48
+	note A_, 8
+	vibrato $00, $ad
+	intensity $38
 	note A_, 8
 	vibrato $00, $be
 	intensity $38
@@ -647,7 +649,7 @@ Music_DiscoDescent_Ch2_Pause:
 ;Bar 42
 	dutycycle $0
 	vibrato $00, $34
-	intensity $b3
+	intensity $b4
 	callchannel Music_DiscoDescent_Ch2_Bar42
 	octave 3
 	note A_, 2
@@ -895,10 +897,10 @@ Music_DiscoDescent_Ch2_Pause:
 	note F_, 1
 	note E_, 1
 	note C_, 1
-	note E_, 1
-	note __, 1
-	note F_, 1
-	note __, 1
+	intensity $b6
+	note E_, 2
+	note F_, 2
+	intensity $b8
 	note E_, 1
 	note C_, 3
 ;Bar 60
@@ -952,6 +954,7 @@ Music_DiscoDescent_Ch2_Pause:
 	octave 4
 	note D_, 4
 ;Bar 66
+	intensity $a8
 	note E_, 8
 	note G_, 4
 	note E_, 2
@@ -976,6 +979,7 @@ Music_DiscoDescent_Ch2_Pause:
 	note E_, 8
 ;Bar 70
 	octave 3
+	intensity $b8
 	callchannel Music_DiscoDescent_Rest_A
 ;Bar 71
 	intensity $a8
@@ -989,7 +993,7 @@ Music_DiscoDescent_Ch2_Pause:
 ;Bar 74
 	vibrato $00, $44
 Music_DiscoDescent_Ch2_Outro:
-	notetype 12, $b8
+	notetype 12, $a8
 	note __, 2
 	octave 3
 	note A_, 1
@@ -1029,7 +1033,7 @@ Music_DiscoDescent_Ch2_Outro:
 	note E_, 1
 	note E_, 1
 	loopchannel 6, Music_DiscoDescent_Ch2_Outro
-	intensity $b2
+	intensity $a3
 	note E_, 16
 	endchannel
 
@@ -1134,6 +1138,7 @@ Music_DiscoDescent_Ch2_Bar48:
 
 Music_DiscoDescent_Ch3:
 	wavetype 2, 12, $11
+	tone $0001
 ;Bar 2
 	octave 4
 	callchannel Music_DiscoDescent_Ch1_Type1 

@@ -48,7 +48,6 @@ Music_Grossberg_Ch1:
 	intensity $54
 	slidepitchto 1, 5, A_ ;slidepitchto 1, 5, A_
 	note G_, 1
-	intensity $54
 	slidepitchto 1, 5, G_
 	note A_, 1
 	notetype 8, $77

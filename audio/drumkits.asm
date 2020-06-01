@@ -13,6 +13,7 @@ Drumkits: ; e8e52
 	dw DrumkitTEST ;11
 	dw DrumkitCorneredVar ;12
 	dw DrumkitAceAttorney ;13
+	dw DrumkitSNES ;14
 ; e8e5e
 
 Drumkit0: ; e8e5e
@@ -171,7 +172,7 @@ Drumkit10: ; 10
 	dw Snare11 ;B_ PKMN Center
 DrumkitTEST: ; 11
 	dw Drum00
-	dw TrianglePL
+	dw Triangle1
 	dw TrianglePL2
 	dw TrianglePL3
 	dw TrianglePL4
@@ -211,6 +212,21 @@ DrumkitAceAttorney: ; 13
 	dw HiHat2  ;F#
 	dw Drum27  ;G 
 	dw Snare13  ;G# ; Redudant? = C#
+	dw Snare6Special ;A Snare6Special
+	dw HiHat3 ;A#
+	dw Snare6 ;B
+
+DrumkitSNES: ; 14
+	dw Drum00
+	dw Tom  ;C
+	dw Drum29  ;C#
+	dw Snare11 ;D
+	dw Snare14 ;D#
+	dw Snare12 ;E
+	dw Snare9  ;F
+	dw HiHat2  ;F#
+	dw Drum27  ;G 
+	dw Snare5  ;G#
 	dw Snare6Special ;A Snare6Special
 	dw HiHat3 ;A#
 	dw Snare6 ;B
@@ -606,4 +622,9 @@ OrchestraHit4:
 
 Snare6Special:
 	noise C#,  3, $a2, $25
+	endchannel
+
+Tom: ; e8f73
+	noise C#,  1, $c2, $6b ;$6b
+	noise C#,  1, $61, $00
 	endchannel

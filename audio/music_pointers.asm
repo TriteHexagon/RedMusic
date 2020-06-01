@@ -167,6 +167,7 @@ Music:
 	dba Music_LakeOfRageHGSS
 	dba Music_FriendlyShop
 	dba Music_VictoryRoadRSE
+	dba Music_PyriteTown
 	;Ace Attorney
 	; dba Music_CourtroomLounge
 	; dba Music_CourtBegins
@@ -217,6 +218,8 @@ Music:
 	dba Music_GXRealTalk
 	dba Music_AtDoomsGate
 	dba Music_DiscoDescent
+	dba Music_BigBlue
+	dba Music_Corneria
 	
 	;Current
 	dba Music_Placeholder
