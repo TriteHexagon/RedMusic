@@ -168,6 +168,7 @@ Music:
 	dba Music_FriendlyShop
 	dba Music_VictoryRoadRSE
 	dba Music_PyriteTown
+	dba Music_NimbasaCity
 	;Ace Attorney
 	; dba Music_CourtroomLounge
 	; dba Music_CourtBegins

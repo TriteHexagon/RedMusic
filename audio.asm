@@ -312,6 +312,7 @@ INCLUDE "audio/music/[hacks]/corneria.asm"
 
 SECTION "Hacks 3", ROMX
 
+INCLUDE "audio/music/[hacks]/nimbasa.asm"
 INCLUDE "audio/music/[hacks]/[placeholder].asm"
 
 SECTION "Ace Attorney 1", ROMX

@@ -118,7 +118,7 @@ Music_Corneria_Ch1:
 	note C_, 2
 	intensity $77
 	note C_, 2
-	intensity $a7
+	intensity $a5
 	note C_, 2
 	stereopanning $ff
 	notetype 6, $86
@@ -147,7 +147,7 @@ Music_Corneria_Ch1:
 	notetype 12, $c7
 	stereopanning $f
 	vibrato $00, $42
-	dutycycle $1
+	dutycycle $0
 	octave 2
 	note G_, 2
 	callchannel Music_Corneria_Ch1_2_Type1
@@ -168,7 +168,7 @@ Music_Corneria_Ch1:
 	loopchannel 0, Music_Corneria_Ch1
 
 Music_Corneria_Ch1_Bar3:
-	notetype 12, $43
+	notetype 12, $53
 	dutycycle $2
 	stereopanning $f0
 	octave 4
@@ -306,12 +306,12 @@ Music_Corneria_Ch1_Bar26:
 ; ============================================================================================================
 
 Music_Corneria_Ch2:
-	dutycycle $2
 	notetype 6, $a7
 ;Bar 1
 	note __, 2
 Music_Corneria_Ch2_loop:
 	vibrato $00, $00
+	sound_duty 2,2,2,2
 	callchannel Music_Corneria_Ch1_2_Intro
 	callchannel Music_Corneria_Ch2_Intro_End
 ;Bar 2
@@ -350,7 +350,9 @@ Music_Corneria_Ch2_loop:
 	callchannel Music_Corneria_Ch2_Bar7_9
 ;Bar 18
 	stereopanning $ff
-	note __, 1
+	octave 2
+	note G_, 1
+	octave 5
 	note G_, 1
 	note D_, 1
 	note C_, 1
@@ -378,10 +380,11 @@ Music_Corneria_Ch2_loop:
 	note G_, 2
 	intensity $77
 	note G_, 2
-	intensity $a7
+	intensity $a5
 	note G_, 2
 	note __, 1
 	stereopanning $ff
+	sound_duty 2,2,2,2
 	callchannel Music_Corneria_Ch1_2_Intro
 ;Bar 21
 	callchannel Music_Corneria_Ch2_Intro_End
@@ -395,7 +398,8 @@ Music_Corneria_Ch2_loop:
 	notetype 12, $c7
 	stereopanning $f0
 	vibrato $00, $42
-	dutycycle $3
+	sound_duty 3,3,3,3
+	;dutycycle $3
 	octave 3
 	note G_, 2
 	callchannel Music_Corneria_Ch1_2_Type1
@@ -472,11 +476,12 @@ Music_Corneria_Ch2_Bar3_4:
 	sound_duty 0,1,1,1
 	note F_, 2
 	loopchannel 2, Music_Corneria_Ch2_Bar3_4
-	sound_duty 3,3,3,3
+	sound_duty 1,1,1,1
 	endchannel
 
 Music_Corneria_Ch2_Bar7_9:
 	intensity $a7
+	octave 3
 	note D#, 1
 	stereopanning $f0
 	octave 4
@@ -1013,7 +1018,7 @@ Music_Corneria_Ch3_Type4:
 ; ============================================================================================================
 
 Music_Corneria_Ch4:
-	togglenoise 14 ; WARNING: this will sound bad.
+	togglenoise 14
 	notetype 12
 
 Music_Corneria_Ch4_loop:
