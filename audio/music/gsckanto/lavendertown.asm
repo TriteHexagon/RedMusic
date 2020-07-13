@@ -11,10 +11,9 @@ Music_GSCLavenderTown_Ch1: ; ef739
 	vibrato $6, $24
 	dutycycle $0
 	notetype $c, $b3
+rept 4
 	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
+endr
 Music_GSCLavenderTown_branch_ef74c: ; ef74c
 	callchannel Music_GSCLavenderTown_branch_ef7fd
 	intensity $93
@@ -267,25 +266,7 @@ Music_GSCLavenderTown_Ch2: ; ef899
 	dutycycle $1
 	vibrato $8, $24
 	stereopanning $ff
-Music_GSCLavenderTown_branch_ef8a0: ; ef8a0
-	notetype $c, $a3
-	octave 5
-	note C_, 2
-	intensity $63
-	note C_, 2
-	intensity $a3
-	note G_, 2
-	intensity $63
-	note G_, 2
-	intensity $a3
-	note B_, 2
-	intensity $63
-	note B_, 2
-	intensity $a3
-	note F#, 2
-	intensity $63
-	note F#, 2
-	loopchannel 3, Music_GSCLavenderTown_branch_ef8a0
+	callchannel Music_GSCLavenderTown_branch_ef8a0
 	intensity $a3
 	note C_, 2
 	intensity $63
@@ -390,6 +371,27 @@ Music_GSCLavenderTown_branch_ef915: ; ef915
 	endchannel
 ; ef932
 
+Music_GSCLavenderTown_branch_ef8a0: ; ef8a0
+	notetype $c, $a3
+	octave 5
+	note C_, 2
+	intensity $63
+	note C_, 2
+	intensity $a3
+	note G_, 2
+	intensity $63
+	note G_, 2
+	intensity $a3
+	note B_, 2
+	intensity $63
+	note B_, 2
+	intensity $a3
+	note F#, 2
+	intensity $63
+	note F#, 2
+	loopchannel 3, Music_GSCLavenderTown_branch_ef8a0
+	endchannel
+
 Music_GSCLavenderTown_Ch3: ; ef932
 	vibrato $12, $24
 	notetype $c, $13
@@ -403,6 +405,19 @@ Music_GSCLavenderTown_Ch3: ; ef932
 	note F_, 4
 Music_GSCLavenderTown_branch_ef941: ; ef941
 	intensity $12
+	callchannel Music_GSCLavenderTown_Ch3_Part1
+	intensity $24
+	callchannel Music_GSCLavenderTown_Ch3_Part2
+	notetype $8, $24
+	note E_, 2
+	note F_, 2
+	note E_, 2
+	notetype $c, $24
+	callchannel Music_GSCLavenderTown_Ch3_Part3
+	loopchannel 0, Music_GSCLavenderTown_branch_ef941
+; ef9bc
+
+Music_GSCLavenderTown_Ch3_Part1:
 	octave 5
 	note G_, 4
 	note __, 4
@@ -463,7 +478,9 @@ Music_GSCLavenderTown_branch_ef941: ; ef941
 	note C_, 16
 	note C_, 12
 	note __, 4
-	intensity $24
+	endchannel
+
+Music_GSCLavenderTown_Ch3_Part2:
 	note A_, 2
 	note G_, 2
 	note A_, 2
@@ -486,11 +503,9 @@ Music_GSCLavenderTown_branch_ef941: ; ef941
 	note G_, 4
 	octave 6
 	note F_, 4
-	notetype $8, $24
-	note E_, 2
-	note F_, 2
-	note E_, 2
-	notetype $c, $24
+	endchannel
+
+Music_GSCLavenderTown_Ch3_Part3:
 	note D_, 4
 	note C_, 4
 	octave 5
@@ -515,5 +530,73 @@ Music_GSCLavenderTown_branch_ef941: ; ef941
 	note B_, 12
 	note E_, 2
 	note F_, 2
-	loopchannel 0, Music_GSCLavenderTown_branch_ef941
-; ef9bc
+	endchannel
+
+; ============================================================================================================
+; ============================================================================================================
+
+Music_GSCLavenderTownNight:
+	musicheader 3, 1, Music_GSCLavenderTownNight_Ch1
+	musicheader 1, 2, Music_GSCLavenderTownNight_Ch2
+	musicheader 1, 3, Music_GSCLavenderTownNight_Ch3
+
+Music_GSCLavenderTownNight_Ch1: ; ef739
+	tempo 167
+	volume $77
+	stereopanning $f
+	vibrato $6, $14
+	dutycycle $1
+	notetype $c, $b3
+rept 4
+	note __, 16
+endr
+	callchannel Music_GSCLavenderTown_branch_ef74c
+
+Music_GSCLavenderTownNight_Ch2: ; ef899
+	dutycycle $3
+	vibrato $8, $14
+	stereopanning $ff
+	callchannel Music_GSCLavenderTown_branch_ef8a0
+	intensity $a3
+	note C_, 2
+	intensity $63
+	note C_, 2
+	intensity $a3
+	note G_, 2
+	intensity $63
+	note G_, 2
+	intensity $a3
+	note B_, 2
+	intensity $63
+	note B_, 2
+	intensity $a3
+	octave 6
+	note D_, 2
+	intensity $63
+	note D_, 2
+	dutycycle $2
+	callchannel Music_GSCLavenderTown_branch_ef8d7
+
+Music_GSCLavenderTownNight_Ch3: ; ef932
+	vibrato $12, $14
+	notetype $c, $11
+	stereopanning $f0
+	note __, 16
+	note __, 16
+	note __, 16
+	note __, 8
+	octave 5
+	note E_, 4
+	note F_, 4
+Music_GSCLavenderTownNight_Ch3_loop: ; ef941
+	intensity $13
+	callchannel Music_GSCLavenderTown_Ch3_Part1
+	intensity $12
+	callchannel Music_GSCLavenderTown_Ch3_Part2
+	notetype $8, $12
+	note E_, 2
+	note F_, 2
+	note E_, 2
+	notetype $c, $12
+	callchannel Music_GSCLavenderTown_Ch3_Part3
+	loopchannel 0, Music_GSCLavenderTownNight_Ch3_loop

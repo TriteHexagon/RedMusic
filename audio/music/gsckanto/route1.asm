@@ -6,58 +6,12 @@ Music_GSCRoute1: ; ec000
 
 Music_GSCRoute1_Ch1: ; ec00a
 	stereopanning $f
-	tempo 184
+	tempo 193
 	volume $77
 	vibrato $16, $11
 	dutycycle $3
 	notetype $c, $83
-	octave 4
-	note D_, 1
-	note E_, 1
-	note F#, 2
-	note F#, 2
-	note D_, 2
-	octave 3
-	note A_, 2
-	octave 4
-	note B_, 2
-	note A_, 2
-	note G_, 2
-	note F#, 2
-	note D_, 2
-	octave 3
-	note A_, 2
-	note F#, 2
-	note G_, 1
-	note A_, 1
-	note G_, 2
-	note E_, 2
-	note G_, 1
-	note E_, 1
-	octave 4
-	note D_, 1
-	note E_, 1
-	note F#, 2
-	note F#, 2
-	note D_, 2
-	octave 3
-	note A_, 2
-	octave 4
-	note B_, 2
-	note A_, 2
-	note G_, 3
-	note E_, 1
-	note E_, 2
-	note G_, 2
-	note A_, 2
-	note G_, 2
-	note F#, 2
-	intensity $81
-	octave 5
-	note D_, 2
-	note D_, 2
-	intensity $83
-	note __, 2
+	callchannel Music_GSCRoute1_Ch1_Intro
 Music_GSCRoute1_branch_ec04a: ; ec04a
 	intensity $83
 	note __, 2
@@ -203,9 +157,60 @@ Music_GSCRoute1_branch_ec04a: ; ec04a
 	loopchannel 0, Music_GSCRoute1_branch_ec04a
 ; ec0eb
 
+Music_GSCRoute1_Ch1_Intro:
+	octave 4
+	note D_, 1
+	note E_, 1
+	note F#, 2
+	note F#, 2
+	note D_, 2
+	octave 3
+	note A_, 2
+	octave 4
+	note B_, 2
+	note A_, 2
+	note G_, 2
+	note F#, 2
+	note D_, 2
+	octave 3
+	note A_, 2
+	note F#, 2
+	note G_, 1
+	note A_, 1
+	note G_, 2
+	note E_, 2
+	note G_, 1
+	note E_, 1
+	octave 4
+	note D_, 1
+	note E_, 1
+	note F#, 2
+	note F#, 2
+	note D_, 2
+	octave 3
+	note A_, 2
+	octave 4
+	note B_, 2
+	note A_, 2
+	note G_, 3
+	note E_, 1
+	note E_, 2
+	note G_, 2
+	note A_, 2
+	note G_, 2
+	note F#, 2
+	intensity $81
+	octave 5
+	note D_, 2
+	note D_, 2
+	intensity $83
+	note __, 2
+	endchannel
+
 Music_GSCRoute1_Ch2: ; ec0eb
 	stereopanning $f0
 	vibrato $12, $22
+Music_GSCRoute1_Ch2_Start:
 	dutycycle $2
 	notetype $c, $92
 	octave 4
@@ -229,7 +234,6 @@ Music_GSCRoute1_Ch2: ; ec0eb
 	octave 4
 	note D_, 1
 	note E_, 1
-	dutycycle $2
 Music_GSCRoute1_branch_ec112: ; ec112
 	intensity $82
 	callchannel Music_GSCRoute1_branch_ec188
@@ -384,6 +388,7 @@ Music_GSCRoute1_Ch3: ; ec1b8
 	stereopanning $ff
 	vibrato $10, $23
 	notetype $c, $25
+Music_GSCRoute1_Ch3_Start:
 	note __, 2
 	octave 3
 	note D_, 1
@@ -649,3 +654,29 @@ Music_GSCRoute1_branch_ec20c: ; ec20c
 	note __, 3
 	loopchannel 0, Music_GSCRoute1_branch_ec20c
 ; ec2ca
+
+Music_GSCRoute1Night: ; ec000
+	musicheader 3, 1, Music_GSCRoute1Night_Ch1
+	musicheader 1, 2, Music_GSCRoute1Night_Ch2
+	musicheader 1, 3, Music_GSCRoute1Night_Ch3
+
+Music_GSCRoute1Night_Ch1: ; ec00a
+	stereopanning $f
+	tempo 184
+	volume $77
+	vibrato $16, $11
+	dutycycle $2
+	notetype $c, $83
+	callchannel Music_GSCRoute1_Ch1_Intro
+	callchannel Music_GSCRoute1_branch_ec04a
+
+Music_GSCRoute1Night_Ch2:
+	stereopanning $f0
+	vibrato $12, $12
+	callchannel Music_GSCRoute1_Ch2_Start
+
+Music_GSCRoute1Night_Ch3:
+	stereopanning $ff
+	vibrato $10, $13
+	notetype $c, $13
+	callchannel Music_GSCRoute1_Ch3_Start

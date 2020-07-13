@@ -7,7 +7,7 @@ Music_Cities2:
 ; Cerulean City
 Music_Cities2_Ch1: ; b504 (2:7504)
 	tempo 154
-	stereopanning $ff
+	stereopanning $f0
 	volume 119
 	dutycycle 3
 	vibrato 8, 50
@@ -286,7 +286,7 @@ Music_Cities2_branch_b58b:
 
 Music_Cities2_Ch3: ; b640 (2:7640)
 	notetype 12, $13
-	stereopanning $ff
+	stereopanning $f
 	tone $0001
 	note __, 16
 	octave 4
@@ -352,6 +352,7 @@ Music_Cities2_Ch3_Pattern2:
 Music_Cities2_Ch4:
 	notetype 12
 	togglenoise $3
+	stereopanning $ff
 ;Bar 1
 	note __, 7
 	notetype 6

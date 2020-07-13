@@ -10,7 +10,15 @@ Music_GSCPalletTown_Ch1: ; f4b15
 	vibrato $12, $24
 	tone $0001
 	stereopanning $f
-Music_GSCPalletTown_branch_f4b22: ; f4b22
+Music_GSCPalletTown_Ch1_loop: ; f4b22
+	callchannel Music_GSCPalletTown_Ch1_Part1
+	dutycycle $3
+	callchannel Music_GSCPalletTown_branch_f4b59
+	callchannel Music_GSCPalletTown_Ch1_Part2
+	loopchannel 0, Music_GSCPalletTown_Ch1_loop
+; f4ba1
+
+Music_GSCPalletTown_Ch1_Part1:
 	dutycycle $2
 	notetype $c, $78
 	octave 3
@@ -60,30 +68,9 @@ Music_GSCPalletTown_branch_f4b22: ; f4b22
 	note B_, 8
 	intensity $77
 	note B_, 8
-Music_GSCPalletTown_branch_f4b59: ; f4b59
-	dutycycle $3
-	intensity $92
-	note G_, 2
-	note E_, 2
-	note G_, 2
-	note E_, 2
-	note G_, 2
-	note D#, 2
-	note G_, 2
-	note D#, 2
-	intensity $5f
-	note G_, 1
-	note A_, 1
-	note B_, 1
-	octave 4
-	note C_, 1
-	note D_, 2
-	note G_, 4
-	note D_, 2
-	note C_, 2
-	octave 3
-	note B_, 2
-	loopchannel 2, Music_GSCPalletTown_branch_f4b59
+	endchannel
+
+Music_GSCPalletTown_Ch1_Part2:
 	intensity $3f
 	octave 4
 	note C_, 4
@@ -117,8 +104,32 @@ Music_GSCPalletTown_branch_f4b59: ; f4b59
 	note G_, 1
 	intensity $1f
 	note F#, 8
-	loopchannel 0, Music_GSCPalletTown_branch_f4b22
-; f4ba1
+	endchannel
+
+Music_GSCPalletTown_branch_f4b59: ; f4b59
+	intensity $92
+	note G_, 2
+	note E_, 2
+	note G_, 2
+	note E_, 2
+	note G_, 2
+	note D#, 2
+	note G_, 2
+	note D#, 2
+	intensity $5f
+	note G_, 1
+	note A_, 1
+	note B_, 1
+	octave 4
+	note C_, 1
+	note D_, 2
+	note G_, 4
+	note D_, 2
+	note C_, 2
+	octave 3
+	note B_, 2
+	loopchannel 2, Music_GSCPalletTown_branch_f4b59
+	endchannel
 
 Music_GSCPalletTown_Ch2: ; f4ba1
 	vibrato $12, $44
@@ -248,8 +259,8 @@ Music_GSCPalletTown_branch_f4be5: ; f4be5
 
 Music_GSCPalletTown_Ch3: ; f4c2a
 	vibrato $14, $24
-Music_GSCPalletTown_branch_f4c2d: ; f4c2d
 	notetype $c, $10
+Music_GSCPalletTown_branch_f4c2d: ; f4c2d
 	octave 6
 	note D_, 2
 	note C_, 2
@@ -359,3 +370,34 @@ Music_GSCPalletTown_branch_f4c2d: ; f4c2d
 	note A_, 8
 	loopchannel 0, Music_GSCPalletTown_branch_f4c2d
 ; f4c9f
+
+Music_GSCPalletTownNight: ; f4b0c
+	musicheader 3, 1, Music_GSCPalletTownNight_Ch1
+	musicheader 1, 2, Music_GSCPalletTownNight_Ch2
+	musicheader 1, 3, Music_GSCPalletTownNight_Ch3
+
+Music_GSCPalletTownNight_Ch1: ; f4b15
+	tempo 197
+	volume $77
+	vibrato $12, $14
+	tone $0001
+	stereopanning $f
+Music_GSCPalletTownNight_Ch1_loop: ; f4b22
+	callchannel Music_GSCPalletTown_Ch1_Part1
+	dutycycle $2
+	callchannel Music_GSCPalletTown_branch_f4b59
+	callchannel Music_GSCPalletTown_Ch1_Part2
+	loopchannel 0, Music_GSCPalletTownNight_Ch1_loop
+
+Music_GSCPalletTownNight_Ch2: ; f4ba1
+	vibrato $12, $34
+	dutycycle $2
+	stereopanning $f0
+	callchannel Music_GSCPalletTown_branch_f4ba8
+	endchannel
+
+Music_GSCPalletTownNight_Ch3: ; f4c2a
+	vibrato $14, $14
+	notetype $c, $12
+	callchannel Music_GSCPalletTown_branch_f4c2d
+	endchannel

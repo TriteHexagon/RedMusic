@@ -300,68 +300,12 @@ Music_GSCCeladonCity_branch_f44a1: ; f44a1
 	octave 2
 	note F#, 1
 	callchannel Music_GSCCeladonCity_branch_f44fd
-	note A_, 1
-	note __, 1
-	octave 3
-	note D_, 1
-	note __, 1
-	octave 3
-	note F#, 3
-	octave 2
-	note G#, 1
-	note A_, 1
-	note __, 1
-	octave 3
-	note C#, 1
-	note __, 1
-	note E_, 2
-	note C#, 2
-	note D_, 2
-	note __, 6
-	octave 2
-	note A_, 2
-	note __, 6
+	callchannel Music_GSCCeladonCity_NewBranch1
 	intensity $10
 	callchannel Music_GSCCeladonCity_branch_f4510
-	octave 5
-	note E_, 2
-	note __, 2
-	note F#, 2
-	note __, 2
-	note D_, 4
-	note __, 4
-	note C_, 8
-	octave 4
-	note A_, 2
-	note B_, 2
-	octave 5
-	note C_, 2
-	note D_, 2
-	note E_, 2
-	note __, 2
-	note D_, 2
-	note E_, 2
-	note D_, 4
-	note __, 4
+	callchannel Music_GSCCeladonCity_NewBranch2
 	callchannel Music_GSCCeladonCity_branch_f4510
-	octave 5
-	note E_, 2
-	note __, 2
-	note D_, 2
-	note E_, 2
-	note D_, 4
-	note __, 4
-	note C_, 8
-	note A_, 2
-	note G_, 2
-	note F#, 2
-	note E_, 2
-	note F#, 2
-	note E_, 2
-	note D_, 2
-	note E_, 2
-	note D_, 2
-	note __, 6
+	callchannel Music_GSCCeladonCity_NewBranch3
 	loopchannel 0, Music_GSCCeladonCity_branch_f4495
 ; f44fd
 
@@ -394,3 +338,123 @@ Music_GSCCeladonCity_branch_f4510: ; f4510
 	note B_, 2
 	endchannel
 ; f4518
+
+; ============================================================================================================
+; ============================================================================================================
+
+Music_GSCCeladonCity_Night: ; f435b
+	musicheader 3, 1, Music_GSCCeladonCity_Night_Ch1
+	musicheader 1, 2, Music_GSCCeladonCity_Ch2
+	musicheader 1, 3, Music_GSCCeladonCity_Night_Ch3
+
+Music_GSCCeladonCity_Night_Ch1: ; f4364
+	tempo 151 ;146
+	volume $77
+	tone $0001
+	dutycycle $1
+	callchannel Music_GSCCeladonCity_branch_f436c
+
+Music_GSCCeladonCity_Night_Ch3: ; f4492
+	vibrato $12, $24
+Music_GSCCeladonCity_Night_branch_f4495: ; f4495
+	notetype $c, $24
+	octave 3
+	note A_, 2
+	note __, 2
+	note F#, 2
+	note __, 2
+	note D_, 8
+	callchannel Music_GSCCeladonCity_branch_f44fd
+Music_GSCCeladonCity_Night_branch_f44a1: ; f44a1
+	octave 2
+	note A_, 2
+	note __, 2
+	octave 3
+	note D_, 4
+	loopchannel 3, Music_GSCCeladonCity_Night_branch_f44a1
+	octave 2
+	note G_, 1
+	note __, 1
+	note B_, 1
+	note __, 1
+	octave 3
+	note D_, 3
+	octave 2
+	note F#, 1
+	callchannel Music_GSCCeladonCity_branch_f44fd
+	callchannel Music_GSCCeladonCity_NewBranch1
+	intensity $12
+	callchannel Music_GSCCeladonCity_branch_f4510
+	callchannel Music_GSCCeladonCity_NewBranch2
+	callchannel Music_GSCCeladonCity_branch_f4510
+	callchannel Music_GSCCeladonCity_NewBranch3
+	loopchannel 0, Music_GSCCeladonCity_Night_branch_f4495
+; f44fd
+
+Music_GSCCeladonCity_NewBranch1:
+	note A_, 1
+	note __, 1
+	octave 3
+	note D_, 1
+	note __, 1
+	octave 3
+	note F#, 3
+	octave 2
+	note G#, 1
+	note A_, 1
+	note __, 1
+	octave 3
+	note C#, 1
+	note __, 1
+	note E_, 2
+	note C#, 2
+	note D_, 2
+	note __, 6
+	octave 2
+	note A_, 2
+	note __, 6
+	endchannel
+
+Music_GSCCeladonCity_NewBranch2:
+	octave 5
+	note E_, 2
+	note __, 2
+	note F#, 2
+	note __, 2
+	note D_, 4
+	note __, 4
+	note C_, 8
+	octave 4
+	note A_, 2
+	note B_, 2
+	octave 5
+	note C_, 2
+	note D_, 2
+	note E_, 2
+	note __, 2
+	note D_, 2
+	note E_, 2
+	note D_, 4
+	note __, 4
+	endchannel
+
+Music_GSCCeladonCity_NewBranch3:
+	octave 5
+	note E_, 2
+	note __, 2
+	note D_, 2
+	note E_, 2
+	note D_, 4
+	note __, 4
+	note C_, 8
+	note A_, 2
+	note G_, 2
+	note F#, 2
+	note E_, 2
+	note F#, 2
+	note E_, 2
+	note D_, 2
+	note E_, 2
+	note D_, 2
+	note __, 6
+	endchannel

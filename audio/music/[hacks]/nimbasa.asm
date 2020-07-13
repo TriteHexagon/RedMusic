@@ -1,5 +1,5 @@
 ;Coverted using MIDI2ASM
-;Version 4.0 (DATE)
+;Version 4.0
 ;Code by TriteHexagon
 ;Visit github.com/TriteHexagon/Midi2ASM-Converter for up-to-date versions.
 
@@ -555,9 +555,10 @@ Music_NimbasaCity_Ch2_Bar2:
 	octave 4
 	note C_, 1
 	note C#, 1
-	notetype 8, $c8
-	note D#, 1
-	note __, 5
+	notetype 8, $c2
+	note D#, 2
+	note __, 4
+	intensity $c8
 	endchannel
 
 Music_NimbasaCity_Ch2_Bar3:
@@ -611,8 +612,10 @@ Music_NimbasaCity_Ch2_Bar6:
 	octave 4
 	note C_, 1
 	note C#, 1
-	note D#, 1
-	note __, 11
+	intensity $c2
+	note D#, 4
+	intensity $c8
+	note __, 8
 	endchannel
 
 Music_NimbasaCity_Ch2_Bar7:

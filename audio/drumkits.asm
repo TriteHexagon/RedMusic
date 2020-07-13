@@ -88,18 +88,18 @@ Drumkit4: ; e8ec6
 	dw Crash1
 Drumkit5: ; e8ee0
 	dw Drum00
-	dw Snare9
-	dw Snare10
-	dw Snare11
-	dw Drum27
-	dw Drum28
-	dw Drum29
-	dw Drum05
-	dw Triangle1
-	dw Crash1
-	dw Snare14
-	dw Snare13
-	dw Kick2
+	dw Snare9 ;C_
+	dw Snare10 ;C#
+	dw Snare11 ;D_
+	dw Drum27 ;D#
+	dw Drum28 ;E_
+	dw Drum29 ;F_
+	dw Drum05 ;F#
+	dw Triangle1 ;G_
+	dw Crash1 ;G#
+	dw Snare14 ;A_
+	dw Snare13 ;A#
+	dw Kick2 ;B_
 Drumkit0S: ;6
 	dw Drum00   
 	dw Snare2
@@ -221,7 +221,7 @@ DrumkitSNES: ; 14
 	dw Tom  ;C
 	dw Drum29  ;C#
 	dw Snare11 ;D
-	dw Snare14 ;D#
+	dw Snare4 ;D#
 	dw Snare12 ;E
 	dw Snare9  ;F
 	dw HiHat2  ;F#

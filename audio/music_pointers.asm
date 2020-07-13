@@ -152,6 +152,12 @@ Music:
 	dba Music_GSCViridianCity_Night
 	dba Music_GSCRoute3_Night
 	dba Music_GSCRoute12_Night
+	dba Music_GSCCeladonCity_Night
+	dba Music_GSCVermilionCityNight
+	dba Music_GSCPalletTownNight
+	dba Music_GSCRoute1Night
+	dba Music_GSCLavenderTownNight
+	dba Music_GSCKantoWildBattleNight
 	;Pokémon
 	dba Music_Route113
 	dba Music_CinnabarIslandFRLG
@@ -166,9 +172,12 @@ Music:
 	dba Music_SeviiIslands
 	dba Music_LakeOfRageHGSS
 	dba Music_FriendlyShop
+	dba Music_CeruleanCityGBS
+	dba Music_CeruleanCityGBSNight
 	dba Music_VictoryRoadRSE
 	dba Music_PyriteTown
 	dba Music_NimbasaCity
+	dba Music_AltoMare
 	;Ace Attorney
 	; dba Music_CourtroomLounge
 	; dba Music_CourtBegins
@@ -221,7 +230,7 @@ Music:
 	dba Music_DiscoDescent
 	dba Music_BigBlue
 	dba Music_Corneria
-	
+	dba Music_BobOmbBattlefield
 	;Current
 	dba Music_Placeholder
 	
