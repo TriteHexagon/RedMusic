@@ -315,6 +315,7 @@ SECTION "Hacks 3", ROMX
 INCLUDE "audio/music/[hacks]/nimbasa.asm"
 INCLUDE "audio/music/[hacks]/altoMare.asm"
 INCLUDE "audio/music/[hacks]/ceruleanCityGBS.asm"
+INCLUDE "audio/music/[hacks]/route47GBS.asm"
 INCLUDE "audio/music/[hacks]/bobombBattlefield.asm"
 INCLUDE "audio/music/[hacks]/[placeholder].asm"
 

@@ -174,6 +174,8 @@ Music:
 	dba Music_FriendlyShop
 	dba Music_CeruleanCityGBS
 	dba Music_CeruleanCityGBSNight
+	dba Music_Route47GBS
+	dba Music_Route47GBSNight
 	dba Music_VictoryRoadRSE
 	dba Music_PyriteTown
 	dba Music_NimbasaCity
