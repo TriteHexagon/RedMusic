@@ -25,12 +25,7 @@ Music_GSCRoute3_Entry:
 	note E_, 1
 	note A_, 1
 	note E_, 1
-	note C#, 1
-	note E_, 1
-	note C#, 1
-	note E_, 1
-	note C#, 1
-	note E_, 1
+	callchannel Music_GSCRoute3_Ch1_CE
 	note A_, 1
 	note F_, 1
 	note D_, 1
@@ -85,12 +80,7 @@ Music_GSCRoute3_branch_ec307: ; ec307
 	note E_, 1
 	note A_, 1
 	note E_, 1
-	note C#, 1
-	note E_, 1
-	note C#, 1
-	note E_, 1
-	note C#, 1
-	note E_, 1
+	callchannel Music_GSCRoute3_Ch1_CE
 	note A_, 1
 	note E_, 1
 	note C#, 1
@@ -101,12 +91,7 @@ Music_GSCRoute3_branch_ec307: ; ec307
 	note E_, 1
 	note A_, 1
 	note E_, 1
-	note C#, 1
-	note E_, 1
-	note C#, 1
-	note E_, 1
-	note C#, 1
-	note E_, 1
+	callchannel Music_GSCRoute3_Ch1_CE
 	note G_, 1
 	note D_, 1
 	octave 2
@@ -237,6 +222,12 @@ Music_GSCRoute3_branch_ec3bd: ; ec3bd
 	note D_, 1
 	endchannel
 ; ec3d0
+Music_GSCRoute3_Ch1_CE:
+rept 3
+	note C#, 1
+	note E_, 1
+endr
+	endchannel
 
 Music_GSCRoute3_Ch2: ; ec3d0
 	callchannel Music_GSCRoute3_Ch2_Intro

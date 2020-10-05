@@ -144,7 +144,6 @@ INCLUDE "audio/music/gsc/contestresults.asm"
 SECTION "GSC Music 5", ROMX
 
 INCLUDE "audio/music/gsc/ecruteakcity.asm"
-INCLUDE "audio/music/[night]/ecruteakcitynight.asm"
 INCLUDE "audio/music/gsc/dancinghall.asm"
 INCLUDE "audio/music/gsc/lookkimonogirl.asm"
 INCLUDE "audio/music/gsc/burnedtower.asm"
@@ -317,7 +316,10 @@ INCLUDE "audio/music/[hacks]/altoMare.asm"
 INCLUDE "audio/music/[hacks]/ceruleanCityGBS.asm"
 INCLUDE "audio/music/[hacks]/route47GBS.asm"
 INCLUDE "audio/music/[hacks]/bobombBattlefield.asm"
-INCLUDE "audio/music/[hacks]/[placeholder].asm"
+INCLUDE "audio/music/[hacks]/route24GBS.asm"
+INCLUDE "audio/music/[hacks]/cinnabarislandGBS.asm"
+INCLUDE "audio/music/[hacks]/riccoHarbor.asm"
+INCLUDE "audio/music/[hacks]/windGarden.asm"
 
 SECTION "Ace Attorney 1", ROMX
 
@@ -362,6 +364,11 @@ INCLUDE "audio/music/[aceattorney]/investigationmiddle2002.asm"
 INCLUDE "audio/music/[aceattorney]/investigationopening2004.asm"
 INCLUDE "audio/music/[aceattorney]/testimonyallegro2004.asm"
 INCLUDE "audio/music/[aceattorney]/turnaboutsisters2002.asm"
+INCLUDE "audio/music/[aceattorney]/investigationcore2002.asm"
+
+SECTION "Placeholder", ROMX
+
+INCLUDE "audio/music/[hacks]/[placeholder].asm"
 
 
 

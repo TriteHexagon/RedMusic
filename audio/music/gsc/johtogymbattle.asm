@@ -5,11 +5,12 @@ Music_JohtoGymBattle: ; ea50d
 ; ea516
 
 Music_JohtoGymBattle_Ch1: ; ea516
-	tempo 101
+	tempo 101 ; 103
 	volume $77
 	dutycycle $3
 	tone $0002
 	vibrato $12, $15
+	;pitchoffset 1, B_
 	notetype $c, $b2
 Music_JohtoGymBattle_branch_ea526: ; ea526
 	octave 3
@@ -292,6 +293,7 @@ Music_JohtoGymBattle_Ch2: ; ea65f
 	dutycycle $3
 	vibrato $8, $36
 	tone $0001
+	;pitchoffset 1, B_
 	notetype $c, $c2
 Music_JohtoGymBattle_branch_ea66a: ; ea66a
 	octave 4
@@ -617,6 +619,7 @@ Music_JohtoGymBattle_branch_ea6ee: ; ea6ee
 
 Music_JohtoGymBattle_Ch3: ; ea7f4
 	notetype $c, $19
+	;pitchoffset 1, B_
 	octave 4
 	note F_, 1
 	note __, 1

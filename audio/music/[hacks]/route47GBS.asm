@@ -1211,6 +1211,7 @@ Music_Route47GBS_Ch2_Part5:
 	endchannel
 ; ============================================================================================================
 
+; dn 2, 4, 5, 6, 8, 9, 11, 12, 11, 10, 9, 8, 8, 7, 6, 6, 13, 13, 13, 12, 12, 11, 11, 11, 5, 5, 4, 4, 4, 4, 3, 3
 Music_Route47GBS_Ch3:
 	wavetype 2, 12, $18
 	vibrato $12, $2a
@@ -1220,51 +1221,51 @@ Music_Route47GBS_Ch3_loop:
 	callchannel Music_Route47GBS_Ch3_Part1
 	octave 1
 	note F_, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note F_, 4
 	wavetype 2, 12, $18
 ;Bar 14
 	note F_, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note F_, 4
 	wavetype 2, 12, $18
 ;Bar 15
 	octave 2
 	note D_, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note D_, 4
 	wavetype 2, 12, $18
 ;Bar 16
 	octave 1
 	note B_, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note B_, 4
 	wavetype 2, 12, $18
 ;Bar 17
 	note A#, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note A#, 4
 	wavetype 2, 12, $18
 ;Bar 18
 	note G#, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note G#, 4
 	wavetype 2, 12, $18
 ;Bar 19
 	note A#, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note A#, 4
 	wavetype 2, 12, $18
 ;Bar 20
 	octave 2
 	note C_, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note C_, 4
 	wavetype 2, 12, $18
 ;Bar 21
 	octave 1
 	note F_, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note F_, 4
 	wavetype 2, 12, $18
 ;Bar 22
@@ -1274,35 +1275,35 @@ Music_Route47GBS_Ch3_loop:
 	note C_, 8
 	octave 1
 	note B_, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note B_, 4
 	wavetype 2, 12, $18
 ;Bar 24
 	note A#, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note A#, 4
 	wavetype 2, 12, $18
 ;Bar 25
 	note A_, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note A_, 4
 	wavetype 2, 12, $18
 ;Bar 26
 	octave 2
 	note D_, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note D_, 4
 	wavetype 2, 12, $18
 ;Bar 27
 	octave 1
 	note G_, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note G_, 4
 	wavetype 2, 12, $18
 ;Bar 28
 	octave 2
 	note C_, 12
-	wavetype 0, 12, $26
+	wavetype 0, 12, $16
 	note C_, 4
 	wavetype 2, 12, $18
 	loopchannel 0, Music_Route47GBS_Ch3_loop
@@ -2035,7 +2036,7 @@ Music_Route47GBSNight_Ch2_loop:
 ; ============================================================================================================
 
 Music_Route47GBSNight_Ch3:
-	notetype 12, $13
+	notetype 12, $12
 	vibrato $12, $1a
 ;Bar 1
 	note __, 8
@@ -2043,53 +2044,53 @@ Music_Route47GBSNight_Ch3_loop:
 	callchannel Music_Route47GBS_Ch3_Part1
 	octave 1
 	note F_, 12
-	intensity $23
+	intensity $22
 	note F_, 4
-	intensity $13
+	intensity $12
 ;Bar 14
 	note F_, 12
-	intensity $23
+	intensity $22
 	note F_, 4
-	intensity $13
+	intensity $12
 ;Bar 15
 	octave 2
 	note D_, 12
-	intensity $23
+	intensity $22
 	note D_, 4
-	intensity $13
+	intensity $12
 ;Bar 16
 	octave 1
 	note B_, 12
-	intensity $23
+	intensity $22
 	note B_, 4
-	intensity $13
+	intensity $12
 ;Bar 17
 	note A#, 12
-	intensity $23
+	intensity $22
 	note A#, 4
-	intensity $13
+	intensity $12
 ;Bar 18
 	note G#, 12
-	intensity $23
+	intensity $22
 	note G#, 4
-	intensity $13
+	intensity $12
 ;Bar 19
 	note A#, 12
-	intensity $23
+	intensity $22
 	note A#, 4
-	intensity $13
+	intensity $12
 ;Bar 20
 	octave 2
 	note C_, 12
-	intensity $23
+	intensity $22
 	note C_, 4
-	intensity $13
+	intensity $12
 ;Bar 21
 	octave 1
 	note F_, 12
-	intensity $23
+	intensity $22
 	note F_, 4
-	intensity $13
+	intensity $12
 ;Bar 22
 	octave 2
 	note D_, 8
@@ -2097,37 +2098,37 @@ Music_Route47GBSNight_Ch3_loop:
 	note C_, 8
 	octave 1
 	note B_, 12
-	intensity $23
+	intensity $22
 	note B_, 4
-	intensity $13
+	intensity $12
 ;Bar 24
 	note A#, 12
-	intensity $23
+	intensity $22
 	note A#, 4
-	intensity $13
+	intensity $12
 ;Bar 25
 	note A_, 12
-	intensity $23
+	intensity $22
 	note A_, 4
-	intensity $13
+	intensity $12
 ;Bar 26
 	octave 2
 	note D_, 12
-	intensity $23
+	intensity $22
 	note D_, 4
-	intensity $13
+	intensity $12
 ;Bar 27
 	octave 1
 	note G_, 12
-	intensity $23
+	intensity $22
 	note G_, 4
-	intensity $13
+	intensity $12
 ;Bar 28
 	octave 2
 	note C_, 12
-	intensity $23
+	intensity $22
 	note C_, 4
-	intensity $13
+	intensity $12
 	loopchannel 0, Music_Route47GBSNight_Ch3_loop
 
 ; ============================================================================================================

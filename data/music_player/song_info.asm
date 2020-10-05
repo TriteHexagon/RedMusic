@@ -171,53 +171,57 @@ SongInfo:
 	db "Route 201 (Night)@", ORIGIN_DPPT, COMPOSER_NONE, COMPOSER_NONE
 	db "Sevii Islands@", ORIGIN_FRLG, COMPOSER_NONE, COMPOSER_NONE
 	db "Lake of Rage@", ORIGIN_HGSS, COMPOSER_NONE, COMPOSER_NONE
+	db "Victory Road@", ORIGIN_RSE, COMPOSER_NONE, COMPOSER_NONE
+	db "Pyrite Town@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Nimbasa City@", ORIGIN_BW, COMPOSER_NONE, COMPOSER_NONE
+	db "Alto Mare@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Friendly Shop@", ORIGIN_HGSS, COMPOSER_NONE, COMPOSER_NONE
 	db "Cerulean City       (GBSounds)@", ORIGIN_HGSS, COMPOSER_NONE, COMPOSER_NONE
 	db "Cerulean City       (GBSounds Night)@", ORIGIN_HGSS, COMPOSER_NONE, COMPOSER_NONE
 	db "Route 47 (GBSounds)@", ORIGIN_HGSS, COMPOSER_HITOMI_SATO, COMPOSER_NONE
 	db "Route 47 (GBSounds Night)@", ORIGIN_HGSS, COMPOSER_HITOMI_SATO, COMPOSER_NONE
-	db "Victory Road@", ORIGIN_RSE, COMPOSER_NONE, COMPOSER_NONE
-	db "Pyrite Town@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	db "Nimbasa City@", ORIGIN_BW, COMPOSER_NONE, COMPOSER_NONE
-	db "Alto Mare@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Route 24 (GBSounds)@", ORIGIN_HGSS, COMPOSER_HITOMI_SATO, COMPOSER_NONE
+	db "Route 24 (GBSounds Night)@", ORIGIN_HGSS, COMPOSER_HITOMI_SATO, COMPOSER_NONE
+	db "Cinnabar Island     (GBSounds)@", ORIGIN_HGSS, COMPOSER_NONE, COMPOSER_NONE
 	;Ace Attorney
-	; db "Courtroom Lounge@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Ace Attorney -      Court Begins@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Cross-Examination:","  Moderato 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Logic & Trick@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Objection 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Cross-Examination:","  Allegro 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Pursuit:"," Cornered@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Confess The Truth   2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Suspense@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Pursuit:"," Cornered   (Variation)@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Jingle - It Can't EndLike This!@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Investigation -     Opening 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Maya Fey: Turnabout Sisters' Theme 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Detention Center @", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Detective Gumshoe @", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Reminiscing -       Maya's Grief@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Marvin Grossberg@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Blissful People@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Reminiscing -       Light and Shadow@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Steel Samurai@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Reminiscing -       DL-6 Incident@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Investigation -     Core 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Reminiscing -       The Class Trial@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Won the Case! -     First Victory@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Ace Attorney -      End@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Turnabout Sisters   Ballad@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Reminiscing -       SL-9 Incident@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Ema Skye: Turnabout Sisters' Theme 2005@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Blue Badger@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Jake Marshall@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Damon Gant@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
-	; db "Rise from the       Ashes - End@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Courtroom Lounge@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Ace Attorney -      Court Begins@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Cross-Examination:","  Moderato 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Logic & Trick@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Objection 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Cross-Examination:","  Allegro 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Pursuit:"," Cornered@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Confess The Truth   2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Suspense@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Pursuit:"," Cornered   (Variation)@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Jingle - It Can't EndLike This!@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Investigation -     Opening 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Maya Fey: Turnabout Sisters' Theme 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Detention Center @", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Detective Gumshoe @", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Reminiscing -       Maya's Grief@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Marvin Grossberg@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Blissful People@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Reminiscing -       Light and Shadow@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Steel Samurai@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Reminiscing -       DL-6 Incident@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Investigation -     Core 2001@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Reminiscing -       The Class Trial@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Won the Case! -     First Victory@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Ace Attorney -      End@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Turnabout Sisters   Ballad@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Reminiscing -       SL-9 Incident@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Ema Skye: Turnabout Sisters' Theme 2005@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Blue Badger@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Jake Marshall@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Damon Gant@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Rise from the       Ashes - End@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Psyche-Lock@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Investigation -     Middle 2002@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Maya Fey: Turnabout Sisters' Theme 2002@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Investigation -     Opening 2004@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Cross-Examination:","  Allegro 2004@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Investigation -     Core 2002@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;Others
 	db "Palace / Temple@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Lower Norfair@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
@@ -233,6 +237,8 @@ SongInfo:
 	db "Big Blue@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Corneria@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db "Bob-Omb Battlefield@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Ricco Harbor@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
+	db "Wind Garden@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	;Current
 	db "Placeholder@", ORIGIN_NONE, COMPOSER_NONE, COMPOSER_NONE
 	db -1

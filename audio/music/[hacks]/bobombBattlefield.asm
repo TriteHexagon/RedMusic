@@ -15,6 +15,7 @@ Music_BobOmbBattlefield_Ch1:
 	volume $77
 	dutycycle $3
 	notetype 12, $a7
+	tone $0001
 	tempo 169
 ;Bar 1
 	intensity $b7
@@ -56,240 +57,238 @@ Music_BobOmbBattlefield_Ch1:
 Music_BobOmbBattlefield_Ch1_loop:
 	dutycycle $0
 	octave 2
-	notetype 3, $66
+	notetype 3, $63
 	;note __, 8
 ;Bar 3
-	intensity $66
 	note G_, 7
-	intensity $52
+	intensity $53
 	note G_, 4
 	intensity $33
 	note G_, 5
 
-	intensity $64
+	intensity $63
 	note G_, 5
-	intensity $22
+	intensity $23
 	note G_, 4
-	intensity $74
+	intensity $73
 	note G_, 4
-	intensity $32
+	intensity $33
 	note G_, 9
-	intensity $42
+	intensity $43
 	note G_, 4
 	intensity $73
 	note G_, 3
-	intensity $22
+	intensity $23
 	note G_, 5
-	intensity $76
+	intensity $73
 	note G_, 8
-	intensity $62
+	intensity $63
 	note G_, 6
 ;Bar 4 ;64
 	note __, 2
 	intensity $53
 	note A_, 2
-	intensity $32
+	intensity $33
 	note A_, 5
-	intensity $52
+	intensity $53
 	note A_, 4
-	intensity $22
+	intensity $23
 	note A_, 12
-	intensity $64
+	intensity $63
 	note A_, 4
-	intensity $32
+	intensity $33
 	note A_, 7
-	intensity $22
+	intensity $23
 	note A_, 5
-	intensity $62
+	intensity $63
 	note A_, 3
-	intensity $32
+	intensity $33
 	note A_, 5
-	intensity $75
+	intensity $73
 	note A_, 7
-	intensity $62
+	intensity $63
 	note A_, 4
-	intensity $32
+	intensity $33
 	note G#, 4
 ;Bar 5
 	note __, 1
 	intensity $73
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 5
-	intensity $62
+	intensity $63
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 14
-	intensity $64
+	intensity $63
 	note G_, 8
-	intensity $62
+	intensity $63
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 4
-	intensity $64
+	intensity $63
 	note G_, 8
 	note G_, 9
-	intensity $52
+	intensity $53
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 3
 ;Bar 6 ;64
 	note __, 2
-	intensity $64
+	intensity $63
 	note F_, 8
-	intensity $52
+	intensity $53
 	note F_, 3
-	intensity $22
+	intensity $23
 	note F_, 4
-	intensity $52
+	intensity $53
 	note F_, 3
-	intensity $12
+	intensity $13
 	note F_, 5
-	intensity $64
+	intensity $63
 	note F_, 7
-	intensity $62
+	intensity $63
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 4
 	intensity $63
 	note G_, 3
-	intensity $22
+	intensity $23
 	note G_, 6
-	intensity $64
+	intensity $63
 	note G_, 8
-	intensity $42
+	intensity $43
 	note G_, 3
-	intensity $22
+	intensity $23
 	note G_, 5
 ;Bar 7
-	intensity $54
+	intensity $53
 	note G_, 9
-	intensity $42
+	intensity $43
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 5
-	intensity $52
+	intensity $53
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 6
-	intensity $74
+	intensity $73
 	note G_, 8
-	intensity $22
+	intensity $23
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 5
 	intensity $63
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 5
-	intensity $75
+	intensity $73
 	note G_, 8
-	intensity $52
+	intensity $53
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 3
 ;Bar 8 ;64
 	note __, 2
-	intensity $64
+	intensity $63
 	note A_, 6
-	intensity $62
+	intensity $63
 	note A_, 4
-	intensity $32
+	intensity $33
 	note A_, 5
-	intensity $52
+	intensity $53
 	note A_, 4
-	intensity $32
+	intensity $33
 	note A_, 4
-	intensity $62
+	intensity $63
 	note A_, 3
-	intensity $32
+	intensity $33
 	note A_, 6
-	intensity $62
+	intensity $63
 	note A_, 2
-	intensity $32
+	intensity $33
 	note A_, 4
-	intensity $62
+	intensity $63
 	note A_, 3
-	intensity $32
+	intensity $33
 	note A_, 5
-	intensity $62
+	intensity $63
 	note A_, 3
 	intensity $43
 	note A_, 5
-	intensity $62
+	intensity $63
 	note A_, 3
-	intensity $32
+	intensity $33
 	note A_, 5
 ;Bar 9
 	intensity $63
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 5
-	intensity $62
+	intensity $63
 	note G_, 3
-	intensity $32
+	intensity $33
 	note G_, 14
-	intensity $74
+	intensity $73
 	note G_, 10
-	intensity $32
+	intensity $33
 	note G_, 5
 	intensity $73
 	note G_, 3
-	intensity $42
+	intensity $43
 	note G_, 5
 	intensity $63
 	note G_, 4
-	intensity $42
+	intensity $43
 	note G_, 5
-	intensity $52
+	intensity $53
 	note F#, 2
-	intensity $32
+	intensity $33
 	note G_, 5
 ;Bar 10
-	intensity $54
+	intensity $53
 	note G_, 9
-	intensity $42
+	intensity $43
 	note G_, 7
 
 	dutycycle $3
-	intensity $a7
+	intensity $b7
 	note G_, 6
-	intensity $97
+	intensity $a7
 	note A_, 2
 
 	dutycycle $0
-	intensity $34
+	intensity $33
 	note G_, 4
 
 	dutycycle $3
-	intensity $a7
+	intensity $b7
 	octave 3
 	note C_, 5
 
 	dutycycle $0
-	intensity $52
+	intensity $53
 	octave 2
 	note G_, 6
-	intensity $42
+	intensity $43
 	note G_, 5
-	intensity $22
+	intensity $23
 	note G_, 4
-	intensity $76
+	intensity $73
 	note G_, 16
 ;Bar 11 ;64
 	intensity $63
 	note G_, 8
-	intensity $64
 	note G_, 8
-	intensity $52
+	intensity $53
 	note F#, 4
-	intensity $32
+	intensity $33
 	note G_, 4
-	intensity $75
+	intensity $73
 	note G_, 7
-	intensity $52
+	intensity $53
 	note G_, 4
-	intensity $32
+	intensity $33
 	note G_, 4
 	intensity $73
 	note G_, 4
@@ -298,166 +297,169 @@ Music_BobOmbBattlefield_Ch1_loop:
 
 	note __, 1
 	dutycycle $3
-	intensity $a7
+	intensity $b7
 	octave 3
 	note G_, 8
-	intensity $77
-	note F_, 2
 	intensity $87
+	note F_, 2
+	intensity $97
 	note E_, 1
-	intensity $a7
+	intensity $b7
 	note D_, 1
 	note C_, 1
 	octave 2
 	note B_, 1
-	intensity $97
+	intensity $a7
 	note A_, 1
 ;Bar 12
-	intensity $a7
+	intensity $b7
 	note G_, 1
-	intensity $87
-	note F_, 1
 	intensity $97
+	note F_, 1
+	intensity $a7
 	note E_, 7
 
 	dutycycle $0
-	intensity $52
+	intensity $53
 	note G#, 7
 	note A_, 8
-	intensity $62
+	intensity $63
 	note A_, 7
-	intensity $32
+	intensity $33
 	note G#, 9
-	intensity $54
+	intensity $53
 	note A_, 4
-	intensity $32
+	intensity $33
 	note A_, 3
 
 	dutycycle $3
-	intensity $a7
+	intensity $b7
 	octave 3
 	note F_, 7
-	intensity $77
+	intensity $87
 	note E_, 2
-	intensity $97
+	intensity $a7
 	note D_, 1
 	note C_, 1
-	intensity $a7
+	intensity $b7
 	octave 2
 	note B_, 1
-	intensity $87
-	note A_, 1
 	intensity $97
+	note A_, 1
+	intensity $a7
 	note G_, 1
-	intensity $57
+	intensity $67
 	note A_, 1
-	intensity $97
+	intensity $a7
 	note F_, 1
 	note E_, 1
 ;Bar 13
 	note __, 1
 	dutycycle $0
-	intensity $62
+	intensity $63
 	note G_, 7
 	note G_, 8
 	note G_, 8
-	intensity $64
+	intensity $63
 	note G_, 5
-	intensity $22
+	intensity $23
 	note G_, 3
 
 	dutycycle $3
-	notetype 6, $b7
+	notetype 6, $a7
 	note G_, 16
 ;Bar 14
-	intensity $94
-	note A_, 7
 	intensity $a4
+	note A_, 7
+	intensity $b4
 	octave 3
 	note C_, 6
-	intensity $b7
+	intensity $c7
 	note D_, 11
 
-	notetype 3, $57
+	notetype 3, $67
 	note C_, 2
-	intensity $87
+	intensity $97
 	octave 2
 	note B_, 1
-	intensity $97
-	note A_, 1
 	intensity $a7
+	note A_, 1
+	intensity $b7
 	note G_, 1
-	intensity $97
+	intensity $a7
 	note F_, 1
-	intensity $87
-	note E_, 10
+	intensity $97
+	note E_, 1
+	dutycycle $0
+	intensity $53
+	note G_, 4
+	intensity $23
+	note G_, 5
 ;Bar 15
 	note __, 1
-	dutycycle $0
-	intensity $62
+	intensity $63
 	note G_, 8
-	intensity $64
+	intensity $63
 	note G_, 7
-	intensity $52
+	intensity $53
 	note G_, 9
-	intensity $62
+	intensity $63
 	note G_, 3
 	intensity $33
 	note G_, 4
-	intensity $62
+	intensity $63
 	note G_, 5
-	intensity $12
+	intensity $13
 	note G_, 4
 
 	dutycycle $3
-	intensity $a7
+	intensity $c7
 	octave 3
 	note C_, 8
-	intensity $97
+	intensity $b7
 	note D_, 4
 	note E_, 8
 	intensity $a7
 	note C_, 3
 ;Bar 16
 	dutycycle $0
-	intensity $72
+	intensity $73
 	octave 2
 	note __, 2
 	note A_, 8
-	intensity $52
+	intensity $53
 	note A_, 7
-	intensity $62
+	intensity $63
 	note A_, 8
 	note A_, 4
-	intensity $32
+	intensity $33
 	note A_, 4
-	intensity $62
+	intensity $63
 	note A_, 8
 
 	dutycycle $3
-	intensity $97
+	intensity $b7
 	octave 3
 	note C_, 7
 	note D#, 5
 	note D_, 8
-	intensity $a7
+	intensity $c7
 	note C_, 3
 ;Bar 17
 	dutycycle $0
-	intensity $74
+	intensity $73
 	octave 2
-	note G_, 8
-	intensity $64
 	note G_, 8
 	intensity $63
 	note G_, 8
-	intensity $52
+	note G_, 8
+	intensity $53
 	note G_, 4
-	intensity $34
+	intensity $33
 	note G_, 4
 
 	dutycycle $3
-	intensity $a7
+	intensity $b7
 	note G_, 12
 	note G_, 13
 	note G_, 7
@@ -468,26 +470,26 @@ Music_BobOmbBattlefield_Ch1_loop:
 	note G_, 8
 	intensity $63
 	note G_, 7
-	intensity $42
+	intensity $43
 	note G_, 8
 	intensity $73
 	note G_, 8
-	intensity $42
+	intensity $43
 	note G_, 4
-	intensity $22
+	intensity $23
 	note G_, 4
-	intensity $62
+	intensity $63
 	note G_, 3
-	intensity $22
+	intensity $23
 	note G_, 5
 
-	intensity $74
+	intensity $73
 	note G_, 4
-	intensity $54
+	intensity $53
 	note G_, 4
-	intensity $74
+	intensity $73
 	note G_, 4
-	intensity $34
+	intensity $33
 	note G_, 4
 ;Bar 19
 	dutycycle $3
@@ -556,6 +558,7 @@ Music_BobOmbBattlefield_Ch1_loop:
 	note E_, 10
 ;Bar 27
 	dutycycle $0
+	stereopanning $f
 	callchannel Music_BobOmbBattlefield_Ch2_Bar27
 ;Bar 28
 	callchannel Music_BobOmbBattlefield_Ch2_Bar28
@@ -576,6 +579,7 @@ Music_BobOmbBattlefield_Ch1_loop:
 	note __, 3
 	intensity $77
 	note G_, 1
+	stereopanning $ff
 	notetype 3, $97
 	note F_, 1 
 	intensity $a7
@@ -593,6 +597,7 @@ Music_BobOmbBattlefield_Ch1_loop:
 	notetype 12, $97
 	note __, 1
 ;Bar 31
+	stereopanning $f
 	callchannel Music_BobOmbBattlefield_Ch2_Bar27
 ;Bar 32
 	callchannel Music_BobOmbBattlefield_Ch2_Bar28
@@ -619,6 +624,7 @@ Music_BobOmbBattlefield_Ch1_loop:
 	note __, 1
 	intensity $57
 	note D_, 1
+	stereopanning $ff
 	notetype 4, $a7
 	octave 3
 	note E_, 1
@@ -668,23 +674,23 @@ Music_BobOmbBattlefield_Bar23:
 
 Music_BobOmbBattlefield_Ch2:
 	dutycycle $1
-	notetype 12, $a7
+	notetype 12, $b7
 ;Bar 1
-	intensity $c7
+	intensity $d7
 	octave 4
 	note C_, 1 
 	note __, 1 
-	intensity $b7
+	intensity $c7
 	octave 3
 	note A_, 1
 	note __, 1 
 	octave 4
 	note C_, 2
 	note D_, 1
-	intensity $c7
+	intensity $d7
 	note C_, 1
 	note __, 1 
-	intensity $b7
+	intensity $c7
 	octave 3
 	note E_, 3 
 	note F_, 1
@@ -692,24 +698,24 @@ Music_BobOmbBattlefield_Ch2:
 	note F#, 1
 	note __, 1 
 ;Bar 2
-	intensity $c7
-	note G_, 1
-	note __, 3
 	intensity $d7
 	note G_, 1
-	intensity $b7
+	note __, 3
+	intensity $e7
+	note G_, 1
+	intensity $c7
 	octave 2
 	note G_, 1 
 	note __, 1 
-	intensity $d7
+	intensity $e7
 	octave 3
 	note G_, 1
 	note __, 6
 Music_BobOmbBattlefield_Ch2_loop:
 	octave 3
-	intensity $b7
+	intensity $c7
 	note D_, 1
-	intensity $97
+	intensity $a7
 	note D#, 1 
 ;Bar 3
 	callchannel Music_BobOmbBattlefield_Ch2_Bar3
@@ -724,7 +730,7 @@ Music_BobOmbBattlefield_Ch2_loop:
 	callchannel Music_BobOmbBattlefield_Ch2_Bar6
 ;Bar 7
 	callchannel Music_BobOmbBattlefield_Ch2_Bar3
-	intensity $a7
+	intensity $b7
 	note A#, 1
 	note __, 5
 	note G#, 1
@@ -740,7 +746,7 @@ Music_BobOmbBattlefield_Ch2_loop:
 	note C_, 9
 	note __, 5
 	note D_, 1
-	intensity $97
+	intensity $a7
 	note D#, 1
 ;Bar 11
 	callchannel Music_BobOmbBattlefield_Ch2_Bar3
@@ -748,7 +754,7 @@ Music_BobOmbBattlefield_Ch2_loop:
 ;Bar 12
 	callchannel Music_BobOmbBattlefield_Ch2_Bar4
 	note __, 5
-	intensity $c7
+	intensity $d7
 	note G#, 1
 	note __, 1
 ;Bar 13
@@ -769,31 +775,31 @@ Music_BobOmbBattlefield_Ch2_loop:
 	callchannel Music_BobOmbBattlefield_Ch2_Bar9
 ;Bar 18
 	note C_, 2
-	intensity $c7
+	intensity $d7
 	note C_, 1
 	note __, 1
 	octave 2
 	note A#, 1
 	note B_, 1
 	note __, 1
-	intensity $d7
+	intensity $e7
 	octave 3
 	note C_, 5
 ;Bar 19
 	callchannel Music_BobOmbBattlefield_Ch2_Bar18_19
 ;Bar 20	
-	intensity $c7
+	intensity $d7
 	note G_, 1
 	note __, 2
-	intensity $e7
+	intensity $f7
 	note E_, 6
 	callchannel Music_BobOmbBattlefield_Ch2_Bar18_19
 ;Bar 21
 ;Bar 22
-	intensity $d7
+	intensity $e7
 	note E_, 1
 	note __, 2
-	intensity $e7
+	intensity $f7
 	note C_, 7
 	note __, 3
 ;Bar 23
@@ -819,6 +825,7 @@ Music_BobOmbBattlefield_Ch2_loop:
 	intensity $d7
 	note C_, 10
 ;Bar 27
+	stereopanning $f0
 	callchannel Music_BobOmbBattlefield_Ch2_Bar27
 ;Bar 28
 	callchannel Music_BobOmbBattlefield_Ch2_Bar28
@@ -857,6 +864,7 @@ Music_BobOmbBattlefield_Ch2_loop:
 	note __, 1
 	note D#, 1
 	note __, 1
+	stereopanning $ff
 	intensity $67
 	octave 2
 	note G_, 1
@@ -869,7 +877,7 @@ Music_BobOmbBattlefield_Ch2_loop:
 	endchannel
 
 Music_BobOmbBattlefield_Ch2_Bar3:
-	intensity $b7
+	intensity $c7
 	note E_, 1
 	note D#, 1
 	note E_, 1
@@ -885,7 +893,7 @@ Music_BobOmbBattlefield_Ch2_Bar3_2:
 	note __, 5
 	octave 2
 	note G_, 1
-	intensity $a7
+	intensity $b7
 	note G#, 1
 	endchannel
 
@@ -893,20 +901,20 @@ Music_BobOmbBattlefield_Ch2_Bar4:
 	note A_, 1
 	note G#, 1
 	note A_, 1
-	intensity $b7
+	intensity $c7
 	octave 3
 	note C_, 1
 	note __, 1
 	note D_, 1
 	note C_, 1
 	note __, 1
-	intensity $a7
+	intensity $b7
 	octave 2
 	note A_, 1
 	endchannel
 
 Music_BobOmbBattlefield_Ch2_Bar5:
-	intensity $b7
+	intensity $c7
 	octave 2
 	note G_, 1
 	note F#, 1
@@ -918,7 +926,7 @@ Music_BobOmbBattlefield_Ch2_Bar5:
 	endchannel
 
 Music_BobOmbBattlefield_Ch2_Bar6:
-	intensity $b7
+	intensity $c7
 	note G_, 1
 	note __, 1
 	note A_, 1
@@ -927,12 +935,12 @@ Music_BobOmbBattlefield_Ch2_Bar6:
 	note D_, 1
 	note __, 6
 	note D_, 1
-	intensity $a7
+	intensity $b7
 	note D#, 1
 	endchannel
 
 Music_BobOmbBattlefield_Ch2_Bar8:
-	intensity $b7
+	intensity $c7
 	note A_, 1
 	note G#, 1
 	note A_, 1
@@ -948,15 +956,15 @@ Music_BobOmbBattlefield_Ch2_Bar8:
 
 Music_BobOmbBattlefield_Ch2_Bar9:
 	note G_, 1
-	intensity $97
+	intensity $a7
 	note F#, 1
-	intensity $b7
+	intensity $c7
 	note G_, 1
-	intensity $87
+	intensity $97
 	octave 2
 	note G_, 1
 	note __, 2
-	intensity $b7
+	intensity $c7
 	octave 3
 	note G_, 1
 	note F#, 1
@@ -1042,8 +1050,8 @@ Music_BobOmbBattlefield_Ch2_Bar28:
 
 Music_BobOmbBattlefield_Ch3:
 	notetype 12, $1c
+	vibrato $13, $24
 ;Bar 1
-	intensity $1c
 	octave 3
 	note C_, 1
 	note __, 1
@@ -1062,8 +1070,7 @@ Music_BobOmbBattlefield_Ch3:
 	note F#, 1
 	note __, 1
 ;Bar 2
-	note G_, 2 
-	note __, 1
+	note G_, 3
 	octave 1
 	note G_, 3 
 	octave 2
@@ -1077,60 +1084,48 @@ Music_BobOmbBattlefield_Ch3_loop:
 ;Bar 3
 	octave 2
 	note C_, 4
-	intensity $1c
 	octave 3
-	;note C_, 0 | WARNING: Rounded down to 0
-	note __, 2
-	intensity $1c
+	note C_, 1
+	note __, 1
 	octave 2
 	note C_, 1
 	note C_, 1 
 	note __, 3
 	octave 3
 	note C_, 1
-	intensity $1c
 	octave 2
 	note C_, 1
-	intensity $1c
 	octave 3
 	note C_, 1
 	octave 2
 	note E_, 2
 ;Bar 4
 	note F_, 4
-	intensity $1c
 	octave 3
-	;note F_, 0 | WARNING: Rounded down to 0
-	note __, 2
-	intensity $1c
+	note F_, 1
+	note __, 1
 	octave 2
 	note F_, 1
 	note F_, 1
 	note __, 3 
 	octave 3
 	note F_, 1
-	intensity $1c
 	octave 2
 	note F_, 1 
-	intensity $1c
 	octave 3
 	note F_, 1 
 	octave 2
 	note F_, 2
 ;Bar 5
 	note E_, 4 
-	intensity $1c
-	;note E_, 0 | WARNING: Rounded down to 0
-	note __, 2 
-	intensity $1c
+	note E_, 1
+	note __, 1
 	octave 3
 	note E_, 1 
 	octave 2
 	note D#, 6 
-	intensity $1c
 	octave 3
 	note D#, 1
-	intensity $1c
 	octave 2
 	note D#, 1 
 	note __, 1 
@@ -1139,9 +1134,7 @@ Music_BobOmbBattlefield_Ch3_loop:
 	note __, 2
 	note D_, 1
 	note __, 2
-	intensity $1c
 	note G_, 5
-	intensity $1c
 	octave 3
 	note G_, 1 
 	octave 1
@@ -1149,11 +1142,9 @@ Music_BobOmbBattlefield_Ch3_loop:
 ;Bar 7
 	octave 2
 	note C_, 4
-	intensity $1c
 	octave 3
-	;note C_, 0 | WARNING: Rounded down to 0
-	note __, 2 
-	intensity $1c
+	note C_, 1
+	note __, 1
 	octave 2
 	note C_, 1
 	note E_, 1
@@ -1161,11 +1152,9 @@ Music_BobOmbBattlefield_Ch3_loop:
 	note E_, 2 
 ;Bar 8
 	note F_, 4
-	intensity $1c
 	octave 3
-	;note F_, 0 | WARNING: Rounded down to 0
-	note __, 2
-	intensity $1c
+	note F_, 1
+	note __, 1
 	octave 2
 	note F_, 1
 	note F#, 1
@@ -1181,16 +1170,7 @@ Music_BobOmbBattlefield_Ch3_loop:
 	octave 2
 	note G_, 4
 ;Bar 10
-	note C_, 2
-	octave 3
-	note C_, 1
-	octave 1
-	note A#, 1
-	note __, 1
-	intensity $1c
-	octave 2
-	note A#, 1
-	intensity $1c
+	callchannel Music_BobOmbBattlefield_Ch3_Type1
 	note C_, 1
 	note __, 3
 	note C_, 1
@@ -1215,8 +1195,8 @@ Music_BobOmbBattlefield_Ch3_loop:
 	note F_, 3
 	note __, 1
 	octave 3
-	;note C_, 0 | WARNING: Rounded down to 0
-	note __, 2
+	note C_, 1
+	note __, 1
 	octave 2
 	note F_, 1
 	note F_, 1
@@ -1225,15 +1205,15 @@ Music_BobOmbBattlefield_Ch3_loop:
 	note E_, 2
 	note __, 2
 	octave 3
-	;note C_, 0 | WARNING: Rounded down to 0
-	note __, 2
+	note C_, 1
+	note __, 1
 	octave 2
 	note E_, 1
 	note D#, 3
 	note __, 2
 	octave 3
-	;note C_, 0 | WARNING: Rounded down to 0
-	note __, 2
+	note C_, 1
+	note __, 1
 	octave 2
 	note D#, 2
 ;Bar 14
@@ -1243,10 +1223,8 @@ Music_BobOmbBattlefield_Ch3_loop:
 	note __, 2
 	note G_, 4
 	note __, 1
-	intensity $1c
 	octave 3
 	note G_, 1
-	intensity $1c
 	octave 1
 	note G_, 4
 ;Bar 15
@@ -1254,14 +1232,14 @@ Music_BobOmbBattlefield_Ch3_loop:
 	note C_, 3
 	note __, 1
 	octave 3
-	;note C_, 0 | WARNING: Rounded down to 0
-	note __, 2
+	note C_, 1
+	note __, 1
 	octave 2
 	note C_, 1
 	note C_, 1
 	note __, 4
-	;note C_, 0 | WARNING: Rounded down to 0
-	note __, 2
+	note C_, 1
+	note __, 1
 	note E_, 2
 ;Bar 16
 	note F_, 4
@@ -1280,15 +1258,7 @@ Music_BobOmbBattlefield_Ch3_loop:
 	octave 2
 	note G_, 4
 ;Bar 18
-	note C_, 1
-	note __, 1
-	octave 3
-	note C_, 1
-	octave 1
-	note A#, 1
-	note __, 1
-	octave 2
-	note A#, 1
+	callchannel Music_BobOmbBattlefield_Ch3_Type1
 	note C_, 1
 	note __, 3
 	note C_, 1
@@ -1296,123 +1266,34 @@ Music_BobOmbBattlefield_Ch3_loop:
 	note C_, 1
 	note C_, 3
 ;Bar 19
-	note F_, 1
-	note __, 7
-	;note E_, 0 | WARNING: Rounded down to 0
-	note __, 8
+rept 2
+	note F_, 8
+	note E_, 8
 ;Bar 20
 	note D_, 1
 	note __, 2
 	note D_, 1
 	note __, 2
-	note C_, 8
-	note __, 2
-;Bar 21
-	note F_, 8
-	note E_, 1
-	note __, 7
-;Bar 22
-	note D_, 1
-	note __, 2
-	note D_, 1
-	note __, 2
 	note C_, 9
 	note __, 1
+endr
 ;Bar 23
-	;note F_, 0 | WARNING: Rounded down to 0
-	note __, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	note __, 2
-	note F_, 1
-	note __, 1
-	note F_, 1
-	note __, 1
-	note E_, 1
-	note __, 1
-	note E_, 1
-	note __, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	note __, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	note __, 2
-;Bar 24
-	;note D_, 0 | WARNING: Rounded down to 0
-	note __, 3
-	;note D_, 0 | WARNING: Rounded down to 0
-	note __, 3
+	callchannel Music_BobOmbBattlefield_Ch3_Bar23_24
 	note C_, 7
 	note __, 3
 ;Bar 25
-	note F_, 1
-	note __, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	note __, 2
-	note F_, 1
-	note __, 1
-	note F_, 1
-	note __, 1
-	note E_, 1
-	note __, 1
-	note E_, 1
-	note __, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	note __, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	note __, 2
-;Bar 26
-	;note D_, 0 | WARNING: Rounded down to 0
-	note __, 3
-	;note D_, 0 | WARNING: Rounded down to 0
-	note __, 3
+	callchannel Music_BobOmbBattlefield_Ch3_Bar23_24
 	note C_, 9
 	note __, 1
 ;Bar 27
-	note C_, 4
-	note __, 2
-	note C_, 1
-	octave 3
-	note C_, 1
-	note __, 2
-	octave 2
-	note C_, 1
-	note __, 1
-	note C_, 1
-	note C_, 3
+	callchannel Music_BobOmbBattlefield_Ch3_Bar27
 ;Bar 28
-	note F_, 5
-	note __, 1
-	note F_, 1
-	octave 3
-	note F_, 1
-	note __, 2
-	octave 2
-	note F_, 1
-	note __, 1
-	note F_, 1
+	callchannel Music_BobOmbBattlefield_Ch3_Bar28
 	note F_, 3
 ;Bar 29
-	note C_, 4
-	note __, 2
-	note C_, 1
-	octave 3
-	note C_, 1
-	note __, 2
-	octave 2
-	;note C_, 0 | WARNING: Rounded down to 0
-	note __, 2
-	note C_, 1
-	note C_, 3
+	callchannel Music_BobOmbBattlefield_Ch3_Bar27
 ;Bar 30
-	note F_, 4
-	note __, 2
-	note F_, 1
-	octave 3
-	note F_, 1
-	note __, 2
-	octave 2
-	note F_, 1
-	note __, 1
-	note F_, 1
+	callchannel Music_BobOmbBattlefield_Ch3_Bar28
 	note G_, 3
 ;Bar 31
 	note C_, 4
@@ -1422,34 +1303,15 @@ Music_BobOmbBattlefield_Ch3_loop:
 	note C_, 1
 	note __, 2
 	octave 2
-	;note C_, 0 | WARNING: Rounded down to 0
-	note __, 2
+	note C_, 1
+	note __, 1
 	note C_, 3
 	note __, 1
 ;Bar 32
-	note F_, 4
-	note __, 2
-	note F_, 1
-	octave 3
-	note F_, 1
-	note __, 2
-	octave 2
-	note F_, 1
-	note __, 1
-	note F_, 1
+	callchannel Music_BobOmbBattlefield_Ch3_Bar28
 	note F_, 3
 ;Bar 33
-	note C_, 3
-	note __, 3
-	note C_, 1
-	octave 3
-	note C_, 1
-	note __, 2
-	octave 2
-	;note C_, 0 | WARNING: Rounded down to 0
-	note __, 2
-	note C_, 1
-	note C_, 3
+	callchannel Music_BobOmbBattlefield_Ch3_Bar27
 ;Bar 34
 	note F_, 1
 	note __, 1
@@ -1463,9 +1325,68 @@ Music_BobOmbBattlefield_Ch3_loop:
 	note __, 3
 	octave 1
 	note G_, 4
-	;note __, 2
 	loopchannel 0, Music_BobOmbBattlefield_Ch3_loop
 
+Music_BobOmbBattlefield_Ch3_Type1:
+	note C_, 2;
+	octave 3
+	note C_, 1
+	octave 1
+	note A#, 2
+	octave 2
+	note A#, 1
+	endchannel
+
+Music_BobOmbBattlefield_Ch3_Bar23_24:
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note F_, 1
+	note __, 1
+	note E_, 1
+	note __, 1
+	note E_, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+	note D#, 1
+	note __, 1
+;Bar 24
+	note D_, 1
+	note __, 2
+	note D_, 1
+	note __, 2
+	endchannel
+
+Music_BobOmbBattlefield_Ch3_Bar27:
+	note C_, 4;
+	note __, 2
+	note C_, 1
+	octave 3
+	note C_, 1
+	note __, 2
+	octave 2
+	note C_, 1
+	note __, 1
+	note C_, 1
+	note C_, 3
+	endchannel
+
+Music_BobOmbBattlefield_Ch3_Bar28:
+	note F_, 5;
+	note __, 1
+	note F_, 1
+	octave 3
+	note F_, 1
+	note __, 2
+	octave 2
+	note F_, 1
+	note __, 1
+	note F_, 1
+	endchannel
 ; ============================================================================================================
 
 Music_BobOmbBattlefield_Ch4:

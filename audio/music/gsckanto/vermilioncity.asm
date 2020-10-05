@@ -26,52 +26,18 @@ Music_GSCVermilionCity_branch_eb6a0: ; eb6a0
 	dutycycle $2
 	notetype $c, $85
 	callchannel Music_GSCVermilionCity_branch_eb6f9
-	note F_, 4
-	octave 4
-	note D_, 4
-	note E_, 1
-	note C#, 1
-	octave 3
-	note A_, 1
-	note E_, 1
-	octave 4
-	note C#, 1
-	octave 3
-	note A_, 1
-	note E_, 1
-	note C_, 1
+	callchannel Music_GSCVermilionCity_Ch1_Part1
 	callchannel Music_GSCVermilionCity_branch_eb6f9
 	callchannel Music_GSCVermilionCity_branch_eb701
 	intensity $93
 	dutycycle $0
+rept 4
 	note __, 2
 	note F#, 2
-	note __, 2
-	note F#, 2
-	note __, 2
-	note F#, 2
-	note __, 2
-	note F#, 2
+endr
 	callchannel Music_GSCVermilionCity_branch_eb70c
 	callchannel Music_GSCVermilionCity_branch_eb70c
-	intensity $87
-	dutycycle $2
-	octave 4
-	note D_, 8
-	octave 3
-	note G#, 8
-	note E_, 8
-	note B_, 8
-	note A_, 4
-	note G#, 4
-	note F#, 4
-	note E_, 4
-	octave 2
-	note B_, 4
-	note G#, 4
-	note B_, 4
-	octave 3
-	note D_, 4
+	callchannel Music_GSCVermilionCity_Ch1_Part2
 	loopchannel 0, Music_GSCVermilionCity_branch_eb6a0
 ; eb6f9
 
@@ -143,6 +109,43 @@ Music_GSCVermilionCity_branch_eb70c: ; eb70c
 	note G#, 2
 	endchannel
 ; eb721
+Music_GSCVermilionCity_Ch1_Part1:
+	note F_, 4
+	octave 4
+	note D_, 4
+	note E_, 1
+	note C#, 1
+	octave 3
+	note A_, 1
+	note E_, 1
+	octave 4
+	note C#, 1
+	octave 3
+	note A_, 1
+	note E_, 1
+	note C_, 1
+	endchannel
+
+Music_GSCVermilionCity_Ch1_Part2:
+	intensity $87
+	dutycycle $2
+	octave 4
+	note D_, 8
+	octave 3
+	note G#, 8
+	note E_, 8
+	note B_, 8
+	note A_, 4
+	note G#, 4
+	note F#, 4
+	note E_, 4
+	octave 2
+	note B_, 4
+	note G#, 4
+	note B_, 4
+	octave 3
+	note D_, 4
+	endchannel
 
 Music_GSCVermilionCity_Ch2: ; eb721
 	stereopanning $ff
@@ -234,23 +237,7 @@ Music_GSCVermilionCity_Ch3: ; eb785
 	stereopanning $f0
 	vibrato $22, $23
 	notetype $c, $25
-	octave 2
-	note E_, 4
-	note B_, 4
-	octave 3
-	note E_, 4
-	note B_, 4
-	note D_, 4
-	note E_, 4
-	note D_, 2
-	octave 3
-	note B_, 1
-	note G#, 1
-	note F#, 1
-	note E_, 1
-	note D_, 1
-	octave 2
-	note B_, 1
+	callchannel Music_GSCVermilionCity_Ch3_Intro
 Music_GSCVermilionCity_branch_eb79e: ; eb79e
 	notetype $c, $22
 	callchannel Music_GSCVermilionCity_branch_eb7de
@@ -349,6 +336,26 @@ Music_GSCVermilionCity_branch_eb7f5: ; eb7f5
 	endchannel
 ; eb808
 
+Music_GSCVermilionCity_Ch3_Intro:
+	octave 2
+	note E_, 4
+	note B_, 4
+	octave 3
+	note E_, 4
+	note B_, 4
+	note D_, 4
+	note E_, 4
+	note D_, 2
+	octave 3
+	note B_, 1
+	note G#, 1
+	note F#, 1
+	note E_, 1
+	note D_, 1
+	octave 2
+	note B_, 1
+	endchannel
+
 Music_GSCVermilionCityNight: ; eb676
 	musicheader 3, 1, Music_GSCVermilionCityNight_Ch1
 	musicheader 1, 2, Music_GSCVermilionCityNight_Ch2
@@ -376,52 +383,18 @@ Music_GSCVermilionCityNight_Ch1_loop: ; eb6a0
 	dutycycle $2
 	notetype $c, $85
 	callchannel Music_GSCVermilionCity_branch_eb6f9
-	note F_, 4
-	octave 4
-	note D_, 4
-	note E_, 1
-	note C#, 1
-	octave 3
-	note A_, 1
-	note E_, 1
-	octave 4
-	note C#, 1
-	octave 3
-	note A_, 1
-	note E_, 1
-	note C_, 1
+	callchannel Music_GSCVermilionCity_Ch1_Part1
 	callchannel Music_GSCVermilionCity_branch_eb6f9
 	callchannel Music_GSCVermilionCity_branch_eb701
 	intensity $93
 	dutycycle $1
+rept 4
 	note __, 2
 	note F#, 2
-	note __, 2
-	note F#, 2
-	note __, 2
-	note F#, 2
-	note __, 2
-	note F#, 2
+endr
 	callchannel Music_GSCVermilionCity_branch_eb70c
 	callchannel Music_GSCVermilionCity_branch_eb70c
-	intensity $87
-	dutycycle $2
-	octave 4
-	note D_, 8
-	octave 3
-	note G#, 8
-	note E_, 8
-	note B_, 8
-	note A_, 4
-	note G#, 4
-	note F#, 4
-	note E_, 4
-	octave 2
-	note B_, 4
-	note G#, 4
-	note B_, 4
-	octave 3
-	note D_, 4
+	callchannel Music_GSCVermilionCity_Ch1_Part2
 	loopchannel 0, Music_GSCVermilionCityNight_Ch1_loop
 
 Music_GSCVermilionCityNight_Ch2: ; eb721
@@ -445,23 +418,7 @@ Music_GSCVermilionCityNight_Ch3: ; eb785
 	stereopanning $f0
 	vibrato $21, $23
 	notetype $c, $24
-	octave 2
-	note E_, 4
-	note B_, 4
-	octave 3
-	note E_, 4
-	note B_, 4
-	note D_, 4
-	note E_, 4
-	note D_, 2
-	octave 3
-	note B_, 1
-	note G#, 1
-	note F#, 1
-	note E_, 1
-	note D_, 1
-	octave 2
-	note B_, 1
+	callchannel Music_GSCVermilionCity_Ch3_Intro
 Music_GSCVermilionCityNight_Ch3_loop: ; eb79e
 	notetype $c, $23
 	callchannel Music_GSCVermilionCity_branch_eb7de

@@ -13,397 +13,370 @@ Music_Placeholder:
 
 Music_Placeholder_Ch1:
 	volume $77
-	dutycycle $2
-	notetype 12, $a3
-	stereopanning $f
-	tempo 114
+	dutycycle $1
+	notetype 6, $87
+	stereopanning $f0
+	tempo 136
 ;Bar 1
-	note __, 4
-	intensity $53
-	octave 4
-	note E_, 1
+	note __, 8
+
+Music_Placeholder_Ch1_loop:
 	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
+	pitchoffset 1, B_
+	callchannel Music_Placeholder_Ch1_Type1
+	callchannel Music_Placeholder_Ch1_Type2
+	callchannel Music_Placeholder_Ch1_Type1
 ;Bar 2
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
+	callchannel Music_Placeholder_Ch1_Type3
+	callchannel Music_Placeholder_Ch1_Type4
+	callchannel Music_Placeholder_Ch1_Type2
+	callchannel Music_Placeholder_Ch1_Type1
 ;Bar 3
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
+	callchannel Music_Placeholder_Ch1_Type1
+	callchannel Music_Placeholder_Ch1_Type1
+	callchannel Music_Placeholder_Ch1_Type2
+	callchannel Music_Placeholder_Ch1_Type1
 ;Bar 4
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
+	callchannel Music_Placeholder_Ch1_Type3
+	callchannel Music_Placeholder_Ch1_Type5
 ;Bar 5
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
 	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
+	pitchoffset 0, C_
+	callchannel Music_Placeholder_Ch1_Type1
+	callchannel Music_Placeholder_Ch1_Type2
+	callchannel Music_Placeholder_Ch1_Type1
 ;Bar 6
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
+	callchannel Music_Placeholder_Ch1_Type3
+	callchannel Music_Placeholder_Ch1_Type4
+	callchannel Music_Placeholder_Ch1_Type2
+	callchannel Music_Placeholder_Ch1_Type1
 ;Bar 7
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
+	callchannel Music_Placeholder_Ch1_Type1
+	callchannel Music_Placeholder_Ch1_Type1
+	callchannel Music_Placeholder_Ch1_Type2
+	callchannel Music_Placeholder_Ch1_Type1
 ;Bar 8
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	note E_, 1
-	octave 3
-	note B_, 1
-	octave 5
-	note E_, 1
-	octave 4
-	note B_, 1
+	callchannel Music_Placeholder_Ch1_Type3
+	callchannel Music_Placeholder_Ch1_Type5
 ;Bar 9
-	note G_, 1
-	note E_, 1
-	note B_, 1
-	note G_, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	note E_, 1
+	loopchannel 0, Music_Placeholder_Ch1_loop
+
+Music_Placeholder_Ch1_Type1:
+	intensity $74
+	note F#, 2
+	intensity $44
+	note F#, 2
+	intensity $64
+	note E_, 2
+	intensity $34
+	note F#, 2
+	endchannel
+
+Music_Placeholder_Ch1_Type2:
+	intensity $74
+	note F#, 1;
+	note __, 3
+	intensity $64
+	note F#, 2
+	intensity $34
+	note F#, 2
+	endchannel
+
+Music_Placeholder_Ch1_Type3:
+	intensity $74
+	note F#, 2
+	intensity $44
+	note F#, 2
+	intensity $54
+	note F#, 2
+	intensity $34
+	note F#, 2
+	endchannel
+
+Music_Placeholder_Ch1_Type4:
+	intensity $74
+	note F#, 2
+	intensity $54
+	note F#, 1
+	note F#, 1
+	intensity $74
+	note E_, 2
+	note F#, 2
+	endchannel
+
+Music_Placeholder_Ch1_Type5:
+	octave 5
+	notetype 12, $28
+	slidepitchto 16, 4, G#
+	note F_, 16
+	notetype 6, $74
 	endchannel
 
 ; ============================================================================================================
 
 Music_Placeholder_Ch2:
-	dutycycle $1
-	stereopanning $f0
-	notetype 12, $98
+	sound_duty 0,3,0,1
+	vibrato $0, $f1
+	notetype 6, $c8
 ;Bar 1
-	note __, 4
+	note __, 8
+Music_Placeholder_Ch2_loop
+	pitchoffset 1, B_
+	callchannel Music_Placeholder_Ch2_Main
+	pitchoffset 0, C_
+	callchannel Music_Placeholder_Ch2_Main
+	loopchannel 0, Music_Placeholder_Ch2_loop
+
+Music_Placeholder_Ch2_Main:
 	octave 3
-	note E_, 12
-;Bar 2
-	intensity $a8
+	note F#, 8
+	notetype 3, $b8
 	note E_, 1
-	note __, 3
-	intensity $98
-	note F#, 15
-;Bar 3
-	note __, 1
-	note A_, 12
-;Bar 4
-	note A_, 2
-	intensity $a8
-	note B_, 1
-	note __, 1
-	intensity $98
-	octave 4
-	note C_, 12
-;Bar 5
-	intensity $a8
-	octave 3
-	note B_, 1
-	note __, 3
-	intensity $98
-	octave 4
-	note E_, 12
-;Bar 6
-	intensity $a8
-	note E_, 1
-	note __, 3
-	intensity $98
-	note D_, 16
-;Bar 7
-	note __, 2
-	note C_, 10
-;Bar 8
-	intensity $a8
-	note C_, 1
-	note __, 3
-	intensity $98
-	note E_, 11
-	note __, 1
-;Bar 9
-	intensity $a8
-	octave 3
-	note D#, 2
+	note C#, 1 
 	octave 2
 	note B_, 1
+	note A_, 1
+	notetype 6, $b8
+	note F#, 2
+	note __, 2
+	octave 2
+	note A_, 4
+	note A_, 2
 	note B_, 2
+	note __, 2
+;Bar 6
+	octave 3
+	note C_, 2
+	intensity $b5
+	note C_, 2
+	intensity $b8
+	note C#, 2
+	note E_, 2
+	octave 2
+	note F#, 8
+	notetype 3, $b8
+	note A_, 1
+	note B_,  1 
+	octave 3
+	note C#, 1
+	note E_, 1
+	notetype 6, $b8
+	note F#, 2
+	note __, 2
+	octave 2
+	note A_, 4
+	note A_, 2
+	note B_, 2
+	note __, 2
+;Bar 7
+	octave 3
+	note C#, 2
+	intensity $a8
+	note C_, 2
+	intensity $b8
+	note C#, 2
+	note E_, 2
+	octave 2
+	intensity $b5
+	note F#, 2
+	intensity $83
+	note F#, 2
+	intensity $a3
+	note F#, 2
+	intensity $83
+	note F#, 2
+	octave 2
+	notetype 3, $b8
+	note A_, 1
+	note B_, 1 
+	octave 3
+	note C#, 1
+	note E_, 1
+	notetype 6, $b8
+	note F#, 4
+	note C#, 2
+	note C_, 2
+	note C#, 2
+	octave 2
+	note B_, 2
+	note __, 2
+;Bar 8
+	octave 3
+	note C_, 2
+	intensity $b5
+	note C_, 2
+	intensity $b8
+	note C#, 2
+	note E_, 2
+	note E_, 2
+	note F#, 2
+rept 4
+	note __, 2
+	note E_, 2
+	note F#, 2
+endr
+;Bar 9
+	notetype 3, $b8
+	note E_,  1
+	note C#, 1 
+	octave 2
+	note B_,  1
+	note A_,  1
+	notetype 6, $b8
+	note A_, 2
 	endchannel
 
 ; ============================================================================================================
 
 Music_Placeholder_Ch3:
-	notetype 12, $13
+	notetype 6, $18
 ;Bar 1
-	note __, 4
+	note __, 8
+Music_Placeholder_Ch3_loop:
+	pitchoffset 1, B_
+	callchannel Music_Placeholder_Ch3_Main
+	pitchoffset 0, C_
+	callchannel Music_Placeholder_Ch3_Main
+	loopchannel 0, Music_Placeholder_Ch3_loop
+
+Music_Placeholder_Ch3_Main:
 	octave 2
-	note E_, 16
-;Bar 2
-	note F#, 16
-;Bar 3
-	note A_, 12
-;Bar 4
-	note A_, 1
+	note F#, 2
+	note __, 2
+	note E_, 1
 	note __, 1
-	note B_, 2
-	note G_, 2
-	note A_, 2
 	octave 3
-	note C_, 2
-	note E_, 2
-	note D#, 2
+	note C#, 2
 	note __, 2
-;Bar 5
 	octave 2
-	note B_, 2
+rept 2
+	note E_, 1
+	note __, 1
+	note F#, 2
 	note __, 2
-	octave 3
-	note E_, 16
+endr
+	note E_, 1
+	note __, 1
 ;Bar 6
-	note D_, 16
-	note D_, 2
-;Bar 7
+	note F#, 2
+	note __, 2
+	note C#, 2
+	octave 1
+	note F#, 2
 	octave 2
-	note A_, 12
-;Bar 8
+	note F#, 2
 	note __, 2
-	note G_, 2
-	note A_, 2
-	note G_, 2
-	note A_, 2
-	note B_, 2
-	note __, 2
-;Bar 9
+	note E_, 1
+	note __, 1
 	octave 3
-	note D_, 2
-	note D_, 3
+	note C#, 2
+	note __, 2
+	octave 2
+rept 2
+	note E_, 1
+	note __, 1
+	note F#, 2
+	note __, 2
+endr
+	note E_, 1
+	note __, 1
+;Bar 7
+	note F#, 2
+	note __, 2
+	note C#, 2
+	octave 1
+	note F#, 2
+	octave 2
+	note F#, 2
+	note __, 2
+	note E_, 1
+	note __, 1
+	note C#, 2
+	note __, 2
+rept 2
+	note E_, 1
+	note __, 1
+	note F#, 2
+	note __, 2
+endr
+	note E_, 1
+	note __, 1
+;Bar 8
+	note F#, 2
+	note __, 2
+	note C#, 2
+	octave 1
+	note F#, 2
+	octave 2
+rept 3
+	note E_, 2
+	note F#, 2
+	note __, 2
+endr 
+	note E_, 2
+	note F#, 2
+	note E_, 2
+;Bar 9
+	note F#, 2
+	note __, 2
+	note A_, 4
 	endchannel
 
 ; ============================================================================================================
 
 Music_Placeholder_Ch4:
-	togglenoise 1 ; WARNING: this might sound bad.
-	notetype 12
+	togglenoise 3
 ;Bar 1
-	note __, 2
-	note A#, 2
-	note C#, 2
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 2
-	note B_, 2
-	note E_, 2
-;Bar 2
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-;Bar 3
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-;Bar 4
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-;Bar 5
-	note A#, 2
-	note E_, 2
-	note A_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note C#, 2
-	note B_, 2
-	note E_, 2
+	stereopanning $ff
+	notetype 8
+	note D_, 1
+	note D_, 1
+	note D_, 1
+	notetype 6
+	note G_, 2
+	note D_, 2
+
+Music_Placeholder_Ch4_loop:
+	;repeat
+	callchannel Music_Placeholder_Ch4_Type1
 ;Bar 6
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
+	note F#, 4
+	note F#, 4
+	callchannel Music_Placeholder_Ch4_Type1
 ;Bar 7
-	note B_, 2
-	note E_, 2
-	note A#, 2
-	note E_, 2
-	note B_, 2
-	note C#, 2
-	note B_, 2
-	note E_, 2
+	note F#, 4
+	note F_, 4
+	note F#, 4
+	note F#, 4
+	note F#, 4
+	note F#, 2
+	note C_, 2
+	note F#, 4
+	note C_, 4
 ;Bar 8
-	note A#, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
-	note B_, 2
-	note E_, 2
+	note F#, 4
+	note F#, 6
+	stereopanning $ff
+	note B_, 6
+	note B_, 6
+	note B_, 6
+	note B_, 4
 ;Bar 9
-	note A#, 2
-	note E_, 2
-	note E_, 1
+	note C#, 2
+	note C#, 2
+	note B_, 4
+	loopchannel 0, Music_Placeholder_Ch4_loop
+
+Music_Placeholder_Ch4_Type1:
+	stereopanning $f
+	note F#, 4;
+	note F#, 2
+	note __, 2
+	note F#, 4
+	note F#, 2
+	note C_, 2
+	note F#, 4
+	note F#, 4
 	endchannel
 
 ; ============================================================================================================
-

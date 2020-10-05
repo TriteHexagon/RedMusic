@@ -1,5 +1,5 @@
 NAME := redplusplus
-VERSION := 3.0.0-beta
+VERSION := music
 
 TITLE := POKEMONRPP
 MCODE := PRPP
