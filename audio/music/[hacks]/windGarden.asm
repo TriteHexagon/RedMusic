@@ -24,6 +24,7 @@ Music_WindGarden_Ch1:
 	callchannel Music_WindGarden_Ch1_Bar2
 ;Bar 3
 Music_WindGarden_Ch1_loop:
+	dutycycle $0
 	callchannel Music_WindGarden_Ch1_Main_Cs
 	callchannel Music_WindGarden_Ch1_Main_Cs
 	callchannel Music_WindGarden_Ch1_End_Cs
@@ -381,7 +382,6 @@ endr
 	note G_, 1
 	note G#, 1
 	note A#, 1
-	intensity $97
 	octave 4
 	note C_, 1
 	note C#, 1
@@ -395,10 +395,9 @@ endr
 	note C#, 1
 	note D#, 1
 	note F_, 1
-	intensity $47
 	note G_, 1
 ;Bar 63
-	notetype 12, $57
+	notetype 12, $97
 	octave 3
 	note G#, 16
 ;Bar 64
@@ -434,6 +433,7 @@ endr
 	loopchannel 0, Music_WindGarden_Ch1_loop
 
 Music_WindGarden_Ch1_Main_Cs:
+	octave 3
 	intensity $84
 	note C#, 1
 	intensity $64
@@ -685,62 +685,67 @@ Music_WindGarden_Ch2:
 	note __, 14
 ;Bar 4
 Music_WindGarden_Ch2_loop:
-	intensity $a7
+	intensity $a2
 	octave 3
-	note D_, 1
-	note __, 5
-	note D_, 1
-	note __, 9
+	note D_, 2
+	note __, 4
+	note D_, 2
+	note __, 8
 ;Bar 5
-	note E_, 1
-	note __, 5
-	note E_, 1
-	note __, 9
+	note E_, 2
+	note __, 4
+	note E_, 2
+	note __, 8
 ;Bar 6
-	note F#, 1
-	note __, 5
-	note F#, 1
-	note __, 3
-	intensity $a7
-	note A_, 1
-	note __, 5
+	note F#, 2
+	note __, 4
+	note F#, 2
+	note __, 2
+	note A_, 2
+	note __, 4
 ;Bar 7
 	octave 4
-	intensity $98
-	note C#, 10
-	note C_, 2
-	note D#, 2
-	note C#, 2
+	callchannel Music_WindGarden_Ch2_Bar7
 ;Bar 8
 	octave 3
-	note G#, 10
-	note F_, 2
-	note F#, 2
-	intensity $97
-	note G#, 2
+	callchannel Music_WindGarden_Ch2_Bar8
 ;Bar 9
 	intensity $98
 	note G#, 4
-	note __, 2
-	note F#, 16
+	intensity $48
+	note G#, 2
+	intensity $6d
+	note F#, 2
+	intensity $98
+	note F#, 14
+	intensity $95
 	note F#, 6
 ;Bar 10
 	note __, 4
 ;Bar 11
 	octave 4
-	note D#, 10
+	intensity $6e
+	note D#, 3
+	intensity $98
+	note D#, 5
+	intensity $95
+	note D#, 2
+	intensity $7c
 	note D_, 2
 	note F_, 2
 	note D#, 2
 ;Bar 12
+	intensity $6d
+	note C#, 2
+	intensity $95
 	note C#, 4
-	note __, 2
-	note C_, 2
-	note __, 2
+	intensity $95
+	note C_, 4
 	octave 3
-	note A#, 2
-	note __, 2
+	intensity $95
+	note A#, 4
 	octave 4
+	intensity $96
 	note C_, 2
 ;Bar 13
 	octave 3
@@ -748,15 +753,15 @@ Music_WindGarden_Ch2_loop:
 	note A#, 1
 	octave 4
 	note C_, 1
-	notetype 12, $98
+	notetype 12, $6e
 	octave 3
 	note A#, 3
-	note __, 2
-	note G#, 16
-	note G#, 2
+	intensity $48
+	note A#, 2 ;was rest
+	callchannel Music_WindGarden_Ch2_Type1
 ;Bar 14
 	note __, 4
-	notetype 6, $c8
+	notetype 6, $a8
 	note G#, 1
 	note A#, 1
 	note B_, 1
@@ -767,26 +772,54 @@ Music_WindGarden_Ch2_loop:
 	note F_, 1
 	note F#, 1
 ;Bar 15
-	notetype 12, $b8
-	note G#, 10
+	notetype 12, $8e
+	note G#, 3
+	intensity $b8
+	note G#, 5
+	intensity $b5
+	note G#, 2
+	intensity $9d
 	note G_, 2
 	note A#, 2
 	note G#, 2
 ;Bar 16
 	note F#, 2
 	note __, 4
-	note F_, 10
+	intensity $8e
+	note F_, 3
+	intensity $b8
+	note F_, 5
+	intensity $b5
+	note F_, 2
 ;Bar 17
-	note F#, 10
+	intensity $8e
+	note F#, 3
+	intensity $b8
+	note F#, 5
+	intensity $b5
+	note F#, 2
+	intensity $9d
 	note F_, 2
 	note G#, 2
 	note F#, 2
 ;Bar 18
 	note F_, 2
 	note __, 4
-	note D#, 10
+	intensity $8e
+	note D#, 3
+	intensity $b8
+	note D#, 5
+	intensity $b5
+	note D#, 2
+	intensity $9d
 ;Bar 19
-	note F_, 10
+	intensity $8e
+	note F_, 3
+	intensity $b8
+	note F_, 5
+	intensity $b5
+	note F_, 2
+	intensity $9d
 	note E_, 2
 	note F#, 2
 	note F_, 2
@@ -794,7 +827,7 @@ Music_WindGarden_Ch2_loop:
 	notetype 6, $b8
 	note D#, 1
 	note F_, 1
-	notetype 12, $b8
+	notetype 12, $b6
 	note D#, 3
 	note __, 2
 	note D_, 2
@@ -804,53 +837,66 @@ Music_WindGarden_Ch2_loop:
 	note D#, 1
 	note __, 1
 ;Bar 21
-	intensity $98
-	note C#, 4
-	note __, 2
-	intensity $a8
-	note C_, 10
-;Bar 22
-	intensity $b8
-	note C#, 4
-	note __, 2
-	intensity $c8
-	note D#, 10
-;Bar 23
-	intensity $98
-	octave 5
-	note C#, 10
-	note C_, 2
-	note D#, 2
+	intensity $7d
 	note C#, 2
+	intensity $98
+	note C#, 2
+	note __, 2
+	intensity $7e
+	note C_, 3
+	intensity $a8
+	note C_, 5
+	intensity $a5
+	note C_, 2
+;Bar 22
+	intensity $9d
+	note C#, 2
+	intensity $b8
+	note C#, 2
+	note __, 2
+	intensity $ae
+	note D#, 3
+	intensity $c8
+	note D#, 5
+	intensity $c5
+	note D#, 2
+;Bar 23
+	octave 5
+	callchannel Music_WindGarden_Ch2_Bar7
 ;Bar 24
 	octave 4
-	note G#, 10
-	note F_, 2
-	note F#, 2
-	intensity $97
-	note G#, 2
+	callchannel Music_WindGarden_Ch2_Bar8
 ;Bar 25
 	intensity $98
 	note G#, 4
 	note __, 2
-	note G_, 16
-	note G_, 6
+	intensity $6e
+	note G_, 4
+	intensity $98
+	note G_, 14
+	intensity $97
+	note G_, 4
 ;Bar 26
 	note __, 4
 ;Bar 27
 	octave 5
-	note D#, 10
+	intensity $6e
+	note D#, 3
+	intensity $98
+	note D#, 5
+	intensity $95
+	note D#, 2
+	intensity $7e
 	note D_, 2
 	note F_, 2
 	note D#, 2
 ;Bar 28
+	note C#, 2
+	intensity $95
 	note C#, 4
-	note __, 2
 	octave 4
-	note B_, 2
-	note __, 2
-	note A_, 2
-	note __, 2
+	note B_, 4
+	note A_, 4
 	note B_, 2
 ;Bar 29
 	notetype 6, $98
@@ -859,8 +905,7 @@ Music_WindGarden_Ch2_loop:
 	notetype 12, $98
 	note A_, 3
 	note __, 2
-	note G#, 16
-	note G#, 2
+	callchannel Music_WindGarden_Ch2_Type1
 ;Bar 30
 	note __, 4
 	notetype 6, $d8
@@ -874,26 +919,41 @@ Music_WindGarden_Ch2_loop:
 	note F_, 1
 	note F#, 1
 ;Bar 31
-	notetype 12, $b8
-	note G#, 10
+	notetype 12, $9e
+	note G#, 3
+	intensity $b8
+	note G#, 5
+	intensity $b5
+	note G#, 2
+	intensity $8e
 	note G_, 2
 	note A#, 2
 	note G#, 2
 ;Bar 32
 	note F#, 2
 	note __, 4
-	note F_, 10
+	callchannel Music_WindGarden_Ch2_Type2
 ;Bar 33
-	note F#, 10
+	note F#, 3
+	intensity $b8
+	note F#, 5
+	intensity $b5
+	note F#, 2
+	intensity $8e
 	note F_, 2
 	note G#, 2
 	note F#, 2
 ;Bar 34
 	note F_, 2
 	note __, 4
-	note D#, 10
+	note D#, 3
+	intensity $b8
+	note D#, 5
+	intensity $b5
+	note D#, 2
+	intensity $8e
 ;Bar 35
-	note F_, 10
+	callchannel Music_WindGarden_Ch2_Type2
 	note D#, 2
 	note F#, 2
 	note F_, 2
@@ -901,7 +961,7 @@ Music_WindGarden_Ch2_loop:
 	notetype 6, $b8
 	note D#, 1
 	note F_, 1
-	notetype 12, $b8
+	notetype 12, $8e
 	note D#, 3
 	note __, 2
 	octave 4
@@ -910,7 +970,12 @@ Music_WindGarden_Ch2_loop:
 	note B_, 2
 	note __, 2
 	octave 5
-	note C#, 12
+	note C#, 3
+	intensity $b8
+	note C#, 7
+	intensity $b5
+	note C#, 2
+	intensity $8e
 ;Bar 37
 	intensity $c7
 	octave 3
@@ -927,6 +992,7 @@ Music_WindGarden_Ch2_loop:
 	note __, 4
 	intensity $b7
 	dutycycle $0
+	vibrato $12, $44
 	octave 3
 	note C#, 1
 	note __, 2
@@ -1131,298 +1197,291 @@ Music_WindGarden_Ch2_loop:
 ;Bar 72
 	loopchannel 0, Music_WindGarden_Ch2_loop
 
+Music_WindGarden_Ch2_Bar7:
+	intensity $6e
+	note C#, 3
+	intensity $98
+	note C#, 5
+	intensity $95
+	note C#, 2
+	intensity $7d
+	note C_, 2
+	note D#, 2
+	note C#, 2
+	endchannel
+
+Music_WindGarden_Ch2_Bar8:
+	intensity $6e
+	note G#, 3
+	intensity $98
+	note G#, 5
+	intensity $95
+	note G#, 2
+	intensity $7d
+	note F_, 2
+	note F#, 2
+	note G#, 2
+	endchannel
+
+Music_WindGarden_Ch2_Type1:
+	intensity $6d
+	note G#, 2
+	intensity $98
+	note G#, 10
+	intensity $97
+	note G#, 6
+	endchannel
+
+Music_WindGarden_Ch2_Type2:
+	intensity $8e
+	note F_, 3
+	intensity $b8
+	note F_, 5
+	intensity $b5
+	note F_, 2
+	intensity $8e
+	endchannel
 ; ============================================================================================================
 
 Music_WindGarden_Ch3:
+	wavetable 2
 	notetype 12, $1B
+	vibrato $04, $2a
 ;Bar 1
 	octave 2
-	note A_, 12
+	note A_, 10
+	intensity $2B
+	note A_, 2
+	intensity $1B
 	note A_, 4
 ;Bar 2
 	note B_, 8
-	note B_, 3 ; Auto-Sync says: Rounded down!
-	note B_, 2
+	notetype 8, $1B
+rept 3
+	intensity $1B
 	note B_, 3
+	intensity $2B
+	note B_, 1
+endr
+	notetype 12, $1B
 ;Bar 3
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 4
+	intensity $1B
 	note C#, 2
-	note __, 4
+	intensity $2B
+	note C#, 4
+	intensity $1B
 	note C#, 2
-	note __, 2
+	intensity $2B
+	note C#, 2
 	intensity $1B
 	note G#, 2
-	note __, 2
+	intensity $2B
+	note G#, 2
 	intensity $1B
 	note G#, 1
+	intensity $1B
 	note G#, 1
 ;Bar 5
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 6
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 7
 Music_WindGarden_Ch3_loop:
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 8
-	note F_, 2
-	note __, 4
-	note F_, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_F
 ;Bar 9
-	note F#, 2
-	note __, 4
-	note F#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Fs
 ;Bar 10
 	note F#, 2
-	note __, 4
+	intensity $2B
+	note F#, 4
+	intensity $1B
 	note F#, 2
-	note __, 2
+	intensity $2B
+	note F#, 2
+	intensity $1B
 	note F_, 2
-	note __, 4
+	intensity $2B
+	note F_, 4
+	intensity $1B
 ;Bar 11
-	note D#, 2
-	note __, 4
-	note D#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Ds
 ;Bar 12
 	octave 1
-	note G#, 2
-	note __, 4
-	note G#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Gs
 ;Bar 13
 	octave 2
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 14
-	note C_, 2
-	note __, 4
-	note C_, 2
-	note __, 2
-	note C_, 2
-	note __, 4
+	callchannel Music_WindGarden_Ch3_Type2_C
 ;Bar 15
 	octave 1
-	note B_, 2
-	note __, 4
-	note B_, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_B
 ;Bar 16
-	note A#, 2
-	note __, 4
-	note A#, 2
-	note __, 2
-	note A#, 1
-	note __, 1
-	octave 2
-	note C_, 1
-	note __, 1
-	note D_, 1
-	note __, 1
+	callchannel Music_WindGarden_Ch3_Bar16
 ;Bar 17
-	note D#, 2
-	note __, 4
-	note D#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Ds
 ;Bar 18
-	note F#, 2
-	note __, 4
-	note F#, 2
-	note __, 2
-	note F#, 2
-	note __, 4
+	callchannel Music_WindGarden_Ch3_Type2_Fs
 ;Bar 19
-	note G#, 2
-	note __, 4
-	note G#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Gs
 ;Bar 20
 	note G_, 2
-	note __, 4
+	intensity $2B
+	note G_, 4
+	intensity $1B
 	note G_, 2
-	note __, 2
+	intensity $2B
+	note G_, 2
+	intensity $1B
 	note D#, 1
-	note __, 1
+	intensity $2B
+	note D#, 1
+	intensity $1B
 	note F_, 1
-	note __, 1
+	intensity $2B
+	note F_, 1
+	intensity $1B
 	note G_, 1
-	note __, 1
+	intensity $2B
+	note G_, 1
 ;Bar 21
+	intensity $1B
 	note G#, 2
-	note __, 4
+	intensity $2B
+	note G#, 4
 	octave 1
 	note G#, 2
-	note __, 2
+	intensity $2B
+	note G#, 2
+	intensity $1B
 	note G#, 1
-	note __, 1
+	intensity $2B
 	note G#, 1
-	note __, 1
+	intensity $1B
 	note G#, 1
-	note __, 1
+	intensity $2B
+	note G#, 1
+	intensity $1B
+	note G#, 1
+	intensity $2B
+	note G#, 1
 ;Bar 22
+	intensity $1B
 	note A_, 2
-	note __, 4
+	intensity $2B
+	note A_, 4
+	intensity $1B
 	note B_, 2
-	note __, 2
+	intensity $2B
+	note B_, 2
+	intensity $1B
 	note B_, 1
-	note __, 1
+	intensity $2B
 	note B_, 1
-	note __, 1
+	intensity $1B
 	note B_, 1
-	note __, 1
+	intensity $2B
+	note B_, 1
+	intensity $1B
+	note B_, 1
+	intensity $2B
+	note B_, 1
 ;Bar 23
 	octave 2
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 24
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 25
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 26
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 2
-	note C#, 2
-	note __, 4
+	callchannel Music_WindGarden_Ch3_Type2_Cs
 ;Bar 27
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 28
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 29
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 30
-	note C_, 2
-	note __, 4
-	note C_, 2
-	note __, 2
-	note C_, 2
-	note __, 4
+	callchannel Music_WindGarden_Ch3_Type2_C
 ;Bar 31
 	octave 1
-	note B_, 2
-	note __, 4
-	note B_, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_B
 ;Bar 32
-	note A#, 2
-	note __, 4
-	note A#, 2
-	note __, 2
-	note A#, 1
-	note __, 1
-	octave 2
-	note C_, 1
-	note __, 1
-	note D_, 1
-	note __, 1
+	callchannel Music_WindGarden_Ch3_Bar16
 ;Bar 33
-	note D#, 2
-	note __, 4
-	note D#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Ds
 ;Bar 34
-	;note F#, 0 | WARNING: Rounded down to 0
-	note F#, 2
-	note __, 4
-	;note F#, 0 | WARNING: Rounded down to 0
-	note F#, 2
-	note __, 2
-	;note F#, 0 | WARNING: Rounded down to 0
-	note F#, 2
-	note __, 4
+	callchannel Music_WindGarden_Ch3_Type2_Fs
 ;Bar 35
-	;note G#, 0 | WARNING: Rounded down to 0
 	note G#, 2
-	note __, 4
-	;note G#, 0 | WARNING: Rounded down to 0
+	intensity $2B
+	note G#, 4
+	intensity $1B
 	note G#, 2
-	note __, 8
+	intensity $2B
+	note G#, 4
+	intensity $3B
+	note G#, 4
+	intensity $1B
 ;Bar 36
-	;note G#, 0 | WARNING: Rounded down to 0
 	note G#, 2
-	note __, 4
-	;note F#, 0 | WARNING: Rounded down to 0
+	intensity $2B
+	note G#, 4
+	intensity $1B
 	note F#, 2
-	note __, 2
-	;note G#, 0 | WARNING: Rounded down to 0
+	intensity $2B
+	note F#, 2
+	intensity $1B
 	note G#, 2
-	note __, 2
+	intensity $2B
+	note G#, 2
+	intensity $1B
 	note C#, 4
 ;Bar 37
-	note __, 2
+	intensity $2B
 	note C#, 2
 	intensity $1B
+	octave 3
 	note C#, 2
-	note __, 2
+	octave 2
+	note C#, 2
+	intensity $2B
+	note C#, 2
 	intensity $1B
+	octave 3
 	note C#, 2
-	note __, 2
+	octave 2
+	note C#, 2
 	octave 1
 	note A_, 2
 ;Bar 38
-	note __, 2
+	intensity $2B
+	note A_, 2
+	intensity $1B
 	note B_, 2
-	note __, 2
+	intensity $2B
+	note B_, 2
+	intensity $1B
 	octave 2
-	note C#, 6
+	note C#, 2
+	intensity $2B
+	note C#, 4
+	intensity $1B
+	note G#, 4
+;Bar 39
+rept 12
 	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 4
+endr 
 ;Bar 51
-	note D#, 2
-	note __, 4
-	note D#, 1
-	note __, 9
+	callchannel Music_WindGarden_Ch3_Type1_Ds
 ;Bar 52
-	note D#, 2
-	note __, 4
-	note D#, 1
+	callchannel Music_WindGarden_Ch3_Type1_Ds
+;Bar 53
 	note __, 16
-	note __, 9
 ;Bar 54
 	octave 1
 	note B_, 2
@@ -1432,130 +1491,285 @@ Music_WindGarden_Ch3_loop:
 ;Bar 55
 	intensity $1B
 	octave 2
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 56
-	note F_, 2
-	note __, 4
-	note F_, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_F
 ;Bar 57
-	note F#, 2
-	note __, 4
-	note F#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Fs
 ;Bar 58
-	note F#, 2
-	note __, 4
-	note F#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Fs
 ;Bar 59
-	note F_, 2
-	note __, 4
-	note F_, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_F
 ;Bar 60
 	octave 1
 	note A#, 2
-	note __, 4
+	intensity $2B
+	note A#, 4
+	intensity $1B
 	note A#, 2
-	note __, 8
+	intensity $2B
+	note A#, 4
+	intensity $3B
+	note A#, 4
+	intensity $1B
 ;Bar 61
-	note B_, 2
-	note __, 4
-	note B_, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_B
 ;Bar 62
-	note G#, 2
-	note __, 4
-	note G#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Gs
 ;Bar 63
 	intensity $1B
 	octave 2
 	note C#, 2
-	note __, 4
+	intensity $2B
+	note C#, 4
+	intensity $1B
 	note C#, 2
-	note __, 4
+	intensity $2B
+	note C#, 4
+	intensity $1B
 	note C_, 2
-	note __, 2
+	intensity $2B
+	note C_, 2
+	intensity $1B
 ;Bar 64
 	octave 1
 	note A#, 2
-	note __, 4
+	intensity $2B
+	note A#, 4
+	intensity $1B
 	note A#, 2
-	note __, 4
+	intensity $2B
+	note A#, 4
+	intensity $1B
 	note G#, 2
-	note __, 2
+	intensity $2B
+	note G#, 2
+	intensity $1B
 ;Bar 65
+rept 2
 	note F#, 2
-	note __, 4
+	intensity $2B
+	note F#, 4
+	intensity $1B
 	note F#, 2
-	note __, 4
+	intensity $2B
+	note F#, 4
+	intensity $1B
 	note F#, 2
-	note __, 2
-;Bar 66
+	intensity $2B
 	note F#, 2
-	note __, 4
-	note F#, 2
-	note __, 4
-	note F#, 2
-	note __, 2
+	intensity $1B
+endr
 ;Bar 67
 	note F_, 2
-	note __, 4
+	intensity $2B
+	note F_, 4
+	intensity $1B
 	note F_, 2
-	note __, 4
+	intensity $2B
+	note F_, 4
+	intensity $1B
 	note F_, 2
-	note __, 2
+	intensity $2B
+	note F_, 2
+	intensity $1B
 ;Bar 68
 	note A#, 2
-	note __, 4
+	intensity $2B
+	note A#, 4
+	intensity $1B
 	note A#, 2
-	note __, 4
+	intensity $2B
+	note A#, 4
+	intensity $1B
 	note A#, 2
-	note __, 2
+	intensity $2B
+	note A#, 2
+	intensity $1B
 ;Bar 69
 	note B_, 2
-	note __, 4
+	intensity $2B
+	note B_, 4
+	intensity $1B
 	note B_, 2
-	note __, 4
+	intensity $2B
+	note B_, 4
+	intensity $1B
 	note B_, 2
-	note __, 2
+	intensity $2B
+	note B_, 2
+	intensity $1B
 ;Bar 70
 	note G#, 2
-	note __, 4
+	intensity $2B
+	note G#, 4
+	intensity $1B
 	note G#, 2
-	note __, 2
+	intensity $2B
 	note G#, 2
-	note __, 4
+	intensity $1B
+	note G#, 2
+	intensity $2B
+	note G#, 4
+	intensity $1B
 ;Bar 71
 	intensity $1B
 	octave 2
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 72
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 73
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 8
+	callchannel Music_WindGarden_Ch3_Type1_Cs
 ;Bar 74
-	note C#, 2
-	note __, 4
-	note C#, 2
-	note __, 2
-	note C#, 2
-	note __, 4
+	callchannel Music_WindGarden_Ch3_Type2_Cs
 	loopchannel 0, Music_WindGarden_Ch3_loop
+
+Music_WindGarden_Ch3_Type1_Cs:
+	note C#, 2
+	intensity $2B
+	note C#, 4
+	intensity $1B
+	note C#, 2
+	intensity $2B
+	note C#, 4
+	intensity $3B
+	note C#, 4
+	intensity $1B
+	endchannel
+
+Music_WindGarden_Ch3_Type1_F:
+	note F_, 2
+	intensity $2B
+	note F_, 4
+	intensity $1B
+	note F_, 2
+	intensity $2B
+	note F_, 4
+	intensity $3B
+	note F_, 4
+	intensity $1B
+	endchannel
+
+Music_WindGarden_Ch3_Type1_Fs:
+	note F#, 2
+	intensity $2B
+	note F#, 4
+	intensity $1B
+	note F#, 2
+	intensity $2B
+	note F#, 4
+	intensity $3B
+	note F#, 4
+	intensity $1B
+	endchannel
+
+Music_WindGarden_Ch3_Type1_Ds:
+	note D#, 2
+	intensity $2B
+	note D#, 4
+	intensity $1B
+	note D#, 2
+	intensity $2B
+	note D#, 4
+	intensity $3B
+	note D#, 4
+	intensity $1B
+	endchannel
+
+Music_WindGarden_Ch3_Type1_Gs:
+	note G#, 2
+	intensity $2B
+	note G#, 4
+	intensity $1B
+	note G#, 2
+	intensity $2B
+	note G#, 4
+	intensity $3B
+	note G#, 4
+	intensity $1B
+	endchannel
+
+Music_WindGarden_Ch3_Type1_B:
+	note B_, 2
+	intensity $2B
+	note B_, 4
+	intensity $1B
+	note B_, 2
+	intensity $2B
+	note B_, 4
+	intensity $3B
+	note B_, 4
+	intensity $1B
+	endchannel
+
+Music_WindGarden_Ch3_Type2_Cs:
+	note C#, 2
+	intensity $2B
+	note C#, 4
+	intensity $1B
+	note C#, 2
+	intensity $2B
+	note C#, 2
+	intensity $1B
+	note C#, 2
+	intensity $2B
+	note C#, 4
+	intensity $1B
+	endchannel
+
+Music_WindGarden_Ch3_Type2_C:
+	note C_, 2
+	intensity $2B
+	note C_, 4
+	intensity $1B
+	note C_, 2
+	intensity $2B
+	note C_, 2
+	intensity $1B
+	note C_, 2
+	intensity $2B
+	note C_, 4
+	intensity $1B
+	endchannel
+
+Music_WindGarden_Ch3_Type2_Fs:
+	note F#, 2
+	intensity $2B
+	note F#, 4
+	intensity $1B
+	note F#, 2
+	intensity $2B
+	note F#, 2
+	intensity $1B
+	note F#, 2
+	intensity $2B
+	note F#, 4
+	intensity $1B
+	endchannel
+
+Music_WindGarden_Ch3_Bar16:
+	note A#, 2
+	intensity $2B
+	note A#, 4
+	intensity $1B
+	note A#, 2
+	intensity $2B
+	note A#, 2
+	intensity $1B
+	note A#, 1
+	intensity $2B
+	note A#, 1
+	intensity $1B
+	octave 2
+	note C_, 1
+	intensity $2B
+	note C_, 1
+	intensity $1B
+	note D_, 1
+	intensity $2B
+	note C_, 1
+	intensity $1B
+	endchannel
 
 ; ============================================================================================================
 
@@ -1572,33 +1786,9 @@ rept 19
 	note __, 16
 endr
 ;Bar 23
+rept 14
 	callchannel Music_WindGarden_Ch4_MainType
-;Bar 24
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 25
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 26
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 27
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 28
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 29
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 30
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 31
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 32
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 33
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 34
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 35
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 36
-	callchannel Music_WindGarden_Ch4_MainType
+endr
 ;Bar 37
 	note A_, 1
 	note E_, 1
@@ -1623,30 +1813,35 @@ endr
 	note E_, 1
 	note E_, 1
 	note C#, 1
+rept 4
 	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
+endr
 	note D_, 1
 	note E_, 2
 	note E_, 1
 	note E_, 1
 ;Bar 39
+rept 3
 	callchannel Music_WindGarden_Ch4_Bar39
 ;Bar 40
 	callchannel Music_WindGarden_Ch4_Bar40
-;Bar 41
-	callchannel Music_WindGarden_Ch4_Bar39
-;Bar 42
-	callchannel Music_WindGarden_Ch4_Bar40
-;Bar 43
-	callchannel Music_WindGarden_Ch4_Bar39
-;Bar 44
-	callchannel Music_WindGarden_Ch4_Bar40
+endr
 ;Bar 45
 	callchannel Music_WindGarden_Ch4_Bar39
 ;Bar 46
-	callchannel Music_WindGarden_Ch4_Bar40
+	note D_, 2;
+rept 4
+	note E_, 1
+endr
+	note D_, 2
+	note E_, 1
+	note E_, 1
+	note D_, 1
+	note E_, 1
+	note D_, 1
+	note D_, 1
+	note E_, 1
+	note E_, 1
 ;Bar 47
 	callchannel Music_WindGarden_Ch4_Bar39
 ;Bar 48
@@ -1654,7 +1849,18 @@ endr
 ;Bar 49
 	callchannel Music_WindGarden_Ch4_Bar39
 ;Bar 50
-	callchannel Music_WindGarden_Ch4_Bar39
+	note D_, 2
+rept 4
+	note E_, 1
+endr
+	note D_, 2
+	note E_, 1
+	note E_, 1
+	note D_, 1
+	note E_, 1
+	note D_, 2
+	note E_, 1
+	note E_, 1
 ;Bar 51
 	callchannel Music_WindGarden_Ch4_Bar39
 ;Bar 52
@@ -1664,19 +1870,9 @@ endr
 ;Bar 54
 	callchannel Music_WindGarden_Ch4_Bar54
 ;Bar 55
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 56
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 57
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 58
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 59
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 60
-	callchannel Music_WindGarden_Ch4_MainType
-;Bar 61
-	callchannel Music_WindGarden_Ch4_MainType
+rept 7
+	callchannel Music_WindGarden_Ch4_Bar55
+endr
 ;Bar 62
 	callchannel Music_WindGarden_Ch4_Bar54
 ;Bar 63
@@ -1695,11 +1891,9 @@ endr
 	callchannel Music_WindGarden_Ch4_MainType
 ;Bar 70
 	note C#, 1
+rept 5
 	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
+endr
 	note C#, 1
 	note E_, 1
 	note E_, 1
@@ -1726,17 +1920,13 @@ endr
 
 Music_WindGarden_Ch4_MainType:
 	note C#, 1
+rept 5
 	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
+endr
 	note C#, 1
+rept 5
 	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
+endr
 	note C#, 1
 	note E_, 1
 	note E_, 1
@@ -1745,15 +1935,13 @@ Music_WindGarden_Ch4_MainType:
 
 Music_WindGarden_Ch4_Bar39:
 	note D_, 2;
+rept 4
 	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
+endr
 	note D_, 2
+rept 4
 	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
+endr
 	note D_, 2
 	note E_, 1
 	note E_, 1
@@ -1761,28 +1949,24 @@ Music_WindGarden_Ch4_Bar39:
 
 Music_WindGarden_Ch4_Bar40:
 	note D_, 2;
+rept 4
 	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
+endr
 	note D_, 2
 	note E_, 1
 	note E_, 1
 	note D_, 1
+rept 5
 	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
+endr
 	endchannel
 
 Music_WindGarden_Ch4_Bar54:
 	notetype 12
 	note C#, 2
+rept 4
 	note E_, 1
-	note E_, 1
-	note E_, 1
-	note E_, 1
+endr
 	note C#, 2
 	notetype 2
 rept 3
@@ -1799,6 +1983,21 @@ rept 5
 	note C#, 1
 endr
 	notetype 12
+	endchannel
+
+Music_WindGarden_Ch4_Bar55:
+	note C#, 1
+rept 5
+	note E_, 1
+endr
+	note C#, 1
+rept 5
+	note E_, 1
+endr
+	note D_, 1
+	note E_, 1
+	note E_, 1
+	note E_, 1
 	endchannel
 
 ; ============================================================================================================
