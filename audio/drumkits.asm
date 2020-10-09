@@ -8,7 +8,7 @@ Drumkits: ; e8e52
 	dw Drumkit0S ;6
 	dw Drumkit1S ;7
 	dw Drumkit3S ;8
-	dw Drumkit4S ;9
+	dw Drumkit5S ;9
 	dw Drumkit10 ;10
 	dw DrumkitTEST ;11
 	dw DrumkitCorneredVar ;12
@@ -142,20 +142,20 @@ Drumkit3S: ; 8
 	dw Snare9_Soft
 	dw Kick2_Soft
 	dw Crash2_Soft
-Drumkit4S: ; 9
+Drumkit5S: ; 9
 	dw Drum00
-	dw Drum20
-	dw Snare13
-	dw Snare14
-	dw Kick1
-	dw Drum33
-	dw Triangle5
-	dw Drum35
-	dw Drum31
-	dw Drum32
-	dw Drum36
-	dw Kick2
-	dw Crash1
+	dw Snare9_Soft ;C_
+	dw Snare10_Soft ;C#
+	dw Snare11_Soft ;D_
+	dw Drum27_Soft ;D#
+	dw Drum28_Soft ;E_
+	dw Drum29_Soft ;F_
+	dw Drum05 ;F#
+	dw Triangle1_Soft ;G_
+	dw Crash1 ;G#
+	dw Snare14_Soft ;A_
+	dw Snare13_Soft ;A#
+	dw Kick2_Soft ;B_
 Drumkit10: ; 10
 	dw Drum00
 	dw Snare8 ;C_ 
