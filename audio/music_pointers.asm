@@ -183,6 +183,7 @@ Music:
 	dba Music_Route24GBS
 	dba Music_Route24GBSNight
 	dba Music_CinnabarIslandGBS
+	dba Music_CipherLab
 	;Ace Attorney
 	dba Music_CourtroomLounge
 	dba Music_CourtBegins
@@ -239,6 +240,9 @@ Music:
 	dba Music_BobOmbBattlefield
 	dba Music_RiccoHarbor
 	dba Music_WindGarden
+	dba Music_ForestOfHope
+	dba Music_WiiShopChannel
+	dba Music_FearFactory
 	;Current
 	dba Music_Placeholder
 	

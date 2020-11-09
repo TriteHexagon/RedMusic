@@ -5,13 +5,13 @@
 
 ; ============================================================================================================
 
-Music_Placeholder:
-	musicheader 4, 1, Music_Placeholder_Ch1
-	musicheader 1, 2, Music_Placeholder_Ch2
-	musicheader 1, 3, Music_Placeholder_Ch3
-	musicheader 1, 4, Music_Placeholder_Ch4
+Music_FearFactory:
+	musicheader 4, 1, Music_FearFactory_Ch1
+	musicheader 1, 2, Music_FearFactory_Ch2
+	musicheader 1, 3, Music_FearFactory_Ch3
+	musicheader 1, 4, Music_FearFactory_Ch4
 
-Music_Placeholder_Ch1:
+Music_FearFactory_Ch1:
 	volume $77
 	dutycycle $1
 	notetype 6, $a7
@@ -21,7 +21,7 @@ Music_Placeholder_Ch1:
 	note __, 16
 	note __, 16
 ;Bar 2
-	callchannel Music_Placeholder_Ch1_Intro
+	callchannel Music_FearFactory_Ch1_Intro
 ;Bar 3
 	notetype 12, $a3
 	note __, 16
@@ -29,17 +29,17 @@ Music_Placeholder_Ch1:
 	note __, 16
 	note __, 16
 ;Bar 7
-	callchannel Music_Placeholder_Ch1_Intro
+	callchannel Music_FearFactory_Ch1_Intro
 ;Bar 8
-	callchannel Music_Placeholder_Ch1_Intro
+	callchannel Music_FearFactory_Ch1_Intro
 ;Bar 9
-	callchannel Music_Placeholder_Ch1_Bar9
+	callchannel Music_FearFactory_Ch1_Bar9
 ;Bar 13
-	callchannel Music_Placeholder_Ch1_Bar13
+	callchannel Music_FearFactory_Ch1_Bar13
 ;Bar 14
-	callchannel Music_Placeholder_Ch1_Bar14
+	callchannel Music_FearFactory_Ch1_Bar14
 ;Bar 15
-	callchannel Music_Placeholder_Ch1_Type1
+	callchannel Music_FearFactory_Ch1_Type1
 	note G_, 1
 	note E_, 8
 	intensity $a6
@@ -47,7 +47,7 @@ Music_Placeholder_Ch1:
 	note __, 1
 ;Bar 17
 	dutycycle $2
-Music_Placeholder_Ch1_Bar17:
+Music_FearFactory_Ch1_Bar17:
 	intensity $58
 	octave 3
 	note C_, 8
@@ -55,7 +55,7 @@ Music_Placeholder_Ch1_Bar17:
 	note A_, 8
 ;Bar 18
 	note E_, 16
-	loopchannel 2, Music_Placeholder_Ch1_Bar17
+	loopchannel 2, Music_FearFactory_Ch1_Bar17
 	dutycycle $1
 ;Bar 21
 	note __, 16
@@ -106,14 +106,14 @@ Music_Placeholder_Ch1_Bar17:
 	intensity $55
 	note G_, 2
 ;Bar 23
-	callchannel Music_Placeholder_Ch1_Bar9
+	callchannel Music_FearFactory_Ch1_Bar9
 ;Bar 27
 	octave 3
-	callchannel Music_Placeholder_Ch1_Bar13
+	callchannel Music_FearFactory_Ch1_Bar13
 ;Bar 28
-	callchannel Music_Placeholder_Ch1_Bar14
+	callchannel Music_FearFactory_Ch1_Bar14
 ;Bar 29
-	callchannel Music_Placeholder_Ch1_Type1
+	callchannel Music_FearFactory_Ch1_Type1
 	note D_, 2
 ;Bar 30
 	octave 3
@@ -128,16 +128,16 @@ Music_Placeholder_Ch1_Bar17:
 	intensity $a8
 ;Bar 31
 	note __, 4
-	callchannel Music_Placeholder_Ch1_Type1
+	callchannel Music_FearFactory_Ch1_Type1
 	note D_, 1
 	note E_, 8
 	intensity $a6
 	note E_, 8
 	intensity $a8
 	note __, 1
-	loopchannel 0, Music_Placeholder_Ch1
+	loopchannel 0, Music_FearFactory_Ch1
 
-Music_Placeholder_Ch1_Intro:
+Music_FearFactory_Ch1_Intro:
 	notetype 1, $a3
 	octave 5
 	note __, 12
@@ -324,7 +324,7 @@ Music_Placeholder_Ch1_Intro:
 	note F#, 5
 	endchannel
 
-Music_Placeholder_Ch1_Bar9:
+Music_FearFactory_Ch1_Bar9:
 	notetype 12, $a7;
 	note __, 16
 	note __, 16
@@ -341,7 +341,7 @@ Music_Placeholder_Ch1_Bar9:
 	octave 3
 	endchannel
 
-Music_Placeholder_Ch1_Bar13:
+Music_FearFactory_Ch1_Bar13:
 	note F#, 3;
 	note G_, 3
 	octave 4
@@ -351,7 +351,7 @@ Music_Placeholder_Ch1_Bar13:
 	note D_, 2
 	endchannel
 
-Music_Placeholder_Ch1_Bar14:
+Music_FearFactory_Ch1_Bar14:
 	note E_, 6
 	intensity $a6
 	note E_, 5
@@ -365,7 +365,7 @@ Music_Placeholder_Ch1_Bar14:
 	intensity $a8
 	endchannel
 
-Music_Placeholder_Ch1_Type1:
+Music_FearFactory_Ch1_Type1:
 	note F#, 1;
 	note G_, 1
 	note A_, 2
@@ -375,7 +375,7 @@ Music_Placeholder_Ch1_Type1:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch2:
+Music_FearFactory_Ch2:
 	dutycycle $2
 	notetype 12, $58
 	stereopanning $f0
@@ -412,28 +412,28 @@ Music_Placeholder_Ch2:
 ; 	note G_, 16
 ; 	intensity $47
 ; 	note G_, 2
-Music_Placeholder_Ch2_Intro:
+Music_FearFactory_Ch2_Intro:
 	note __, 16
-	loopchannel 8, Music_Placeholder_Ch2_Intro
+	loopchannel 8, Music_FearFactory_Ch2_Intro
 	dutycycle $1
 	stereopanning $f0
 	notetype 6, $a7
 ;Bar 9
-	callchannel Music_Placeholder_Ch2_Bar9
+	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 10
-	callchannel Music_Placeholder_Ch2_Bar9
+	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 11
-	callchannel Music_Placeholder_Ch2_Bar11
+	callchannel Music_FearFactory_Ch2_Bar11
 ;Bar 12
-	callchannel Music_Placeholder_Ch2_Bar12
+	callchannel Music_FearFactory_Ch2_Bar12
 ;Bar 13
-	callchannel Music_Placeholder_Ch2_Bar9
+	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 14
-	callchannel Music_Placeholder_Ch2_Bar9
+	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 15
-	callchannel Music_Placeholder_Ch2_Bar11
+	callchannel Music_FearFactory_Ch2_Bar11
 ;Bar 16
-	callchannel Music_Placeholder_Ch2_Bar9
+	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 17
 	notetype 12, $a7
 	note __, 3
@@ -534,28 +534,28 @@ Music_Placeholder_Ch2_Intro:
 	intensity $75
 	note E_, 2
 ;Bar 23
-	callchannel Music_Placeholder_Ch2_Bar9
+	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 24
-	callchannel Music_Placeholder_Ch2_Bar9
+	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 25
-	callchannel Music_Placeholder_Ch2_Bar11
+	callchannel Music_FearFactory_Ch2_Bar11
 ;Bar 26
-	callchannel Music_Placeholder_Ch2_Bar12
+	callchannel Music_FearFactory_Ch2_Bar12
 ;Bar 27
-	callchannel Music_Placeholder_Ch2_Bar9
+	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 28
-	callchannel Music_Placeholder_Ch2_Bar9
+	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 29
-	callchannel Music_Placeholder_Ch2_Bar11
+	callchannel Music_FearFactory_Ch2_Bar11
 ;Bar 30
-	callchannel Music_Placeholder_Ch2_Bar9
+	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 31
-	callchannel Music_Placeholder_Ch2_Bar11
+	callchannel Music_FearFactory_Ch2_Bar11
 ;Bar 32
-	callchannel Music_Placeholder_Ch2_Bar9
-	loopchannel 0, Music_Placeholder_Ch2
+	callchannel Music_FearFactory_Ch2_Bar9
+	loopchannel 0, Music_FearFactory_Ch2
 
-Music_Placeholder_Ch2_Bar9:
+Music_FearFactory_Ch2_Bar9:
 	note __, 6
 	octave 2
 	intensity $f1
@@ -602,7 +602,7 @@ Music_Placeholder_Ch2_Bar9:
 	note D_, 1
 	endchannel
 
-Music_Placeholder_Ch2_Bar11:
+Music_FearFactory_Ch2_Bar11:
 	intensity $f1
 	note __, 6
 	note E_, 1
@@ -622,10 +622,10 @@ Music_Placeholder_Ch2_Bar11:
 	note E_, 1
 	intensity $e1
 	note E_, 1
-	loopchannel 2,Music_Placeholder_Ch2_Bar11
+	loopchannel 2,Music_FearFactory_Ch2_Bar11
 	endchannel
 
-Music_Placeholder_Ch2_Bar12:
+Music_FearFactory_Ch2_Bar12:
 	note __, 6
 	intensity $f1
 	note D_, 1
@@ -653,44 +653,44 @@ Music_Placeholder_Ch2_Bar12:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch3:
+Music_FearFactory_Ch3:
 	wavetype 1, 3, $11
 ;Bar 1
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 2
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 3
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 4
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 5
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 6
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 7
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 8
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 9
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 10
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 11
-	callchannel Music_Placeholder_Ch3_Type3
+	callchannel Music_FearFactory_Ch3_Type3
 ;Bar 12
-	callchannel Music_Placeholder_Ch3_Type4
+	callchannel Music_FearFactory_Ch3_Type4
 ;Bar 13
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 14
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 15
-	callchannel Music_Placeholder_Ch3_Type3
+	callchannel Music_FearFactory_Ch3_Type3
 ;Bar 16
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 17
 	wavetype 1, 12, $13
 	note __, 9
-	callchannel Music_Placeholder_Ch3_Effect1
+	callchannel Music_FearFactory_Ch3_Effect1
 	octave 5
 	note G_, 1
 
@@ -719,37 +719,37 @@ Music_Placeholder_Ch3:
 	note G_, 1
 	note __, 16
 ;Bar 19
-	callchannel Music_Placeholder_Ch3_Effect1
+	callchannel Music_FearFactory_Ch3_Effect1
 ;Bar 20
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 21
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 22
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 23
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 24
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 25
-	callchannel Music_Placeholder_Ch3_Type3
+	callchannel Music_FearFactory_Ch3_Type3
 ;Bar 26
-	callchannel Music_Placeholder_Ch3_Type4
+	callchannel Music_FearFactory_Ch3_Type4
 ;Bar 27
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 28
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 29
-	callchannel Music_Placeholder_Ch3_Type3
+	callchannel Music_FearFactory_Ch3_Type3
 ;Bar 30
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 31
-	callchannel Music_Placeholder_Ch3_Type3
+	callchannel Music_FearFactory_Ch3_Type3
 ;Bar 32
-	callchannel Music_Placeholder_Ch3_Type1
+	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 33
-	loopchannel 0, Music_Placeholder_Ch3
+	loopchannel 0, Music_FearFactory_Ch3
 
-Music_Placeholder_Ch3_Type1:
+Music_FearFactory_Ch3_Type1:
 	octave 3
 	wavetype 2, 3, $1D
 	note E_, 2
@@ -801,10 +801,10 @@ Music_Placeholder_Ch3_Type1:
 	intensity $13
 	note E_, 1
 	note __, 1
-	loopchannel 2, Music_Placeholder_Ch3_Type1
+	loopchannel 2, Music_FearFactory_Ch3_Type1
 	endchannel
 
-Music_Placeholder_Ch3_Type3:
+Music_FearFactory_Ch3_Type3:
 	octave 3
 	waveform 2, $1D
 	note A_, 2
@@ -856,10 +856,10 @@ Music_Placeholder_Ch3_Type3:
 	intensity $13
 	note A_, 1
 	note __, 1
-	loopchannel 2, Music_Placeholder_Ch3_Type3
+	loopchannel 2, Music_FearFactory_Ch3_Type3
 	endchannel
 
-Music_Placeholder_Ch3_Type4:
+Music_FearFactory_Ch3_Type4:
     octave 3
 	waveform 2, $1D
 	note E_, 2
@@ -918,7 +918,7 @@ Music_Placeholder_Ch3_Type4:
 	note __, 14
     endchannel
 
-Music_Placeholder_Ch3_Effect1:
+Music_FearFactory_Ch3_Effect1:
 	intensity $13
 	stereopanning $f0
 	octave 4
@@ -944,17 +944,17 @@ Music_Placeholder_Ch3_Effect1:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch4:
+Music_FearFactory_Ch4:
 	togglenoise 2
 	notetype 6
-Music_Placeholder_Ch4_loop:
+Music_FearFactory_Ch4_loop:
 ;Bar 1
 	note __, 16
 	note __, 16
 	note __, 16
 	note __, 16
 ;Bar 3
-Music_Placeholder_Ch4_Intro:
+Music_FearFactory_Ch4_Intro:
 	note E_, 1
 	note E_, 1
 	note B_, 1
@@ -984,28 +984,28 @@ Music_Placeholder_Ch4_Intro:
 	note E_, 2
 	stereopanning $ff
 	note __, 16
-	loopchannel 2, Music_Placeholder_Ch4_Intro
+	loopchannel 2, Music_FearFactory_Ch4_Intro
 ;Bar 7
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 8
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 9
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 10
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 11
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 12
-	callchannel Music_Placeholder_Ch4_Bar12
+	callchannel Music_FearFactory_Ch4_Bar12
 ;Bar 13
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 14
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 15
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 16
-	callchannel Music_Placeholder_Ch4_Type3
-	callchannel Music_Placeholder_Ch4_Type2
+	callchannel Music_FearFactory_Ch4_Type3
+	callchannel Music_FearFactory_Ch4_Type2
 ;Bar 17
 	note __, 16
 	note __, 16
@@ -1015,9 +1015,9 @@ Music_Placeholder_Ch4_Intro:
 	note __, 16
 ;Bar 20
 	note __, 16
-	callchannel Music_Placeholder_Ch4_Type2
+	callchannel Music_FearFactory_Ch4_Type2
 ;Bar 21
-Music_Placeholder_Ch4_Bar21:
+Music_FearFactory_Ch4_Bar21:
 	note E_, 1
 	note E_, 2
 	note __, 1
@@ -1030,31 +1030,31 @@ Music_Placeholder_Ch4_Bar21:
 	note A_, 2
 	note B_, 1
 	note B_, 1
-	loopchannel 4, Music_Placeholder_Ch4_Bar21
+	loopchannel 4, Music_FearFactory_Ch4_Bar21
 ;Bar 23
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 24
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 25
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 26
-	callchannel Music_Placeholder_Ch4_Bar12
+	callchannel Music_FearFactory_Ch4_Bar12
 ;Bar 27
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 28
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 29
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 30
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 31
-	callchannel Music_Placeholder_Ch4_Type1
+	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 32
-	callchannel Music_Placeholder_Ch4_Type3
-	callchannel Music_Placeholder_Ch4_Type2
-	loopchannel 0, Music_Placeholder_Ch4_loop
+	callchannel Music_FearFactory_Ch4_Type3
+	callchannel Music_FearFactory_Ch4_Type2
+	loopchannel 0, Music_FearFactory_Ch4_loop
 
-Music_Placeholder_Ch4_Type1:
+Music_FearFactory_Ch4_Type1:
 	note E_, 1;
 	note E_, 1
 	note B_, 1
@@ -1068,10 +1068,10 @@ Music_Placeholder_Ch4_Type1:
 	note A_, 2
 	note B_, 1
 	note B_, 1
-	loopchannel 2, Music_Placeholder_Ch4_Type1
+	loopchannel 2, Music_FearFactory_Ch4_Type1
 	endchannel
 
-Music_Placeholder_Ch4_Bar12:
+Music_FearFactory_Ch4_Bar12:
 	note E_, 1
 	note E_, 1
 	note B_, 1
@@ -1089,7 +1089,7 @@ Music_Placeholder_Ch4_Bar12:
 	note A_, 4
 	endchannel
 
-Music_Placeholder_Ch4_Type2:
+Music_FearFactory_Ch4_Type2:
 	note E_, 1;
 	note E_, 1
 	note B_, 1
@@ -1102,7 +1102,7 @@ Music_Placeholder_Ch4_Type2:
 	note A_, 4
 	endchannel
 
-Music_Placeholder_Ch4_Type3:
+Music_FearFactory_Ch4_Type3:
 	note E_, 1;
 	note E_, 1
 	note B_, 1

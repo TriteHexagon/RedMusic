@@ -321,6 +321,12 @@ INCLUDE "audio/music/[hacks]/cinnabarislandGBS.asm"
 INCLUDE "audio/music/[hacks]/riccoHarbor.asm"
 INCLUDE "audio/music/[hacks]/windGarden.asm"
 
+SECTION "Hacks 4", ROMX
+INCLUDE "audio/music/[hacks]/forestOfHope.asm"
+INCLUDE "audio/music/[hacks]/cipherLab.asm"
+INCLUDE "audio/music/[hacks]/wiiShopChannel.asm"
+INCLUDE "audio/music/[hacks]/fearFactory.asm"
+
 SECTION "Ace Attorney 1", ROMX
 
 INCLUDE "audio/music/[aceattorney]/pursuitcornered.asm"

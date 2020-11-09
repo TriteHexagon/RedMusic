@@ -39,7 +39,8 @@ NUM_MP_EDIT_FIELDS EQU const_value
 	const ORIGIN_GO      ; 0e
 	const ORIGIN_M02     ; 0f
 	const ORIGIN_PRISM   ; 10
-	const ORIGIN_NONE    ; 11
+	const ORIGIN_COLO_XD ; 11
+	const ORIGIN_NONE    ; 12
 
 	const_def
 	const COMPOSER_NONE                          ; 00
