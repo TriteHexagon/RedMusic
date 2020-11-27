@@ -184,6 +184,8 @@ Music:
 	dba Music_Route24GBSNight
 	dba Music_CinnabarIslandGBS
 	dba Music_CipherLab
+	dba Music_CasteliaSewers
+	dba Music_GymLeaderUnova
 	;Ace Attorney
 	dba Music_CourtroomLounge
 	dba Music_CourtBegins

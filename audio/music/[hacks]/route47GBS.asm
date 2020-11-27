@@ -1221,51 +1221,51 @@ Music_Route47GBS_Ch3_loop:
 	callchannel Music_Route47GBS_Ch3_Part1
 	octave 1
 	note F_, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note F_, 4
 	wavetype 2, 12, $18
 ;Bar 14
 	note F_, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note F_, 4
 	wavetype 2, 12, $18
 ;Bar 15
 	octave 2
 	note D_, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note D_, 4
 	wavetype 2, 12, $18
 ;Bar 16
 	octave 1
 	note B_, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note B_, 4
 	wavetype 2, 12, $18
 ;Bar 17
 	note A#, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note A#, 4
 	wavetype 2, 12, $18
 ;Bar 18
 	note G#, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note G#, 4
 	wavetype 2, 12, $18
 ;Bar 19
 	note A#, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note A#, 4
 	wavetype 2, 12, $18
 ;Bar 20
 	octave 2
 	note C_, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note C_, 4
 	wavetype 2, 12, $18
 ;Bar 21
 	octave 1
 	note F_, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note F_, 4
 	wavetype 2, 12, $18
 ;Bar 22
@@ -1275,35 +1275,35 @@ Music_Route47GBS_Ch3_loop:
 	note C_, 8
 	octave 1
 	note B_, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note B_, 4
 	wavetype 2, 12, $18
 ;Bar 24
 	note A#, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note A#, 4
 	wavetype 2, 12, $18
 ;Bar 25
 	note A_, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note A_, 4
 	wavetype 2, 12, $18
 ;Bar 26
 	octave 2
 	note D_, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note D_, 4
 	wavetype 2, 12, $18
 ;Bar 27
 	octave 1
 	note G_, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note G_, 4
 	wavetype 2, 12, $18
 ;Bar 28
 	octave 2
 	note C_, 12
-	wavetype 0, 12, $16
+	wavetype 0, 12, $26
 	note C_, 4
 	wavetype 2, 12, $18
 	loopchannel 0, Music_Route47GBS_Ch3_loop

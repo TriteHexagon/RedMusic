@@ -326,6 +326,8 @@ INCLUDE "audio/music/[hacks]/forestOfHope.asm"
 INCLUDE "audio/music/[hacks]/cipherLab.asm"
 INCLUDE "audio/music/[hacks]/wiiShopChannel.asm"
 INCLUDE "audio/music/[hacks]/fearFactory.asm"
+INCLUDE "audio/music/[hacks]/casteliaSewers.asm"
+INCLUDE "audio/music/[hacks]/gymLeaderUnova.asm"
 
 SECTION "Ace Attorney 1", ROMX
 

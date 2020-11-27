@@ -33,6 +33,7 @@ endr
 	note __, 3
 ;Bar 5
 Music_WiiShopChannel_Ch1_loop:
+	intensity $b5
 	dutycycle $0
 	octave 3
 	note __, 2
@@ -197,6 +198,7 @@ Music_WiiShopChannel_Ch1_Bar27_loop:
 	note C_, 8
 ;Bar 33
 	dutycycle $3
+	intensity $a3
 	octave 4
 	callchannel Music_WiiShopChannel_Ch1_Type1
 	note __, 10
@@ -286,6 +288,7 @@ endr
 	note __, 3
 ;Bar 5
 Music_WiiShopChannel_Ch2_loop:
+	intensity $c5
 	note __, 2
 	octave 3
 	callchannel Music_WiiShopChannel_Ch2_Bar5_6
@@ -450,7 +453,7 @@ Music_WiiShopChannel_Ch2_loop:
 	note C_, 1
 	note __, 7
 ;Bar 33
-	intensity $c5
+	intensity $c3
 	dutycycle $0
 	octave 4
 	callchannel Music_WiiShopChannel_Ch2_Type1
@@ -536,9 +539,10 @@ Music_WiiShopChannel_Ch2_Bar22_23:
 ; ============================================================================================================
 
 Music_WiiShopChannel_Ch3:
-	wavetype 2, 12, $19
+	;wavetype 2, 12, $19
+	notetype 12, $1C
 ;Bar 1
-	octave 1
+	octave 2
 	note D_, 3
 	note __, 9
 	note D_, 3
@@ -549,7 +553,8 @@ Music_WiiShopChannel_Ch3_Silence:
 	loopchannel 3, Music_WiiShopChannel_Ch3_Silence
 ;Bar 5
 Music_WiiShopChannel_Ch3_loop:
-	waveform 2, $19
+	;waveform 2, $19
+	notetype 12, $1C
 	callchannel Music_WiiShopChannel_Ch3_Type1
 	callchannel Music_WiiShopChannel_Ch3_Type2
 ;Bar 6
@@ -560,10 +565,10 @@ Music_WiiShopChannel_Ch3_loop:
 	callchannel Music_WiiShopChannel_Ch3_Type2
 ;Bar 8
 	callchannel Music_WiiShopChannel_Ch3_Type1
-	octave 2
+	octave 3
 	note D_, 5
 	note __, 1
-	note C_, 7
+	note C_, 7 ;pitch bent?
 ;Bar 9
 	note __, 1
 	note C_, 1
@@ -574,7 +579,7 @@ Music_WiiShopChannel_Ch3_loop:
 	callchannel Music_WiiShopChannel_Ch3_Type1
 ;Bar 11
 	callchannel Music_WiiShopChannel_Ch3_Type3
-	octave 1
+	octave 2
 	note G_, 5
 	note __, 1
 	note F_, 7
@@ -584,7 +589,7 @@ Music_WiiShopChannel_Ch3_loop:
 	note __, 1
 	callchannel Music_WiiShopChannel_Ch3_Type3
 ;Bar 13
-	octave 1
+	octave 2
 	callchannel Music_WiiShopChannel_Ch3_Type4
 	callchannel Music_WiiShopChannel_Ch3_Type5
 ;Bar 14
@@ -599,9 +604,9 @@ Music_WiiShopChannel_Ch3_loop:
 ;Bar 16
 	note G#, 5
 	note __, 1
+	octave 3
+	note E_, 4 ;pitch bent?
 	octave 2
-	note E_, 4
-	octave 1
 	note F#, 4
 	note G#, 1
 	note __, 1
@@ -610,19 +615,19 @@ Music_WiiShopChannel_Ch3_loop:
 	callchannel Music_WiiShopChannel_Ch3_Type6
 ;Bar 18
 	callchannel Music_WiiShopChannel_Ch3_Type8
-	octave 2
+	octave 3
 	note D#, 5
 	note __, 1
-	octave 1
+	octave 2
 	note G_, 7
 ;Bar 19
 	note __, 1
 	note G_, 1
 	note __, 1
-	octave 2
+	octave 3
 	note D_, 5
 	note __, 1
-	octave 1
+	octave 2
 	note G_, 1
 	note __, 1
 ;Bar 20
@@ -642,11 +647,11 @@ Music_WiiShopChannel_Ch3_loop:
 	callchannel Music_WiiShopChannel_Ch3_Type6
 	note B_, 5
 	note __, 1
-	octave 2
+	octave 3
 	note E_, 7
 ;Bar 24
 	note __, 1
-	octave 1
+	octave 2
 	note G#, 1
 	note __, 1
 	note B_, 5
@@ -658,7 +663,7 @@ Music_WiiShopChannel_Ch3_loop:
 	note __, 1
 ;Bar 26
 	callchannel Music_WiiShopChannel_Ch3_Type7
-	octave 2
+	octave 3
 	note E_, 5
 	note __, 1
 	note D_, 7
@@ -666,10 +671,10 @@ Music_WiiShopChannel_Ch3_loop:
 	note __, 1
 	note D_, 1
 	note __, 1
-	octave 1
+	octave 2
 	note A_, 5
 	note __, 1
-	octave 2
+	octave 3
 	note D#, 7
 ;Bar 28
 	note __, 1
@@ -682,11 +687,11 @@ Music_WiiShopChannel_Ch3_loop:
 	note __, 1
 	note C#, 1
 	note __, 1
-	octave 1
+	octave 2
 	callchannel Music_WiiShopChannel_Ch3_Type8
 ;Bar 30
 	callchannel Music_WiiShopChannel_Ch3_Type3
-	octave 1
+	octave 2
 	callchannel Music_WiiShopChannel_Ch3_Type5
 ;Bar 31
 	callchannel Music_WiiShopChannel_Ch3_Type4
@@ -694,9 +699,9 @@ Music_WiiShopChannel_Ch3_loop:
 ;Bar 32
 	note E_, 5
 	note __, 1
-	octave 2
+	octave 3
 	note E_, 4
-	octave 1
+	octave 2
 	note F#, 4
 	note G#, 1
 	note __, 1
@@ -712,19 +717,20 @@ Music_WiiShopChannel_Ch3_loop:
 	note __, 16
 	note __, 5
 ;Bar 36
-	waveform 1, $22
-	octave 4
-	note E_, 1
-	note E_, 1
-	intensity $32
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note __, 2
+	note __, 7
+	; waveform 1, $22
+	; octave 5
+	; note E_, 1
+	; note E_, 1
+	; intensity $32
+	; note E_, 1
+	; note E_, 1
+	; note E_, 1
+	; note __, 2
 	loopchannel 0, Music_WiiShopChannel_Ch3_loop
 
 Music_WiiShopChannel_Ch3_Type1:
-	octave 1;
+	octave 2;
 	note G_, 5
 	note __, 1
 	note G_, 1
@@ -732,7 +738,7 @@ Music_WiiShopChannel_Ch3_Type1:
 	endchannel
 
 Music_WiiShopChannel_Ch3_Type2:
-	octave 2;
+	octave 3;
 	note D_, 5
 	note __, 1
 	note D_, 1
@@ -740,7 +746,7 @@ Music_WiiShopChannel_Ch3_Type2:
 	endchannel
 
 Music_WiiShopChannel_Ch3_Type3:
-	octave 2;
+	octave 3;
 	note C_, 5
 	note __, 1
 	note C_, 1
@@ -789,27 +795,6 @@ Music_WiiShopChannel_Ch3_Type9:
 	note B_, 5
 	note __, 1
 	endchannel
-
-; Music_WiiShopChannel_Ch3_Type:
-; 	endchannel
-
-; Music_WiiShopChannel_Ch3_Type:
-; 	endchannel
-
-; Music_WiiShopChannel_Ch3_Type:
-; 	endchannel
-
-; Music_WiiShopChannel_Ch3_Type:
-; 	endchannel
-
-; Music_WiiShopChannel_Ch3_Type:
-; 	endchannel
-
-; Music_WiiShopChannel_Ch3_Type:
-; 	endchannel
-
-; Music_WiiShopChannel_Ch3_Type:
-; 	endchannel
 
 ; ============================================================================================================
 

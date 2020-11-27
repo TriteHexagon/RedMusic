@@ -1424,7 +1424,6 @@ MusicF5: ; e8780
 MusicF6: ; e8780
 MusicF7: ; e8780
 MusicF8: ; e8780
-MusicF9: ; e886d
 	ret
 
 ; e8781

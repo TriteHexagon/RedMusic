@@ -15,7 +15,7 @@ Music_FearFactory_Ch1:
 	volume $77
 	dutycycle $1
 	notetype 6, $a7
-	vibrato 12, $24
+	vibrato $12, $12
 	tempo 289
 ;Bar 1
 	note __, 16
@@ -26,12 +26,13 @@ Music_FearFactory_Ch1:
 	notetype 12, $a3
 	note __, 16
 	note __, 16
-	note __, 16
-	note __, 16
+	; note __, 16
+	; note __, 16
 ;Bar 7
 	callchannel Music_FearFactory_Ch1_Intro
 ;Bar 8
 	callchannel Music_FearFactory_Ch1_Intro
+	dutycycle $1
 ;Bar 9
 	callchannel Music_FearFactory_Ch1_Bar9
 ;Bar 13
@@ -42,13 +43,13 @@ Music_FearFactory_Ch1:
 	callchannel Music_FearFactory_Ch1_Type1
 	note G_, 1
 	note E_, 8
-	intensity $a6
+	intensity $77
 	note E_, 8
 	note __, 1
 ;Bar 17
 	dutycycle $2
 Music_FearFactory_Ch1_Bar17:
-	intensity $58
+	intensity $48
 	octave 3
 	note C_, 8
 	octave 2
@@ -58,54 +59,42 @@ Music_FearFactory_Ch1_Bar17:
 	loopchannel 2, Music_FearFactory_Ch1_Bar17
 	dutycycle $1
 ;Bar 21
-	note __, 16
+	;note __, 16
 ;Bar 22
-	notetype 6, $35
-	note __, 2
-	note B_, 1
-	intensity $95
-	note B_, 2
-	intensity $75
-	note B_, 1
-	intensity $55
-	note B_, 3
+	stereopanning $f
+	notetype 6, $38
+	callchannel Music_FearFactory_Ch1_Type2
 
-	intensity $95
+	intensity $b2
 	note B_, 1
-	intensity $75
-	note B_, 1
-	intensity $55
-	note B_, 1
-	intensity $95
-	note B_, 1
-	intensity $75
+	intensity $82
 	note B_, 1
 	intensity $55
 	note B_, 1
-
-	note __, 3
-	intensity $35
+	intensity $b2
 	note B_, 1
-	intensity $95
+	intensity $82
+	note B_, 1
+	intensity $55
 	note B_, 2
-	intensity $75
-	note B_, 1
-	intensity $55
-	note B_, 3
+
+	callchannel Music_FearFactory_Ch1_Type2
 	octave 4
-	intensity $95
+	intensity $b2
 	note F#, 1
-	intensity $75
+	intensity $82
 	note F#, 1
 	intensity $55
 	note F#, 1
-	intensity $95
+	intensity $b2
 	note G_, 1
-	intensity $75
+	intensity $82
 	note G_, 1
 	intensity $55
 	note G_, 2
 ;Bar 23
+	dutycycle $1
+	stereopanning $ff
 	callchannel Music_FearFactory_Ch1_Bar9
 ;Bar 27
 	octave 3
@@ -123,225 +112,223 @@ Music_FearFactory_Ch1_Bar17:
 	note F#, 1
 	note E_, 1
 	note F#, 6
-	intensity $a6
+	intensity $77
 	note F#, 4
-	intensity $a8
+	intensity $78
 ;Bar 31
 	note __, 4
 	callchannel Music_FearFactory_Ch1_Type1
 	note D_, 1
+	note E_, 9
+	intensity $77
 	note E_, 8
-	intensity $a6
-	note E_, 8
-	intensity $a8
-	note __, 1
 	loopchannel 0, Music_FearFactory_Ch1
 
 Music_FearFactory_Ch1_Intro:
-	notetype 1, $a3
+	notetype 1, $71
+	dutycycle $3
 	octave 5
 	note __, 12
-	stereopanning $ff
-	intensity $72
+	;stereopanning $ff
 	note F#, 1
-	intensity $a2
+	intensity $a1
 	note F#, 11
 
-	stereopanning $f
-	intensity $72
+	;stereopanning $f
+	intensity $71
 	note G_, 1
-	intensity $a2
+	intensity $a1
 	note G_, 5
 
-	stereopanning $f0
-	intensity $62
+	;;stereopanning $f0
+	intensity $61
 	note F#, 1
-	intensity $92
+	intensity $91
 	note F#, 5
 
-	stereopanning $f
+	;stereopanning $f
 	octave 6
-	intensity $72
+	intensity $71
 	note D_, 1
-	intensity $a2
+	intensity $a1
 	note D_, 5
 
-	stereopanning $f0
+	;;stereopanning $f0 HERE
 	octave 5
-	intensity $62
+	intensity $41
 	note G_, 1
-	intensity $92
+	intensity $71
 	note G_, 5
 
-	stereopanning $f
-	intensity $72
+	;stereopanning $f
+	intensity $41
 	note B_, 1
-	intensity $a2
+	intensity $71
 	note B_, 5
 
-	stereopanning $f0
+	;;stereopanning $f0
 	octave 6
-	intensity $62
+	intensity $41
 	note D_, 1
-	intensity $92
+	intensity $71
 	note D_, 5
 
-	stereopanning $f
+	;stereopanning $f
 	octave 5
-	intensity $52
+	intensity $41
 	note F#, 1
-	intensity $82
+	intensity $71
 	note F#, 5
 
-	stereopanning $f0
-	intensity $62
+	;;stereopanning $f0
+	intensity $41
 	note B_, 1
-	intensity $a2
+	intensity $71
 	note B_, 5
 
-	stereopanning $f
-	intensity $52
+	;stereopanning $f
+	intensity $41
 	note G_, 1
-	intensity $82
+	intensity $71
 	note G_, 5
 
-	stereopanning $f0
-	intensity $42
+	;;stereopanning $f0
+	intensity $41
 	note F#, 1
-	intensity $72
+	intensity $71
 	note F#, 5
 	
-	stereopanning $f
+	;stereopanning $f
 	octave 6
-	intensity $52
+	intensity $41
 	note D_, 1
-	intensity $82
+	intensity $71
 	note D_, 5
-
-	stereopanning $f0
+	
+	;To Here
+	;;stereopanning $f0
 	octave 5
-	intensity $42
+	intensity $41
 	note G_, 1
-	intensity $72
+	intensity $71
 	note G_, 5
 
-	stereopanning $f
-	intensity $52
-	note B_, 1
+	;stereopanning $f
 	intensity $82
+	note B_, 1
+	intensity $a1
 	note B_, 5
 
-	stereopanning $f0
-	intensity $32
+	;;stereopanning $f0
+	intensity $41
 	octave 6
 	note D_, 1
-	intensity $62
+	intensity $71
 	note D_, 5
 
-	stereopanning $f
+	;stereopanning $f
 	octave 5
-	intensity $72
+	intensity $82
 	note E_, 1
-	intensity $a2
+	intensity $a1
 	note E_, 5
 
-	stereopanning $f0
-	intensity $32
+	;;stereopanning $f0
+	intensity $41
 	note B_, 1
-	intensity $62
+	intensity $71
 	note B_, 5
 
-	stereopanning $f
-	intensity $72
+	;stereopanning $f
+	intensity $82
 	note F#, 1 
-	intensity $a2
+	intensity $a1
 	note F#, 5
 
-	stereopanning $f0
-	intensity $52
+	;;stereopanning $f0
+	intensity $41
 	note E_, 1
-	intensity $82
+	intensity $71
 	note E_, 5
 
-	stereopanning $f
-	intensity $72
-	note G_, 1
-	intensity $a2
-	note G_, 5
-
-	stereopanning $f0
-	intensity $42
-	note F#, 1
-	intensity $72
-	note F#, 5
-
-	stereopanning $f
-	intensity $72
-	note F#, 1
-	intensity $a2
-	note F#, 5
-
-	stereopanning $f0
-	intensity $42
-	note G_, 1
-	intensity $72
-	note G_, 5
-
-	stereopanning $f
-	intensity $72
-	note G_, 1
-	intensity $a2
-	note G_, 5
-
-	stereopanning $f0
-	intensity $42
-	note F#, 1
-	intensity $72
-	note F#, 5
-
-	stereopanning $f
-	intensity $72
-	note F#, 1
-	intensity $a2
-	note F#, 5
-
-	stereopanning $f0
-	intensity $52
-	note G_, 1
+	;stereopanning $f
 	intensity $82
+	note G_, 1
+	intensity $a1
 	note G_, 5
 
-	stereopanning $f
-	intensity $72
+	;;stereopanning $f0
+	intensity $41
+	note F#, 1
+	intensity $71
+	note F#, 5
+
+	;stereopanning $f
+	intensity $82
+	note F#, 1
+	intensity $a1
+	note F#, 5
+
+	;;stereopanning $f0
+	intensity $41
+	note G_, 1
+	intensity $71
+	note G_, 5
+
+	;stereopanning $f
+	intensity $82
+	note G_, 1
+	intensity $a1
+	note G_, 5
+
+	;;stereopanning $f0
+	intensity $41
+	note F#, 1
+	intensity $71
+	note F#, 5
+
+	;stereopanning $f
+	intensity $82
+	note F#, 1
+	intensity $a1
+	note F#, 5
+
+	;;stereopanning $f0
+	intensity $41
+	note G_, 1
+	intensity $71
+	note G_, 5
+
+	;stereopanning $f
+	intensity $82
 	note D_, 1
-	intensity $a2
+	intensity $a1
 	note D_, 5
 
-	stereopanning $f0
-	intensity $52
+	;;stereopanning $f0
+	intensity $41
 	note F#, 1
-	intensity $82
+	intensity $71
 	note F#, 5
 	endchannel
 
 Music_FearFactory_Ch1_Bar9:
-	notetype 12, $a7;
+	notetype 12, $88;
 	note __, 16
 	note __, 16
 	note __, 16
+	dutycycle $1
 	notetype 6, $1f
 	note __, 16
 	note __, 1
-	stereopanning $f
-	octave 2
+	octave 3
 	note B_, 10
 	note __, 5
-	notetype 12, $a8
-	dutycycle $3
-	octave 3
+	notetype 12, $78
 	endchannel
 
 Music_FearFactory_Ch1_Bar13:
+	intensity $78
 	note F#, 3;
 	note G_, 3
 	octave 4
@@ -352,20 +339,21 @@ Music_FearFactory_Ch1_Bar13:
 	endchannel
 
 Music_FearFactory_Ch1_Bar14:
-	note E_, 6
-	intensity $a6
-	note E_, 5
-	intensity $a8
+	note E_, 7
+	intensity $77
+	note E_, 4
+	intensity $78
 	note G_, 1
 	note F#, 2
 	note D_, 1
 	note C_, 4
-	intensity $a6
+	intensity $77
 	note C_, 3
-	intensity $a8
+	intensity $78
 	endchannel
 
 Music_FearFactory_Ch1_Type1:
+	intensity $78
 	note F#, 1;
 	note G_, 1
 	note A_, 2
@@ -373,12 +361,23 @@ Music_FearFactory_Ch1_Type1:
 	note F#, 3
 	endchannel
 
+Music_FearFactory_Ch1_Type2:
+	note __, 2
+	intensity $38
+	note B_, 1;
+	intensity $b2
+	note B_, 1
+	intensity $82
+	note B_, 1
+	intensity $55
+	note B_, 4
+	endchannel
+
 ; ============================================================================================================
 
 Music_FearFactory_Ch2:
 	dutycycle $2
 	notetype 12, $58
-	stereopanning $f0
 ; ;Bar 1
 ; 	octave 3
 ; 	intensity $1f
@@ -414,10 +413,10 @@ Music_FearFactory_Ch2:
 ; 	note G_, 2
 Music_FearFactory_Ch2_Intro:
 	note __, 16
-	loopchannel 8, Music_FearFactory_Ch2_Intro
-	dutycycle $1
-	stereopanning $f0
-	notetype 6, $a7
+	loopchannel 6, Music_FearFactory_Ch2_Intro
+	;loopchannel 8, Music_FearFactory_Ch2_Intro
+	dutycycle $0
+	notetype 6, $97
 ;Bar 9
 	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 10
@@ -435,7 +434,8 @@ Music_FearFactory_Ch2_Intro:
 ;Bar 16
 	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 17
-	notetype 12, $a7
+	notetype 12, $97
+	dutycycle $1
 	note __, 3
 	note B_, 1
 	octave 4
@@ -486,54 +486,42 @@ Music_FearFactory_Ch2_Intro:
 	note E_, 16
 ;Bar 21
 	note __, 1
-	note __, 16
+	;note __, 16
 ;Bar 22
-	notetype 6, $55
-	note __, 2
-	note A_, 1
-	intensity $b5
-	note A_, 2
-	intensity $95
-	note A_, 1
-	intensity $75
-	note A_, 3
+	notetype 6, $58
+	stereopanning $f0
+	callchannel Music_FearFactory_Ch2_Type1
 
-	intensity $b5
+	intensity $d2
 	note F#, 1
-	intensity $95
+	intensity $a2
 	note F#, 1
 	intensity $75
 	note F#, 1
-	intensity $b5
+	intensity $d2
 	note G_, 1
-	intensity $95
+	intensity $a2
 	note G_, 1
 	intensity $75
-	note G_, 1
+	note G_, 2
 
-	note __, 3
-	intensity $55
-	note A_, 1
-	intensity $b5
-	note A_, 2
-	intensity $95
-	note A_, 1
-	intensity $75
-	note A_, 3
+	callchannel Music_FearFactory_Ch2_Type1
 	octave 5
-	intensity $b5
+	intensity $d2
 	note D_, 1
-	intensity $95
+	intensity $a2
 	note D_, 1
 	intensity $75
 	note D_, 1
-	intensity $b5
+	intensity $d2
 	note E_, 1
-	intensity $95
+	intensity $a2
 	note E_, 1
 	intensity $75
 	note E_, 2
 ;Bar 23
+	dutycycle $0
+	stereopanning $ff
 	callchannel Music_FearFactory_Ch2_Bar9
 ;Bar 24
 	callchannel Music_FearFactory_Ch2_Bar9
@@ -558,103 +546,118 @@ Music_FearFactory_Ch2_Intro:
 Music_FearFactory_Ch2_Bar9:
 	note __, 6
 	octave 2
-	intensity $f1
-	note A_, 1
 	intensity $e1
 	note A_, 1
-	intensity $f1
-	note B_, 1
+	intensity $d1
+	note A_, 1
 	intensity $e1
 	note B_, 1
-	intensity $f1
+	intensity $d1
+	note B_, 1
+	intensity $e1
 	octave 3
 	note D_, 1
-	intensity $e1
+	intensity $d1
 	note D_, 1
-	intensity $f1
-	note E_, 1
 	intensity $e1
 	note E_, 1
-	intensity $f1
-	note G_, 1
+	intensity $d1
+	note E_, 1
 	intensity $e1
 	note G_, 1
-	intensity $f1
+	intensity $d1
+	note G_, 1
+	intensity $e1
 	note __, 6
 	note E_, 1
-	intensity $e1
+	intensity $d1
 	note E_, 1
-	intensity $f1
+	intensity $e1
+	note G_, 1
+	intensity $d1
 	note G_, 1
 	intensity $e1
 	note G_, 1
-	intensity $f1
+	intensity $d1
 	note G_, 1
-	intensity $e1
-	note G_, 1
-	intensity $f1
-	note F#, 1
 	intensity $e1
 	note F#, 1
-	intensity $f1
+	intensity $d1
+	note F#, 1
+	intensity $e1
 	note D_, 1
-	intensity $e1
+	intensity $d1
 	note D_, 1
 	endchannel
 
 Music_FearFactory_Ch2_Bar11:
-	intensity $f1
+	intensity $e1
 	note __, 6
 	note E_, 1
 	note F#, 1
 	note G_, 1
-	intensity $e1
+	intensity $d1
 	note G_, 1
-	intensity $f1
-	note F#, 1
 	intensity $e1
 	note F#, 1
-	intensity $f1
-	note D_, 1
+	intensity $d1
+	note F#, 1
 	intensity $e1
 	note D_, 1
-	intensity $f1
+	intensity $d1
+	note D_, 1
+	intensity $e1
 	note E_, 1
-	intensity $e1
+	intensity $d1
 	note E_, 1
 	loopchannel 2,Music_FearFactory_Ch2_Bar11
 	endchannel
 
 Music_FearFactory_Ch2_Bar12:
 	note __, 6
-	intensity $f1
+	intensity $e1
 	note D_, 1
 	note E_, 1
 	note G_, 1
-	intensity $e1
+	intensity $d1
 	note G_, 1
-	intensity $f1
-	note F#, 1
 	intensity $e1
 	note F#, 1
-	intensity $f1
+	intensity $d1
+	note F#, 1
+	intensity $e1
 	note G_, 1
 	note A_, 1
 	note B_, 1
 	octave 4
 	note D_, 1
 	note E_, 1
-	octave 3
-	intensity $5f
+	;octave 3
+	dutycycle $1
+	intensity $2f
 	note F#, 10
 	note __, 5
-	dutycycle $1
+	octave 4
+	dutycycle $0
+	endchannel
+
+Music_FearFactory_Ch2_Type1:
+	note __, 2
+	intensity $48;
+	note A_, 1
+	intensity $d2
+	note A_, 1
+	intensity $a2
+	note A_, 1
+	intensity $75
+	note A_, 4
 	endchannel
 
 ; ============================================================================================================
 
 Music_FearFactory_Ch3:
 	wavetype 1, 3, $11
+	;tone $0004
 ;Bar 1
 	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 2
@@ -664,9 +667,9 @@ Music_FearFactory_Ch3:
 ;Bar 4
 	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 5
-	callchannel Music_FearFactory_Ch3_Type1
-;Bar 6
-	callchannel Music_FearFactory_Ch3_Type1
+; 	callchannel Music_FearFactory_Ch3_Type1
+; ;Bar 6
+; 	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 7
 	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 8
@@ -689,6 +692,7 @@ Music_FearFactory_Ch3:
 	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 17
 	wavetype 1, 12, $13
+	tone $0000
 	note __, 9
 	callchannel Music_FearFactory_Ch3_Effect1
 	octave 5
@@ -720,10 +724,11 @@ Music_FearFactory_Ch3:
 	note __, 16
 ;Bar 19
 	callchannel Music_FearFactory_Ch3_Effect1
+	;tone $0004
 ;Bar 20
 	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 21
-	callchannel Music_FearFactory_Ch3_Type1
+	;callchannel Music_FearFactory_Ch3_Type1
 ;Bar 22
 	callchannel Music_FearFactory_Ch3_Type1
 ;Bar 23
@@ -938,7 +943,7 @@ Music_FearFactory_Ch3_Effect1:
 	octave 5
 	note G_, 1
 	stereopanning $ff
-	octave 3
+	octave 4
 	note B_, 1
 	endchannel
 
@@ -984,7 +989,7 @@ Music_FearFactory_Ch4_Intro:
 	note E_, 2
 	stereopanning $ff
 	note __, 16
-	loopchannel 2, Music_FearFactory_Ch4_Intro
+	;loopchannel 2, Music_FearFactory_Ch4_Intro
 ;Bar 7
 	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 8
@@ -1030,7 +1035,7 @@ Music_FearFactory_Ch4_Bar21:
 	note A_, 2
 	note B_, 1
 	note B_, 1
-	loopchannel 4, Music_FearFactory_Ch4_Bar21
+	loopchannel 2, Music_FearFactory_Ch4_Bar21
 ;Bar 23
 	callchannel Music_FearFactory_Ch4_Type1
 ;Bar 24
